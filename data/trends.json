@@ -1,5 +1,5 @@
 {
-  "generated_from": "2026-04-26",
+  "generated_from": "2026-04-27",
   "week": {
     "potential_top": [
       {
@@ -18,7 +18,7 @@
         "followers": "32,326",
         "wishlist_rank": "未公开",
         "heat": "7d +11,699",
-        "current_players": 39855,
+        "current_players": 35682,
         "potential_score": 64,
         "watch_level": "Medium",
         "score_reasons": [
@@ -49,7 +49,7 @@
         "followers": "11,553",
         "wishlist_rank": "未公开",
         "heat": "7d +3,971",
-        "current_players": 38556,
+        "current_players": 28553,
         "potential_score": 59,
         "watch_level": "Medium",
         "score_reasons": [
@@ -80,7 +80,7 @@
         "followers": "17,764",
         "wishlist_rank": "未公开",
         "heat": "7d +4,395",
-        "current_players": 1955,
+        "current_players": 1940,
         "potential_score": 56,
         "watch_level": "Medium",
         "score_reasons": [
@@ -93,6 +93,38 @@
         "contact_url": "https://www.team17.com/contact/",
         "report_date": "2026-04-26",
         "section_title": "新发布游戏"
+      },
+      {
+        "appid": "4162040",
+        "name_zh": "绝区零",
+        "name_en": "Zenless Zone Zero",
+        "category": "New Store",
+        "tags": [
+          "免费",
+          "动作",
+          "ARPG",
+          "二次元"
+        ],
+        "developer": "COGNOSPHERE",
+        "publisher": "COGNOSPHERE",
+        "release_date": "Q2 2026",
+        "followers": "7,342",
+        "wishlist_rank": "未公开",
+        "heat": "7d +7,342",
+        "current_players": null,
+        "potential_score": 51,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "强 IP 或知名发行方",
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4162040/",
+        "contact_url": "https://cs.hoyoverse.com/",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面"
       },
       {
         "appid": "3165650",
@@ -111,7 +143,7 @@
         "followers": "20,243",
         "wishlist_rank": "未公开",
         "heat": "7d +3,277",
-        "current_players": 346,
+        "current_players": 336,
         "potential_score": 51,
         "watch_level": "Medium",
         "score_reasons": [
@@ -141,7 +173,7 @@
         "followers": "29,857",
         "wishlist_rank": "未公开",
         "heat": "7d +2,869",
-        "current_players": 1406,
+        "current_players": 1032,
         "potential_score": 49,
         "watch_level": "Medium",
         "score_reasons": [
@@ -156,35 +188,129 @@
         "section_title": "新发布游戏"
       },
       {
-        "appid": "4162040",
-        "name_zh": "绝区零",
-        "name_en": "Zenless Zone Zero",
+        "appid": "3751950",
+        "name_zh": "刺客信条：黑旗 重构版",
+        "name_en": "Assassin's Creed Black Flag Resynced",
         "category": "New Store",
         "tags": [
-          "免费",
           "动作",
-          "ARPG",
-          "二次元"
+          "冒险",
+          "潜行",
+          "海盗"
         ],
-        "developer": "COGNOSPHERE",
-        "publisher": "COGNOSPHERE",
-        "release_date": "Q2 2026",
-        "followers": "7,342",
+        "developer": "Ubisoft Singapore 等",
+        "publisher": "Ubisoft",
+        "release_date": "2026-07-09",
+        "followers": "24,880",
         "wishlist_rank": "未公开",
-        "heat": "7d +7,342",
+        "heat": "7d +24,880",
         "current_players": null,
-        "potential_score": 45,
+        "potential_score": 47,
         "watch_level": "Medium",
         "score_reasons": [
+          "关注基数高",
           "强 IP 或知名发行方",
-          "低门槛试玩或轻量入口",
-          "题材有内容传播点",
-          "新商店页处于愿望单积累期"
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
+          "曾位于分类头部"
         ],
-        "steam_url": "https://store.steampowered.com/app/4162040/",
-        "contact_url": "https://cs.hoyoverse.com/",
-        "report_date": "2026-04-26",
+        "steam_url": "https://store.steampowered.com/app/3751950/",
+        "contact_url": "https://www.ubisoft.com/help/contact",
+        "report_date": "2026-04-27",
         "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "2590240",
+        "name_zh": "地铁 2039",
+        "name_en": "METRO 2039",
+        "category": "New Store",
+        "tags": [
+          "FPS",
+          "后末日",
+          "剧情向",
+          "沉浸式"
+        ],
+        "developer": "4A Games",
+        "publisher": "Deep Silver",
+        "release_date": "TBA",
+        "followers": "41,553",
+        "wishlist_rank": "未公开",
+        "heat": "7d +19,050",
+        "current_players": null,
+        "potential_score": 47,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "关注基数高",
+          "强 IP 或知名发行方",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2590240/",
+        "contact_url": "https://www.deepsilver.com/contact/",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "4614080",
+        "name_zh": "缉毒飞行员招募令",
+        "name_en": "Cartel Pilots Wanted",
+        "category": "New Store",
+        "tags": [
+          "飞行",
+          "模拟",
+          "合作",
+          "开放世界"
+        ],
+        "developer": "OldYacht",
+        "publisher": "Polden Publishing",
+        "release_date": "TBA",
+        "followers": "9,566",
+        "wishlist_rank": "未公开",
+        "heat": "7d +9,564",
+        "current_players": null,
+        "potential_score": 46,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "多人/合作传播性好",
+          "题材有内容传播点",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4614080/",
+        "contact_url": "https://steamcommunity.com/app/4614080",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "4576510",
+        "name_zh": "未知伤亡 试玩版",
+        "name_en": "Casualties: Unknown Demo",
+        "category": "Demo",
+        "tags": [
+          "生存",
+          "洞穴探索",
+          "模拟",
+          "硬核"
+        ],
+        "developer": "Orsoniks",
+        "publisher": "Oro Interactive",
+        "release_date": "2026-04-20",
+        "followers": "N/A",
+        "wishlist_rank": "未公开",
+        "heat": "857 In-Demo",
+        "current_players": 926,
+        "potential_score": 46,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "Demo 可验证试玩转化",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4576510/",
+        "contact_url": "https://steamcommunity.com/app/4576510",
+        "report_date": "2026-04-27",
+        "section_title": "新上线 Demo"
       },
       {
         "appid": "1857810",
@@ -216,133 +342,45 @@
         "section_title": "新公布商店页面"
       },
       {
-        "appid": "3751950",
-        "name_zh": "刺客信条：黑旗 重构版",
-        "name_en": "Assassin's Creed Black Flag Resynced",
-        "category": "New Store",
-        "tags": [
-          "动作",
-          "冒险",
-          "潜行",
-          "海盗"
-        ],
-        "developer": "Ubisoft Singapore 等",
-        "publisher": "Ubisoft",
-        "release_date": "2026-07-09",
-        "followers": "24,880",
-        "wishlist_rank": "未公开",
-        "heat": "7d +24,880",
-        "current_players": null,
-        "potential_score": 41,
-        "watch_level": "Low",
-        "score_reasons": [
-          "关注基数高",
-          "强 IP 或知名发行方",
-          "新商店页处于愿望单积累期",
-          "曾位于分类头部"
-        ],
-        "steam_url": "https://store.steampowered.com/app/3751950/",
-        "contact_url": "https://www.ubisoft.com/help/contact",
-        "report_date": "2026-04-26",
-        "section_title": "新公布商店页面"
-      },
-      {
-        "appid": "2590240",
-        "name_zh": "地铁 2039",
-        "name_en": "METRO 2039",
-        "category": "New Store",
-        "tags": [
-          "FPS",
-          "后末日",
-          "剧情向"
-        ],
-        "developer": "4A Games",
-        "publisher": "Deep Silver",
-        "release_date": "TBA",
-        "followers": "41,553",
-        "wishlist_rank": "未公开",
-        "heat": "7d +19,050",
-        "current_players": null,
-        "potential_score": 41,
-        "watch_level": "Low",
-        "score_reasons": [
-          "关注基数高",
-          "强 IP 或知名发行方",
-          "新商店页处于愿望单积累期",
-          "曾位于分类头部"
-        ],
-        "steam_url": "https://store.steampowered.com/app/2590240/",
-        "contact_url": "https://www.deepsilver.com/contact/",
-        "report_date": "2026-04-26",
-        "section_title": "新公布商店页面"
-      },
-      {
-        "appid": "4614080",
-        "name_zh": "缉毒飞行员招募令",
-        "name_en": "Cartel Pilots Wanted",
-        "category": "New Store",
-        "tags": [
-          "飞行",
-          "模拟",
-          "合作",
-          "开放世界"
-        ],
-        "developer": "OldYacht",
-        "publisher": "Polden Publishing",
-        "release_date": "TBA",
-        "followers": "9,566",
-        "wishlist_rank": "未公开",
-        "heat": "7d +9,564",
-        "current_players": null,
-        "potential_score": 40,
-        "watch_level": "Low",
-        "score_reasons": [
-          "多人/合作传播性好",
-          "题材有内容传播点",
-          "新商店页处于愿望单积累期"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4614080/",
-        "contact_url": "https://steamcommunity.com/app/4614080",
-        "report_date": "2026-04-26",
-        "section_title": "新公布商店页面"
-      },
-      {
         "appid": "4640310",
         "name_zh": "非人类 试玩版",
         "name_en": "UNHUMAN Demo",
         "category": "Demo",
         "tags": [
-          "2D",
-          "Idle",
-          "Extraction Shooter"
+          "放置",
+          "撤离射击",
+          "赛博朋克",
+          "自动战斗"
         ],
         "developer": "Kinda Lowkey Games",
         "publisher": "Kinda Lowkey Games",
         "release_date": "2026-04-21",
         "followers": "N/A",
         "wishlist_rank": "未公开",
-        "heat": "1 In-Demo",
-        "current_players": 12,
-        "potential_score": 29,
+        "heat": "5 In-Demo",
+        "current_players": 11,
+        "potential_score": 33,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
-          "题材有内容传播点",
-          "Demo 可验证试玩转化"
+          "Demo 可验证试玩转化",
+          "多日连续进入监测池"
         ],
         "steam_url": "https://store.steampowered.com/app/4640310/",
         "contact_url": "https://steamcommunity.com/app/4640310",
-        "report_date": "2026-04-26",
+        "report_date": "2026-04-27",
         "section_title": "新上线 Demo"
       },
       {
         "appid": "4588570",
-        "name_zh": "泰拉田园物语 试玩版",
+        "name_zh": "旅人日记 试玩版",
         "name_en": "Tales of Terrarum Demo",
         "category": "Demo",
         "tags": [
           "模拟经营",
-          "冒险"
+          "冒险",
+          "城镇建设",
+          "休闲"
         ],
         "developer": "Electronic Soul",
         "publisher": "CYSTUDIO",
@@ -351,17 +389,106 @@
         "wishlist_rank": "未公开",
         "heat": "4 In-Demo",
         "current_players": 0,
-        "potential_score": 25,
+        "potential_score": 31,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
           "Demo 可验证试玩转化",
+          "多日连续进入监测池",
           "曾位于分类头部"
         ],
         "steam_url": "https://store.steampowered.com/app/4588570/",
         "contact_url": "https://steamcommunity.com/app/4588570",
-        "report_date": "2026-04-26",
+        "report_date": "2026-04-27",
         "section_title": "新上线 Demo"
+      },
+      {
+        "appid": "4283360",
+        "name_zh": "团本自走棋",
+        "name_en": "Legionbound",
+        "category": "Released",
+        "tags": [
+          "自走棋",
+          "Roguelite",
+          "动作 RPG",
+          "像素"
+        ],
+        "developer": "Spicy Garlic Games",
+        "publisher": "Spicy Garlic Games",
+        "release_date": "2026-04-27",
+        "followers": "1,424",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 31,
+        "watch_level": "Low",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4283360/",
+        "contact_url": "https://steamcommunity.com/app/4283360",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
+      },
+      {
+        "appid": "2873660",
+        "name_zh": "全球救援",
+        "name_en": "Global Rescue",
+        "category": "Released",
+        "tags": [
+          "模拟",
+          "策略",
+          "基地建设",
+          "管理"
+        ],
+        "developer": "PeDePe GbR",
+        "publisher": "Aerosoft GmbH",
+        "release_date": "2026-04-27",
+        "followers": "6,008",
+        "wishlist_rank": "未公开",
+        "heat": "Early Access Launch",
+        "current_players": null,
+        "potential_score": 29,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2873660/",
+        "contact_url": "https://steamcommunity.com/app/2873660",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
+      },
+      {
+        "appid": "3256150",
+        "name_zh": "姆明：暖心冬日",
+        "name_en": "Moomintroll: Winter's Warmth",
+        "category": "Released",
+        "tags": [
+          "冒险",
+          "温馨",
+          "家庭友好",
+          "叙事"
+        ],
+        "developer": "Hyper Games",
+        "publisher": "Hyper Games, Kakehashi Games",
+        "release_date": "2026-04-27",
+        "followers": "5,204",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 29,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3256150/",
+        "contact_url": "https://steamcommunity.com/app/3256150",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
       },
       {
         "appid": "4605330",
@@ -391,6 +518,62 @@
         "section_title": "新上线 Demo"
       },
       {
+        "appid": "2121450",
+        "name_zh": "曼谷故事：一只流浪狗",
+        "name_en": "Bangkok Story: A Stray Dog",
+        "category": "Released",
+        "tags": [
+          "叙事",
+          "像素",
+          "情感",
+          "冒险"
+        ],
+        "developer": "Shameful Guys Development",
+        "publisher": "Shameful Guys Development",
+        "release_date": "2026-04-27",
+        "followers": "1,270",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 24,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2121450/",
+        "contact_url": "https://steamcommunity.com/app/2121450",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
+      },
+      {
+        "appid": "3896300",
+        "name_zh": "收费站模拟器",
+        "name_en": "Toll Booth Simulator",
+        "category": "Released",
+        "tags": [
+          "职业模拟",
+          "管理",
+          "犯罪",
+          "第一人称"
+        ],
+        "developer": "SifDev",
+        "publisher": "Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.",
+        "release_date": "2026-04-27",
+        "followers": "540",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 23,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3896300/",
+        "contact_url": "https://steamcommunity.com/app/3896300",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
+      },
+      {
         "appid": "4582190",
         "name_zh": "IA 试玩版",
         "name_en": "IA Demo",
@@ -414,33 +597,6 @@
         ],
         "steam_url": "https://store.steampowered.com/app/4582190/",
         "contact_url": "https://steamcommunity.com/app/4582190",
-        "report_date": "2026-04-26",
-        "section_title": "新上线 Demo"
-      },
-      {
-        "appid": "4642530",
-        "name_zh": "哔普增量工坊 试玩版",
-        "name_en": "BleepWare Incrementals Demo",
-        "category": "Demo",
-        "tags": [
-          "增量",
-          "放置"
-        ],
-        "developer": "beep2bleep",
-        "publisher": "beep2bleep",
-        "release_date": "2026-04-20",
-        "followers": "N/A",
-        "wishlist_rank": "未公开",
-        "heat": "1 In-Demo",
-        "current_players": 0,
-        "potential_score": 20,
-        "watch_level": "Low",
-        "score_reasons": [
-          "低门槛试玩或轻量入口",
-          "Demo 可验证试玩转化"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4642530/",
-        "contact_url": "https://steamcommunity.com/app/4642530",
         "report_date": "2026-04-26",
         "section_title": "新上线 Demo"
       }
@@ -462,7 +618,7 @@
         "followers": "32,326",
         "wishlist_rank": "未公开",
         "heat": "7d +11,699",
-        "current_players": 39855,
+        "current_players": 35682,
         "potential_score": 64,
         "watch_level": "Medium",
         "score_reasons": [
@@ -493,7 +649,7 @@
         "followers": "11,553",
         "wishlist_rank": "未公开",
         "heat": "7d +3,971",
-        "current_players": 38556,
+        "current_players": 28553,
         "potential_score": 59,
         "watch_level": "Medium",
         "score_reasons": [
@@ -524,7 +680,7 @@
         "followers": "17,764",
         "wishlist_rank": "未公开",
         "heat": "7d +4,395",
-        "current_players": 1955,
+        "current_players": 1940,
         "potential_score": 56,
         "watch_level": "Medium",
         "score_reasons": [
@@ -537,6 +693,38 @@
         "contact_url": "https://www.team17.com/contact/",
         "report_date": "2026-04-26",
         "section_title": "新发布游戏"
+      },
+      {
+        "appid": "4162040",
+        "name_zh": "绝区零",
+        "name_en": "Zenless Zone Zero",
+        "category": "New Store",
+        "tags": [
+          "免费",
+          "动作",
+          "ARPG",
+          "二次元"
+        ],
+        "developer": "COGNOSPHERE",
+        "publisher": "COGNOSPHERE",
+        "release_date": "Q2 2026",
+        "followers": "7,342",
+        "wishlist_rank": "未公开",
+        "heat": "7d +7,342",
+        "current_players": null,
+        "potential_score": 51,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "强 IP 或知名发行方",
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4162040/",
+        "contact_url": "https://cs.hoyoverse.com/",
+        "report_date": "2026-04-26",
+        "section_title": "新公布商店页面"
       },
       {
         "appid": "3165650",
@@ -555,7 +743,7 @@
         "followers": "20,243",
         "wishlist_rank": "未公开",
         "heat": "7d +3,277",
-        "current_players": 346,
+        "current_players": 336,
         "potential_score": 51,
         "watch_level": "Medium",
         "score_reasons": [
@@ -585,7 +773,7 @@
         "followers": "29,857",
         "wishlist_rank": "未公开",
         "heat": "7d +2,869",
-        "current_players": 1406,
+        "current_players": 1032,
         "potential_score": 49,
         "watch_level": "Medium",
         "score_reasons": [
@@ -600,35 +788,128 @@
         "section_title": "新发布游戏"
       },
       {
-        "appid": "4162040",
-        "name_zh": "绝区零",
-        "name_en": "Zenless Zone Zero",
+        "appid": "3751950",
+        "name_zh": "刺客信条：黑旗 重构版",
+        "name_en": "Assassin's Creed Black Flag Resynced",
         "category": "New Store",
         "tags": [
-          "免费",
           "动作",
-          "ARPG",
-          "二次元"
+          "冒险",
+          "潜行",
+          "海盗"
         ],
-        "developer": "COGNOSPHERE",
-        "publisher": "COGNOSPHERE",
-        "release_date": "Q2 2026",
-        "followers": "7,342",
+        "developer": "Ubisoft Singapore 等",
+        "publisher": "Ubisoft",
+        "release_date": "2026-07-09",
+        "followers": "24,880",
         "wishlist_rank": "未公开",
-        "heat": "7d +7,342",
+        "heat": "7d +24,880",
         "current_players": null,
-        "potential_score": 45,
+        "potential_score": 47,
         "watch_level": "Medium",
         "score_reasons": [
+          "关注基数高",
           "强 IP 或知名发行方",
-          "低门槛试玩或轻量入口",
-          "题材有内容传播点",
-          "新商店页处于愿望单积累期"
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
+          "曾位于分类头部"
         ],
-        "steam_url": "https://store.steampowered.com/app/4162040/",
-        "contact_url": "https://cs.hoyoverse.com/",
+        "steam_url": "https://store.steampowered.com/app/3751950/",
+        "contact_url": "https://www.ubisoft.com/help/contact",
         "report_date": "2026-04-26",
         "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "2590240",
+        "name_zh": "地铁 2039",
+        "name_en": "METRO 2039",
+        "category": "New Store",
+        "tags": [
+          "FPS",
+          "后末日",
+          "剧情向"
+        ],
+        "developer": "4A Games",
+        "publisher": "Deep Silver",
+        "release_date": "TBA",
+        "followers": "41,553",
+        "wishlist_rank": "未公开",
+        "heat": "7d +19,050",
+        "current_players": null,
+        "potential_score": 47,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "关注基数高",
+          "强 IP 或知名发行方",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2590240/",
+        "contact_url": "https://www.deepsilver.com/contact/",
+        "report_date": "2026-04-26",
+        "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "4614080",
+        "name_zh": "缉毒飞行员招募令",
+        "name_en": "Cartel Pilots Wanted",
+        "category": "New Store",
+        "tags": [
+          "飞行",
+          "模拟",
+          "合作",
+          "开放世界"
+        ],
+        "developer": "OldYacht",
+        "publisher": "Polden Publishing",
+        "release_date": "TBA",
+        "followers": "9,566",
+        "wishlist_rank": "未公开",
+        "heat": "7d +9,564",
+        "current_players": null,
+        "potential_score": 46,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "多人/合作传播性好",
+          "题材有内容传播点",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4614080/",
+        "contact_url": "https://steamcommunity.com/app/4614080",
+        "report_date": "2026-04-26",
+        "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "4576510",
+        "name_zh": "未知伤亡 试玩版",
+        "name_en": "Casualties: Unknown Demo",
+        "category": "Demo",
+        "tags": [
+          "生存",
+          "洞穴探索",
+          "模拟",
+          "硬核"
+        ],
+        "developer": "Orsoniks",
+        "publisher": "Oro Interactive",
+        "release_date": "2026-04-20",
+        "followers": "N/A",
+        "wishlist_rank": "未公开",
+        "heat": "857 In-Demo",
+        "current_players": 926,
+        "potential_score": 46,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "Demo 可验证试玩转化",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4576510/",
+        "contact_url": "https://steamcommunity.com/app/4576510",
+        "report_date": "2026-04-27",
+        "section_title": "新上线 Demo"
       },
       {
         "appid": "1857810",
@@ -660,97 +941,6 @@
         "section_title": "新公布商店页面"
       },
       {
-        "appid": "3751950",
-        "name_zh": "刺客信条：黑旗 重构版",
-        "name_en": "Assassin's Creed Black Flag Resynced",
-        "category": "New Store",
-        "tags": [
-          "动作",
-          "冒险",
-          "潜行",
-          "海盗"
-        ],
-        "developer": "Ubisoft Singapore 等",
-        "publisher": "Ubisoft",
-        "release_date": "2026-07-09",
-        "followers": "24,880",
-        "wishlist_rank": "未公开",
-        "heat": "7d +24,880",
-        "current_players": null,
-        "potential_score": 41,
-        "watch_level": "Low",
-        "score_reasons": [
-          "关注基数高",
-          "强 IP 或知名发行方",
-          "新商店页处于愿望单积累期",
-          "曾位于分类头部"
-        ],
-        "steam_url": "https://store.steampowered.com/app/3751950/",
-        "contact_url": "https://www.ubisoft.com/help/contact",
-        "report_date": "2026-04-26",
-        "section_title": "新公布商店页面"
-      },
-      {
-        "appid": "2590240",
-        "name_zh": "地铁 2039",
-        "name_en": "METRO 2039",
-        "category": "New Store",
-        "tags": [
-          "FPS",
-          "后末日",
-          "剧情向"
-        ],
-        "developer": "4A Games",
-        "publisher": "Deep Silver",
-        "release_date": "TBA",
-        "followers": "41,553",
-        "wishlist_rank": "未公开",
-        "heat": "7d +19,050",
-        "current_players": null,
-        "potential_score": 41,
-        "watch_level": "Low",
-        "score_reasons": [
-          "关注基数高",
-          "强 IP 或知名发行方",
-          "新商店页处于愿望单积累期",
-          "曾位于分类头部"
-        ],
-        "steam_url": "https://store.steampowered.com/app/2590240/",
-        "contact_url": "https://www.deepsilver.com/contact/",
-        "report_date": "2026-04-26",
-        "section_title": "新公布商店页面"
-      },
-      {
-        "appid": "4614080",
-        "name_zh": "缉毒飞行员招募令",
-        "name_en": "Cartel Pilots Wanted",
-        "category": "New Store",
-        "tags": [
-          "飞行",
-          "模拟",
-          "合作",
-          "开放世界"
-        ],
-        "developer": "OldYacht",
-        "publisher": "Polden Publishing",
-        "release_date": "TBA",
-        "followers": "9,566",
-        "wishlist_rank": "未公开",
-        "heat": "7d +9,564",
-        "current_players": null,
-        "potential_score": 40,
-        "watch_level": "Low",
-        "score_reasons": [
-          "多人/合作传播性好",
-          "题材有内容传播点",
-          "新商店页处于愿望单积累期"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4614080/",
-        "contact_url": "https://steamcommunity.com/app/4614080",
-        "report_date": "2026-04-26",
-        "section_title": "新公布商店页面"
-      },
-      {
         "appid": "4640310",
         "name_zh": "非人类 试玩版",
         "name_en": "UNHUMAN Demo",
@@ -766,13 +956,14 @@
         "followers": "N/A",
         "wishlist_rank": "未公开",
         "heat": "1 In-Demo",
-        "current_players": 12,
-        "potential_score": 29,
+        "current_players": 11,
+        "potential_score": 35,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
           "题材有内容传播点",
-          "Demo 可验证试玩转化"
+          "Demo 可验证试玩转化",
+          "多日连续进入监测池"
         ],
         "steam_url": "https://store.steampowered.com/app/4640310/",
         "contact_url": "https://steamcommunity.com/app/4640310",
@@ -795,17 +986,106 @@
         "wishlist_rank": "未公开",
         "heat": "4 In-Demo",
         "current_players": 0,
-        "potential_score": 25,
+        "potential_score": 31,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
           "Demo 可验证试玩转化",
+          "多日连续进入监测池",
           "曾位于分类头部"
         ],
         "steam_url": "https://store.steampowered.com/app/4588570/",
         "contact_url": "https://steamcommunity.com/app/4588570",
         "report_date": "2026-04-26",
         "section_title": "新上线 Demo"
+      },
+      {
+        "appid": "4283360",
+        "name_zh": "团本自走棋",
+        "name_en": "Legionbound",
+        "category": "Released",
+        "tags": [
+          "自走棋",
+          "Roguelite",
+          "动作 RPG",
+          "像素"
+        ],
+        "developer": "Spicy Garlic Games",
+        "publisher": "Spicy Garlic Games",
+        "release_date": "2026-04-27",
+        "followers": "1,424",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 31,
+        "watch_level": "Low",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4283360/",
+        "contact_url": "https://steamcommunity.com/app/4283360",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
+      },
+      {
+        "appid": "2873660",
+        "name_zh": "全球救援",
+        "name_en": "Global Rescue",
+        "category": "Released",
+        "tags": [
+          "模拟",
+          "策略",
+          "基地建设",
+          "管理"
+        ],
+        "developer": "PeDePe GbR",
+        "publisher": "Aerosoft GmbH",
+        "release_date": "2026-04-27",
+        "followers": "6,008",
+        "wishlist_rank": "未公开",
+        "heat": "Early Access Launch",
+        "current_players": null,
+        "potential_score": 29,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2873660/",
+        "contact_url": "https://steamcommunity.com/app/2873660",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
+      },
+      {
+        "appid": "3256150",
+        "name_zh": "姆明：暖心冬日",
+        "name_en": "Moomintroll: Winter's Warmth",
+        "category": "Released",
+        "tags": [
+          "冒险",
+          "温馨",
+          "家庭友好",
+          "叙事"
+        ],
+        "developer": "Hyper Games",
+        "publisher": "Hyper Games, Kakehashi Games",
+        "release_date": "2026-04-27",
+        "followers": "5,204",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 29,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3256150/",
+        "contact_url": "https://steamcommunity.com/app/3256150",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
       },
       {
         "appid": "4605330",
@@ -835,6 +1115,62 @@
         "section_title": "新上线 Demo"
       },
       {
+        "appid": "2121450",
+        "name_zh": "曼谷故事：一只流浪狗",
+        "name_en": "Bangkok Story: A Stray Dog",
+        "category": "Released",
+        "tags": [
+          "叙事",
+          "像素",
+          "情感",
+          "冒险"
+        ],
+        "developer": "Shameful Guys Development",
+        "publisher": "Shameful Guys Development",
+        "release_date": "2026-04-27",
+        "followers": "1,270",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 24,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2121450/",
+        "contact_url": "https://steamcommunity.com/app/2121450",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
+      },
+      {
+        "appid": "3896300",
+        "name_zh": "收费站模拟器",
+        "name_en": "Toll Booth Simulator",
+        "category": "Released",
+        "tags": [
+          "职业模拟",
+          "管理",
+          "犯罪",
+          "第一人称"
+        ],
+        "developer": "SifDev",
+        "publisher": "Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.",
+        "release_date": "2026-04-27",
+        "followers": "540",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 23,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3896300/",
+        "contact_url": "https://steamcommunity.com/app/3896300",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
+      },
+      {
         "appid": "4582190",
         "name_zh": "IA 试玩版",
         "name_en": "IA Demo",
@@ -860,36 +1196,204 @@
         "contact_url": "https://steamcommunity.com/app/4582190",
         "report_date": "2026-04-26",
         "section_title": "新上线 Demo"
+      }
+    ],
+    "recurring": [
+      {
+        "appid": "4162040",
+        "name_zh": "绝区零",
+        "name_en": "Zenless Zone Zero",
+        "category": "New Store",
+        "tags": [
+          "免费",
+          "动作",
+          "ARPG",
+          "二次元"
+        ],
+        "developer": "COGNOSPHERE",
+        "publisher": "COGNOSPHERE",
+        "release_date": "Q2 2026",
+        "followers": "7,342",
+        "wishlist_rank": "未公开",
+        "heat": "7d +7,342",
+        "current_players": null,
+        "potential_score": 51,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "强 IP 或知名发行方",
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4162040/",
+        "contact_url": "https://cs.hoyoverse.com/",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面",
+        "appearances": 2
       },
       {
-        "appid": "4642530",
-        "name_zh": "哔普增量工坊 试玩版",
-        "name_en": "BleepWare Incrementals Demo",
+        "appid": "3751950",
+        "name_zh": "刺客信条：黑旗 重构版",
+        "name_en": "Assassin's Creed Black Flag Resynced",
+        "category": "New Store",
+        "tags": [
+          "动作",
+          "冒险",
+          "潜行",
+          "海盗"
+        ],
+        "developer": "Ubisoft Singapore 等",
+        "publisher": "Ubisoft",
+        "release_date": "2026-07-09",
+        "followers": "24,880",
+        "wishlist_rank": "未公开",
+        "heat": "7d +24,880",
+        "current_players": null,
+        "potential_score": 47,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "关注基数高",
+          "强 IP 或知名发行方",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3751950/",
+        "contact_url": "https://www.ubisoft.com/help/contact",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面",
+        "appearances": 2
+      },
+      {
+        "appid": "2590240",
+        "name_zh": "地铁 2039",
+        "name_en": "METRO 2039",
+        "category": "New Store",
+        "tags": [
+          "FPS",
+          "后末日",
+          "剧情向",
+          "沉浸式"
+        ],
+        "developer": "4A Games",
+        "publisher": "Deep Silver",
+        "release_date": "TBA",
+        "followers": "41,553",
+        "wishlist_rank": "未公开",
+        "heat": "7d +19,050",
+        "current_players": null,
+        "potential_score": 47,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "关注基数高",
+          "强 IP 或知名发行方",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2590240/",
+        "contact_url": "https://www.deepsilver.com/contact/",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面",
+        "appearances": 2
+      },
+      {
+        "appid": "4614080",
+        "name_zh": "缉毒飞行员招募令",
+        "name_en": "Cartel Pilots Wanted",
+        "category": "New Store",
+        "tags": [
+          "飞行",
+          "模拟",
+          "合作",
+          "开放世界"
+        ],
+        "developer": "OldYacht",
+        "publisher": "Polden Publishing",
+        "release_date": "TBA",
+        "followers": "9,566",
+        "wishlist_rank": "未公开",
+        "heat": "7d +9,564",
+        "current_players": null,
+        "potential_score": 46,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "多人/合作传播性好",
+          "题材有内容传播点",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4614080/",
+        "contact_url": "https://steamcommunity.com/app/4614080",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面",
+        "appearances": 2
+      },
+      {
+        "appid": "4640310",
+        "name_zh": "非人类 试玩版",
+        "name_en": "UNHUMAN Demo",
         "category": "Demo",
         "tags": [
-          "增量",
-          "放置"
+          "放置",
+          "撤离射击",
+          "赛博朋克",
+          "自动战斗"
         ],
-        "developer": "beep2bleep",
-        "publisher": "beep2bleep",
-        "release_date": "2026-04-20",
+        "developer": "Kinda Lowkey Games",
+        "publisher": "Kinda Lowkey Games",
+        "release_date": "2026-04-21",
         "followers": "N/A",
         "wishlist_rank": "未公开",
-        "heat": "1 In-Demo",
-        "current_players": 0,
-        "potential_score": 20,
+        "heat": "5 In-Demo",
+        "current_players": 11,
+        "potential_score": 33,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
-          "Demo 可验证试玩转化"
+          "Demo 可验证试玩转化",
+          "多日连续进入监测池"
         ],
-        "steam_url": "https://store.steampowered.com/app/4642530/",
-        "contact_url": "https://steamcommunity.com/app/4642530",
-        "report_date": "2026-04-26",
-        "section_title": "新上线 Demo"
+        "steam_url": "https://store.steampowered.com/app/4640310/",
+        "contact_url": "https://steamcommunity.com/app/4640310",
+        "report_date": "2026-04-27",
+        "section_title": "新上线 Demo",
+        "appearances": 2
+      },
+      {
+        "appid": "4588570",
+        "name_zh": "旅人日记 试玩版",
+        "name_en": "Tales of Terrarum Demo",
+        "category": "Demo",
+        "tags": [
+          "模拟经营",
+          "冒险",
+          "城镇建设",
+          "休闲"
+        ],
+        "developer": "Electronic Soul",
+        "publisher": "CYSTUDIO",
+        "release_date": "2026-04-23",
+        "followers": "N/A",
+        "wishlist_rank": "未公开",
+        "heat": "4 In-Demo",
+        "current_players": 0,
+        "potential_score": 31,
+        "watch_level": "Low",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "Demo 可验证试玩转化",
+          "多日连续进入监测池",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4588570/",
+        "contact_url": "https://steamcommunity.com/app/4588570",
+        "report_date": "2026-04-27",
+        "section_title": "新上线 Demo",
+        "appearances": 2
       }
     ],
-    "recurring": [],
     "online_and_heat_leaders": [
       {
         "appid": "3265700",
@@ -907,7 +1411,7 @@
         "followers": "32,326",
         "wishlist_rank": "未公开",
         "heat": "7d +11,699",
-        "current_players": 39855,
+        "current_players": 35682,
         "potential_score": 64,
         "watch_level": "Medium",
         "score_reasons": [
@@ -938,7 +1442,7 @@
         "followers": "11,553",
         "wishlist_rank": "未公开",
         "heat": "7d +3,971",
-        "current_players": 38556,
+        "current_players": 28553,
         "potential_score": 59,
         "watch_level": "Medium",
         "score_reasons": [
@@ -969,7 +1473,7 @@
         "followers": "17,764",
         "wishlist_rank": "未公开",
         "heat": "7d +4,395",
-        "current_players": 1955,
+        "current_players": 1940,
         "potential_score": 56,
         "watch_level": "Medium",
         "score_reasons": [
@@ -999,7 +1503,7 @@
         "followers": "29,857",
         "wishlist_rank": "未公开",
         "heat": "7d +2,869",
-        "current_players": 1406,
+        "current_players": 1032,
         "potential_score": 49,
         "watch_level": "Medium",
         "score_reasons": [
@@ -1012,6 +1516,36 @@
         "contact_url": "https://steamcommunity.com/app/4216670",
         "report_date": "2026-04-26",
         "section_title": "新发布游戏"
+      },
+      {
+        "appid": "4576510",
+        "name_zh": "未知伤亡 试玩版",
+        "name_en": "Casualties: Unknown Demo",
+        "category": "Demo",
+        "tags": [
+          "生存",
+          "洞穴探索",
+          "模拟",
+          "硬核"
+        ],
+        "developer": "Orsoniks",
+        "publisher": "Oro Interactive",
+        "release_date": "2026-04-20",
+        "followers": "N/A",
+        "wishlist_rank": "未公开",
+        "heat": "857 In-Demo",
+        "current_players": 926,
+        "potential_score": 46,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "Demo 可验证试玩转化",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4576510/",
+        "contact_url": "https://steamcommunity.com/app/4576510",
+        "report_date": "2026-04-27",
+        "section_title": "新上线 Demo"
       },
       {
         "appid": "3165650",
@@ -1030,7 +1564,7 @@
         "followers": "20,243",
         "wishlist_rank": "未公开",
         "heat": "7d +3,277",
-        "current_players": 346,
+        "current_players": 336,
         "potential_score": 51,
         "watch_level": "Medium",
         "score_reasons": [
@@ -1050,27 +1584,28 @@
         "name_en": "UNHUMAN Demo",
         "category": "Demo",
         "tags": [
-          "2D",
-          "Idle",
-          "Extraction Shooter"
+          "放置",
+          "撤离射击",
+          "赛博朋克",
+          "自动战斗"
         ],
         "developer": "Kinda Lowkey Games",
         "publisher": "Kinda Lowkey Games",
         "release_date": "2026-04-21",
         "followers": "N/A",
         "wishlist_rank": "未公开",
-        "heat": "1 In-Demo",
-        "current_players": 12,
-        "potential_score": 29,
+        "heat": "5 In-Demo",
+        "current_players": 11,
+        "potential_score": 33,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
-          "题材有内容传播点",
-          "Demo 可验证试玩转化"
+          "Demo 可验证试玩转化",
+          "多日连续进入监测池"
         ],
         "steam_url": "https://store.steampowered.com/app/4640310/",
         "contact_url": "https://steamcommunity.com/app/4640310",
-        "report_date": "2026-04-26",
+        "report_date": "2026-04-27",
         "section_title": "新上线 Demo"
       },
       {
@@ -1091,17 +1626,18 @@
         "wishlist_rank": "未公开",
         "heat": "7d +24,880",
         "current_players": null,
-        "potential_score": 41,
-        "watch_level": "Low",
+        "potential_score": 47,
+        "watch_level": "Medium",
         "score_reasons": [
           "关注基数高",
           "强 IP 或知名发行方",
           "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
           "曾位于分类头部"
         ],
         "steam_url": "https://store.steampowered.com/app/3751950/",
         "contact_url": "https://www.ubisoft.com/help/contact",
-        "report_date": "2026-04-26",
+        "report_date": "2026-04-27",
         "section_title": "新公布商店页面"
       },
       {
@@ -1112,7 +1648,8 @@
         "tags": [
           "FPS",
           "后末日",
-          "剧情向"
+          "剧情向",
+          "沉浸式"
         ],
         "developer": "4A Games",
         "publisher": "Deep Silver",
@@ -1121,17 +1658,18 @@
         "wishlist_rank": "未公开",
         "heat": "7d +19,050",
         "current_players": null,
-        "potential_score": 41,
-        "watch_level": "Low",
+        "potential_score": 47,
+        "watch_level": "Medium",
         "score_reasons": [
           "关注基数高",
           "强 IP 或知名发行方",
           "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
           "曾位于分类头部"
         ],
         "steam_url": "https://store.steampowered.com/app/2590240/",
         "contact_url": "https://www.deepsilver.com/contact/",
-        "report_date": "2026-04-26",
+        "report_date": "2026-04-27",
         "section_title": "新公布商店页面"
       },
       {
@@ -1181,16 +1719,17 @@
         "wishlist_rank": "未公开",
         "heat": "7d +9,564",
         "current_players": null,
-        "potential_score": 40,
-        "watch_level": "Low",
+        "potential_score": 46,
+        "watch_level": "Medium",
         "score_reasons": [
           "多人/合作传播性好",
           "题材有内容传播点",
-          "新商店页处于愿望单积累期"
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
         ],
         "steam_url": "https://store.steampowered.com/app/4614080/",
         "contact_url": "https://steamcommunity.com/app/4614080",
-        "report_date": "2026-04-26",
+        "report_date": "2026-04-27",
         "section_title": "新公布商店页面"
       },
       {
@@ -1211,27 +1750,30 @@
         "wishlist_rank": "未公开",
         "heat": "7d +7,342",
         "current_players": null,
-        "potential_score": 45,
+        "potential_score": 51,
         "watch_level": "Medium",
         "score_reasons": [
           "强 IP 或知名发行方",
           "低门槛试玩或轻量入口",
           "题材有内容传播点",
-          "新商店页处于愿望单积累期"
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
         ],
         "steam_url": "https://store.steampowered.com/app/4162040/",
         "contact_url": "https://cs.hoyoverse.com/",
-        "report_date": "2026-04-26",
+        "report_date": "2026-04-27",
         "section_title": "新公布商店页面"
       },
       {
         "appid": "4588570",
-        "name_zh": "泰拉田园物语 试玩版",
+        "name_zh": "旅人日记 试玩版",
         "name_en": "Tales of Terrarum Demo",
         "category": "Demo",
         "tags": [
           "模拟经营",
-          "冒险"
+          "冒险",
+          "城镇建设",
+          "休闲"
         ],
         "developer": "Electronic Soul",
         "publisher": "CYSTUDIO",
@@ -1240,16 +1782,17 @@
         "wishlist_rank": "未公开",
         "heat": "4 In-Demo",
         "current_players": 0,
-        "potential_score": 25,
+        "potential_score": 31,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
           "Demo 可验证试玩转化",
+          "多日连续进入监测池",
           "曾位于分类头部"
         ],
         "steam_url": "https://store.steampowered.com/app/4588570/",
         "contact_url": "https://steamcommunity.com/app/4588570",
-        "report_date": "2026-04-26",
+        "report_date": "2026-04-27",
         "section_title": "新上线 Demo"
       },
       {
@@ -1353,7 +1896,7 @@
         "followers": "32,326",
         "wishlist_rank": "未公开",
         "heat": "7d +11,699",
-        "current_players": 39855,
+        "current_players": 35682,
         "potential_score": 64,
         "watch_level": "Medium",
         "score_reasons": [
@@ -1384,7 +1927,7 @@
         "followers": "11,553",
         "wishlist_rank": "未公开",
         "heat": "7d +3,971",
-        "current_players": 38556,
+        "current_players": 28553,
         "potential_score": 59,
         "watch_level": "Medium",
         "score_reasons": [
@@ -1415,7 +1958,7 @@
         "followers": "17,764",
         "wishlist_rank": "未公开",
         "heat": "7d +4,395",
-        "current_players": 1955,
+        "current_players": 1940,
         "potential_score": 56,
         "watch_level": "Medium",
         "score_reasons": [
@@ -1428,6 +1971,38 @@
         "contact_url": "https://www.team17.com/contact/",
         "report_date": "2026-04-26",
         "section_title": "新发布游戏"
+      },
+      {
+        "appid": "4162040",
+        "name_zh": "绝区零",
+        "name_en": "Zenless Zone Zero",
+        "category": "New Store",
+        "tags": [
+          "免费",
+          "动作",
+          "ARPG",
+          "二次元"
+        ],
+        "developer": "COGNOSPHERE",
+        "publisher": "COGNOSPHERE",
+        "release_date": "Q2 2026",
+        "followers": "7,342",
+        "wishlist_rank": "未公开",
+        "heat": "7d +7,342",
+        "current_players": null,
+        "potential_score": 51,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "强 IP 或知名发行方",
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4162040/",
+        "contact_url": "https://cs.hoyoverse.com/",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面"
       },
       {
         "appid": "3165650",
@@ -1446,7 +2021,7 @@
         "followers": "20,243",
         "wishlist_rank": "未公开",
         "heat": "7d +3,277",
-        "current_players": 346,
+        "current_players": 336,
         "potential_score": 51,
         "watch_level": "Medium",
         "score_reasons": [
@@ -1476,7 +2051,7 @@
         "followers": "29,857",
         "wishlist_rank": "未公开",
         "heat": "7d +2,869",
-        "current_players": 1406,
+        "current_players": 1032,
         "potential_score": 49,
         "watch_level": "Medium",
         "score_reasons": [
@@ -1491,35 +2066,129 @@
         "section_title": "新发布游戏"
       },
       {
-        "appid": "4162040",
-        "name_zh": "绝区零",
-        "name_en": "Zenless Zone Zero",
+        "appid": "3751950",
+        "name_zh": "刺客信条：黑旗 重构版",
+        "name_en": "Assassin's Creed Black Flag Resynced",
         "category": "New Store",
         "tags": [
-          "免费",
           "动作",
-          "ARPG",
-          "二次元"
+          "冒险",
+          "潜行",
+          "海盗"
         ],
-        "developer": "COGNOSPHERE",
-        "publisher": "COGNOSPHERE",
-        "release_date": "Q2 2026",
-        "followers": "7,342",
+        "developer": "Ubisoft Singapore 等",
+        "publisher": "Ubisoft",
+        "release_date": "2026-07-09",
+        "followers": "24,880",
         "wishlist_rank": "未公开",
-        "heat": "7d +7,342",
+        "heat": "7d +24,880",
         "current_players": null,
-        "potential_score": 45,
+        "potential_score": 47,
         "watch_level": "Medium",
         "score_reasons": [
+          "关注基数高",
           "强 IP 或知名发行方",
-          "低门槛试玩或轻量入口",
-          "题材有内容传播点",
-          "新商店页处于愿望单积累期"
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
+          "曾位于分类头部"
         ],
-        "steam_url": "https://store.steampowered.com/app/4162040/",
-        "contact_url": "https://cs.hoyoverse.com/",
-        "report_date": "2026-04-26",
+        "steam_url": "https://store.steampowered.com/app/3751950/",
+        "contact_url": "https://www.ubisoft.com/help/contact",
+        "report_date": "2026-04-27",
         "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "2590240",
+        "name_zh": "地铁 2039",
+        "name_en": "METRO 2039",
+        "category": "New Store",
+        "tags": [
+          "FPS",
+          "后末日",
+          "剧情向",
+          "沉浸式"
+        ],
+        "developer": "4A Games",
+        "publisher": "Deep Silver",
+        "release_date": "TBA",
+        "followers": "41,553",
+        "wishlist_rank": "未公开",
+        "heat": "7d +19,050",
+        "current_players": null,
+        "potential_score": 47,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "关注基数高",
+          "强 IP 或知名发行方",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2590240/",
+        "contact_url": "https://www.deepsilver.com/contact/",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "4614080",
+        "name_zh": "缉毒飞行员招募令",
+        "name_en": "Cartel Pilots Wanted",
+        "category": "New Store",
+        "tags": [
+          "飞行",
+          "模拟",
+          "合作",
+          "开放世界"
+        ],
+        "developer": "OldYacht",
+        "publisher": "Polden Publishing",
+        "release_date": "TBA",
+        "followers": "9,566",
+        "wishlist_rank": "未公开",
+        "heat": "7d +9,564",
+        "current_players": null,
+        "potential_score": 46,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "多人/合作传播性好",
+          "题材有内容传播点",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4614080/",
+        "contact_url": "https://steamcommunity.com/app/4614080",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "4576510",
+        "name_zh": "未知伤亡 试玩版",
+        "name_en": "Casualties: Unknown Demo",
+        "category": "Demo",
+        "tags": [
+          "生存",
+          "洞穴探索",
+          "模拟",
+          "硬核"
+        ],
+        "developer": "Orsoniks",
+        "publisher": "Oro Interactive",
+        "release_date": "2026-04-20",
+        "followers": "N/A",
+        "wishlist_rank": "未公开",
+        "heat": "857 In-Demo",
+        "current_players": 926,
+        "potential_score": 46,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "Demo 可验证试玩转化",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4576510/",
+        "contact_url": "https://steamcommunity.com/app/4576510",
+        "report_date": "2026-04-27",
+        "section_title": "新上线 Demo"
       },
       {
         "appid": "1857810",
@@ -1551,133 +2220,45 @@
         "section_title": "新公布商店页面"
       },
       {
-        "appid": "3751950",
-        "name_zh": "刺客信条：黑旗 重构版",
-        "name_en": "Assassin's Creed Black Flag Resynced",
-        "category": "New Store",
-        "tags": [
-          "动作",
-          "冒险",
-          "潜行",
-          "海盗"
-        ],
-        "developer": "Ubisoft Singapore 等",
-        "publisher": "Ubisoft",
-        "release_date": "2026-07-09",
-        "followers": "24,880",
-        "wishlist_rank": "未公开",
-        "heat": "7d +24,880",
-        "current_players": null,
-        "potential_score": 41,
-        "watch_level": "Low",
-        "score_reasons": [
-          "关注基数高",
-          "强 IP 或知名发行方",
-          "新商店页处于愿望单积累期",
-          "曾位于分类头部"
-        ],
-        "steam_url": "https://store.steampowered.com/app/3751950/",
-        "contact_url": "https://www.ubisoft.com/help/contact",
-        "report_date": "2026-04-26",
-        "section_title": "新公布商店页面"
-      },
-      {
-        "appid": "2590240",
-        "name_zh": "地铁 2039",
-        "name_en": "METRO 2039",
-        "category": "New Store",
-        "tags": [
-          "FPS",
-          "后末日",
-          "剧情向"
-        ],
-        "developer": "4A Games",
-        "publisher": "Deep Silver",
-        "release_date": "TBA",
-        "followers": "41,553",
-        "wishlist_rank": "未公开",
-        "heat": "7d +19,050",
-        "current_players": null,
-        "potential_score": 41,
-        "watch_level": "Low",
-        "score_reasons": [
-          "关注基数高",
-          "强 IP 或知名发行方",
-          "新商店页处于愿望单积累期",
-          "曾位于分类头部"
-        ],
-        "steam_url": "https://store.steampowered.com/app/2590240/",
-        "contact_url": "https://www.deepsilver.com/contact/",
-        "report_date": "2026-04-26",
-        "section_title": "新公布商店页面"
-      },
-      {
-        "appid": "4614080",
-        "name_zh": "缉毒飞行员招募令",
-        "name_en": "Cartel Pilots Wanted",
-        "category": "New Store",
-        "tags": [
-          "飞行",
-          "模拟",
-          "合作",
-          "开放世界"
-        ],
-        "developer": "OldYacht",
-        "publisher": "Polden Publishing",
-        "release_date": "TBA",
-        "followers": "9,566",
-        "wishlist_rank": "未公开",
-        "heat": "7d +9,564",
-        "current_players": null,
-        "potential_score": 40,
-        "watch_level": "Low",
-        "score_reasons": [
-          "多人/合作传播性好",
-          "题材有内容传播点",
-          "新商店页处于愿望单积累期"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4614080/",
-        "contact_url": "https://steamcommunity.com/app/4614080",
-        "report_date": "2026-04-26",
-        "section_title": "新公布商店页面"
-      },
-      {
         "appid": "4640310",
         "name_zh": "非人类 试玩版",
         "name_en": "UNHUMAN Demo",
         "category": "Demo",
         "tags": [
-          "2D",
-          "Idle",
-          "Extraction Shooter"
+          "放置",
+          "撤离射击",
+          "赛博朋克",
+          "自动战斗"
         ],
         "developer": "Kinda Lowkey Games",
         "publisher": "Kinda Lowkey Games",
         "release_date": "2026-04-21",
         "followers": "N/A",
         "wishlist_rank": "未公开",
-        "heat": "1 In-Demo",
-        "current_players": 12,
-        "potential_score": 29,
+        "heat": "5 In-Demo",
+        "current_players": 11,
+        "potential_score": 33,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
-          "题材有内容传播点",
-          "Demo 可验证试玩转化"
+          "Demo 可验证试玩转化",
+          "多日连续进入监测池"
         ],
         "steam_url": "https://store.steampowered.com/app/4640310/",
         "contact_url": "https://steamcommunity.com/app/4640310",
-        "report_date": "2026-04-26",
+        "report_date": "2026-04-27",
         "section_title": "新上线 Demo"
       },
       {
         "appid": "4588570",
-        "name_zh": "泰拉田园物语 试玩版",
+        "name_zh": "旅人日记 试玩版",
         "name_en": "Tales of Terrarum Demo",
         "category": "Demo",
         "tags": [
           "模拟经营",
-          "冒险"
+          "冒险",
+          "城镇建设",
+          "休闲"
         ],
         "developer": "Electronic Soul",
         "publisher": "CYSTUDIO",
@@ -1686,17 +2267,106 @@
         "wishlist_rank": "未公开",
         "heat": "4 In-Demo",
         "current_players": 0,
-        "potential_score": 25,
+        "potential_score": 31,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
           "Demo 可验证试玩转化",
+          "多日连续进入监测池",
           "曾位于分类头部"
         ],
         "steam_url": "https://store.steampowered.com/app/4588570/",
         "contact_url": "https://steamcommunity.com/app/4588570",
-        "report_date": "2026-04-26",
+        "report_date": "2026-04-27",
         "section_title": "新上线 Demo"
+      },
+      {
+        "appid": "4283360",
+        "name_zh": "团本自走棋",
+        "name_en": "Legionbound",
+        "category": "Released",
+        "tags": [
+          "自走棋",
+          "Roguelite",
+          "动作 RPG",
+          "像素"
+        ],
+        "developer": "Spicy Garlic Games",
+        "publisher": "Spicy Garlic Games",
+        "release_date": "2026-04-27",
+        "followers": "1,424",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 31,
+        "watch_level": "Low",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4283360/",
+        "contact_url": "https://steamcommunity.com/app/4283360",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
+      },
+      {
+        "appid": "2873660",
+        "name_zh": "全球救援",
+        "name_en": "Global Rescue",
+        "category": "Released",
+        "tags": [
+          "模拟",
+          "策略",
+          "基地建设",
+          "管理"
+        ],
+        "developer": "PeDePe GbR",
+        "publisher": "Aerosoft GmbH",
+        "release_date": "2026-04-27",
+        "followers": "6,008",
+        "wishlist_rank": "未公开",
+        "heat": "Early Access Launch",
+        "current_players": null,
+        "potential_score": 29,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2873660/",
+        "contact_url": "https://steamcommunity.com/app/2873660",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
+      },
+      {
+        "appid": "3256150",
+        "name_zh": "姆明：暖心冬日",
+        "name_en": "Moomintroll: Winter's Warmth",
+        "category": "Released",
+        "tags": [
+          "冒险",
+          "温馨",
+          "家庭友好",
+          "叙事"
+        ],
+        "developer": "Hyper Games",
+        "publisher": "Hyper Games, Kakehashi Games",
+        "release_date": "2026-04-27",
+        "followers": "5,204",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 29,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3256150/",
+        "contact_url": "https://steamcommunity.com/app/3256150",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
       },
       {
         "appid": "4605330",
@@ -1724,6 +2394,62 @@
         "contact_url": "https://steamcommunity.com/app/4605330",
         "report_date": "2026-04-26",
         "section_title": "新上线 Demo"
+      },
+      {
+        "appid": "2121450",
+        "name_zh": "曼谷故事：一只流浪狗",
+        "name_en": "Bangkok Story: A Stray Dog",
+        "category": "Released",
+        "tags": [
+          "叙事",
+          "像素",
+          "情感",
+          "冒险"
+        ],
+        "developer": "Shameful Guys Development",
+        "publisher": "Shameful Guys Development",
+        "release_date": "2026-04-27",
+        "followers": "1,270",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 24,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2121450/",
+        "contact_url": "https://steamcommunity.com/app/2121450",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
+      },
+      {
+        "appid": "3896300",
+        "name_zh": "收费站模拟器",
+        "name_en": "Toll Booth Simulator",
+        "category": "Released",
+        "tags": [
+          "职业模拟",
+          "管理",
+          "犯罪",
+          "第一人称"
+        ],
+        "developer": "SifDev",
+        "publisher": "Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.",
+        "release_date": "2026-04-27",
+        "followers": "540",
+        "wishlist_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": null,
+        "potential_score": 23,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3896300/",
+        "contact_url": "https://steamcommunity.com/app/3896300",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
       },
       {
         "appid": "4582190",
@@ -1778,9 +2504,298 @@
         "contact_url": "https://steamcommunity.com/app/4642530",
         "report_date": "2026-04-26",
         "section_title": "新上线 Demo"
+      },
+      {
+        "appid": "4527110",
+        "name_zh": "肮脏生意：免费版",
+        "name_en": "Dirty Business: Free of Charge",
+        "category": "Demo",
+        "tags": [
+          "模拟经营",
+          "合作",
+          "犯罪",
+          "基地建设"
+        ],
+        "developer": "Plan Dirty Games",
+        "publisher": "Plan Dirty Games",
+        "release_date": "2026-04-23",
+        "followers": "N/A",
+        "wishlist_rank": "未公开",
+        "heat": "New Demo",
+        "current_players": null,
+        "potential_score": 15,
+        "watch_level": "Low",
+        "score_reasons": [
+          "多人/合作传播性好",
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "Demo 可验证试玩转化",
+          "公开热度数据较少，需人工复核"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4527110/",
+        "contact_url": "https://steamcommunity.com/app/4527110",
+        "report_date": "2026-04-27",
+        "section_title": "新上线 Demo"
+      },
+      {
+        "appid": "3393110",
+        "name_zh": "AION 2",
+        "name_en": "AION 2",
+        "category": "New Store",
+        "tags": [
+          "免费",
+          "MMORPG",
+          "开放世界",
+          "PvP"
+        ],
+        "developer": "NC",
+        "publisher": "NC",
+        "release_date": "2026",
+        "followers": "未公开",
+        "wishlist_rank": "未公开",
+        "heat": "SteamDB 近周新进",
+        "current_players": null,
+        "potential_score": 11,
+        "watch_level": "Low",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "新商店页处于愿望单积累期",
+          "曾位于分类头部",
+          "公开热度数据较少，需人工复核"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3393110/",
+        "contact_url": "https://steamcommunity.com/app/3393110",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "2287200",
+        "name_zh": "威尔戈德游乐场 试玩版",
+        "name_en": "Wilgold's Playground Demo",
+        "category": "Demo",
+        "tags": [
+          "物理",
+          "竞速",
+          "3D 平台",
+          "Time Attack"
+        ],
+        "developer": "Wilgold Entertainment",
+        "publisher": "Wilgold Entertainment",
+        "release_date": "2026-04-27",
+        "followers": "N/A",
+        "wishlist_rank": "未公开",
+        "heat": "New Demo",
+        "current_players": null,
+        "potential_score": 11,
+        "watch_level": "Low",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "Demo 可验证试玩转化",
+          "曾位于分类头部",
+          "公开热度数据较少，需人工复核"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2287200/",
+        "contact_url": "https://steamcommunity.com/app/2287200",
+        "report_date": "2026-04-27",
+        "section_title": "新上线 Demo"
       }
     ],
-    "recurring": [],
+    "recurring": [
+      {
+        "appid": "4162040",
+        "name_zh": "绝区零",
+        "name_en": "Zenless Zone Zero",
+        "category": "New Store",
+        "tags": [
+          "免费",
+          "动作",
+          "ARPG",
+          "二次元"
+        ],
+        "developer": "COGNOSPHERE",
+        "publisher": "COGNOSPHERE",
+        "release_date": "Q2 2026",
+        "followers": "7,342",
+        "wishlist_rank": "未公开",
+        "heat": "7d +7,342",
+        "current_players": null,
+        "potential_score": 51,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "强 IP 或知名发行方",
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4162040/",
+        "contact_url": "https://cs.hoyoverse.com/",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面",
+        "appearances": 2
+      },
+      {
+        "appid": "3751950",
+        "name_zh": "刺客信条：黑旗 重构版",
+        "name_en": "Assassin's Creed Black Flag Resynced",
+        "category": "New Store",
+        "tags": [
+          "动作",
+          "冒险",
+          "潜行",
+          "海盗"
+        ],
+        "developer": "Ubisoft Singapore 等",
+        "publisher": "Ubisoft",
+        "release_date": "2026-07-09",
+        "followers": "24,880",
+        "wishlist_rank": "未公开",
+        "heat": "7d +24,880",
+        "current_players": null,
+        "potential_score": 47,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "关注基数高",
+          "强 IP 或知名发行方",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3751950/",
+        "contact_url": "https://www.ubisoft.com/help/contact",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面",
+        "appearances": 2
+      },
+      {
+        "appid": "2590240",
+        "name_zh": "地铁 2039",
+        "name_en": "METRO 2039",
+        "category": "New Store",
+        "tags": [
+          "FPS",
+          "后末日",
+          "剧情向",
+          "沉浸式"
+        ],
+        "developer": "4A Games",
+        "publisher": "Deep Silver",
+        "release_date": "TBA",
+        "followers": "41,553",
+        "wishlist_rank": "未公开",
+        "heat": "7d +19,050",
+        "current_players": null,
+        "potential_score": 47,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "关注基数高",
+          "强 IP 或知名发行方",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2590240/",
+        "contact_url": "https://www.deepsilver.com/contact/",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面",
+        "appearances": 2
+      },
+      {
+        "appid": "4614080",
+        "name_zh": "缉毒飞行员招募令",
+        "name_en": "Cartel Pilots Wanted",
+        "category": "New Store",
+        "tags": [
+          "飞行",
+          "模拟",
+          "合作",
+          "开放世界"
+        ],
+        "developer": "OldYacht",
+        "publisher": "Polden Publishing",
+        "release_date": "TBA",
+        "followers": "9,566",
+        "wishlist_rank": "未公开",
+        "heat": "7d +9,564",
+        "current_players": null,
+        "potential_score": 46,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "多人/合作传播性好",
+          "题材有内容传播点",
+          "新商店页处于愿望单积累期",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4614080/",
+        "contact_url": "https://steamcommunity.com/app/4614080",
+        "report_date": "2026-04-27",
+        "section_title": "新公布商店页面",
+        "appearances": 2
+      },
+      {
+        "appid": "4640310",
+        "name_zh": "非人类 试玩版",
+        "name_en": "UNHUMAN Demo",
+        "category": "Demo",
+        "tags": [
+          "放置",
+          "撤离射击",
+          "赛博朋克",
+          "自动战斗"
+        ],
+        "developer": "Kinda Lowkey Games",
+        "publisher": "Kinda Lowkey Games",
+        "release_date": "2026-04-21",
+        "followers": "N/A",
+        "wishlist_rank": "未公开",
+        "heat": "5 In-Demo",
+        "current_players": 11,
+        "potential_score": 33,
+        "watch_level": "Low",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "Demo 可验证试玩转化",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4640310/",
+        "contact_url": "https://steamcommunity.com/app/4640310",
+        "report_date": "2026-04-27",
+        "section_title": "新上线 Demo",
+        "appearances": 2
+      },
+      {
+        "appid": "4588570",
+        "name_zh": "旅人日记 试玩版",
+        "name_en": "Tales of Terrarum Demo",
+        "category": "Demo",
+        "tags": [
+          "模拟经营",
+          "冒险",
+          "城镇建设",
+          "休闲"
+        ],
+        "developer": "Electronic Soul",
+        "publisher": "CYSTUDIO",
+        "release_date": "2026-04-23",
+        "followers": "N/A",
+        "wishlist_rank": "未公开",
+        "heat": "4 In-Demo",
+        "current_players": 0,
+        "potential_score": 31,
+        "watch_level": "Low",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "Demo 可验证试玩转化",
+          "多日连续进入监测池",
+          "曾位于分类头部"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4588570/",
+        "contact_url": "https://steamcommunity.com/app/4588570",
+        "report_date": "2026-04-27",
+        "section_title": "新上线 Demo",
+        "appearances": 2
+      }
+    ],
     "stage_changes": [],
     "thematic": {
       "strong_ip": [
@@ -1800,7 +2815,7 @@
           "followers": "32,326",
           "wishlist_rank": "未公开",
           "heat": "7d +11,699",
-          "current_players": 39855,
+          "current_players": 35682,
           "potential_score": 64,
           "watch_level": "Medium",
           "score_reasons": [
@@ -1832,7 +2847,7 @@
           "followers": "17,764",
           "wishlist_rank": "未公开",
           "heat": "7d +4,395",
-          "current_players": 1955,
+          "current_players": 1940,
           "potential_score": 56,
           "watch_level": "Medium",
           "score_reasons": [
@@ -1864,17 +2879,82 @@
           "wishlist_rank": "未公开",
           "heat": "7d +7,342",
           "current_players": null,
-          "potential_score": 45,
+          "potential_score": 51,
           "watch_level": "Medium",
           "score_reasons": [
             "强 IP 或知名发行方",
             "低门槛试玩或轻量入口",
             "题材有内容传播点",
-            "新商店页处于愿望单积累期"
+            "新商店页处于愿望单积累期",
+            "多日连续进入监测池"
           ],
           "steam_url": "https://store.steampowered.com/app/4162040/",
           "contact_url": "https://cs.hoyoverse.com/",
-          "report_date": "2026-04-26",
+          "report_date": "2026-04-27",
+          "section_title": "新公布商店页面"
+        },
+        {
+          "appid": "3751950",
+          "name_zh": "刺客信条：黑旗 重构版",
+          "name_en": "Assassin's Creed Black Flag Resynced",
+          "category": "New Store",
+          "tags": [
+            "动作",
+            "冒险",
+            "潜行",
+            "海盗"
+          ],
+          "developer": "Ubisoft Singapore 等",
+          "publisher": "Ubisoft",
+          "release_date": "2026-07-09",
+          "followers": "24,880",
+          "wishlist_rank": "未公开",
+          "heat": "7d +24,880",
+          "current_players": null,
+          "potential_score": 47,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "关注基数高",
+            "强 IP 或知名发行方",
+            "新商店页处于愿望单积累期",
+            "多日连续进入监测池",
+            "曾位于分类头部"
+          ],
+          "steam_url": "https://store.steampowered.com/app/3751950/",
+          "contact_url": "https://www.ubisoft.com/help/contact",
+          "report_date": "2026-04-27",
+          "section_title": "新公布商店页面"
+        },
+        {
+          "appid": "2590240",
+          "name_zh": "地铁 2039",
+          "name_en": "METRO 2039",
+          "category": "New Store",
+          "tags": [
+            "FPS",
+            "后末日",
+            "剧情向",
+            "沉浸式"
+          ],
+          "developer": "4A Games",
+          "publisher": "Deep Silver",
+          "release_date": "TBA",
+          "followers": "41,553",
+          "wishlist_rank": "未公开",
+          "heat": "7d +19,050",
+          "current_players": null,
+          "potential_score": 47,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "关注基数高",
+            "强 IP 或知名发行方",
+            "新商店页处于愿望单积累期",
+            "多日连续进入监测池",
+            "曾位于分类头部"
+          ],
+          "steam_url": "https://store.steampowered.com/app/2590240/",
+          "contact_url": "https://www.deepsilver.com/contact/",
+          "report_date": "2026-04-27",
           "section_title": "新公布商店页面"
         },
         {
@@ -1905,67 +2985,6 @@
           "contact_url": "https://service-en.bandainamcoent.eu/",
           "report_date": "2026-04-26",
           "section_title": "新公布商店页面"
-        },
-        {
-          "appid": "3751950",
-          "name_zh": "刺客信条：黑旗 重构版",
-          "name_en": "Assassin's Creed Black Flag Resynced",
-          "category": "New Store",
-          "tags": [
-            "动作",
-            "冒险",
-            "潜行",
-            "海盗"
-          ],
-          "developer": "Ubisoft Singapore 等",
-          "publisher": "Ubisoft",
-          "release_date": "2026-07-09",
-          "followers": "24,880",
-          "wishlist_rank": "未公开",
-          "heat": "7d +24,880",
-          "current_players": null,
-          "potential_score": 41,
-          "watch_level": "Low",
-          "score_reasons": [
-            "关注基数高",
-            "强 IP 或知名发行方",
-            "新商店页处于愿望单积累期",
-            "曾位于分类头部"
-          ],
-          "steam_url": "https://store.steampowered.com/app/3751950/",
-          "contact_url": "https://www.ubisoft.com/help/contact",
-          "report_date": "2026-04-26",
-          "section_title": "新公布商店页面"
-        },
-        {
-          "appid": "2590240",
-          "name_zh": "地铁 2039",
-          "name_en": "METRO 2039",
-          "category": "New Store",
-          "tags": [
-            "FPS",
-            "后末日",
-            "剧情向"
-          ],
-          "developer": "4A Games",
-          "publisher": "Deep Silver",
-          "release_date": "TBA",
-          "followers": "41,553",
-          "wishlist_rank": "未公开",
-          "heat": "7d +19,050",
-          "current_players": null,
-          "potential_score": 41,
-          "watch_level": "Low",
-          "score_reasons": [
-            "关注基数高",
-            "强 IP 或知名发行方",
-            "新商店页处于愿望单积累期",
-            "曾位于分类头部"
-          ],
-          "steam_url": "https://store.steampowered.com/app/2590240/",
-          "contact_url": "https://www.deepsilver.com/contact/",
-          "report_date": "2026-04-26",
-          "section_title": "新公布商店页面"
         }
       ],
       "indie_dark_horse": [
@@ -1985,7 +3004,7 @@
           "followers": "32,326",
           "wishlist_rank": "未公开",
           "heat": "7d +11,699",
-          "current_players": 39855,
+          "current_players": 35682,
           "potential_score": 64,
           "watch_level": "Medium",
           "score_reasons": [
@@ -2016,7 +3035,7 @@
           "followers": "11,553",
           "wishlist_rank": "未公开",
           "heat": "7d +3,971",
-          "current_players": 38556,
+          "current_players": 28553,
           "potential_score": 59,
           "watch_level": "Medium",
           "score_reasons": [
@@ -2029,6 +3048,38 @@
           "contact_url": "https://steamcommunity.com/app/4128580",
           "report_date": "2026-04-26",
           "section_title": "新发布游戏"
+        },
+        {
+          "appid": "4162040",
+          "name_zh": "绝区零",
+          "name_en": "Zenless Zone Zero",
+          "category": "New Store",
+          "tags": [
+            "免费",
+            "动作",
+            "ARPG",
+            "二次元"
+          ],
+          "developer": "COGNOSPHERE",
+          "publisher": "COGNOSPHERE",
+          "release_date": "Q2 2026",
+          "followers": "7,342",
+          "wishlist_rank": "未公开",
+          "heat": "7d +7,342",
+          "current_players": null,
+          "potential_score": 51,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "强 IP 或知名发行方",
+            "低门槛试玩或轻量入口",
+            "题材有内容传播点",
+            "新商店页处于愿望单积累期",
+            "多日连续进入监测池"
+          ],
+          "steam_url": "https://store.steampowered.com/app/4162040/",
+          "contact_url": "https://cs.hoyoverse.com/",
+          "report_date": "2026-04-27",
+          "section_title": "新公布商店页面"
         },
         {
           "appid": "3165650",
@@ -2047,7 +3098,7 @@
           "followers": "20,243",
           "wishlist_rank": "未公开",
           "heat": "7d +3,277",
-          "current_players": 346,
+          "current_players": 336,
           "potential_score": 51,
           "watch_level": "Medium",
           "score_reasons": [
@@ -2077,7 +3128,7 @@
           "followers": "29,857",
           "wishlist_rank": "未公开",
           "heat": "7d +2,869",
-          "current_players": 1406,
+          "current_players": 1032,
           "potential_score": 49,
           "watch_level": "Medium",
           "score_reasons": [
@@ -2090,37 +3141,6 @@
           "contact_url": "https://steamcommunity.com/app/4216670",
           "report_date": "2026-04-26",
           "section_title": "新发布游戏"
-        },
-        {
-          "appid": "4162040",
-          "name_zh": "绝区零",
-          "name_en": "Zenless Zone Zero",
-          "category": "New Store",
-          "tags": [
-            "免费",
-            "动作",
-            "ARPG",
-            "二次元"
-          ],
-          "developer": "COGNOSPHERE",
-          "publisher": "COGNOSPHERE",
-          "release_date": "Q2 2026",
-          "followers": "7,342",
-          "wishlist_rank": "未公开",
-          "heat": "7d +7,342",
-          "current_players": null,
-          "potential_score": 45,
-          "watch_level": "Medium",
-          "score_reasons": [
-            "强 IP 或知名发行方",
-            "低门槛试玩或轻量入口",
-            "题材有内容传播点",
-            "新商店页处于愿望单积累期"
-          ],
-          "steam_url": "https://store.steampowered.com/app/4162040/",
-          "contact_url": "https://cs.hoyoverse.com/",
-          "report_date": "2026-04-26",
-          "section_title": "新公布商店页面"
         },
         {
           "appid": "4614080",
@@ -2140,17 +3160,48 @@
           "wishlist_rank": "未公开",
           "heat": "7d +9,564",
           "current_players": null,
-          "potential_score": 40,
-          "watch_level": "Low",
+          "potential_score": 46,
+          "watch_level": "Medium",
           "score_reasons": [
             "多人/合作传播性好",
             "题材有内容传播点",
-            "新商店页处于愿望单积累期"
+            "新商店页处于愿望单积累期",
+            "多日连续进入监测池"
           ],
           "steam_url": "https://store.steampowered.com/app/4614080/",
           "contact_url": "https://steamcommunity.com/app/4614080",
-          "report_date": "2026-04-26",
+          "report_date": "2026-04-27",
           "section_title": "新公布商店页面"
+        },
+        {
+          "appid": "4576510",
+          "name_zh": "未知伤亡 试玩版",
+          "name_en": "Casualties: Unknown Demo",
+          "category": "Demo",
+          "tags": [
+            "生存",
+            "洞穴探索",
+            "模拟",
+            "硬核"
+          ],
+          "developer": "Orsoniks",
+          "publisher": "Oro Interactive",
+          "release_date": "2026-04-20",
+          "followers": "N/A",
+          "wishlist_rank": "未公开",
+          "heat": "857 In-Demo",
+          "current_players": 926,
+          "potential_score": 46,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "低门槛试玩或轻量入口",
+            "Demo 可验证试玩转化",
+            "曾位于分类头部"
+          ],
+          "steam_url": "https://store.steampowered.com/app/4576510/",
+          "contact_url": "https://steamcommunity.com/app/4576510",
+          "report_date": "2026-04-27",
+          "section_title": "新上线 Demo"
         },
         {
           "appid": "4640310",
@@ -2158,37 +3209,40 @@
           "name_en": "UNHUMAN Demo",
           "category": "Demo",
           "tags": [
-            "2D",
-            "Idle",
-            "Extraction Shooter"
+            "放置",
+            "撤离射击",
+            "赛博朋克",
+            "自动战斗"
           ],
           "developer": "Kinda Lowkey Games",
           "publisher": "Kinda Lowkey Games",
           "release_date": "2026-04-21",
           "followers": "N/A",
           "wishlist_rank": "未公开",
-          "heat": "1 In-Demo",
-          "current_players": 12,
-          "potential_score": 29,
+          "heat": "5 In-Demo",
+          "current_players": 11,
+          "potential_score": 33,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
-            "题材有内容传播点",
-            "Demo 可验证试玩转化"
+            "Demo 可验证试玩转化",
+            "多日连续进入监测池"
           ],
           "steam_url": "https://store.steampowered.com/app/4640310/",
           "contact_url": "https://steamcommunity.com/app/4640310",
-          "report_date": "2026-04-26",
+          "report_date": "2026-04-27",
           "section_title": "新上线 Demo"
         },
         {
           "appid": "4588570",
-          "name_zh": "泰拉田园物语 试玩版",
+          "name_zh": "旅人日记 试玩版",
           "name_en": "Tales of Terrarum Demo",
           "category": "Demo",
           "tags": [
             "模拟经营",
-            "冒险"
+            "冒险",
+            "城镇建设",
+            "休闲"
           ],
           "developer": "Electronic Soul",
           "publisher": "CYSTUDIO",
@@ -2197,98 +3251,106 @@
           "wishlist_rank": "未公开",
           "heat": "4 In-Demo",
           "current_players": 0,
-          "potential_score": 25,
+          "potential_score": 31,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
             "Demo 可验证试玩转化",
+            "多日连续进入监测池",
             "曾位于分类头部"
           ],
           "steam_url": "https://store.steampowered.com/app/4588570/",
           "contact_url": "https://steamcommunity.com/app/4588570",
-          "report_date": "2026-04-26",
+          "report_date": "2026-04-27",
           "section_title": "新上线 Demo"
         },
         {
-          "appid": "4605330",
-          "name_zh": "消逝者 试玩版",
-          "name_en": "Vanisha Demo",
-          "category": "Demo",
+          "appid": "4283360",
+          "name_zh": "团本自走棋",
+          "name_en": "Legionbound",
+          "category": "Released",
           "tags": [
-            "动作"
+            "自走棋",
+            "Roguelite",
+            "动作 RPG",
+            "像素"
           ],
-          "developer": "DANYL",
-          "publisher": "DANYL",
-          "release_date": "2026-04-22",
-          "followers": "N/A",
+          "developer": "Spicy Garlic Games",
+          "publisher": "Spicy Garlic Games",
+          "release_date": "2026-04-27",
+          "followers": "1,424",
           "wishlist_rank": "未公开",
-          "heat": "3 In-Demo",
-          "current_players": 0,
-          "potential_score": 25,
+          "heat": "Launch Day",
+          "current_players": null,
+          "potential_score": 31,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
-            "Demo 可验证试玩转化",
+            "题材有内容传播点",
+            "已发布，可观察真实在线"
+          ],
+          "steam_url": "https://store.steampowered.com/app/4283360/",
+          "contact_url": "https://steamcommunity.com/app/4283360",
+          "report_date": "2026-04-27",
+          "section_title": "新发布游戏"
+        },
+        {
+          "appid": "2873660",
+          "name_zh": "全球救援",
+          "name_en": "Global Rescue",
+          "category": "Released",
+          "tags": [
+            "模拟",
+            "策略",
+            "基地建设",
+            "管理"
+          ],
+          "developer": "PeDePe GbR",
+          "publisher": "Aerosoft GmbH",
+          "release_date": "2026-04-27",
+          "followers": "6,008",
+          "wishlist_rank": "未公开",
+          "heat": "Early Access Launch",
+          "current_players": null,
+          "potential_score": 29,
+          "watch_level": "Low",
+          "score_reasons": [
+            "已发布，可观察真实在线",
             "曾位于分类头部"
           ],
-          "steam_url": "https://store.steampowered.com/app/4605330/",
-          "contact_url": "https://steamcommunity.com/app/4605330",
-          "report_date": "2026-04-26",
-          "section_title": "新上线 Demo"
+          "steam_url": "https://store.steampowered.com/app/2873660/",
+          "contact_url": "https://steamcommunity.com/app/2873660",
+          "report_date": "2026-04-27",
+          "section_title": "新发布游戏"
         },
         {
-          "appid": "4582190",
-          "name_zh": "IA 试玩版",
-          "name_en": "IA Demo",
-          "category": "Demo",
+          "appid": "3256150",
+          "name_zh": "姆明：暖心冬日",
+          "name_en": "Moomintroll: Winter's Warmth",
+          "category": "Released",
           "tags": [
-            "视觉小说",
+            "冒险",
+            "温馨",
+            "家庭友好",
             "叙事"
           ],
-          "developer": "Liminal Studios",
-          "publisher": "Liminal Studios",
-          "release_date": "2026-04-17",
-          "followers": "N/A",
+          "developer": "Hyper Games",
+          "publisher": "Hyper Games, Kakehashi Games",
+          "release_date": "2026-04-27",
+          "followers": "5,204",
           "wishlist_rank": "未公开",
-          "heat": "3 In-Demo",
-          "current_players": 0,
-          "potential_score": 22,
+          "heat": "Launch Day",
+          "current_players": null,
+          "potential_score": 29,
           "watch_level": "Low",
           "score_reasons": [
-            "低门槛试玩或轻量入口",
-            "Demo 可验证试玩转化"
+            "已发布，可观察真实在线",
+            "曾位于分类头部"
           ],
-          "steam_url": "https://store.steampowered.com/app/4582190/",
-          "contact_url": "https://steamcommunity.com/app/4582190",
-          "report_date": "2026-04-26",
-          "section_title": "新上线 Demo"
-        },
-        {
-          "appid": "4642530",
-          "name_zh": "哔普增量工坊 试玩版",
-          "name_en": "BleepWare Incrementals Demo",
-          "category": "Demo",
-          "tags": [
-            "增量",
-            "放置"
-          ],
-          "developer": "beep2bleep",
-          "publisher": "beep2bleep",
-          "release_date": "2026-04-20",
-          "followers": "N/A",
-          "wishlist_rank": "未公开",
-          "heat": "1 In-Demo",
-          "current_players": 0,
-          "potential_score": 20,
-          "watch_level": "Low",
-          "score_reasons": [
-            "低门槛试玩或轻量入口",
-            "Demo 可验证试玩转化"
-          ],
-          "steam_url": "https://store.steampowered.com/app/4642530/",
-          "contact_url": "https://steamcommunity.com/app/4642530",
-          "report_date": "2026-04-26",
-          "section_title": "新上线 Demo"
+          "steam_url": "https://store.steampowered.com/app/3256150/",
+          "contact_url": "https://steamcommunity.com/app/3256150",
+          "report_date": "2026-04-27",
+          "section_title": "新发布游戏"
         }
       ],
       "streamer_friendly": [
@@ -2308,7 +3370,7 @@
           "followers": "32,326",
           "wishlist_rank": "未公开",
           "heat": "7d +11,699",
-          "current_players": 39855,
+          "current_players": 35682,
           "potential_score": 64,
           "watch_level": "Medium",
           "score_reasons": [
@@ -2339,7 +3401,7 @@
           "followers": "11,553",
           "wishlist_rank": "未公开",
           "heat": "7d +3,971",
-          "current_players": 38556,
+          "current_players": 28553,
           "potential_score": 59,
           "watch_level": "Medium",
           "score_reasons": [
@@ -2371,45 +3433,79 @@
           "wishlist_rank": "未公开",
           "heat": "7d +9,564",
           "current_players": null,
-          "potential_score": 40,
-          "watch_level": "Low",
+          "potential_score": 46,
+          "watch_level": "Medium",
           "score_reasons": [
             "多人/合作传播性好",
             "题材有内容传播点",
-            "新商店页处于愿望单积累期"
+            "新商店页处于愿望单积累期",
+            "多日连续进入监测池"
           ],
           "steam_url": "https://store.steampowered.com/app/4614080/",
           "contact_url": "https://steamcommunity.com/app/4614080",
-          "report_date": "2026-04-26",
+          "report_date": "2026-04-27",
           "section_title": "新公布商店页面"
         },
         {
-          "appid": "4640310",
-          "name_zh": "非人类 试玩版",
-          "name_en": "UNHUMAN Demo",
-          "category": "Demo",
+          "appid": "4283360",
+          "name_zh": "团本自走棋",
+          "name_en": "Legionbound",
+          "category": "Released",
           "tags": [
-            "2D",
-            "Idle",
-            "Extraction Shooter"
+            "自走棋",
+            "Roguelite",
+            "动作 RPG",
+            "像素"
           ],
-          "developer": "Kinda Lowkey Games",
-          "publisher": "Kinda Lowkey Games",
-          "release_date": "2026-04-21",
-          "followers": "N/A",
+          "developer": "Spicy Garlic Games",
+          "publisher": "Spicy Garlic Games",
+          "release_date": "2026-04-27",
+          "followers": "1,424",
           "wishlist_rank": "未公开",
-          "heat": "1 In-Demo",
-          "current_players": 12,
-          "potential_score": 29,
+          "heat": "Launch Day",
+          "current_players": null,
+          "potential_score": 31,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
             "题材有内容传播点",
-            "Demo 可验证试玩转化"
+            "已发布，可观察真实在线"
           ],
-          "steam_url": "https://store.steampowered.com/app/4640310/",
-          "contact_url": "https://steamcommunity.com/app/4640310",
-          "report_date": "2026-04-26",
+          "steam_url": "https://store.steampowered.com/app/4283360/",
+          "contact_url": "https://steamcommunity.com/app/4283360",
+          "report_date": "2026-04-27",
+          "section_title": "新发布游戏"
+        },
+        {
+          "appid": "4527110",
+          "name_zh": "肮脏生意：免费版",
+          "name_en": "Dirty Business: Free of Charge",
+          "category": "Demo",
+          "tags": [
+            "模拟经营",
+            "合作",
+            "犯罪",
+            "基地建设"
+          ],
+          "developer": "Plan Dirty Games",
+          "publisher": "Plan Dirty Games",
+          "release_date": "2026-04-23",
+          "followers": "N/A",
+          "wishlist_rank": "未公开",
+          "heat": "New Demo",
+          "current_players": null,
+          "potential_score": 15,
+          "watch_level": "Low",
+          "score_reasons": [
+            "多人/合作传播性好",
+            "低门槛试玩或轻量入口",
+            "题材有内容传播点",
+            "Demo 可验证试玩转化",
+            "公开热度数据较少，需人工复核"
+          ],
+          "steam_url": "https://store.steampowered.com/app/4527110/",
+          "contact_url": "https://steamcommunity.com/app/4527110",
+          "report_date": "2026-04-27",
           "section_title": "新上线 Demo"
         }
       ]
