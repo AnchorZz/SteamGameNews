@@ -188,13 +188,31 @@
     .level-high { background: #b6422e; }
     .level-medium { background: #1c6e77; }
     .level-low { background: #6c7685; }
+    .chip-block {
+      margin-top: 14px;
+    }
+    .chip-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      color: #4b5563;
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .chip-label::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
     .tags, .metrics, .reasons {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
-      margin-top: 14px;
     }
-    .pill, .metrics span, .reasons span {
+    .tags span, .metrics span, .reasons span {
       display: inline-flex;
       align-items: center;
       min-height: 32px;
@@ -204,15 +222,42 @@
       background: #fbfcfd;
       font-size: 13px;
     }
+    .tags span {
+      border-color: #d8dfeb;
+      color: #27313d;
+      background: #f7f9fc;
+    }
+    .metrics span {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      gap: 6px;
+      border-color: #d6e4e6;
+      color: #173f45;
+      background: #f2f8f8;
+    }
     .metrics b {
-      margin-right: 6px;
       color: var(--accent);
       font-size: 12px;
     }
+    .metrics em {
+      min-width: 0;
+      overflow-wrap: anywhere;
+      color: #17202a;
+      font-style: normal;
+      font-weight: 700;
+    }
+    .metrics .metric-rank {
+      border-color: #e4d2bf;
+      color: #704113;
+      background: #fff7ed;
+    }
+    .metrics .metric-rank b {
+      color: #a45215;
+    }
     .reasons span {
-      border-color: #d6e1e6;
-      color: #27313d;
-      background: #f0f6f7;
+      border-color: #d9d3e7;
+      color: #3c2f5c;
+      background: #f5f2fb;
     }
     dl { margin: 15px 0 0; }
     dl div {
@@ -330,17 +375,21 @@
             <h3><span class="rank">#1</span>绝区零</h3>
             <p>Zenless Zone Zero</p>
           </div>
-          <div class="score level-medium"><b>51</b><span>Medium</span></div>
+          <div class="score level-medium"><b>55</b><span>Medium</span></div>
         </div>
-        <div class="tags"><span class="pill">免费</span><span class="pill">动作</span><span class="pill">ARPG</span><span class="pill">二次元</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>7,342</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>7d +7,342</span>
-          <span><b>日期</b>Q2 2026</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>免费</span><span>动作</span><span>ARPG</span><span>二次元</span></div>
         </div>
-        <div class="reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>7,342</em></span><span class="metric-rank"><b>愿望单榜</b><em>#360</em></span><span class="metric-rank"><b>活跃榜</b><em>#11</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +7,342</em></span><span class=""><b>日期</b><em>Q2 2026</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>COGNOSPHERE / COGNOSPHERE</dd></div>
         </dl>
@@ -366,17 +415,21 @@
             <h3><span class="rank">#2</span>刺客信条：黑旗 重构版</h3>
             <p>Assassin&#39;s Creed Black Flag Resynced</p>
           </div>
-          <div class="score level-medium"><b>47</b><span>Medium</span></div>
+          <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
-        <div class="tags"><span class="pill">动作</span><span class="pill">冒险</span><span class="pill">潜行</span><span class="pill">海盗</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>24,880</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>7d +24,880</span>
-          <span><b>日期</b>2026-07-09</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>动作</span><span>冒险</span><span>潜行</span><span>海盗</span></div>
         </div>
-        <div class="reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>29,621</em></span><span class="metric-rank"><b>愿望单榜</b><em>#65</em></span><span class="metric-rank"><b>活跃榜</b><em>#5</em></span><span class="metric-rank"><b>热销榜</b><em>#16</em></span><span class=""><b>热度</b><em>7d +24,880</em></span><span class=""><b>日期</b><em>2026-07-09</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Ubisoft Singapore 等 / Ubisoft</dd></div>
         </dl>
@@ -402,17 +455,21 @@
             <h3><span class="rank">#3</span>地铁 2039</h3>
             <p>METRO 2039</p>
           </div>
-          <div class="score level-medium"><b>47</b><span>Medium</span></div>
+          <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
-        <div class="tags"><span class="pill">FPS</span><span class="pill">后末日</span><span class="pill">剧情向</span><span class="pill">沉浸式</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>41,553</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>7d +19,050</span>
-          <span><b>日期</b>TBA</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>FPS</span><span>后末日</span><span>剧情向</span><span>沉浸式</span></div>
         </div>
-        <div class="reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>41,553</em></span><span class="metric-rank"><b>愿望单榜</b><em>#60</em></span><span class="metric-rank"><b>活跃榜</b><em>#4</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +19,050</em></span><span class=""><b>日期</b><em>TBA</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>4A Games / Deep Silver</dd></div>
         </dl>
@@ -438,17 +495,21 @@
             <h3><span class="rank">#4</span>缉毒飞行员招募令</h3>
             <p>Cartel Pilots Wanted</p>
           </div>
-          <div class="score level-medium"><b>46</b><span>Medium</span></div>
+          <div class="score level-medium"><b>51</b><span>Medium</span></div>
         </div>
-        <div class="tags"><span class="pill">飞行</span><span class="pill">模拟</span><span class="pill">合作</span><span class="pill">开放世界</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>9,566</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>7d +9,564</span>
-          <span><b>日期</b>TBA</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>飞行</span><span>模拟</span><span>合作</span><span>开放世界</span></div>
         </div>
-        <div class="reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>9,566</em></span><span class="metric-rank"><b>愿望单榜</b><em>#203</em></span><span class="metric-rank"><b>活跃榜</b><em>#9</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +9,564</em></span><span class=""><b>日期</b><em>TBA</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>OldYacht / Polden Publishing</dd></div>
         </dl>
@@ -476,15 +537,19 @@
           </div>
           <div class="score level-medium"><b>46</b><span>Medium</span></div>
         </div>
-        <div class="tags"><span class="pill">生存</span><span class="pill">洞穴探索</span><span class="pill">模拟</span><span class="pill">硬核</span></div>
-        <div class="metrics">
-          <span><b>在线</b>926</span>
-          <span><b>关注</b>未公开</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>857 In-Demo</span>
-          <span><b>日期</b>2026-04-20</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>生存</span><span>洞穴探索</span><span>模拟</span><span>硬核</span></div>
         </div>
-        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>926</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-20</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Orsoniks / Oro Interactive</dd></div>
         </dl>
@@ -517,17 +582,21 @@
             <h3>AION 2</h3>
             <p>AION 2</p>
           </div>
-          <div class="score level-low"><b>11</b><span>Low</span></div>
+          <div class="score level-low"><b>35</b><span>Low</span></div>
         </div>
-        <div class="tags"><span class="pill">免费</span><span class="pill">MMORPG</span><span class="pill">开放世界</span><span class="pill">PvP</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>未公开</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>SteamDB 近周新进</span>
-          <span><b>日期</b>2026</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>免费</span><span>MMORPG</span><span>开放世界</span><span>PvP</span></div>
         </div>
-        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>新商店页处于愿望单积累期</span><span>曾位于分类头部</span><span>公开热度数据较少，需人工复核</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>7,288</em></span><span class="metric-rank"><b>愿望单榜</b><em>#617</em></span><span class="metric-rank"><b>活跃榜</b><em>#37</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>SteamDB 近周新进</em></span><span class=""><b>日期</b><em>2026</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>低门槛试玩或轻量入口</span><span>新商店页处于愿望单积累期</span><span>曾位于分类头部</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>NC / NC</dd></div>
         </dl>
@@ -553,17 +622,21 @@
             <h3>刺客信条：黑旗 重构版</h3>
             <p>Assassin&#39;s Creed Black Flag Resynced</p>
           </div>
-          <div class="score level-medium"><b>47</b><span>Medium</span></div>
+          <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
-        <div class="tags"><span class="pill">动作</span><span class="pill">冒险</span><span class="pill">潜行</span><span class="pill">海盗</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>24,880</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>7d +24,880</span>
-          <span><b>日期</b>2026-07-09</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>动作</span><span>冒险</span><span>潜行</span><span>海盗</span></div>
         </div>
-        <div class="reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>29,621</em></span><span class="metric-rank"><b>愿望单榜</b><em>#65</em></span><span class="metric-rank"><b>活跃榜</b><em>#5</em></span><span class="metric-rank"><b>热销榜</b><em>#16</em></span><span class=""><b>热度</b><em>7d +24,880</em></span><span class=""><b>日期</b><em>2026-07-09</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Ubisoft Singapore 等 / Ubisoft</dd></div>
         </dl>
@@ -589,17 +662,21 @@
             <h3>地铁 2039</h3>
             <p>METRO 2039</p>
           </div>
-          <div class="score level-medium"><b>47</b><span>Medium</span></div>
+          <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
-        <div class="tags"><span class="pill">FPS</span><span class="pill">后末日</span><span class="pill">剧情向</span><span class="pill">沉浸式</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>41,553</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>7d +19,050</span>
-          <span><b>日期</b>TBA</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>FPS</span><span>后末日</span><span>剧情向</span><span>沉浸式</span></div>
         </div>
-        <div class="reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>41,553</em></span><span class="metric-rank"><b>愿望单榜</b><em>#60</em></span><span class="metric-rank"><b>活跃榜</b><em>#4</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +19,050</em></span><span class=""><b>日期</b><em>TBA</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>4A Games / Deep Silver</dd></div>
         </dl>
@@ -625,17 +702,21 @@
             <h3>绝区零</h3>
             <p>Zenless Zone Zero</p>
           </div>
-          <div class="score level-medium"><b>51</b><span>Medium</span></div>
+          <div class="score level-medium"><b>55</b><span>Medium</span></div>
         </div>
-        <div class="tags"><span class="pill">免费</span><span class="pill">动作</span><span class="pill">ARPG</span><span class="pill">二次元</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>7,342</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>7d +7,342</span>
-          <span><b>日期</b>Q2 2026</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>免费</span><span>动作</span><span>ARPG</span><span>二次元</span></div>
         </div>
-        <div class="reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>7,342</em></span><span class="metric-rank"><b>愿望单榜</b><em>#360</em></span><span class="metric-rank"><b>活跃榜</b><em>#11</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +7,342</em></span><span class=""><b>日期</b><em>Q2 2026</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>COGNOSPHERE / COGNOSPHERE</dd></div>
         </dl>
@@ -661,17 +742,21 @@
             <h3>缉毒飞行员招募令</h3>
             <p>Cartel Pilots Wanted</p>
           </div>
-          <div class="score level-medium"><b>46</b><span>Medium</span></div>
+          <div class="score level-medium"><b>51</b><span>Medium</span></div>
         </div>
-        <div class="tags"><span class="pill">飞行</span><span class="pill">模拟</span><span class="pill">合作</span><span class="pill">开放世界</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>9,566</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>7d +9,564</span>
-          <span><b>日期</b>TBA</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>飞行</span><span>模拟</span><span>合作</span><span>开放世界</span></div>
         </div>
-        <div class="reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>9,566</em></span><span class="metric-rank"><b>愿望单榜</b><em>#203</em></span><span class="metric-rank"><b>活跃榜</b><em>#9</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +9,564</em></span><span class=""><b>日期</b><em>TBA</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>OldYacht / Polden Publishing</dd></div>
         </dl>
@@ -706,15 +791,19 @@
           </div>
           <div class="score level-medium"><b>46</b><span>Medium</span></div>
         </div>
-        <div class="tags"><span class="pill">生存</span><span class="pill">洞穴探索</span><span class="pill">模拟</span><span class="pill">硬核</span></div>
-        <div class="metrics">
-          <span><b>在线</b>926</span>
-          <span><b>关注</b>未公开</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>857 In-Demo</span>
-          <span><b>日期</b>2026-04-20</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>生存</span><span>洞穴探索</span><span>模拟</span><span>硬核</span></div>
         </div>
-        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>926</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-20</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Orsoniks / Oro Interactive</dd></div>
         </dl>
@@ -742,15 +831,19 @@
           </div>
           <div class="score level-low"><b>11</b><span>Low</span></div>
         </div>
-        <div class="tags"><span class="pill">物理</span><span class="pill">竞速</span><span class="pill">3D 平台</span><span class="pill">Time Attack</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>未公开</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>New Demo</span>
-          <span><b>日期</b>2026-04-27</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>物理</span><span>竞速</span><span>3D 平台</span><span>Time Attack</span></div>
         </div>
-        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span><span>公开热度数据较少，需人工复核</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>New Demo</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span><span>公开热度数据较少，需人工复核</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Wilgold Entertainment / Wilgold Entertainment</dd></div>
         </dl>
@@ -778,15 +871,19 @@
           </div>
           <div class="score level-low"><b>15</b><span>Low</span></div>
         </div>
-        <div class="tags"><span class="pill">模拟经营</span><span class="pill">合作</span><span class="pill">犯罪</span><span class="pill">基地建设</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>未公开</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>New Demo</span>
-          <span><b>日期</b>2026-04-23</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>模拟经营</span><span>合作</span><span>犯罪</span><span>基地建设</span></div>
         </div>
-        <div class="reasons"><span>多人/合作传播性好</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>Demo 可验证试玩转化</span><span>公开热度数据较少，需人工复核</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>New Demo</em></span><span class=""><b>日期</b><em>2026-04-23</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>多人/合作传播性好</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>Demo 可验证试玩转化</span><span>公开热度数据较少，需人工复核</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Plan Dirty Games / Plan Dirty Games</dd></div>
         </dl>
@@ -814,15 +911,19 @@
           </div>
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
-        <div class="tags"><span class="pill">模拟经营</span><span class="pill">冒险</span><span class="pill">城镇建设</span><span class="pill">休闲</span></div>
-        <div class="metrics">
-          <span><b>在线</b>0</span>
-          <span><b>关注</b>未公开</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>4 In-Demo</span>
-          <span><b>日期</b>2026-04-23</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>模拟经营</span><span>冒险</span><span>城镇建设</span><span>休闲</span></div>
         </div>
-        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-23</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Electronic Soul / CYSTUDIO</dd></div>
         </dl>
@@ -850,15 +951,19 @@
           </div>
           <div class="score level-low"><b>33</b><span>Low</span></div>
         </div>
-        <div class="tags"><span class="pill">放置</span><span class="pill">撤离射击</span><span class="pill">赛博朋克</span><span class="pill">自动战斗</span></div>
-        <div class="metrics">
-          <span><b>在线</b>11</span>
-          <span><b>关注</b>未公开</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>5 In-Demo</span>
-          <span><b>日期</b>2026-04-21</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>放置</span><span>撤离射击</span><span>赛博朋克</span><span>自动战斗</span></div>
         </div>
-        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>11</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-21</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Kinda Lowkey Games / Kinda Lowkey Games</dd></div>
         </dl>
@@ -893,15 +998,19 @@
           </div>
           <div class="score level-low"><b>29</b><span>Low</span></div>
         </div>
-        <div class="tags"><span class="pill">模拟</span><span class="pill">策略</span><span class="pill">基地建设</span><span class="pill">管理</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>6,008</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>Early Access Launch</span>
-          <span><b>日期</b>2026-04-27</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>模拟</span><span>策略</span><span>基地建设</span><span>管理</span></div>
         </div>
-        <div class="reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>6,008</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>Early Access Launch</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>PeDePe GbR / Aerosoft GmbH</dd></div>
         </dl>
@@ -929,15 +1038,19 @@
           </div>
           <div class="score level-low"><b>29</b><span>Low</span></div>
         </div>
-        <div class="tags"><span class="pill">冒险</span><span class="pill">温馨</span><span class="pill">家庭友好</span><span class="pill">叙事</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>5,204</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>Launch Day</span>
-          <span><b>日期</b>2026-04-27</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>冒险</span><span>温馨</span><span>家庭友好</span><span>叙事</span></div>
         </div>
-        <div class="reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>5,204</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>Launch Day</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Hyper Games / Hyper Games, Kakehashi Games</dd></div>
         </dl>
@@ -965,15 +1078,19 @@
           </div>
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
-        <div class="tags"><span class="pill">自走棋</span><span class="pill">Roguelite</span><span class="pill">动作 RPG</span><span class="pill">像素</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>1,424</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>Launch Day</span>
-          <span><b>日期</b>2026-04-27</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>自走棋</span><span>Roguelite</span><span>动作 RPG</span><span>像素</span></div>
         </div>
-        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>1,424</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>Launch Day</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Spicy Garlic Games / Spicy Garlic Games</dd></div>
         </dl>
@@ -1001,15 +1118,19 @@
           </div>
           <div class="score level-low"><b>24</b><span>Low</span></div>
         </div>
-        <div class="tags"><span class="pill">叙事</span><span class="pill">像素</span><span class="pill">情感</span><span class="pill">冒险</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>1,270</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>Launch Day</span>
-          <span><b>日期</b>2026-04-27</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>叙事</span><span>像素</span><span>情感</span><span>冒险</span></div>
         </div>
-        <div class="reasons"><span>已发布，可观察真实在线</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>1,270</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>Launch Day</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>已发布，可观察真实在线</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Shameful Guys Development / Shameful Guys Development</dd></div>
         </dl>
@@ -1037,15 +1158,19 @@
           </div>
           <div class="score level-low"><b>23</b><span>Low</span></div>
         </div>
-        <div class="tags"><span class="pill">职业模拟</span><span class="pill">管理</span><span class="pill">犯罪</span><span class="pill">第一人称</span></div>
-        <div class="metrics">
-          <span><b>在线</b>未公开</span>
-          <span><b>关注</b>540</span>
-          <span><b>愿望单</b>未公开</span>
-          <span><b>热度</b>Launch Day</span>
-          <span><b>日期</b>2026-04-27</span>
+        <div class="chip-block chip-block-tags">
+          <div class="chip-label">游戏类型</div>
+          <div class="tags"><span>职业模拟</span><span>管理</span><span>犯罪</span><span>第一人称</span></div>
         </div>
-        <div class="reasons"><span>已发布，可观察真实在线</span></div>
+        <div class="chip-block chip-block-metrics">
+          <div class="chip-label">游戏数据</div>
+          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>540</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>Launch Day</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
+        </div>
+        
+    <div class="chip-block chip-block-reasons">
+      <div class="chip-label">推荐理由</div>
+      <div class="reasons"><span>已发布，可观察真实在线</span></div>
+    </div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>SifDev / Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.</dd></div>
         </dl>

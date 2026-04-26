@@ -188,13 +188,31 @@
     .level-high { background: #b6422e; }
     .level-medium { background: #1c6e77; }
     .level-low { background: #6c7685; }
+    .chip-block {
+      margin-top: 14px;
+    }
+    .chip-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      color: #4b5563;
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .chip-label::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
     .tags, .metrics, .reasons {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
-      margin-top: 14px;
     }
-    .pill, .metrics span, .reasons span {
+    .tags span, .metrics span, .reasons span {
       display: inline-flex;
       align-items: center;
       min-height: 32px;
@@ -204,15 +222,42 @@
       background: #fbfcfd;
       font-size: 13px;
     }
+    .tags span {
+      border-color: #d8dfeb;
+      color: #27313d;
+      background: #f7f9fc;
+    }
+    .metrics span {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      gap: 6px;
+      border-color: #d6e4e6;
+      color: #173f45;
+      background: #f2f8f8;
+    }
     .metrics b {
-      margin-right: 6px;
       color: var(--accent);
       font-size: 12px;
     }
+    .metrics em {
+      min-width: 0;
+      overflow-wrap: anywhere;
+      color: #17202a;
+      font-style: normal;
+      font-weight: 700;
+    }
+    .metrics .metric-rank {
+      border-color: #e4d2bf;
+      color: #704113;
+      background: #fff7ed;
+    }
+    .metrics .metric-rank b {
+      color: #a45215;
+    }
     .reasons span {
-      border-color: #d6e1e6;
-      color: #27313d;
-      background: #f0f6f7;
+      border-color: #d9d3e7;
+      color: #3c2f5c;
+      background: #f5f2fb;
     }
     dl { margin: 15px 0 0; }
     dl div {
@@ -324,7 +369,7 @@
       <a class="rank-row" href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">
         <span class="rank-num">2</span>
         <span class="rank-main"><b>竞拍之王</b><small>BidKing · Released</small></span>
-        <span class="rank-score">59</span>
+        <span class="rank-score">58</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/2213700/" target="_blank" rel="noreferrer">
         <span class="rank-num">3</span>
@@ -334,32 +379,32 @@
       <a class="rank-row" href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">
         <span class="rank-num">4</span>
         <span class="rank-main"><b>绝区零</b><small>Zenless Zone Zero · New Store</small></span>
+        <span class="rank-score">55</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">
+        <span class="rank-num">5</span>
+        <span class="rank-main"><b>刺客信条：黑旗 重构版</b><small>Assassin&#39;s Creed Black Flag Resynced · New Store</small></span>
+        <span class="rank-score">53</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">
+        <span class="rank-num">6</span>
+        <span class="rank-main"><b>地铁 2039</b><small>METRO 2039 · New Store</small></span>
+        <span class="rank-score">53</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">
+        <span class="rank-num">7</span>
+        <span class="rank-main"><b>缉毒飞行员招募令</b><small>Cartel Pilots Wanted · New Store</small></span>
         <span class="rank-score">51</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/3165650/" target="_blank" rel="noreferrer">
-        <span class="rank-num">5</span>
+        <span class="rank-num">8</span>
         <span class="rank-main"><b>阿尔比恩大师</b><small>Masters of Albion · Released</small></span>
         <span class="rank-score">51</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4216670/" target="_blank" rel="noreferrer">
-        <span class="rank-num">6</span>
+        <span class="rank-num">9</span>
         <span class="rank-main"><b>打字农夫</b><small>Typing Farmer · Released</small></span>
         <span class="rank-score">49</span>
-      </a>
-      <a class="rank-row" href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">
-        <span class="rank-num">7</span>
-        <span class="rank-main"><b>刺客信条：黑旗 重构版</b><small>Assassin&#39;s Creed Black Flag Resynced · New Store</small></span>
-        <span class="rank-score">47</span>
-      </a>
-      <a class="rank-row" href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">
-        <span class="rank-num">8</span>
-        <span class="rank-main"><b>地铁 2039</b><small>METRO 2039 · New Store</small></span>
-        <span class="rank-score">47</span>
-      </a>
-      <a class="rank-row" href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">
-        <span class="rank-num">9</span>
-        <span class="rank-main"><b>缉毒飞行员招募令</b><small>Cartel Pilots Wanted · New Store</small></span>
-        <span class="rank-score">46</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4576510/" target="_blank" rel="noreferrer">
         <span class="rank-num">10</span>
@@ -371,65 +416,65 @@
         <span class="rank-main"><b>龙珠：异战 3</b><small>DRAGON BALL XENOVERSE 3 · New Store</small></span>
         <span class="rank-score">42</span>
       </a>
-      <a class="rank-row" href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">
+      <a class="rank-row" href="https://store.steampowered.com/app/3393110/" target="_blank" rel="noreferrer">
         <span class="rank-num">12</span>
+        <span class="rank-main"><b>AION 2</b><small>AION 2 · New Store</small></span>
+        <span class="rank-score">35</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">
+        <span class="rank-num">13</span>
         <span class="rank-main"><b>非人类 试玩版</b><small>UNHUMAN Demo · Demo</small></span>
         <span class="rank-score">33</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">
-        <span class="rank-num">13</span>
+        <span class="rank-num">14</span>
         <span class="rank-main"><b>旅人日记 试玩版</b><small>Tales of Terrarum Demo · Demo</small></span>
         <span class="rank-score">31</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4283360/" target="_blank" rel="noreferrer">
-        <span class="rank-num">14</span>
+        <span class="rank-num">15</span>
         <span class="rank-main"><b>团本自走棋</b><small>Legionbound · Released</small></span>
         <span class="rank-score">31</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/2873660/" target="_blank" rel="noreferrer">
-        <span class="rank-num">15</span>
+        <span class="rank-num">16</span>
         <span class="rank-main"><b>全球救援</b><small>Global Rescue · Released</small></span>
         <span class="rank-score">29</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/3256150/" target="_blank" rel="noreferrer">
-        <span class="rank-num">16</span>
+        <span class="rank-num">17</span>
         <span class="rank-main"><b>姆明：暖心冬日</b><small>Moomintroll: Winter&#39;s Warmth · Released</small></span>
         <span class="rank-score">29</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4605330/" target="_blank" rel="noreferrer">
-        <span class="rank-num">17</span>
+        <span class="rank-num">18</span>
         <span class="rank-main"><b>消逝者 试玩版</b><small>Vanisha Demo · Demo</small></span>
         <span class="rank-score">25</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/2121450/" target="_blank" rel="noreferrer">
-        <span class="rank-num">18</span>
+        <span class="rank-num">19</span>
         <span class="rank-main"><b>曼谷故事：一只流浪狗</b><small>Bangkok Story: A Stray Dog · Released</small></span>
         <span class="rank-score">24</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/3896300/" target="_blank" rel="noreferrer">
-        <span class="rank-num">19</span>
+        <span class="rank-num">20</span>
         <span class="rank-main"><b>收费站模拟器</b><small>Toll Booth Simulator · Released</small></span>
         <span class="rank-score">23</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4582190/" target="_blank" rel="noreferrer">
-        <span class="rank-num">20</span>
+        <span class="rank-num">21</span>
         <span class="rank-main"><b>IA 试玩版</b><small>IA Demo · Demo</small></span>
         <span class="rank-score">22</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4642530/" target="_blank" rel="noreferrer">
-        <span class="rank-num">21</span>
+        <span class="rank-num">22</span>
         <span class="rank-main"><b>哔普增量工坊 试玩版</b><small>BleepWare Incrementals Demo · Demo</small></span>
         <span class="rank-score">20</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4527110/" target="_blank" rel="noreferrer">
-        <span class="rank-num">22</span>
+        <span class="rank-num">23</span>
         <span class="rank-main"><b>肮脏生意：免费版</b><small>Dirty Business: Free of Charge · Demo</small></span>
         <span class="rank-score">15</span>
-      </a>
-      <a class="rank-row" href="https://store.steampowered.com/app/3393110/" target="_blank" rel="noreferrer">
-        <span class="rank-num">23</span>
-        <span class="rank-main"><b>AION 2</b><small>AION 2 · New Store</small></span>
-        <span class="rank-score">11</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/2287200/" target="_blank" rel="noreferrer">
         <span class="rank-num">24</span>
@@ -446,22 +491,22 @@
       <a class="rank-row" href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">
         <span class="rank-num">1</span>
         <span class="rank-main"><b>绝区零</b><small>Zenless Zone Zero · New Store</small></span>
-        <span class="rank-score">51</span>
+        <span class="rank-score">55</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">
         <span class="rank-num">2</span>
         <span class="rank-main"><b>刺客信条：黑旗 重构版</b><small>Assassin&#39;s Creed Black Flag Resynced · New Store</small></span>
-        <span class="rank-score">47</span>
+        <span class="rank-score">53</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">
         <span class="rank-num">3</span>
         <span class="rank-main"><b>地铁 2039</b><small>METRO 2039 · New Store</small></span>
-        <span class="rank-score">47</span>
+        <span class="rank-score">53</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">
         <span class="rank-num">4</span>
         <span class="rank-main"><b>缉毒飞行员招募令</b><small>Cartel Pilots Wanted · New Store</small></span>
-        <span class="rank-score">46</span>
+        <span class="rank-score">51</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">
         <span class="rank-num">5</span>
@@ -500,17 +545,17 @@
       <a class="rank-row" href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">
         <span class="rank-num">3</span>
         <span class="rank-main"><b>绝区零</b><small>Zenless Zone Zero · New Store</small></span>
-        <span class="rank-score">51</span>
+        <span class="rank-score">55</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">
         <span class="rank-num">4</span>
         <span class="rank-main"><b>刺客信条：黑旗 重构版</b><small>Assassin&#39;s Creed Black Flag Resynced · New Store</small></span>
-        <span class="rank-score">47</span>
+        <span class="rank-score">53</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">
         <span class="rank-num">5</span>
         <span class="rank-main"><b>地铁 2039</b><small>METRO 2039 · New Store</small></span>
-        <span class="rank-score">47</span>
+        <span class="rank-score">53</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/1857810/" target="_blank" rel="noreferrer">
         <span class="rank-num">6</span>
@@ -532,56 +577,56 @@
       <a class="rank-row" href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">
         <span class="rank-num">2</span>
         <span class="rank-main"><b>竞拍之王</b><small>BidKing · Released</small></span>
-        <span class="rank-score">59</span>
+        <span class="rank-score">58</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">
         <span class="rank-num">3</span>
         <span class="rank-main"><b>绝区零</b><small>Zenless Zone Zero · New Store</small></span>
+        <span class="rank-score">55</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">
+        <span class="rank-num">4</span>
+        <span class="rank-main"><b>缉毒飞行员招募令</b><small>Cartel Pilots Wanted · New Store</small></span>
         <span class="rank-score">51</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/3165650/" target="_blank" rel="noreferrer">
-        <span class="rank-num">4</span>
+        <span class="rank-num">5</span>
         <span class="rank-main"><b>阿尔比恩大师</b><small>Masters of Albion · Released</small></span>
         <span class="rank-score">51</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4216670/" target="_blank" rel="noreferrer">
-        <span class="rank-num">5</span>
+        <span class="rank-num">6</span>
         <span class="rank-main"><b>打字农夫</b><small>Typing Farmer · Released</small></span>
         <span class="rank-score">49</span>
-      </a>
-      <a class="rank-row" href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">
-        <span class="rank-num">6</span>
-        <span class="rank-main"><b>缉毒飞行员招募令</b><small>Cartel Pilots Wanted · New Store</small></span>
-        <span class="rank-score">46</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4576510/" target="_blank" rel="noreferrer">
         <span class="rank-num">7</span>
         <span class="rank-main"><b>未知伤亡 试玩版</b><small>Casualties: Unknown Demo · Demo</small></span>
         <span class="rank-score">46</span>
       </a>
-      <a class="rank-row" href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">
+      <a class="rank-row" href="https://store.steampowered.com/app/3393110/" target="_blank" rel="noreferrer">
         <span class="rank-num">8</span>
+        <span class="rank-main"><b>AION 2</b><small>AION 2 · New Store</small></span>
+        <span class="rank-score">35</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">
+        <span class="rank-num">9</span>
         <span class="rank-main"><b>非人类 试玩版</b><small>UNHUMAN Demo · Demo</small></span>
         <span class="rank-score">33</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">
-        <span class="rank-num">9</span>
+        <span class="rank-num">10</span>
         <span class="rank-main"><b>旅人日记 试玩版</b><small>Tales of Terrarum Demo · Demo</small></span>
         <span class="rank-score">31</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4283360/" target="_blank" rel="noreferrer">
-        <span class="rank-num">10</span>
+        <span class="rank-num">11</span>
         <span class="rank-main"><b>团本自走棋</b><small>Legionbound · Released</small></span>
         <span class="rank-score">31</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/2873660/" target="_blank" rel="noreferrer">
-        <span class="rank-num">11</span>
-        <span class="rank-main"><b>全球救援</b><small>Global Rescue · Released</small></span>
-        <span class="rank-score">29</span>
-      </a>
-      <a class="rank-row" href="https://store.steampowered.com/app/3256150/" target="_blank" rel="noreferrer">
         <span class="rank-num">12</span>
-        <span class="rank-main"><b>姆明：暖心冬日</b><small>Moomintroll: Winter&#39;s Warmth · Released</small></span>
+        <span class="rank-main"><b>全球救援</b><small>Global Rescue · Released</small></span>
         <span class="rank-score">29</span>
       </a></div>
     </section>
@@ -599,12 +644,12 @@
       <a class="rank-row" href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">
         <span class="rank-num">2</span>
         <span class="rank-main"><b>竞拍之王</b><small>BidKing · Released</small></span>
-        <span class="rank-score">59</span>
+        <span class="rank-score">58</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">
         <span class="rank-num">3</span>
         <span class="rank-main"><b>缉毒飞行员招募令</b><small>Cartel Pilots Wanted · New Store</small></span>
-        <span class="rank-score">46</span>
+        <span class="rank-score">51</span>
       </a>
       <a class="rank-row" href="https://store.steampowered.com/app/4283360/" target="_blank" rel="noreferrer">
         <span class="rank-num">4</span>
