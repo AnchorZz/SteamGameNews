@@ -28,7 +28,16 @@
           "contact_url": "https://www.ubisoft.com/help/contact",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/header.jpg",
           "current_players": null,
-          "cover_local_path": "/assets/covers/2026-04-26/3751950.jpg"
+          "cover_local_path": "/assets/covers/2026-04-26/3751950.jpg",
+          "potential_score": 41,
+          "watch_level": "Low",
+          "score_reasons": [
+            "关注基数高",
+            "强 IP 或知名发行方",
+            "新商店页处于愿望单积累期",
+            "曾位于分类头部"
+          ],
+          "daily_rank": 1
         },
         {
           "appid": "2590240",
@@ -50,7 +59,16 @@
           "contact_url": "https://www.deepsilver.com/contact/",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2590240/header.jpg",
           "current_players": null,
-          "cover_local_path": "/assets/covers/2026-04-26/2590240.jpg"
+          "cover_local_path": "/assets/covers/2026-04-26/2590240.jpg",
+          "potential_score": 41,
+          "watch_level": "Low",
+          "score_reasons": [
+            "关注基数高",
+            "强 IP 或知名发行方",
+            "新商店页处于愿望单积累期",
+            "曾位于分类头部"
+          ],
+          "daily_rank": 2
         },
         {
           "appid": "1857810",
@@ -72,7 +90,15 @@
           "contact_url": "https://service-en.bandainamcoent.eu/",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1857810/header.jpg",
           "current_players": null,
-          "cover_local_path": "/assets/covers/2026-04-26/1857810.jpg"
+          "cover_local_path": "/assets/covers/2026-04-26/1857810.jpg",
+          "potential_score": 42,
+          "watch_level": "Low",
+          "score_reasons": [
+            "强 IP 或知名发行方",
+            "题材有内容传播点",
+            "新商店页处于愿望单积累期"
+          ],
+          "daily_rank": 3
         },
         {
           "appid": "4614080",
@@ -95,7 +121,15 @@
           "contact_url": "https://steamcommunity.com/app/4614080",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4614080/header.jpg",
           "current_players": null,
-          "cover_local_path": "/assets/covers/2026-04-26/4614080.jpg"
+          "cover_local_path": "/assets/covers/2026-04-26/4614080.jpg",
+          "potential_score": 40,
+          "watch_level": "Low",
+          "score_reasons": [
+            "多人/合作传播性好",
+            "题材有内容传播点",
+            "新商店页处于愿望单积累期"
+          ],
+          "daily_rank": 4
         },
         {
           "appid": "4162040",
@@ -118,7 +152,16 @@
           "contact_url": "https://cs.hoyoverse.com/",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/header.jpg",
           "current_players": null,
-          "cover_local_path": "/assets/covers/2026-04-26/4162040.jpg"
+          "cover_local_path": "/assets/covers/2026-04-26/4162040.jpg",
+          "potential_score": 45,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "强 IP 或知名发行方",
+            "低门槛试玩或轻量入口",
+            "题材有内容传播点",
+            "新商店页处于愿望单积累期"
+          ],
+          "daily_rank": 5
         }
       ]
     },
@@ -146,7 +189,15 @@
           "contact_url": "https://steamcommunity.com/app/4588570",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588570/header.jpg",
           "current_players": 0,
-          "cover_local_path": "/assets/covers/2026-04-26/4588570.jpg"
+          "cover_local_path": "/assets/covers/2026-04-26/4588570.jpg",
+          "potential_score": 25,
+          "watch_level": "Low",
+          "score_reasons": [
+            "低门槛试玩或轻量入口",
+            "Demo 可验证试玩转化",
+            "曾位于分类头部"
+          ],
+          "daily_rank": 1
         },
         {
           "appid": "4605330",
@@ -166,7 +217,15 @@
           "contact_url": "https://steamcommunity.com/app/4605330",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4605330/header.jpg",
           "current_players": 0,
-          "cover_local_path": "/assets/covers/2026-04-26/4605330.jpg"
+          "cover_local_path": "/assets/covers/2026-04-26/4605330.jpg",
+          "potential_score": 25,
+          "watch_level": "Low",
+          "score_reasons": [
+            "低门槛试玩或轻量入口",
+            "Demo 可验证试玩转化",
+            "曾位于分类头部"
+          ],
+          "daily_rank": 2
         },
         {
           "appid": "4582190",
@@ -187,7 +246,14 @@
           "contact_url": "https://steamcommunity.com/app/4582190",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4582190/header.jpg",
           "current_players": 0,
-          "cover_local_path": "/assets/covers/2026-04-26/4582190.jpg"
+          "cover_local_path": "/assets/covers/2026-04-26/4582190.jpg",
+          "potential_score": 22,
+          "watch_level": "Low",
+          "score_reasons": [
+            "低门槛试玩或轻量入口",
+            "Demo 可验证试玩转化"
+          ],
+          "daily_rank": 3
         },
         {
           "appid": "4640310",
@@ -208,8 +274,16 @@
           "steam_url": "https://store.steampowered.com/app/4640310/",
           "contact_url": "https://steamcommunity.com/app/4640310",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg",
-          "current_players": 9,
-          "cover_local_path": "/assets/covers/2026-04-26/4640310.jpg"
+          "current_players": 12,
+          "cover_local_path": "/assets/covers/2026-04-26/4640310.jpg",
+          "potential_score": 29,
+          "watch_level": "Low",
+          "score_reasons": [
+            "低门槛试玩或轻量入口",
+            "题材有内容传播点",
+            "Demo 可验证试玩转化"
+          ],
+          "daily_rank": 4
         },
         {
           "appid": "4642530",
@@ -230,7 +304,14 @@
           "contact_url": "https://steamcommunity.com/app/4642530",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4642530/header.jpg",
           "current_players": 0,
-          "cover_local_path": "/assets/covers/2026-04-26/4642530.jpg"
+          "cover_local_path": "/assets/covers/2026-04-26/4642530.jpg",
+          "potential_score": 20,
+          "watch_level": "Low",
+          "score_reasons": [
+            "低门槛试玩或轻量入口",
+            "Demo 可验证试玩转化"
+          ],
+          "daily_rank": 5
         }
       ]
     },
@@ -258,8 +339,18 @@
           "steam_url": "https://store.steampowered.com/app/3265700/",
           "contact_url": "https://poncle.games",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/header.jpg",
-          "current_players": 42554,
-          "cover_local_path": "/assets/covers/2026-04-26/3265700.jpg"
+          "current_players": 41551,
+          "cover_local_path": "/assets/covers/2026-04-26/3265700.jpg",
+          "potential_score": 65,
+          "watch_level": "High",
+          "score_reasons": [
+            "关注基数高",
+            "当前在线人数高",
+            "强 IP 或知名发行方",
+            "题材有内容传播点",
+            "已发布，可观察真实在线"
+          ],
+          "daily_rank": 1
         },
         {
           "appid": "3165650",
@@ -281,8 +372,17 @@
           "steam_url": "https://store.steampowered.com/app/3165650/",
           "contact_url": "https://22cans.com/",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3165650/header.jpg",
-          "current_players": 306,
-          "cover_local_path": "/assets/covers/2026-04-26/3165650.jpg"
+          "current_players": 336,
+          "cover_local_path": "/assets/covers/2026-04-26/3165650.jpg",
+          "potential_score": 51,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "关注基数高",
+            "题材有内容传播点",
+            "已发布，可观察真实在线",
+            "曾位于分类头部"
+          ],
+          "daily_rank": 2
         },
         {
           "appid": "4216670",
@@ -303,8 +403,17 @@
           "steam_url": "https://store.steampowered.com/app/4216670/",
           "contact_url": "https://steamcommunity.com/app/4216670",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4216670/header.jpg",
-          "current_players": 1702,
-          "cover_local_path": "/assets/covers/2026-04-26/4216670.jpg"
+          "current_players": 1541,
+          "cover_local_path": "/assets/covers/2026-04-26/4216670.jpg",
+          "potential_score": 50,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "关注基数高",
+            "已有稳定在线",
+            "低门槛试玩或轻量入口",
+            "已发布，可观察真实在线"
+          ],
+          "daily_rank": 3
         },
         {
           "appid": "4128580",
@@ -325,8 +434,17 @@
           "steam_url": "https://store.steampowered.com/app/4128580/",
           "contact_url": "https://steamcommunity.com/app/4128580",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4128580/header.jpg",
-          "current_players": 44139,
-          "cover_local_path": "/assets/covers/2026-04-26/4128580.jpg"
+          "current_players": 42058,
+          "cover_local_path": "/assets/covers/2026-04-26/4128580.jpg",
+          "potential_score": 60,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "当前在线人数高",
+            "多人/合作传播性好",
+            "题材有内容传播点",
+            "已发布，可观察真实在线"
+          ],
+          "daily_rank": 4
         },
         {
           "appid": "2213700",
@@ -348,8 +466,17 @@
           "steam_url": "https://store.steampowered.com/app/2213700/",
           "contact_url": "https://www.team17.com/contact/",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2213700/header.jpg",
-          "current_players": 1936,
-          "cover_local_path": "/assets/covers/2026-04-26/2213700.jpg"
+          "current_players": 1933,
+          "cover_local_path": "/assets/covers/2026-04-26/2213700.jpg",
+          "potential_score": 56,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "已有稳定在线",
+            "强 IP 或知名发行方",
+            "题材有内容传播点",
+            "已发布，可观察真实在线"
+          ],
+          "daily_rank": 5
         }
       ]
     }

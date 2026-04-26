@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>本月 Steam 推荐</title>
+  <title>本月 Steam 趋势榜</title>
   <style>
     :root {
       --bg: #f4f6f8;
@@ -58,7 +58,7 @@
       border-bottom: 1px solid var(--line);
     }
     h1 { margin: 0; font-size: 44px; line-height: 1.1; letter-spacing: 0; }
-    .subtitle { max-width: 760px; margin: 12px 0 0; color: var(--muted); line-height: 1.7; }
+    .subtitle { max-width: 800px; margin: 12px 0 0; color: var(--muted); line-height: 1.7; }
     .quick-stats { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
     .quick-stats span {
       display: inline-flex;
@@ -72,27 +72,29 @@
       color: var(--muted);
     }
     .section-band { padding-top: 34px; }
-    .section-head {
+    .section-head, .panel-head {
       display: flex;
       align-items: end;
       justify-content: space-between;
       gap: 16px;
       margin-bottom: 14px;
     }
-    .section-head h2 { margin: 0; font-size: 26px; letter-spacing: 0; }
+    .section-head h2, .panel-head h2 { margin: 0; font-size: 26px; letter-spacing: 0; }
     .section-head p { margin: 0; color: var(--muted); }
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 16px;
     }
-    .game-card {
+    .highlight-grid { grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); }
+    .game-card, .panel {
       overflow: hidden;
       border: 1px solid var(--line);
       border-radius: var(--radius);
       background: var(--panel);
       box-shadow: var(--shadow);
     }
+    .panel { padding: 16px; margin-top: 20px; }
     .cover {
       display: block;
       position: relative;
@@ -165,26 +167,34 @@
       align-items: start;
     }
     h3 { margin: 0; font-size: 23px; line-height: 1.22; letter-spacing: 0; }
-    .title-row p { margin: 6px 0 0; color: var(--muted); line-height: 1.45; }
-    .badge {
+    .rank {
       display: inline-flex;
-      align-items: center;
-      min-height: 30px;
-      padding: 6px 10px;
+      margin-right: 8px;
+      color: var(--accent);
+      font-size: 18px;
+    }
+    .title-row p { margin: 6px 0 0; color: var(--muted); line-height: 1.45; }
+    .score {
+      display: grid;
+      place-items: center;
+      min-width: 58px;
+      padding: 8px;
       border-radius: var(--radius);
       color: #fff;
-      background: var(--accent);
-      font-size: 12px;
-      font-weight: 800;
-      white-space: nowrap;
+      background: #6c7685;
     }
-    .tags, .metrics {
+    .score b { font-size: 24px; line-height: 1; }
+    .score span { margin-top: 3px; font-size: 11px; font-weight: 800; }
+    .level-high { background: #b6422e; }
+    .level-medium { background: #1c6e77; }
+    .level-low { background: #6c7685; }
+    .tags, .metrics, .reasons {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
       margin-top: 14px;
     }
-    .pill, .metrics span {
+    .pill, .metrics span, .reasons span {
       display: inline-flex;
       align-items: center;
       min-height: 32px;
@@ -198,6 +208,11 @@
       margin-right: 6px;
       color: var(--accent);
       font-size: 12px;
+    }
+    .reasons span {
+      border-color: #d6e1e6;
+      color: #27313d;
+      background: #f0f6f7;
     }
     dl { margin: 15px 0 0; }
     dl div {
@@ -232,23 +247,40 @@
       font-weight: 800;
     }
     .actions a + a { background: #303847; }
-    .archive-list {
+    .leader-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 12px;
-      margin-top: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 18px;
+      padding-top: 28px;
     }
-    .archive-item {
-      display: block;
-      padding: 16px;
+    .rank-list { display: grid; gap: 8px; }
+    .rank-row {
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr) 52px;
+      gap: 10px;
+      align-items: center;
+      min-height: 54px;
+      padding: 9px;
       border: 1px solid var(--line);
       border-radius: var(--radius);
-      background: #fff;
       color: var(--ink);
       text-decoration: none;
-      box-shadow: 0 10px 24px rgba(22, 29, 39, 0.06);
+      background: #fbfcfd;
     }
-    .archive-item span { display: block; color: var(--muted); margin-top: 6px; }
+    .rank-num, .rank-score {
+      display: grid;
+      place-items: center;
+      min-height: 34px;
+      border-radius: var(--radius);
+      color: #fff;
+      background: #303847;
+      font-weight: 800;
+    }
+    .rank-score { background: #b6422e; }
+    .rank-main { min-width: 0; }
+    .rank-main b, .rank-main small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .rank-main small { margin-top: 3px; color: var(--muted); }
+    .empty { color: var(--muted); padding: 12px; }
     @media (max-width: 760px) {
       .shell { padding: 14px 12px 56px; }
       .topbar, .hero, .section-head { align-items: start; flex-direction: column; display: flex; }
@@ -256,7 +288,7 @@
       nav a { flex: 1; text-align: center; }
       h1 { font-size: 34px; }
       .quick-stats { justify-content: flex-start; }
-      .grid { grid-template-columns: 1fr; }
+      .grid, .leader-grid { grid-template-columns: 1fr; }
       dl div { grid-template-columns: 1fr; gap: 3px; }
     }
   </style>
@@ -264,21 +296,243 @@
 <body>
   <main class="shell">
     <div class="topbar">
-      <div class="brand">Steam 热门游戏推荐</div>
+      <div class="brand">SteamGameNews 监测看板</div>
       <nav><a class="" href="../index.html">首页</a><a class="" href="../week/index.html">本周</a><a class="active" href="index.html">本月</a></nav>
     </div>
     <header class="hero">
       <div>
-        <h1>本月 Steam 推荐</h1>
-        <p class="subtitle">当月全部日报入口，适合按时间回溯选题。</p>
+        <h1>本月 Steam 趋势榜</h1>
+        <p class="subtitle">聚合当月全部日报，观察持续出现、阶段变化、强 IP、独立黑马和适合内容传播的项目。</p>
       </div>
       <div class="quick-stats">
-        <span>每日自动更新</span>
-        <span>首页显示最新</span>
-        <span>本地封面资源</span>
+        <span>Top 15</span><span>阶段变化 0</span><span>强 IP 6</span>
       </div>
     </header>
-    <div class="archive-list"><a class="archive-item" href="../reports/2026-04-26/index.html"><strong>2026-04-26</strong><span>Steam 热门游戏推荐 · 15 款游戏</span></a></div>
+    
+    <div class="leader-grid">
+      
+    <section class="panel">
+      <div class="panel-head">
+        <h2>本月潜力 Top 30</h2>
+      </div>
+      <div class="rank-list">
+      <a class="rank-row" href="https://store.steampowered.com/app/3265700/" target="_blank" rel="noreferrer">
+        <span class="rank-num">1</span>
+        <span class="rank-main"><b>吸血鬼幸存者：狂飙爬行者</b><small>Vampire Crawlers: The Turbo Wildcard from Vampire Survivors · Released</small></span>
+        <span class="rank-score">65</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">
+        <span class="rank-num">2</span>
+        <span class="rank-main"><b>竞拍之王</b><small>BidKing · Released</small></span>
+        <span class="rank-score">60</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/2213700/" target="_blank" rel="noreferrer">
+        <span class="rank-num">3</span>
+        <span class="rank-main"><b>罪托邦</b><small>Sintopia · Released</small></span>
+        <span class="rank-score">56</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/3165650/" target="_blank" rel="noreferrer">
+        <span class="rank-num">4</span>
+        <span class="rank-main"><b>阿尔比恩大师</b><small>Masters of Albion · Released</small></span>
+        <span class="rank-score">51</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4216670/" target="_blank" rel="noreferrer">
+        <span class="rank-num">5</span>
+        <span class="rank-main"><b>打字农夫</b><small>Typing Farmer · Released</small></span>
+        <span class="rank-score">50</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">
+        <span class="rank-num">6</span>
+        <span class="rank-main"><b>绝区零</b><small>Zenless Zone Zero · New Store</small></span>
+        <span class="rank-score">45</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/1857810/" target="_blank" rel="noreferrer">
+        <span class="rank-num">7</span>
+        <span class="rank-main"><b>龙珠：异战 3</b><small>DRAGON BALL XENOVERSE 3 · New Store</small></span>
+        <span class="rank-score">42</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">
+        <span class="rank-num">8</span>
+        <span class="rank-main"><b>刺客信条：黑旗 重构版</b><small>Assassin&#39;s Creed Black Flag Resynced · New Store</small></span>
+        <span class="rank-score">41</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">
+        <span class="rank-num">9</span>
+        <span class="rank-main"><b>地铁 2039</b><small>METRO 2039 · New Store</small></span>
+        <span class="rank-score">41</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">
+        <span class="rank-num">10</span>
+        <span class="rank-main"><b>缉毒飞行员招募令</b><small>Cartel Pilots Wanted · New Store</small></span>
+        <span class="rank-score">40</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">
+        <span class="rank-num">11</span>
+        <span class="rank-main"><b>非人类 试玩版</b><small>UNHUMAN Demo · Demo</small></span>
+        <span class="rank-score">29</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">
+        <span class="rank-num">12</span>
+        <span class="rank-main"><b>泰拉田园物语 试玩版</b><small>Tales of Terrarum Demo · Demo</small></span>
+        <span class="rank-score">25</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4605330/" target="_blank" rel="noreferrer">
+        <span class="rank-num">13</span>
+        <span class="rank-main"><b>消逝者 试玩版</b><small>Vanisha Demo · Demo</small></span>
+        <span class="rank-score">25</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4582190/" target="_blank" rel="noreferrer">
+        <span class="rank-num">14</span>
+        <span class="rank-main"><b>IA 试玩版</b><small>IA Demo · Demo</small></span>
+        <span class="rank-score">22</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4642530/" target="_blank" rel="noreferrer">
+        <span class="rank-num">15</span>
+        <span class="rank-main"><b>哔普增量工坊 试玩版</b><small>BleepWare Incrementals Demo · Demo</small></span>
+        <span class="rank-score">20</span>
+      </a></div>
+    </section>
+      
+    <section class="panel">
+      <div class="panel-head">
+        <h2>连续出现次数排行</h2>
+      </div>
+      <div class="rank-list"><div class="empty">暂无数据</div></div>
+    </section>
+      
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Demo 到发布/阶段变化</h2>
+      </div>
+      <div class="rank-list"><div class="empty">暂无数据</div></div>
+    </section>
+      
+    <section class="panel">
+      <div class="panel-head">
+        <h2>强 IP 候选</h2>
+      </div>
+      <div class="rank-list">
+      <a class="rank-row" href="https://store.steampowered.com/app/3265700/" target="_blank" rel="noreferrer">
+        <span class="rank-num">1</span>
+        <span class="rank-main"><b>吸血鬼幸存者：狂飙爬行者</b><small>Vampire Crawlers: The Turbo Wildcard from Vampire Survivors · Released</small></span>
+        <span class="rank-score">65</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/2213700/" target="_blank" rel="noreferrer">
+        <span class="rank-num">2</span>
+        <span class="rank-main"><b>罪托邦</b><small>Sintopia · Released</small></span>
+        <span class="rank-score">56</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">
+        <span class="rank-num">3</span>
+        <span class="rank-main"><b>绝区零</b><small>Zenless Zone Zero · New Store</small></span>
+        <span class="rank-score">45</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/1857810/" target="_blank" rel="noreferrer">
+        <span class="rank-num">4</span>
+        <span class="rank-main"><b>龙珠：异战 3</b><small>DRAGON BALL XENOVERSE 3 · New Store</small></span>
+        <span class="rank-score">42</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">
+        <span class="rank-num">5</span>
+        <span class="rank-main"><b>刺客信条：黑旗 重构版</b><small>Assassin&#39;s Creed Black Flag Resynced · New Store</small></span>
+        <span class="rank-score">41</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">
+        <span class="rank-num">6</span>
+        <span class="rank-main"><b>地铁 2039</b><small>METRO 2039 · New Store</small></span>
+        <span class="rank-score">41</span>
+      </a></div>
+    </section>
+      
+    <section class="panel">
+      <div class="panel-head">
+        <h2>独立黑马</h2>
+      </div>
+      <div class="rank-list">
+      <a class="rank-row" href="https://store.steampowered.com/app/3265700/" target="_blank" rel="noreferrer">
+        <span class="rank-num">1</span>
+        <span class="rank-main"><b>吸血鬼幸存者：狂飙爬行者</b><small>Vampire Crawlers: The Turbo Wildcard from Vampire Survivors · Released</small></span>
+        <span class="rank-score">65</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">
+        <span class="rank-num">2</span>
+        <span class="rank-main"><b>竞拍之王</b><small>BidKing · Released</small></span>
+        <span class="rank-score">60</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/3165650/" target="_blank" rel="noreferrer">
+        <span class="rank-num">3</span>
+        <span class="rank-main"><b>阿尔比恩大师</b><small>Masters of Albion · Released</small></span>
+        <span class="rank-score">51</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4216670/" target="_blank" rel="noreferrer">
+        <span class="rank-num">4</span>
+        <span class="rank-main"><b>打字农夫</b><small>Typing Farmer · Released</small></span>
+        <span class="rank-score">50</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">
+        <span class="rank-num">5</span>
+        <span class="rank-main"><b>绝区零</b><small>Zenless Zone Zero · New Store</small></span>
+        <span class="rank-score">45</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">
+        <span class="rank-num">6</span>
+        <span class="rank-main"><b>缉毒飞行员招募令</b><small>Cartel Pilots Wanted · New Store</small></span>
+        <span class="rank-score">40</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">
+        <span class="rank-num">7</span>
+        <span class="rank-main"><b>非人类 试玩版</b><small>UNHUMAN Demo · Demo</small></span>
+        <span class="rank-score">29</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">
+        <span class="rank-num">8</span>
+        <span class="rank-main"><b>泰拉田园物语 试玩版</b><small>Tales of Terrarum Demo · Demo</small></span>
+        <span class="rank-score">25</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4605330/" target="_blank" rel="noreferrer">
+        <span class="rank-num">9</span>
+        <span class="rank-main"><b>消逝者 试玩版</b><small>Vanisha Demo · Demo</small></span>
+        <span class="rank-score">25</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4582190/" target="_blank" rel="noreferrer">
+        <span class="rank-num">10</span>
+        <span class="rank-main"><b>IA 试玩版</b><small>IA Demo · Demo</small></span>
+        <span class="rank-score">22</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4642530/" target="_blank" rel="noreferrer">
+        <span class="rank-num">11</span>
+        <span class="rank-main"><b>哔普增量工坊 试玩版</b><small>BleepWare Incrementals Demo · Demo</small></span>
+        <span class="rank-score">20</span>
+      </a></div>
+    </section>
+      
+    <section class="panel">
+      <div class="panel-head">
+        <h2>主播友好候选</h2>
+      </div>
+      <div class="rank-list">
+      <a class="rank-row" href="https://store.steampowered.com/app/3265700/" target="_blank" rel="noreferrer">
+        <span class="rank-num">1</span>
+        <span class="rank-main"><b>吸血鬼幸存者：狂飙爬行者</b><small>Vampire Crawlers: The Turbo Wildcard from Vampire Survivors · Released</small></span>
+        <span class="rank-score">65</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">
+        <span class="rank-num">2</span>
+        <span class="rank-main"><b>竞拍之王</b><small>BidKing · Released</small></span>
+        <span class="rank-score">60</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">
+        <span class="rank-num">3</span>
+        <span class="rank-main"><b>缉毒飞行员招募令</b><small>Cartel Pilots Wanted · New Store</small></span>
+        <span class="rank-score">40</span>
+      </a>
+      <a class="rank-row" href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">
+        <span class="rank-num">4</span>
+        <span class="rank-main"><b>非人类 试玩版</b><small>UNHUMAN Demo · Demo</small></span>
+        <span class="rank-score">29</span>
+      </a></div>
+    </section>
+    </div>
   </main>
 </body>
 </html>

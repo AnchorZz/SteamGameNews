@@ -58,7 +58,7 @@
       border-bottom: 1px solid var(--line);
     }
     h1 { margin: 0; font-size: 44px; line-height: 1.1; letter-spacing: 0; }
-    .subtitle { max-width: 760px; margin: 12px 0 0; color: var(--muted); line-height: 1.7; }
+    .subtitle { max-width: 800px; margin: 12px 0 0; color: var(--muted); line-height: 1.7; }
     .quick-stats { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
     .quick-stats span {
       display: inline-flex;
@@ -72,27 +72,29 @@
       color: var(--muted);
     }
     .section-band { padding-top: 34px; }
-    .section-head {
+    .section-head, .panel-head {
       display: flex;
       align-items: end;
       justify-content: space-between;
       gap: 16px;
       margin-bottom: 14px;
     }
-    .section-head h2 { margin: 0; font-size: 26px; letter-spacing: 0; }
+    .section-head h2, .panel-head h2 { margin: 0; font-size: 26px; letter-spacing: 0; }
     .section-head p { margin: 0; color: var(--muted); }
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 16px;
     }
-    .game-card {
+    .highlight-grid { grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); }
+    .game-card, .panel {
       overflow: hidden;
       border: 1px solid var(--line);
       border-radius: var(--radius);
       background: var(--panel);
       box-shadow: var(--shadow);
     }
+    .panel { padding: 16px; margin-top: 20px; }
     .cover {
       display: block;
       position: relative;
@@ -165,26 +167,34 @@
       align-items: start;
     }
     h3 { margin: 0; font-size: 23px; line-height: 1.22; letter-spacing: 0; }
-    .title-row p { margin: 6px 0 0; color: var(--muted); line-height: 1.45; }
-    .badge {
+    .rank {
       display: inline-flex;
-      align-items: center;
-      min-height: 30px;
-      padding: 6px 10px;
+      margin-right: 8px;
+      color: var(--accent);
+      font-size: 18px;
+    }
+    .title-row p { margin: 6px 0 0; color: var(--muted); line-height: 1.45; }
+    .score {
+      display: grid;
+      place-items: center;
+      min-width: 58px;
+      padding: 8px;
       border-radius: var(--radius);
       color: #fff;
-      background: var(--accent);
-      font-size: 12px;
-      font-weight: 800;
-      white-space: nowrap;
+      background: #6c7685;
     }
-    .tags, .metrics {
+    .score b { font-size: 24px; line-height: 1; }
+    .score span { margin-top: 3px; font-size: 11px; font-weight: 800; }
+    .level-high { background: #b6422e; }
+    .level-medium { background: #1c6e77; }
+    .level-low { background: #6c7685; }
+    .tags, .metrics, .reasons {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
       margin-top: 14px;
     }
-    .pill, .metrics span {
+    .pill, .metrics span, .reasons span {
       display: inline-flex;
       align-items: center;
       min-height: 32px;
@@ -198,6 +208,11 @@
       margin-right: 6px;
       color: var(--accent);
       font-size: 12px;
+    }
+    .reasons span {
+      border-color: #d6e1e6;
+      color: #27313d;
+      background: #f0f6f7;
     }
     dl { margin: 15px 0 0; }
     dl div {
@@ -232,23 +247,40 @@
       font-weight: 800;
     }
     .actions a + a { background: #303847; }
-    .archive-list {
+    .leader-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 12px;
-      margin-top: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 18px;
+      padding-top: 28px;
     }
-    .archive-item {
-      display: block;
-      padding: 16px;
+    .rank-list { display: grid; gap: 8px; }
+    .rank-row {
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr) 52px;
+      gap: 10px;
+      align-items: center;
+      min-height: 54px;
+      padding: 9px;
       border: 1px solid var(--line);
       border-radius: var(--radius);
-      background: #fff;
       color: var(--ink);
       text-decoration: none;
-      box-shadow: 0 10px 24px rgba(22, 29, 39, 0.06);
+      background: #fbfcfd;
     }
-    .archive-item span { display: block; color: var(--muted); margin-top: 6px; }
+    .rank-num, .rank-score {
+      display: grid;
+      place-items: center;
+      min-height: 34px;
+      border-radius: var(--radius);
+      color: #fff;
+      background: #303847;
+      font-weight: 800;
+    }
+    .rank-score { background: #b6422e; }
+    .rank-main { min-width: 0; }
+    .rank-main b, .rank-main small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .rank-main small { margin-top: 3px; color: var(--muted); }
+    .empty { color: var(--muted); padding: 12px; }
     @media (max-width: 760px) {
       .shell { padding: 14px 12px 56px; }
       .topbar, .hero, .section-head { align-items: start; flex-direction: column; display: flex; }
@@ -256,7 +288,7 @@
       nav a { flex: 1; text-align: center; }
       h1 { font-size: 34px; }
       .quick-stats { justify-content: flex-start; }
-      .grid { grid-template-columns: 1fr; }
+      .grid, .leader-grid { grid-template-columns: 1fr; }
       dl div { grid-template-columns: 1fr; gap: 3px; }
     }
   </style>
@@ -264,7 +296,7 @@
 <body>
   <main class="shell">
     <div class="topbar">
-      <div class="brand">Steam 热门游戏推荐</div>
+      <div class="brand">SteamGameNews 监测看板</div>
       <nav><a class="" href="../../index.html">首页</a><a class="" href="../../week/index.html">本周</a><a class="" href="../../month/index.html">本月</a></nav>
     </div>
     <header class="hero">
@@ -273,9 +305,7 @@
         <p class="subtitle">这是一份独立归档页，可以直接分享给别人查看当天完整卡片。</p>
       </div>
       <div class="quick-stats">
-        <span>每日自动更新</span>
-        <span>首页显示最新</span>
-        <span>本地封面资源</span>
+        <span>每日自动更新</span><span>首页显示最新</span><span>本地封面资源</span>
       </div>
     </header>
     
@@ -300,7 +330,7 @@
             <h3>刺客信条：黑旗 重构版</h3>
             <p>Assassin&#39;s Creed Black Flag Resynced</p>
           </div>
-          <span class="badge">New Store</span>
+          <div class="score level-low"><b>41</b><span>Low</span></div>
         </div>
         <div class="tags"><span class="pill">动作</span><span class="pill">冒险</span><span class="pill">潜行</span><span class="pill">海盗</span></div>
         <div class="metrics">
@@ -309,6 +339,7 @@
           <span><b>热度</b>7d +24,880</span>
           <span><b>日期</b>2026-07-09</span>
         </div>
+        <div class="reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>曾位于分类头部</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Ubisoft Singapore 等 / Ubisoft</dd></div>
         </dl>
@@ -334,7 +365,7 @@
             <h3>地铁 2039</h3>
             <p>METRO 2039</p>
           </div>
-          <span class="badge">New Store</span>
+          <div class="score level-low"><b>41</b><span>Low</span></div>
         </div>
         <div class="tags"><span class="pill">FPS</span><span class="pill">后末日</span><span class="pill">剧情向</span></div>
         <div class="metrics">
@@ -343,6 +374,7 @@
           <span><b>热度</b>7d +19,050</span>
           <span><b>日期</b>TBA</span>
         </div>
+        <div class="reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>曾位于分类头部</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>4A Games / Deep Silver</dd></div>
         </dl>
@@ -368,7 +400,7 @@
             <h3>龙珠：异战 3</h3>
             <p>DRAGON BALL XENOVERSE 3</p>
           </div>
-          <span class="badge">New Store</span>
+          <div class="score level-low"><b>42</b><span>Low</span></div>
         </div>
         <div class="tags"><span class="pill">动作 RPG</span><span class="pill">3D 格斗</span><span class="pill">动漫</span></div>
         <div class="metrics">
@@ -377,6 +409,7 @@
           <span><b>热度</b>7d +9,717</span>
           <span><b>日期</b>2027</span>
         </div>
+        <div class="reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Dimps / Bandai Namco</dd></div>
         </dl>
@@ -402,7 +435,7 @@
             <h3>缉毒飞行员招募令</h3>
             <p>Cartel Pilots Wanted</p>
           </div>
-          <span class="badge">New Store</span>
+          <div class="score level-low"><b>40</b><span>Low</span></div>
         </div>
         <div class="tags"><span class="pill">飞行</span><span class="pill">模拟</span><span class="pill">合作</span><span class="pill">开放世界</span></div>
         <div class="metrics">
@@ -411,6 +444,7 @@
           <span><b>热度</b>7d +9,564</span>
           <span><b>日期</b>TBA</span>
         </div>
+        <div class="reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>OldYacht / Polden Publishing</dd></div>
         </dl>
@@ -436,7 +470,7 @@
             <h3>绝区零</h3>
             <p>Zenless Zone Zero</p>
           </div>
-          <span class="badge">New Store</span>
+          <div class="score level-medium"><b>45</b><span>Medium</span></div>
         </div>
         <div class="tags"><span class="pill">免费</span><span class="pill">动作</span><span class="pill">ARPG</span><span class="pill">二次元</span></div>
         <div class="metrics">
@@ -445,6 +479,7 @@
           <span><b>热度</b>7d +7,342</span>
           <span><b>日期</b>Q2 2026</span>
         </div>
+        <div class="reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>COGNOSPHERE / COGNOSPHERE</dd></div>
         </dl>
@@ -477,7 +512,7 @@
             <h3>泰拉田园物语 试玩版</h3>
             <p>Tales of Terrarum Demo</p>
           </div>
-          <span class="badge">Demo</span>
+          <div class="score level-low"><b>25</b><span>Low</span></div>
         </div>
         <div class="tags"><span class="pill">模拟经营</span><span class="pill">冒险</span></div>
         <div class="metrics">
@@ -486,6 +521,7 @@
           <span><b>热度</b>4 In-Demo</span>
           <span><b>日期</b>2026-04-23</span>
         </div>
+        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Electronic Soul / CYSTUDIO</dd></div>
         </dl>
@@ -511,7 +547,7 @@
             <h3>消逝者 试玩版</h3>
             <p>Vanisha Demo</p>
           </div>
-          <span class="badge">Demo</span>
+          <div class="score level-low"><b>25</b><span>Low</span></div>
         </div>
         <div class="tags"><span class="pill">动作</span></div>
         <div class="metrics">
@@ -520,6 +556,7 @@
           <span><b>热度</b>3 In-Demo</span>
           <span><b>日期</b>2026-04-22</span>
         </div>
+        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>DANYL / DANYL</dd></div>
         </dl>
@@ -545,7 +582,7 @@
             <h3>IA 试玩版</h3>
             <p>IA Demo</p>
           </div>
-          <span class="badge">Demo</span>
+          <div class="score level-low"><b>22</b><span>Low</span></div>
         </div>
         <div class="tags"><span class="pill">视觉小说</span><span class="pill">叙事</span></div>
         <div class="metrics">
@@ -554,6 +591,7 @@
           <span><b>热度</b>3 In-Demo</span>
           <span><b>日期</b>2026-04-17</span>
         </div>
+        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Liminal Studios / Liminal Studios</dd></div>
         </dl>
@@ -579,15 +617,16 @@
             <h3>非人类 试玩版</h3>
             <p>UNHUMAN Demo</p>
           </div>
-          <span class="badge">Demo</span>
+          <div class="score level-low"><b>29</b><span>Low</span></div>
         </div>
         <div class="tags"><span class="pill">2D</span><span class="pill">Idle</span><span class="pill">Extraction Shooter</span></div>
         <div class="metrics">
-          <span><b>在线</b>9</span>
+          <span><b>在线</b>12</span>
           <span><b>关注</b>N/A</span>
           <span><b>热度</b>1 In-Demo</span>
           <span><b>日期</b>2026-04-21</span>
         </div>
+        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>Demo 可验证试玩转化</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Kinda Lowkey Games / Kinda Lowkey Games</dd></div>
         </dl>
@@ -613,7 +652,7 @@
             <h3>哔普增量工坊 试玩版</h3>
             <p>BleepWare Incrementals Demo</p>
           </div>
-          <span class="badge">Demo</span>
+          <div class="score level-low"><b>20</b><span>Low</span></div>
         </div>
         <div class="tags"><span class="pill">增量</span><span class="pill">放置</span></div>
         <div class="metrics">
@@ -622,6 +661,7 @@
           <span><b>热度</b>1 In-Demo</span>
           <span><b>日期</b>2026-04-20</span>
         </div>
+        <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>beep2bleep / beep2bleep</dd></div>
         </dl>
@@ -654,15 +694,16 @@
             <h3>吸血鬼幸存者：狂飙爬行者</h3>
             <p>Vampire Crawlers: The Turbo Wildcard from Vampire Survivors</p>
           </div>
-          <span class="badge">Released</span>
+          <div class="score level-high"><b>65</b><span>High</span></div>
         </div>
         <div class="tags"><span class="pill">卡牌构筑</span><span class="pill">地牢</span><span class="pill">Roguelite</span></div>
         <div class="metrics">
-          <span><b>在线</b>42,554</span>
+          <span><b>在线</b>41,551</span>
           <span><b>关注</b>32,326</span>
           <span><b>热度</b>7d +11,699</span>
           <span><b>日期</b>2026-04-21</span>
         </div>
+        <div class="reasons"><span>关注基数高</span><span>当前在线人数高</span><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>poncle, Nosebleed / poncle</dd></div>
         </dl>
@@ -688,15 +729,16 @@
             <h3>阿尔比恩大师</h3>
             <p>Masters of Albion</p>
           </div>
-          <span class="badge">Released</span>
+          <div class="score level-medium"><b>51</b><span>Medium</span></div>
         </div>
         <div class="tags"><span class="pill">策略</span><span class="pill">模拟</span><span class="pill">God Game</span><span class="pill">城建</span></div>
         <div class="metrics">
-          <span><b>在线</b>306</span>
+          <span><b>在线</b>336</span>
           <span><b>关注</b>20,243</span>
           <span><b>热度</b>7d +3,277</span>
           <span><b>日期</b>2026-04-22</span>
         </div>
+        <div class="reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>22cans / 22cans</dd></div>
         </dl>
@@ -722,15 +764,16 @@
             <h3>打字农夫</h3>
             <p>Typing Farmer</p>
           </div>
-          <span class="badge">Released</span>
+          <div class="score level-medium"><b>50</b><span>Medium</span></div>
         </div>
         <div class="tags"><span class="pill">休闲</span><span class="pill">模拟</span><span class="pill">打字效率</span></div>
         <div class="metrics">
-          <span><b>在线</b>1,702</span>
+          <span><b>在线</b>1,541</span>
           <span><b>关注</b>29,857</span>
           <span><b>热度</b>7d +2,869</span>
           <span><b>日期</b>2026-04-19</span>
         </div>
+        <div class="reasons"><span>关注基数高</span><span>已有稳定在线</span><span>低门槛试玩或轻量入口</span><span>已发布，可观察真实在线</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>MilkwayStudio / MilkwayStudio</dd></div>
         </dl>
@@ -756,15 +799,16 @@
             <h3>竞拍之王</h3>
             <p>BidKing</p>
           </div>
-          <span class="badge">Released</span>
+          <div class="score level-medium"><b>60</b><span>Medium</span></div>
         </div>
         <div class="tags"><span class="pill">策略</span><span class="pill">模拟</span><span class="pill">多人竞拍</span></div>
         <div class="metrics">
-          <span><b>在线</b>44,139</span>
+          <span><b>在线</b>42,058</span>
           <span><b>关注</b>11,553</span>
           <span><b>热度</b>7d +3,971</span>
           <span><b>日期</b>2026-04-16</span>
         </div>
+        <div class="reasons"><span>当前在线人数高</span><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>MindSurge Network &amp; Games / Elegoose Games</dd></div>
         </dl>
@@ -790,15 +834,16 @@
             <h3>罪托邦</h3>
             <p>Sintopia</p>
           </div>
-          <span class="badge">Released</span>
+          <div class="score level-medium"><b>56</b><span>Medium</span></div>
         </div>
         <div class="tags"><span class="pill">管理</span><span class="pill">God Game</span><span class="pill">自动化</span><span class="pill">基地建设</span></div>
         <div class="metrics">
-          <span><b>在线</b>1,936</span>
+          <span><b>在线</b>1,933</span>
           <span><b>关注</b>17,764</span>
           <span><b>热度</b>7d +4,395</span>
           <span><b>日期</b>2026-04-16</span>
         </div>
+        <div class="reasons"><span>已有稳定在线</span><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
         <dl>
           <div><dt>开发 / 发行</dt><dd>Piraknights Games / Team17</dd></div>
         </dl>
