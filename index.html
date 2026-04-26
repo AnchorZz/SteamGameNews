@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steam 热门游戏推荐 · 2026年4月26日星期日</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --ink: #171b22;
+      --muted: #66707d;
+      --line: #dfe4ea;
+      --panel: #ffffff;
+      --shadow: 0 18px 42px rgba(22, 29, 39, 0.10);
+      --radius: 8px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: linear-gradient(180deg, #eef2f6 0, #f8fafc 360px, #f4f6f8 100%);
+      font-family: "Avenir Next", "PingFang SC", "Noto Sans SC", sans-serif;
+    }
+    .shell { max-width: 1480px; margin: 0 auto; padding: 22px 20px 72px; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 12px 0 18px;
+      background: linear-gradient(180deg, rgba(244,246,248,0.98), rgba(244,246,248,0.74));
+      backdrop-filter: blur(12px);
+    }
+    .brand { font-weight: 800; letter-spacing: 0; }
+    nav { display: flex; gap: 8px; }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: var(--radius);
+      font-size: 14px;
+      border: 1px solid transparent;
+    }
+    nav a.active, nav a:hover {
+      color: var(--ink);
+      background: #fff;
+      border-color: var(--line);
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 24px;
+      align-items: end;
+      padding: 30px 0 24px;
+      border-bottom: 1px solid var(--line);
+    }
+    h1 { margin: 0; font-size: 44px; line-height: 1.1; letter-spacing: 0; }
+    .subtitle { max-width: 760px; margin: 12px 0 0; color: var(--muted); line-height: 1.7; }
+    .quick-stats { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    .quick-stats span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,0.8);
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .section-band { padding-top: 34px; }
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 14px;
+    }
+    .section-head h2 { margin: 0; font-size: 26px; letter-spacing: 0; }
+    .section-head p { margin: 0; color: var(--muted); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .game-card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+    .cover {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 460 / 215;
+      background: #20242c;
+      border-bottom: 4px solid var(--accent);
+    }
+    .cover::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 22% 18%, rgba(255,255,255,0.32), transparent 30%),
+        linear-gradient(135deg, var(--accent), #242832 54%, #0f7173);
+    }
+    .cover::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 44%;
+      background: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,0.35));
+      pointer-events: none;
+    }
+    .cover img {
+      display: block;
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 2;
+    }
+    .cover-copy {
+      position: absolute;
+      inset: 16px;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 8px;
+      color: #fff;
+    }
+    .cover-copy b {
+      align-self: flex-start;
+      padding: 6px 9px;
+      border: 1px solid rgba(255,255,255,0.24);
+      border-radius: var(--radius);
+      background: rgba(0,0,0,0.18);
+      font-size: 11px;
+      letter-spacing: 0;
+    }
+    .cover-copy strong {
+      max-width: 88%;
+      font-size: 28px;
+      line-height: 1.16;
+      letter-spacing: 0;
+    }
+    .cover-copy small {
+      max-width: 88%;
+      color: rgba(255,255,255,0.82);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+    .card-body { padding: 16px; }
+    .title-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: start;
+    }
+    h3 { margin: 0; font-size: 23px; line-height: 1.22; letter-spacing: 0; }
+    .title-row p { margin: 6px 0 0; color: var(--muted); line-height: 1.45; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 6px 10px;
+      border-radius: var(--radius);
+      color: #fff;
+      background: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .tags, .metrics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .pill, .metrics span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 7px 10px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fbfcfd;
+      font-size: 13px;
+    }
+    .metrics b {
+      margin-right: 6px;
+      color: var(--accent);
+      font-size: 12px;
+    }
+    dl { margin: 15px 0 0; }
+    dl div {
+      display: grid;
+      grid-template-columns: 86px minmax(0, 1fr);
+      gap: 10px;
+      line-height: 1.55;
+    }
+    dt { color: var(--muted); }
+    dd { margin: 0; }
+    .summary {
+      margin: 14px 0 0;
+      padding: 12px;
+      border-radius: var(--radius);
+      background: #f3f6f8;
+      color: #27313d;
+      line-height: 1.65;
+    }
+    .actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .actions a {
+      flex: 1;
+      text-align: center;
+      color: #fff;
+      background: #1c6e77;
+      text-decoration: none;
+      padding: 10px 12px;
+      border-radius: var(--radius);
+      font-weight: 800;
+    }
+    .actions a + a { background: #303847; }
+    .archive-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .archive-item {
+      display: block;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      color: var(--ink);
+      text-decoration: none;
+      box-shadow: 0 10px 24px rgba(22, 29, 39, 0.06);
+    }
+    .archive-item span { display: block; color: var(--muted); margin-top: 6px; }
+    @media (max-width: 760px) {
+      .shell { padding: 14px 12px 56px; }
+      .topbar, .hero, .section-head { align-items: start; flex-direction: column; display: flex; }
+      nav { width: 100%; }
+      nav a { flex: 1; text-align: center; }
+      h1 { font-size: 34px; }
+      .quick-stats { justify-content: flex-start; }
+      .grid { grid-template-columns: 1fr; }
+      dl div { grid-template-columns: 1fr; gap: 3px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="topbar">
+      <div class="brand">Steam 热门游戏推荐</div>
+      <nav><a class="active" href="index.html">首页</a><a class="" href="week/index.html">本周</a><a class="" href="month/index.html">本月</a></nav>
+    </div>
+    <header class="hero">
+      <div>
+        <h1>Steam 热门游戏推荐 · 2026年4月26日星期日</h1>
+        <p class="subtitle">每天抓取最新 Steam 新商店页、新上线 Demo、新发布游戏，并按爆款潜质整理为可分享卡片。</p>
+      </div>
+      <div class="quick-stats">
+        <span>每日自动更新</span>
+        <span>首页显示最新</span>
+        <span>本地封面资源</span>
+      </div>
+    </header>
+    
+    <section class="section-band" id="new-store">
+      <div class="section-head">
+        <h2>新公布商店页面</h2>
+        <p>更适合看愿望单潜力与题材辨识度</p>
+      </div>
+      <div class="grid">
+    <article class="game-card" style="--accent:#d75b39">
+      <a class="cover" href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>New Store</b>
+          <strong>刺客信条：黑旗 重构版</strong>
+          <small>Assassin&#39;s Creed Black Flag Resynced</small>
+        </span>
+        <img src="assets/covers/2026-04-26/3751950.jpg" alt="Assassin&#39;s Creed Black Flag Resynced cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>刺客信条：黑旗 重构版</h3>
+            <p>Assassin&#39;s Creed Black Flag Resynced</p>
+          </div>
+          <span class="badge">New Store</span>
+        </div>
+        <div class="tags"><span class="pill">动作</span><span class="pill">冒险</span><span class="pill">潜行</span><span class="pill">海盗</span></div>
+        <div class="metrics">
+          <span><b>在线</b>未公开</span>
+          <span><b>关注</b>24,880</span>
+          <span><b>热度</b>7d +24,880</span>
+          <span><b>日期</b>2026-07-09</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>Ubisoft Singapore 等 / Ubisoft</dd></div>
+        </dl>
+        <p class="summary">经典 IP 重制，预购期自带传播基础，适合做情怀回归与重制对比内容。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://www.ubisoft.com/help/contact" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#d75b39">
+      <a class="cover" href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>New Store</b>
+          <strong>地铁 2039</strong>
+          <small>METRO 2039</small>
+        </span>
+        <img src="assets/covers/2026-04-26/2590240.jpg" alt="METRO 2039 cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>地铁 2039</h3>
+            <p>METRO 2039</p>
+          </div>
+          <span class="badge">New Store</span>
+        </div>
+        <div class="tags"><span class="pill">FPS</span><span class="pill">后末日</span><span class="pill">剧情向</span></div>
+        <div class="metrics">
+          <span><b>在线</b>未公开</span>
+          <span><b>关注</b>41,553</span>
+          <span><b>热度</b>7d +19,050</span>
+          <span><b>日期</b>TBA</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>4A Games / Deep Silver</dd></div>
+        </dl>
+        <p class="summary">系列新作首曝，增粉速度快，世界观辨识度高，适合做设定解读与彩蛋拆解。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://www.deepsilver.com/contact/" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#d75b39">
+      <a class="cover" href="https://store.steampowered.com/app/1857810/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>New Store</b>
+          <strong>龙珠：异战 3</strong>
+          <small>DRAGON BALL XENOVERSE 3</small>
+        </span>
+        <img src="assets/covers/2026-04-26/1857810.jpg" alt="DRAGON BALL XENOVERSE 3 cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>龙珠：异战 3</h3>
+            <p>DRAGON BALL XENOVERSE 3</p>
+          </div>
+          <span class="badge">New Store</span>
+        </div>
+        <div class="tags"><span class="pill">动作 RPG</span><span class="pill">3D 格斗</span><span class="pill">动漫</span></div>
+        <div class="metrics">
+          <span><b>在线</b>未公开</span>
+          <span><b>关注</b>9,717</span>
+          <span><b>热度</b>7d +9,717</span>
+          <span><b>日期</b>2027</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>Dimps / Bandai Namco</dd></div>
+        </dl>
+        <p class="summary">强 IP 新条目，首周关注释放直接，适合做角色阵容预测和系列进化讨论。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/1857810/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://service-en.bandainamcoent.eu/" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#d75b39">
+      <a class="cover" href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>New Store</b>
+          <strong>缉毒飞行员招募令</strong>
+          <small>Cartel Pilots Wanted</small>
+        </span>
+        <img src="assets/covers/2026-04-26/4614080.jpg" alt="Cartel Pilots Wanted cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>缉毒飞行员招募令</h3>
+            <p>Cartel Pilots Wanted</p>
+          </div>
+          <span class="badge">New Store</span>
+        </div>
+        <div class="tags"><span class="pill">飞行</span><span class="pill">模拟</span><span class="pill">合作</span><span class="pill">开放世界</span></div>
+        <div class="metrics">
+          <span><b>在线</b>未公开</span>
+          <span><b>关注</b>9,566</span>
+          <span><b>热度</b>7d +9,564</span>
+          <span><b>日期</b>TBA</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>OldYacht / Polden Publishing</dd></div>
+        </dl>
+        <p class="summary">合作飞行题材少见，概念记忆点强，适合多人内容和高概念卖点传播。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://steamcommunity.com/app/4614080" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#d75b39">
+      <a class="cover" href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>New Store</b>
+          <strong>绝区零</strong>
+          <small>Zenless Zone Zero</small>
+        </span>
+        <img src="assets/covers/2026-04-26/4162040.jpg" alt="Zenless Zone Zero cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>绝区零</h3>
+            <p>Zenless Zone Zero</p>
+          </div>
+          <span class="badge">New Store</span>
+        </div>
+        <div class="tags"><span class="pill">免费</span><span class="pill">动作</span><span class="pill">ARPG</span><span class="pill">二次元</span></div>
+        <div class="metrics">
+          <span><b>在线</b>未公开</span>
+          <span><b>关注</b>7,342</span>
+          <span><b>热度</b>7d +7,342</span>
+          <span><b>日期</b>Q2 2026</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>COGNOSPHERE / COGNOSPHERE</dd></div>
+        </dl>
+        <p class="summary">大盘产品进入 Steam 后有新增用户池，适合做版本入坑、角色内容和平台迁移观察。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://cs.hoyoverse.com/" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article></div>
+    </section>
+    <section class="section-band" id="new-demo">
+      <div class="section-head">
+        <h2>新上线 Demo</h2>
+        <p>更适合看试玩留存与题材传播性</p>
+      </div>
+      <div class="grid">
+    <article class="game-card" style="--accent:#237f87">
+      <a class="cover" href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>Demo</b>
+          <strong>泰拉田园物语 试玩版</strong>
+          <small>Tales of Terrarum Demo</small>
+        </span>
+        <img src="assets/covers/2026-04-26/4588570.jpg" alt="Tales of Terrarum Demo cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>泰拉田园物语 试玩版</h3>
+            <p>Tales of Terrarum Demo</p>
+          </div>
+          <span class="badge">Demo</span>
+        </div>
+        <div class="tags"><span class="pill">模拟经营</span><span class="pill">冒险</span></div>
+        <div class="metrics">
+          <span><b>在线</b>0</span>
+          <span><b>关注</b>N/A</span>
+          <span><b>热度</b>4 In-Demo</span>
+          <span><b>日期</b>2026-04-23</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>Electronic Soul / CYSTUDIO</dd></div>
+        </dl>
+        <p class="summary">试玩在线信号在同批条目里更亮眼，适合做试玩首印象和种草切片。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://steamcommunity.com/app/4588570" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#237f87">
+      <a class="cover" href="https://store.steampowered.com/app/4605330/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>Demo</b>
+          <strong>消逝者 试玩版</strong>
+          <small>Vanisha Demo</small>
+        </span>
+        <img src="assets/covers/2026-04-26/4605330.jpg" alt="Vanisha Demo cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>消逝者 试玩版</h3>
+            <p>Vanisha Demo</p>
+          </div>
+          <span class="badge">Demo</span>
+        </div>
+        <div class="tags"><span class="pill">动作</span></div>
+        <div class="metrics">
+          <span><b>在线</b>0</span>
+          <span><b>关注</b>N/A</span>
+          <span><b>热度</b>3 In-Demo</span>
+          <span><b>日期</b>2026-04-22</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>DANYL / DANYL</dd></div>
+        </dl>
+        <p class="summary">试玩留存稳定，说明首轮体验完成度不差，值得关注后续口碑扩散曲线。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/4605330/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://steamcommunity.com/app/4605330" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#237f87">
+      <a class="cover" href="https://store.steampowered.com/app/4582190/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>Demo</b>
+          <strong>IA 试玩版</strong>
+          <small>IA Demo</small>
+        </span>
+        <img src="assets/covers/2026-04-26/4582190.jpg" alt="IA Demo cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>IA 试玩版</h3>
+            <p>IA Demo</p>
+          </div>
+          <span class="badge">Demo</span>
+        </div>
+        <div class="tags"><span class="pill">视觉小说</span><span class="pill">叙事</span></div>
+        <div class="metrics">
+          <span><b>在线</b>0</span>
+          <span><b>关注</b>N/A</span>
+          <span><b>热度</b>3 In-Demo</span>
+          <span><b>日期</b>2026-04-17</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>Liminal Studios / Liminal Studios</dd></div>
+        </dl>
+        <p class="summary">垂类受众明确，更像口碑驱动项目，适合做剧情氛围与人设方向包装。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/4582190/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://steamcommunity.com/app/4582190" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#237f87">
+      <a class="cover" href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>Demo</b>
+          <strong>非人类 试玩版</strong>
+          <small>UNHUMAN Demo</small>
+        </span>
+        <img src="assets/covers/2026-04-26/4640310.jpg" alt="UNHUMAN Demo cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>非人类 试玩版</h3>
+            <p>UNHUMAN Demo</p>
+          </div>
+          <span class="badge">Demo</span>
+        </div>
+        <div class="tags"><span class="pill">2D</span><span class="pill">Idle</span><span class="pill">Extraction Shooter</span></div>
+        <div class="metrics">
+          <span><b>在线</b>9</span>
+          <span><b>关注</b>N/A</span>
+          <span><b>热度</b>1 In-Demo</span>
+          <span><b>日期</b>2026-04-21</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>Kinda Lowkey Games / Kinda Lowkey Games</dd></div>
+        </dl>
+        <p class="summary">Idle 与撤离射击组合少见，适合观察是否能靠玩法概念驱动传播。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://steamcommunity.com/app/4640310" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#237f87">
+      <a class="cover" href="https://store.steampowered.com/app/4642530/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>Demo</b>
+          <strong>哔普增量工坊 试玩版</strong>
+          <small>BleepWare Incrementals Demo</small>
+        </span>
+        <img src="assets/covers/2026-04-26/4642530.jpg" alt="BleepWare Incrementals Demo cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>哔普增量工坊 试玩版</h3>
+            <p>BleepWare Incrementals Demo</p>
+          </div>
+          <span class="badge">Demo</span>
+        </div>
+        <div class="tags"><span class="pill">增量</span><span class="pill">放置</span></div>
+        <div class="metrics">
+          <span><b>在线</b>0</span>
+          <span><b>关注</b>N/A</span>
+          <span><b>热度</b>1 In-Demo</span>
+          <span><b>日期</b>2026-04-20</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>beep2bleep / beep2bleep</dd></div>
+        </dl>
+        <p class="summary">低门槛循环玩法，适合轻推荐、短内容和放置上头感传播。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/4642530/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://steamcommunity.com/app/4642530" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article></div>
+    </section>
+    <section class="section-band" id="released">
+      <div class="section-head">
+        <h2>新发布游戏</h2>
+        <p>更适合看上线后真实热度与转化表现</p>
+      </div>
+      <div class="grid">
+    <article class="game-card" style="--accent:#6b7c2f">
+      <a class="cover" href="https://store.steampowered.com/app/3265700/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>Released</b>
+          <strong>吸血鬼幸存者：狂飙爬行者</strong>
+          <small>Vampire Crawlers: The Turbo Wildcard from Vampire Survivors</small>
+        </span>
+        <img src="assets/covers/2026-04-26/3265700.jpg" alt="Vampire Crawlers: The Turbo Wildcard from Vampire Survivors cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>吸血鬼幸存者：狂飙爬行者</h3>
+            <p>Vampire Crawlers: The Turbo Wildcard from Vampire Survivors</p>
+          </div>
+          <span class="badge">Released</span>
+        </div>
+        <div class="tags"><span class="pill">卡牌构筑</span><span class="pill">地牢</span><span class="pill">Roguelite</span></div>
+        <div class="metrics">
+          <span><b>在线</b>43,490</span>
+          <span><b>关注</b>32,326</span>
+          <span><b>热度</b>7d +11,699</span>
+          <span><b>日期</b>2026-04-21</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>poncle, Nosebleed / poncle</dd></div>
+        </dl>
+        <p class="summary">口碑和并发同步上扬，是本批里最像已经跑出来的条目，适合优先追踪社区和二创。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/3265700/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://poncle.games" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#6b7c2f">
+      <a class="cover" href="https://store.steampowered.com/app/3165650/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>Released</b>
+          <strong>阿尔比恩大师</strong>
+          <small>Masters of Albion</small>
+        </span>
+        <img src="assets/covers/2026-04-26/3165650.jpg" alt="Masters of Albion cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>阿尔比恩大师</h3>
+            <p>Masters of Albion</p>
+          </div>
+          <span class="badge">Released</span>
+        </div>
+        <div class="tags"><span class="pill">策略</span><span class="pill">模拟</span><span class="pill">God Game</span><span class="pill">城建</span></div>
+        <div class="metrics">
+          <span><b>在线</b>306</span>
+          <span><b>关注</b>20,243</span>
+          <span><b>热度</b>7d +3,277</span>
+          <span><b>日期</b>2026-04-22</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>22cans / 22cans</dd></div>
+        </dl>
+        <p class="summary">题材复兴叠加创作者品牌，适合做玩法深挖和老派 God Game 回归叙事。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/3165650/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://22cans.com/" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#6b7c2f">
+      <a class="cover" href="https://store.steampowered.com/app/4216670/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>Released</b>
+          <strong>打字农夫</strong>
+          <small>Typing Farmer</small>
+        </span>
+        <img src="assets/covers/2026-04-26/4216670.jpg" alt="Typing Farmer cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>打字农夫</h3>
+            <p>Typing Farmer</p>
+          </div>
+          <span class="badge">Released</span>
+        </div>
+        <div class="tags"><span class="pill">休闲</span><span class="pill">模拟</span><span class="pill">打字效率</span></div>
+        <div class="metrics">
+          <span><b>在线</b>1,702</span>
+          <span><b>关注</b>29,857</span>
+          <span><b>热度</b>7d +2,869</span>
+          <span><b>日期</b>2026-04-19</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>MilkwayStudio / MilkwayStudio</dd></div>
+        </dl>
+        <p class="summary">办公陪伴型定位清晰，有效率工具化与游戏化陪伴的差异化内容点。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/4216670/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://steamcommunity.com/app/4216670" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#6b7c2f">
+      <a class="cover" href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>Released</b>
+          <strong>竞拍之王</strong>
+          <small>BidKing</small>
+        </span>
+        <img src="assets/covers/2026-04-26/4128580.jpg" alt="BidKing cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>竞拍之王</h3>
+            <p>BidKing</p>
+          </div>
+          <span class="badge">Released</span>
+        </div>
+        <div class="tags"><span class="pill">策略</span><span class="pill">模拟</span><span class="pill">多人竞拍</span></div>
+        <div class="metrics">
+          <span><b>在线</b>46,178</span>
+          <span><b>关注</b>11,553</span>
+          <span><b>热度</b>7d +3,971</span>
+          <span><b>日期</b>2026-04-16</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>MindSurge Network &amp; Games / Elegoose Games</dd></div>
+        </dl>
+        <p class="summary">热度高但口碑分化，适合做值不值得玩或争议点总结，天然带讨论流量。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://steamcommunity.com/app/4128580" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article>
+    <article class="game-card" style="--accent:#6b7c2f">
+      <a class="cover" href="https://store.steampowered.com/app/2213700/" target="_blank" rel="noreferrer">
+        <span class="cover-copy">
+          <b>Released</b>
+          <strong>罪托邦</strong>
+          <small>Sintopia</small>
+        </span>
+        <img src="assets/covers/2026-04-26/2213700.jpg" alt="Sintopia cover" loading="lazy" onerror="this.remove()">
+      </a>
+      <div class="card-body">
+        <div class="title-row">
+          <div>
+            <h3>罪托邦</h3>
+            <p>Sintopia</p>
+          </div>
+          <span class="badge">Released</span>
+        </div>
+        <div class="tags"><span class="pill">管理</span><span class="pill">God Game</span><span class="pill">自动化</span><span class="pill">基地建设</span></div>
+        <div class="metrics">
+          <span><b>在线</b>1,936</span>
+          <span><b>关注</b>17,764</span>
+          <span><b>热度</b>7d +4,395</span>
+          <span><b>日期</b>2026-04-16</span>
+        </div>
+        <dl>
+          <div><dt>开发 / 发行</dt><dd>Piraknights Games / Team17</dd></div>
+        </dl>
+        <p class="summary">中核经营盘稳定，如果更新节奏跟上，后续还有二次扩散空间。</p>
+        <div class="actions">
+          <a href="https://store.steampowered.com/app/2213700/" target="_blank" rel="noreferrer">Steam</a>
+          <a href="https://www.team17.com/contact/" target="_blank" rel="noreferrer">联系</a>
+        </div>
+      </div>
+    </article></div>
+    </section>
+  </main>
+</body>
+</html>

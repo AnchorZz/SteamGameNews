@@ -1,0 +1,357 @@
+{
+  "date": "2026-04-26",
+  "title": "Steam 热门游戏推荐",
+  "sections": [
+    {
+      "id": "new-store",
+      "title": "新公布商店页面",
+      "description": "更适合看愿望单潜力与题材辨识度",
+      "games": [
+        {
+          "appid": "3751950",
+          "name_zh": "刺客信条：黑旗 重构版",
+          "name_en": "Assassin's Creed Black Flag Resynced",
+          "category": "New Store",
+          "tags": [
+            "动作",
+            "冒险",
+            "潜行",
+            "海盗"
+          ],
+          "developer": "Ubisoft Singapore 等",
+          "publisher": "Ubisoft",
+          "release_date": "2026-07-09",
+          "followers": "24,880",
+          "heat": "7d +24,880",
+          "summary": "经典 IP 重制，预购期自带传播基础，适合做情怀回归与重制对比内容。",
+          "steam_url": "https://store.steampowered.com/app/3751950/",
+          "contact_url": "https://www.ubisoft.com/help/contact",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/header.jpg",
+          "current_players": null,
+          "cover_local_path": "/assets/covers/2026-04-26/3751950.jpg"
+        },
+        {
+          "appid": "2590240",
+          "name_zh": "地铁 2039",
+          "name_en": "METRO 2039",
+          "category": "New Store",
+          "tags": [
+            "FPS",
+            "后末日",
+            "剧情向"
+          ],
+          "developer": "4A Games",
+          "publisher": "Deep Silver",
+          "release_date": "TBA",
+          "followers": "41,553",
+          "heat": "7d +19,050",
+          "summary": "系列新作首曝，增粉速度快，世界观辨识度高，适合做设定解读与彩蛋拆解。",
+          "steam_url": "https://store.steampowered.com/app/2590240/",
+          "contact_url": "https://www.deepsilver.com/contact/",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2590240/header.jpg",
+          "current_players": null,
+          "cover_local_path": "/assets/covers/2026-04-26/2590240.jpg"
+        },
+        {
+          "appid": "1857810",
+          "name_zh": "龙珠：异战 3",
+          "name_en": "DRAGON BALL XENOVERSE 3",
+          "category": "New Store",
+          "tags": [
+            "动作 RPG",
+            "3D 格斗",
+            "动漫"
+          ],
+          "developer": "Dimps",
+          "publisher": "Bandai Namco",
+          "release_date": "2027",
+          "followers": "9,717",
+          "heat": "7d +9,717",
+          "summary": "强 IP 新条目，首周关注释放直接，适合做角色阵容预测和系列进化讨论。",
+          "steam_url": "https://store.steampowered.com/app/1857810/",
+          "contact_url": "https://service-en.bandainamcoent.eu/",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1857810/header.jpg",
+          "current_players": null,
+          "cover_local_path": "/assets/covers/2026-04-26/1857810.jpg"
+        },
+        {
+          "appid": "4614080",
+          "name_zh": "缉毒飞行员招募令",
+          "name_en": "Cartel Pilots Wanted",
+          "category": "New Store",
+          "tags": [
+            "飞行",
+            "模拟",
+            "合作",
+            "开放世界"
+          ],
+          "developer": "OldYacht",
+          "publisher": "Polden Publishing",
+          "release_date": "TBA",
+          "followers": "9,566",
+          "heat": "7d +9,564",
+          "summary": "合作飞行题材少见，概念记忆点强，适合多人内容和高概念卖点传播。",
+          "steam_url": "https://store.steampowered.com/app/4614080/",
+          "contact_url": "https://steamcommunity.com/app/4614080",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4614080/header.jpg",
+          "current_players": null,
+          "cover_local_path": "/assets/covers/2026-04-26/4614080.jpg"
+        },
+        {
+          "appid": "4162040",
+          "name_zh": "绝区零",
+          "name_en": "Zenless Zone Zero",
+          "category": "New Store",
+          "tags": [
+            "免费",
+            "动作",
+            "ARPG",
+            "二次元"
+          ],
+          "developer": "COGNOSPHERE",
+          "publisher": "COGNOSPHERE",
+          "release_date": "Q2 2026",
+          "followers": "7,342",
+          "heat": "7d +7,342",
+          "summary": "大盘产品进入 Steam 后有新增用户池，适合做版本入坑、角色内容和平台迁移观察。",
+          "steam_url": "https://store.steampowered.com/app/4162040/",
+          "contact_url": "https://cs.hoyoverse.com/",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/header.jpg",
+          "current_players": null,
+          "cover_local_path": "/assets/covers/2026-04-26/4162040.jpg"
+        }
+      ]
+    },
+    {
+      "id": "new-demo",
+      "title": "新上线 Demo",
+      "description": "更适合看试玩留存与题材传播性",
+      "games": [
+        {
+          "appid": "4588570",
+          "name_zh": "泰拉田园物语 试玩版",
+          "name_en": "Tales of Terrarum Demo",
+          "category": "Demo",
+          "tags": [
+            "模拟经营",
+            "冒险"
+          ],
+          "developer": "Electronic Soul",
+          "publisher": "CYSTUDIO",
+          "release_date": "2026-04-23",
+          "followers": "N/A",
+          "heat": "4 In-Demo",
+          "summary": "试玩在线信号在同批条目里更亮眼，适合做试玩首印象和种草切片。",
+          "steam_url": "https://store.steampowered.com/app/4588570/",
+          "contact_url": "https://steamcommunity.com/app/4588570",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588570/header.jpg",
+          "current_players": 0,
+          "cover_local_path": "/assets/covers/2026-04-26/4588570.jpg"
+        },
+        {
+          "appid": "4605330",
+          "name_zh": "消逝者 试玩版",
+          "name_en": "Vanisha Demo",
+          "category": "Demo",
+          "tags": [
+            "动作"
+          ],
+          "developer": "DANYL",
+          "publisher": "DANYL",
+          "release_date": "2026-04-22",
+          "followers": "N/A",
+          "heat": "3 In-Demo",
+          "summary": "试玩留存稳定，说明首轮体验完成度不差，值得关注后续口碑扩散曲线。",
+          "steam_url": "https://store.steampowered.com/app/4605330/",
+          "contact_url": "https://steamcommunity.com/app/4605330",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4605330/header.jpg",
+          "current_players": 0,
+          "cover_local_path": "/assets/covers/2026-04-26/4605330.jpg"
+        },
+        {
+          "appid": "4582190",
+          "name_zh": "IA 试玩版",
+          "name_en": "IA Demo",
+          "category": "Demo",
+          "tags": [
+            "视觉小说",
+            "叙事"
+          ],
+          "developer": "Liminal Studios",
+          "publisher": "Liminal Studios",
+          "release_date": "2026-04-17",
+          "followers": "N/A",
+          "heat": "3 In-Demo",
+          "summary": "垂类受众明确，更像口碑驱动项目，适合做剧情氛围与人设方向包装。",
+          "steam_url": "https://store.steampowered.com/app/4582190/",
+          "contact_url": "https://steamcommunity.com/app/4582190",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4582190/header.jpg",
+          "current_players": 0,
+          "cover_local_path": "/assets/covers/2026-04-26/4582190.jpg"
+        },
+        {
+          "appid": "4640310",
+          "name_zh": "非人类 试玩版",
+          "name_en": "UNHUMAN Demo",
+          "category": "Demo",
+          "tags": [
+            "2D",
+            "Idle",
+            "Extraction Shooter"
+          ],
+          "developer": "Kinda Lowkey Games",
+          "publisher": "Kinda Lowkey Games",
+          "release_date": "2026-04-21",
+          "followers": "N/A",
+          "heat": "1 In-Demo",
+          "summary": "Idle 与撤离射击组合少见，适合观察是否能靠玩法概念驱动传播。",
+          "steam_url": "https://store.steampowered.com/app/4640310/",
+          "contact_url": "https://steamcommunity.com/app/4640310",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg",
+          "current_players": 9,
+          "cover_local_path": "/assets/covers/2026-04-26/4640310.jpg"
+        },
+        {
+          "appid": "4642530",
+          "name_zh": "哔普增量工坊 试玩版",
+          "name_en": "BleepWare Incrementals Demo",
+          "category": "Demo",
+          "tags": [
+            "增量",
+            "放置"
+          ],
+          "developer": "beep2bleep",
+          "publisher": "beep2bleep",
+          "release_date": "2026-04-20",
+          "followers": "N/A",
+          "heat": "1 In-Demo",
+          "summary": "低门槛循环玩法，适合轻推荐、短内容和放置上头感传播。",
+          "steam_url": "https://store.steampowered.com/app/4642530/",
+          "contact_url": "https://steamcommunity.com/app/4642530",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4642530/header.jpg",
+          "current_players": 0,
+          "cover_local_path": "/assets/covers/2026-04-26/4642530.jpg"
+        }
+      ]
+    },
+    {
+      "id": "released",
+      "title": "新发布游戏",
+      "description": "更适合看上线后真实热度与转化表现",
+      "games": [
+        {
+          "appid": "3265700",
+          "name_zh": "吸血鬼幸存者：狂飙爬行者",
+          "name_en": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+          "category": "Released",
+          "tags": [
+            "卡牌构筑",
+            "地牢",
+            "Roguelite"
+          ],
+          "developer": "poncle, Nosebleed",
+          "publisher": "poncle",
+          "release_date": "2026-04-21",
+          "followers": "32,326",
+          "heat": "7d +11,699",
+          "summary": "口碑和并发同步上扬，是本批里最像已经跑出来的条目，适合优先追踪社区和二创。",
+          "steam_url": "https://store.steampowered.com/app/3265700/",
+          "contact_url": "https://poncle.games",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/header.jpg",
+          "current_players": 43490,
+          "cover_local_path": "/assets/covers/2026-04-26/3265700.jpg"
+        },
+        {
+          "appid": "3165650",
+          "name_zh": "阿尔比恩大师",
+          "name_en": "Masters of Albion",
+          "category": "Released",
+          "tags": [
+            "策略",
+            "模拟",
+            "God Game",
+            "城建"
+          ],
+          "developer": "22cans",
+          "publisher": "22cans",
+          "release_date": "2026-04-22",
+          "followers": "20,243",
+          "heat": "7d +3,277",
+          "summary": "题材复兴叠加创作者品牌，适合做玩法深挖和老派 God Game 回归叙事。",
+          "steam_url": "https://store.steampowered.com/app/3165650/",
+          "contact_url": "https://22cans.com/",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3165650/header.jpg",
+          "current_players": 306,
+          "cover_local_path": "/assets/covers/2026-04-26/3165650.jpg"
+        },
+        {
+          "appid": "4216670",
+          "name_zh": "打字农夫",
+          "name_en": "Typing Farmer",
+          "category": "Released",
+          "tags": [
+            "休闲",
+            "模拟",
+            "打字效率"
+          ],
+          "developer": "MilkwayStudio",
+          "publisher": "MilkwayStudio",
+          "release_date": "2026-04-19",
+          "followers": "29,857",
+          "heat": "7d +2,869",
+          "summary": "办公陪伴型定位清晰，有效率工具化与游戏化陪伴的差异化内容点。",
+          "steam_url": "https://store.steampowered.com/app/4216670/",
+          "contact_url": "https://steamcommunity.com/app/4216670",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4216670/header.jpg",
+          "current_players": 1702,
+          "cover_local_path": "/assets/covers/2026-04-26/4216670.jpg"
+        },
+        {
+          "appid": "4128580",
+          "name_zh": "竞拍之王",
+          "name_en": "BidKing",
+          "category": "Released",
+          "tags": [
+            "策略",
+            "模拟",
+            "多人竞拍"
+          ],
+          "developer": "MindSurge Network & Games",
+          "publisher": "Elegoose Games",
+          "release_date": "2026-04-16",
+          "followers": "11,553",
+          "heat": "7d +3,971",
+          "summary": "热度高但口碑分化，适合做值不值得玩或争议点总结，天然带讨论流量。",
+          "steam_url": "https://store.steampowered.com/app/4128580/",
+          "contact_url": "https://steamcommunity.com/app/4128580",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4128580/header.jpg",
+          "current_players": 46178,
+          "cover_local_path": "/assets/covers/2026-04-26/4128580.jpg"
+        },
+        {
+          "appid": "2213700",
+          "name_zh": "罪托邦",
+          "name_en": "Sintopia",
+          "category": "Released",
+          "tags": [
+            "管理",
+            "God Game",
+            "自动化",
+            "基地建设"
+          ],
+          "developer": "Piraknights Games",
+          "publisher": "Team17",
+          "release_date": "2026-04-16",
+          "followers": "17,764",
+          "heat": "7d +4,395",
+          "summary": "中核经营盘稳定，如果更新节奏跟上，后续还有二次扩散空间。",
+          "steam_url": "https://store.steampowered.com/app/2213700/",
+          "contact_url": "https://www.team17.com/contact/",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2213700/header.jpg",
+          "current_players": 1936,
+          "cover_local_path": "/assets/covers/2026-04-26/2213700.jpg"
+        }
+      ]
+    }
+  ]
+}
