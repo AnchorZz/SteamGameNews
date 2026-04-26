@@ -174,6 +174,24 @@
       font-size: 18px;
     }
     .title-row p { margin: 6px 0 0; color: var(--muted); line-height: 1.45; }
+    .title-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+      color: #52606f;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+    .title-meta span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 4px 8px;
+      border: 1px solid #e0e5eb;
+      border-radius: var(--radius);
+      background: #f8fafc;
+    }
     .score {
       display: grid;
       place-items: center;
@@ -190,22 +208,21 @@
     .level-low { background: #6c7685; }
     .chip-block {
       margin-top: 14px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
     }
-    .chip-label {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 8px;
-      color: #4b5563;
-      font-size: 12px;
-      font-weight: 800;
+    .chip-block-tags {
+      border-color: #dce4ef;
+      background: linear-gradient(180deg, #fbfcff, #f3f6fb);
     }
-    .chip-label::before {
-      content: "";
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--accent);
+    .chip-block-metrics {
+      border-color: #cfe3e6;
+      background: linear-gradient(180deg, #f7fbfb, #edf6f6);
+    }
+    .chip-block-reasons {
+      border-color: #ddd4e9;
+      background: linear-gradient(180deg, #fbf9ff, #f3eefb);
     }
     .tags, .metrics, .reasons {
       display: flex;
@@ -223,17 +240,18 @@
       font-size: 13px;
     }
     .tags span {
-      border-color: #d8dfeb;
-      color: #27313d;
-      background: #f7f9fc;
+      border-color: #cfd8e6;
+      color: #253247;
+      background: #ffffff;
+      box-shadow: inset 0 -1px 0 rgba(37, 50, 71, 0.06);
     }
     .metrics span {
       display: grid;
       grid-template-columns: auto minmax(0, 1fr);
       gap: 6px;
-      border-color: #d6e4e6;
+      border-color: #c7dde0;
       color: #173f45;
-      background: #f2f8f8;
+      background: #ffffff;
     }
     .metrics b {
       color: var(--accent);
@@ -250,24 +268,17 @@
       border-color: #e4d2bf;
       color: #704113;
       background: #fff7ed;
+      box-shadow: inset 3px 0 0 #d97706;
     }
     .metrics .metric-rank b {
       color: #a45215;
     }
     .reasons span {
-      border-color: #d9d3e7;
+      border-color: #d4c9e4;
       color: #3c2f5c;
-      background: #f5f2fb;
+      background: #ffffff;
+      box-shadow: inset 3px 0 0 #8b6bb8;
     }
-    dl { margin: 15px 0 0; }
-    dl div {
-      display: grid;
-      grid-template-columns: 86px minmax(0, 1fr);
-      gap: 10px;
-      line-height: 1.55;
-    }
-    dt { color: var(--muted); }
-    dd { margin: 0; }
     .summary {
       margin: 14px 0 0;
       padding: 12px;
@@ -374,25 +385,16 @@
           <div>
             <h3>AION 2</h3>
             <p>AION 2</p>
+            <div class="title-meta"><span>上线 2026</span><span>NC</span></div>
           </div>
           <div class="score level-low"><b>35</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>免费</span><span>MMORPG</span><span>开放世界</span><span>PvP</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>7,288</em></span><span class="metric-rank"><b>愿望单榜</b><em>#617</em></span><span class="metric-rank"><b>活跃榜</b><em>#37</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>SteamDB 近周新进</em></span><span class=""><b>日期</b><em>2026</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>免费</span><span>MMORPG</span><span>开放世界</span><span>PvP</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>7,288</em></span><span class="metric-rank"><b>愿望单榜</b><em>#617</em></span><span class="metric-rank"><b>活跃榜</b><em>#37</em></span><span class=""><b>热度</b><em>SteamDB 近周新进</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>新商店页处于愿望单积累期</span><span>曾位于分类头部</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>NC / NC</dd></div>
-        </dl>
         <p class="summary">老牌 MMO IP 回归 Steam，主打空战和大型阵营对抗，适合持续跟踪愿望单积累、地区发行节奏和免费 MMO 受众迁移。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3393110/" target="_blank" rel="noreferrer">Steam</a>
@@ -414,25 +416,16 @@
           <div>
             <h3>刺客信条：黑旗 重构版</h3>
             <p>Assassin&#39;s Creed Black Flag Resynced</p>
+            <div class="title-meta"><span>上线 2026-07-09</span><span>Ubisoft Singapore 等</span><span>Ubisoft</span></div>
           </div>
           <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>动作</span><span>冒险</span><span>潜行</span><span>海盗</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>29,621</em></span><span class="metric-rank"><b>愿望单榜</b><em>#65</em></span><span class="metric-rank"><b>活跃榜</b><em>#5</em></span><span class="metric-rank"><b>热销榜</b><em>#16</em></span><span class=""><b>热度</b><em>7d +24,880</em></span><span class=""><b>日期</b><em>2026-07-09</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>动作</span><span>冒险</span><span>潜行</span><span>海盗</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>29,621</em></span><span class="metric-rank"><b>愿望单榜</b><em>#65</em></span><span class="metric-rank"><b>活跃榜</b><em>#5</em></span><span class="metric-rank"><b>热销榜</b><em>#16</em></span><span class=""><b>热度</b><em>7d +24,880</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Ubisoft Singapore 等 / Ubisoft</dd></div>
-        </dl>
         <p class="summary">经典 IP 重构继续占据新商店页关注高位，重制内容、画面对比和系列口碑修复都容易形成二次传播。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">Steam</a>
@@ -454,25 +447,16 @@
           <div>
             <h3>地铁 2039</h3>
             <p>METRO 2039</p>
+            <div class="title-meta"><span>4A Games</span><span>Deep Silver</span></div>
           </div>
           <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>FPS</span><span>后末日</span><span>剧情向</span><span>沉浸式</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>41,553</em></span><span class="metric-rank"><b>愿望单榜</b><em>#60</em></span><span class="metric-rank"><b>活跃榜</b><em>#4</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +19,050</em></span><span class=""><b>日期</b><em>TBA</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>FPS</span><span>后末日</span><span>剧情向</span><span>沉浸式</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>41,553</em></span><span class="metric-rank"><b>愿望单榜</b><em>#60</em></span><span class="metric-rank"><b>活跃榜</b><em>#4</em></span><span class=""><b>热度</b><em>7d +19,050</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>4A Games / Deep Silver</dd></div>
-        </dl>
         <p class="summary">系列新作仍有强烈首曝余温，关注基数领先，适合做世界观延展、前作回顾和发售窗口预测。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">Steam</a>
@@ -494,25 +478,16 @@
           <div>
             <h3>绝区零</h3>
             <p>Zenless Zone Zero</p>
+            <div class="title-meta"><span>上线 Q2 2026</span><span>COGNOSPHERE</span></div>
           </div>
           <div class="score level-medium"><b>55</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>免费</span><span>动作</span><span>ARPG</span><span>二次元</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>7,342</em></span><span class="metric-rank"><b>愿望单榜</b><em>#360</em></span><span class="metric-rank"><b>活跃榜</b><em>#11</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +7,342</em></span><span class=""><b>日期</b><em>Q2 2026</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>免费</span><span>动作</span><span>ARPG</span><span>二次元</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>7,342</em></span><span class="metric-rank"><b>愿望单榜</b><em>#360</em></span><span class="metric-rank"><b>活跃榜</b><em>#11</em></span><span class=""><b>热度</b><em>7d +7,342</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>COGNOSPHERE / COGNOSPHERE</dd></div>
-        </dl>
         <p class="summary">成熟产品进入 Steam 后有新的用户入口，后续可重点看首发愿望单、版本节点和平台迁移讨论。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">Steam</a>
@@ -534,25 +509,16 @@
           <div>
             <h3>缉毒飞行员招募令</h3>
             <p>Cartel Pilots Wanted</p>
+            <div class="title-meta"><span>OldYacht</span><span>Polden Publishing</span></div>
           </div>
           <div class="score level-medium"><b>51</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>飞行</span><span>模拟</span><span>合作</span><span>开放世界</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>9,566</em></span><span class="metric-rank"><b>愿望单榜</b><em>#203</em></span><span class="metric-rank"><b>活跃榜</b><em>#9</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +9,564</em></span><span class=""><b>日期</b><em>TBA</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>飞行</span><span>模拟</span><span>合作</span><span>开放世界</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>9,566</em></span><span class="metric-rank"><b>愿望单榜</b><em>#203</em></span><span class="metric-rank"><b>活跃榜</b><em>#9</em></span><span class=""><b>热度</b><em>7d +9,564</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>OldYacht / Polden Publishing</dd></div>
-        </dl>
         <p class="summary">合作飞行加犯罪运输的高概念组合很适合短视频展示，若能兑现多人混乱感，传播效率会比较高。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">Steam</a>
@@ -581,25 +547,16 @@
           <div>
             <h3>未知伤亡 试玩版</h3>
             <p>Casualties: Unknown Demo</p>
+            <div class="title-meta"><span>上线 2026-04-20</span><span>Orsoniks</span><span>Oro Interactive</span></div>
           </div>
           <div class="score level-medium"><b>46</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>生存</span><span>洞穴探索</span><span>模拟</span><span>硬核</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>926</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-20</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>生存</span><span>洞穴探索</span><span>模拟</span><span>硬核</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>910</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Orsoniks / Oro Interactive</dd></div>
-        </dl>
         <p class="summary">试玩并发在近期 Demo 中非常突出，肢体和生存系统有内容展示点，适合优先跟进玩家反馈和转化。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4576510/" target="_blank" rel="noreferrer">Steam</a>
@@ -621,25 +578,16 @@
           <div>
             <h3>威尔戈德游乐场 试玩版</h3>
             <p>Wilgold&#39;s Playground Demo</p>
+            <div class="title-meta"><span>上线 2026-04-27</span><span>Wilgold Entertainment</span></div>
           </div>
           <div class="score level-low"><b>11</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>物理</span><span>竞速</span><span>3D 平台</span><span>Time Attack</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>New Demo</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>物理</span><span>竞速</span><span>3D 平台</span><span>Time Attack</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>热度</b><em>New Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span><span>公开热度数据较少，需人工复核</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Wilgold Entertainment / Wilgold Entertainment</dd></div>
-        </dl>
         <p class="summary">当天上线试玩，布娃娃物理和计时挑战容易做高失败率、高技巧感切片，适合观察首日社区讨论。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2287200/" target="_blank" rel="noreferrer">Steam</a>
@@ -661,25 +609,16 @@
           <div>
             <h3>肮脏生意：免费版</h3>
             <p>Dirty Business: Free of Charge</p>
+            <div class="title-meta"><span>上线 2026-04-23</span><span>Plan Dirty Games</span></div>
           </div>
           <div class="score level-low"><b>15</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>模拟经营</span><span>合作</span><span>犯罪</span><span>基地建设</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>New Demo</em></span><span class=""><b>日期</b><em>2026-04-23</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>模拟经营</span><span>合作</span><span>犯罪</span><span>基地建设</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>热度</b><em>New Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>多人/合作传播性好</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>Demo 可验证试玩转化</span><span>公开热度数据较少，需人工复核</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Plan Dirty Games / Plan Dirty Games</dd></div>
-        </dl>
         <p class="summary">地下基地经营加合作玩法，题材天然有噱头，适合看多人内容、订单循环和主播试玩反馈。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4527110/" target="_blank" rel="noreferrer">Steam</a>
@@ -701,25 +640,16 @@
           <div>
             <h3>旅人日记 试玩版</h3>
             <p>Tales of Terrarum Demo</p>
+            <div class="title-meta"><span>上线 2026-04-23</span><span>Electronic Soul</span><span>CYSTUDIO</span></div>
           </div>
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>模拟经营</span><span>冒险</span><span>城镇建设</span><span>休闲</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-23</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>模拟经营</span><span>冒险</span><span>城镇建设</span><span>休闲</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Electronic Soul / CYSTUDIO</dd></div>
-        </dl>
         <p class="summary">正式版临近解锁，Demo 能提前验证资源管理和角色养成吸引力，适合做轻度经营受众种草。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">Steam</a>
@@ -741,25 +671,16 @@
           <div>
             <h3>非人类 试玩版</h3>
             <p>UNHUMAN Demo</p>
+            <div class="title-meta"><span>上线 2026-04-21</span><span>Kinda Lowkey Games</span></div>
           </div>
           <div class="score level-low"><b>33</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>放置</span><span>撤离射击</span><span>赛博朋克</span><span>自动战斗</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>11</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-21</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>放置</span><span>撤离射击</span><span>赛博朋克</span><span>自动战斗</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>12</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Kinda Lowkey Games / Kinda Lowkey Games</dd></div>
-        </dl>
         <p class="summary">放置和撤离射击的组合足够少见，适合观察玩法概念是否能靠短循环和构筑深度形成留存。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">Steam</a>
@@ -788,25 +709,16 @@
           <div>
             <h3>全球救援</h3>
             <p>Global Rescue</p>
+            <div class="title-meta"><span>上线 2026-04-27</span><span>PeDePe GbR</span><span>Aerosoft GmbH</span></div>
           </div>
           <div class="score level-low"><b>29</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>模拟</span><span>策略</span><span>基地建设</span><span>管理</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>6,008</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>Early Access Launch</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>模拟</span><span>策略</span><span>基地建设</span><span>管理</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>6,008</em></span><span class=""><b>热度</b><em>Early Access Launch</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>PeDePe GbR / Aerosoft GmbH</dd></div>
-        </dl>
         <p class="summary">现实地图救援调度题材清晰，消防、警务、EMS 和 SWAT 组合有管理深度，适合跟踪抢先体验首周留存。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2873660/" target="_blank" rel="noreferrer">Steam</a>
@@ -828,25 +740,16 @@
           <div>
             <h3>姆明：暖心冬日</h3>
             <p>Moomintroll: Winter&#39;s Warmth</p>
+            <div class="title-meta"><span>上线 2026-04-27</span><span>Hyper Games</span><span>Hyper Games, Kakehashi Games</span></div>
           </div>
           <div class="score level-low"><b>29</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>冒险</span><span>温馨</span><span>家庭友好</span><span>叙事</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>5,204</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>Launch Day</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>冒险</span><span>温馨</span><span>家庭友好</span><span>叙事</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>5,204</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Hyper Games / Hyper Games, Kakehashi Games</dd></div>
-        </dl>
         <p class="summary">姆明 IP 与温馨冒险调性明确，适合亲子、治愈和手绘风内容方向，需观察首批评价是否带动长尾。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3256150/" target="_blank" rel="noreferrer">Steam</a>
@@ -868,25 +771,16 @@
           <div>
             <h3>团本自走棋</h3>
             <p>Legionbound</p>
+            <div class="title-meta"><span>上线 2026-04-27</span><span>Spicy Garlic Games</span></div>
           </div>
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>自走棋</span><span>Roguelite</span><span>动作 RPG</span><span>像素</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>1,424</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>Launch Day</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>自走棋</span><span>Roguelite</span><span>动作 RPG</span><span>像素</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>1,424</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Spicy Garlic Games / Spicy Garlic Games</dd></div>
-        </dl>
         <p class="summary">自走棋、队伍构筑和 Roguelite 进程叠加，Demo 已有一定试玩信号，适合看构筑深度和口碑扩散。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4283360/" target="_blank" rel="noreferrer">Steam</a>
@@ -908,25 +802,16 @@
           <div>
             <h3>曼谷故事：一只流浪狗</h3>
             <p>Bangkok Story: A Stray Dog</p>
+            <div class="title-meta"><span>上线 2026-04-27</span><span>Shameful Guys Development</span></div>
           </div>
           <div class="score level-low"><b>24</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>叙事</span><span>像素</span><span>情感</span><span>冒险</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>1,270</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>Launch Day</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>叙事</span><span>像素</span><span>情感</span><span>冒险</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>1,270</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>已发布，可观察真实在线</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Shameful Guys Development / Shameful Guys Development</dd></div>
-        </dl>
         <p class="summary">以真实事件感和曼谷城市记忆作为叙事卖点，适合剧情向长评、独立游戏推荐和情绪型短内容。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2121450/" target="_blank" rel="noreferrer">Steam</a>
@@ -948,25 +833,16 @@
           <div>
             <h3>收费站模拟器</h3>
             <p>Toll Booth Simulator</p>
+            <div class="title-meta"><span>上线 2026-04-27</span><span>SifDev</span><span>Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.</span></div>
           </div>
           <div class="score level-low"><b>23</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>职业模拟</span><span>管理</span><span>犯罪</span><span>第一人称</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>540</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>Launch Day</em></span><span class=""><b>日期</b><em>2026-04-27</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>职业模拟</span><span>管理</span><span>犯罪</span><span>第一人称</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>540</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>已发布，可观察真实在线</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>SifDev / Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.</dd></div>
-        </dl>
         <p class="summary">收费站检查、债务压力和荒诞经营元素有直播互动点，虽然关注基数较低，但题材差异化明显。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3896300/" target="_blank" rel="noreferrer">Steam</a>

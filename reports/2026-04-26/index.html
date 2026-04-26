@@ -174,6 +174,24 @@
       font-size: 18px;
     }
     .title-row p { margin: 6px 0 0; color: var(--muted); line-height: 1.45; }
+    .title-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+      color: #52606f;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+    .title-meta span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 4px 8px;
+      border: 1px solid #e0e5eb;
+      border-radius: var(--radius);
+      background: #f8fafc;
+    }
     .score {
       display: grid;
       place-items: center;
@@ -190,22 +208,21 @@
     .level-low { background: #6c7685; }
     .chip-block {
       margin-top: 14px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
     }
-    .chip-label {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 8px;
-      color: #4b5563;
-      font-size: 12px;
-      font-weight: 800;
+    .chip-block-tags {
+      border-color: #dce4ef;
+      background: linear-gradient(180deg, #fbfcff, #f3f6fb);
     }
-    .chip-label::before {
-      content: "";
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--accent);
+    .chip-block-metrics {
+      border-color: #cfe3e6;
+      background: linear-gradient(180deg, #f7fbfb, #edf6f6);
+    }
+    .chip-block-reasons {
+      border-color: #ddd4e9;
+      background: linear-gradient(180deg, #fbf9ff, #f3eefb);
     }
     .tags, .metrics, .reasons {
       display: flex;
@@ -223,17 +240,18 @@
       font-size: 13px;
     }
     .tags span {
-      border-color: #d8dfeb;
-      color: #27313d;
-      background: #f7f9fc;
+      border-color: #cfd8e6;
+      color: #253247;
+      background: #ffffff;
+      box-shadow: inset 0 -1px 0 rgba(37, 50, 71, 0.06);
     }
     .metrics span {
       display: grid;
       grid-template-columns: auto minmax(0, 1fr);
       gap: 6px;
-      border-color: #d6e4e6;
+      border-color: #c7dde0;
       color: #173f45;
-      background: #f2f8f8;
+      background: #ffffff;
     }
     .metrics b {
       color: var(--accent);
@@ -250,24 +268,17 @@
       border-color: #e4d2bf;
       color: #704113;
       background: #fff7ed;
+      box-shadow: inset 3px 0 0 #d97706;
     }
     .metrics .metric-rank b {
       color: #a45215;
     }
     .reasons span {
-      border-color: #d9d3e7;
+      border-color: #d4c9e4;
       color: #3c2f5c;
-      background: #f5f2fb;
+      background: #ffffff;
+      box-shadow: inset 3px 0 0 #8b6bb8;
     }
-    dl { margin: 15px 0 0; }
-    dl div {
-      display: grid;
-      grid-template-columns: 86px minmax(0, 1fr);
-      gap: 10px;
-      line-height: 1.55;
-    }
-    dt { color: var(--muted); }
-    dd { margin: 0; }
     .summary {
       margin: 14px 0 0;
       padding: 12px;
@@ -374,25 +385,16 @@
           <div>
             <h3>刺客信条：黑旗 重构版</h3>
             <p>Assassin&#39;s Creed Black Flag Resynced</p>
+            <div class="title-meta"><span>上线 2026-07-09</span><span>Ubisoft Singapore 等</span><span>Ubisoft</span></div>
           </div>
           <div class="score level-medium"><b>47</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>动作</span><span>冒险</span><span>潜行</span><span>海盗</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>24,880</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +24,880</em></span><span class=""><b>日期</b><em>2026-07-09</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>动作</span><span>冒险</span><span>潜行</span><span>海盗</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>24,880</em></span><span class=""><b>热度</b><em>7d +24,880</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Ubisoft Singapore 等 / Ubisoft</dd></div>
-        </dl>
         <p class="summary">经典 IP 重制，预购期自带传播基础，适合做情怀回归与重制对比内容。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">Steam</a>
@@ -414,25 +416,16 @@
           <div>
             <h3>地铁 2039</h3>
             <p>METRO 2039</p>
+            <div class="title-meta"><span>4A Games</span><span>Deep Silver</span></div>
           </div>
           <div class="score level-medium"><b>47</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>FPS</span><span>后末日</span><span>剧情向</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>41,553</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +19,050</em></span><span class=""><b>日期</b><em>TBA</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>FPS</span><span>后末日</span><span>剧情向</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>41,553</em></span><span class=""><b>热度</b><em>7d +19,050</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>4A Games / Deep Silver</dd></div>
-        </dl>
         <p class="summary">系列新作首曝，增粉速度快，世界观辨识度高，适合做设定解读与彩蛋拆解。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">Steam</a>
@@ -454,25 +447,16 @@
           <div>
             <h3>龙珠：异战 3</h3>
             <p>DRAGON BALL XENOVERSE 3</p>
+            <div class="title-meta"><span>上线 2027</span><span>Dimps</span><span>Bandai Namco</span></div>
           </div>
           <div class="score level-low"><b>42</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>动作 RPG</span><span>3D 格斗</span><span>动漫</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>9,717</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +9,717</em></span><span class=""><b>日期</b><em>2027</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>动作 RPG</span><span>3D 格斗</span><span>动漫</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>9,717</em></span><span class=""><b>热度</b><em>7d +9,717</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Dimps / Bandai Namco</dd></div>
-        </dl>
         <p class="summary">强 IP 新条目，首周关注释放直接，适合做角色阵容预测和系列进化讨论。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/1857810/" target="_blank" rel="noreferrer">Steam</a>
@@ -494,25 +478,16 @@
           <div>
             <h3>缉毒飞行员招募令</h3>
             <p>Cartel Pilots Wanted</p>
+            <div class="title-meta"><span>OldYacht</span><span>Polden Publishing</span></div>
           </div>
           <div class="score level-medium"><b>46</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>飞行</span><span>模拟</span><span>合作</span><span>开放世界</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>9,566</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +9,564</em></span><span class=""><b>日期</b><em>TBA</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>飞行</span><span>模拟</span><span>合作</span><span>开放世界</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>9,566</em></span><span class=""><b>热度</b><em>7d +9,564</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>OldYacht / Polden Publishing</dd></div>
-        </dl>
         <p class="summary">合作飞行题材少见，概念记忆点强，适合多人内容和高概念卖点传播。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">Steam</a>
@@ -534,25 +509,16 @@
           <div>
             <h3>绝区零</h3>
             <p>Zenless Zone Zero</p>
+            <div class="title-meta"><span>上线 Q2 2026</span><span>COGNOSPHERE</span></div>
           </div>
           <div class="score level-medium"><b>51</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>免费</span><span>动作</span><span>ARPG</span><span>二次元</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>未公开</em></span><span class=""><b>关注</b><em>7,342</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +7,342</em></span><span class=""><b>日期</b><em>Q2 2026</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>免费</span><span>动作</span><span>ARPG</span><span>二次元</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>7,342</em></span><span class=""><b>热度</b><em>7d +7,342</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>COGNOSPHERE / COGNOSPHERE</dd></div>
-        </dl>
         <p class="summary">大盘产品进入 Steam 后有新增用户池，适合做版本入坑、角色内容和平台迁移观察。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">Steam</a>
@@ -581,25 +547,16 @@
           <div>
             <h3>泰拉田园物语 试玩版</h3>
             <p>Tales of Terrarum Demo</p>
+            <div class="title-meta"><span>上线 2026-04-23</span><span>Electronic Soul</span><span>CYSTUDIO</span></div>
           </div>
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>模拟经营</span><span>冒险</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-23</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>模拟经营</span><span>冒险</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Electronic Soul / CYSTUDIO</dd></div>
-        </dl>
         <p class="summary">试玩在线信号在同批条目里更亮眼，适合做试玩首印象和种草切片。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">Steam</a>
@@ -621,25 +578,16 @@
           <div>
             <h3>消逝者 试玩版</h3>
             <p>Vanisha Demo</p>
+            <div class="title-meta"><span>上线 2026-04-22</span><span>DANYL</span></div>
           </div>
           <div class="score level-low"><b>25</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>动作</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-22</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>动作</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>DANYL / DANYL</dd></div>
-        </dl>
         <p class="summary">试玩留存稳定，说明首轮体验完成度不差，值得关注后续口碑扩散曲线。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4605330/" target="_blank" rel="noreferrer">Steam</a>
@@ -661,25 +609,16 @@
           <div>
             <h3>IA 试玩版</h3>
             <p>IA Demo</p>
+            <div class="title-meta"><span>上线 2026-04-17</span><span>Liminal Studios</span></div>
           </div>
           <div class="score level-low"><b>22</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>视觉小说</span><span>叙事</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-17</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>视觉小说</span><span>叙事</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Liminal Studios / Liminal Studios</dd></div>
-        </dl>
         <p class="summary">垂类受众明确，更像口碑驱动项目，适合做剧情氛围与人设方向包装。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4582190/" target="_blank" rel="noreferrer">Steam</a>
@@ -701,25 +640,16 @@
           <div>
             <h3>非人类 试玩版</h3>
             <p>UNHUMAN Demo</p>
+            <div class="title-meta"><span>上线 2026-04-21</span><span>Kinda Lowkey Games</span></div>
           </div>
           <div class="score level-low"><b>35</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>2D</span><span>Idle</span><span>Extraction Shooter</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>11</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-21</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>2D</span><span>Idle</span><span>Extraction Shooter</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>12</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Kinda Lowkey Games / Kinda Lowkey Games</dd></div>
-        </dl>
         <p class="summary">Idle 与撤离射击组合少见，适合观察是否能靠玩法概念驱动传播。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">Steam</a>
@@ -741,25 +671,16 @@
           <div>
             <h3>哔普增量工坊 试玩版</h3>
             <p>BleepWare Incrementals Demo</p>
+            <div class="title-meta"><span>上线 2026-04-20</span><span>beep2bleep</span></div>
           </div>
           <div class="score level-low"><b>20</b><span>Low</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>增量</span><span>放置</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>关注</b><em>未公开</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span><span class=""><b>日期</b><em>2026-04-20</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>增量</span><span>放置</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>beep2bleep / beep2bleep</dd></div>
-        </dl>
         <p class="summary">低门槛循环玩法，适合轻推荐、短内容和放置上头感传播。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4642530/" target="_blank" rel="noreferrer">Steam</a>
@@ -788,25 +709,16 @@
           <div>
             <h3>吸血鬼幸存者：狂飙爬行者</h3>
             <p>Vampire Crawlers: The Turbo Wildcard from Vampire Survivors</p>
+            <div class="title-meta"><span>上线 2026-04-21</span><span>poncle, Nosebleed</span><span>poncle</span></div>
           </div>
           <div class="score level-medium"><b>64</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>卡牌构筑</span><span>地牢</span><span>Roguelite</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>35,046</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +11,699</em></span><span class=""><b>日期</b><em>2026-04-21</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>卡牌构筑</span><span>地牢</span><span>Roguelite</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>35,046</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>关注基数高</span><span>当前在线人数高</span><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>poncle, Nosebleed / poncle</dd></div>
-        </dl>
         <p class="summary">口碑和并发同步上扬，是本批里最像已经跑出来的条目，适合优先追踪社区和二创。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3265700/" target="_blank" rel="noreferrer">Steam</a>
@@ -828,25 +740,16 @@
           <div>
             <h3>阿尔比恩大师</h3>
             <p>Masters of Albion</p>
+            <div class="title-meta"><span>上线 2026-04-22</span><span>22cans</span></div>
           </div>
           <div class="score level-medium"><b>51</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>策略</span><span>模拟</span><span>God Game</span><span>城建</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>336</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +3,277</em></span><span class=""><b>日期</b><em>2026-04-22</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>策略</span><span>模拟</span><span>God Game</span><span>城建</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>347</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>22cans / 22cans</dd></div>
-        </dl>
         <p class="summary">题材复兴叠加创作者品牌，适合做玩法深挖和老派 God Game 回归叙事。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3165650/" target="_blank" rel="noreferrer">Steam</a>
@@ -868,25 +771,16 @@
           <div>
             <h3>打字农夫</h3>
             <p>Typing Farmer</p>
+            <div class="title-meta"><span>上线 2026-04-19</span><span>MilkwayStudio</span></div>
           </div>
           <div class="score level-medium"><b>49</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>休闲</span><span>模拟</span><span>打字效率</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>1,032</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +2,869</em></span><span class=""><b>日期</b><em>2026-04-19</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>休闲</span><span>模拟</span><span>打字效率</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>967</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>热度</b><em>7d +2,869</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
-      <div class="reasons"><span>关注基数高</span><span>已有稳定在线</span><span>低门槛试玩或轻量入口</span><span>已发布，可观察真实在线</span></div>
+      <div class="reasons"><span>关注基数高</span><span>低门槛试玩或轻量入口</span><span>已发布，可观察真实在线</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>MilkwayStudio / MilkwayStudio</dd></div>
-        </dl>
         <p class="summary">办公陪伴型定位清晰，有效率工具化与游戏化陪伴的差异化内容点。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4216670/" target="_blank" rel="noreferrer">Steam</a>
@@ -908,25 +802,16 @@
           <div>
             <h3>竞拍之王</h3>
             <p>BidKing</p>
+            <div class="title-meta"><span>上线 2026-04-16</span><span>MindSurge Network &amp; Games</span><span>Elegoose Games</span></div>
           </div>
           <div class="score level-medium"><b>58</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>策略</span><span>模拟</span><span>多人竞拍</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>26,621</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +3,971</em></span><span class=""><b>日期</b><em>2026-04-16</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>策略</span><span>模拟</span><span>多人竞拍</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>24,246</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>热度</b><em>7d +3,971</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>当前在线人数高</span><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>MindSurge Network &amp; Games / Elegoose Games</dd></div>
-        </dl>
         <p class="summary">热度高但口碑分化，适合做值不值得玩或争议点总结，天然带讨论流量。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">Steam</a>
@@ -948,25 +833,16 @@
           <div>
             <h3>罪托邦</h3>
             <p>Sintopia</p>
+            <div class="title-meta"><span>上线 2026-04-16</span><span>Piraknights Games</span><span>Team17</span></div>
           </div>
           <div class="score level-medium"><b>56</b><span>Medium</span></div>
         </div>
-        <div class="chip-block chip-block-tags">
-          <div class="chip-label">游戏类型</div>
-          <div class="tags"><span>管理</span><span>God Game</span><span>自动化</span><span>基地建设</span></div>
-        </div>
-        <div class="chip-block chip-block-metrics">
-          <div class="chip-label">游戏数据</div>
-          <div class="metrics"><span class=""><b>在线</b><em>1,940</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>愿望单榜</b><em>未公开</em></span><span class=""><b>活跃榜</b><em>未公开</em></span><span class=""><b>热销榜</b><em>未公开</em></span><span class=""><b>热度</b><em>7d +4,395</em></span><span class=""><b>日期</b><em>2026-04-16</em></span></div>
-        </div>
+        <div class="chip-block chip-block-tags"><div class="tags"><span>管理</span><span>God Game</span><span>自动化</span><span>基地建设</span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>1,920</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>热度</b><em>7d +4,395</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="chip-label">推荐理由</div>
       <div class="reasons"><span>已有稳定在线</span><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
     </div>
-        <dl>
-          <div><dt>开发 / 发行</dt><dd>Piraknights Games / Team17</dd></div>
-        </dl>
         <p class="summary">中核经营盘稳定，如果更新节奏跟上，后续还有二次扩散空间。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2213700/" target="_blank" rel="noreferrer">Steam</a>
