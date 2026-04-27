@@ -315,13 +315,24 @@
       grid-template-columns: 34px minmax(0, 1fr) 52px;
       gap: 10px;
       align-items: center;
+      width: 100%;
       min-height: 54px;
       padding: 9px;
       border: 1px solid var(--line);
       border-radius: var(--radius);
       color: var(--ink);
-      text-decoration: none;
       background: #fbfcfd;
+      cursor: pointer;
+      font: inherit;
+      text-align: left;
+      appearance: none;
+    }
+    .rank-row:hover, .rank-row[aria-expanded="true"] {
+      border-color: #9bb7c0;
+      background: #f2f8f8;
+    }
+    .rank-row[aria-expanded="true"] {
+      box-shadow: inset 3px 0 0 #1c6e77;
     }
     .rank-num, .rank-score {
       display: grid;
@@ -336,6 +347,16 @@
     .rank-main { min-width: 0; }
     .rank-main b, .rank-main small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .rank-main small { margin-top: 3px; color: var(--muted); }
+    .rank-preview {
+      margin: 0 0 10px;
+      padding-left: 44px;
+    }
+    .rank-preview .game-card {
+      box-shadow: 0 12px 28px rgba(22, 29, 39, 0.08);
+    }
+    .rank-preview .cover {
+      cursor: default;
+    }
     .empty { color: var(--muted); padding: 12px; }
     @media (max-width: 760px) {
       .shell { padding: 14px 12px 56px; }
@@ -345,6 +366,7 @@
       h1 { font-size: 34px; }
       .quick-stats { justify-content: flex-start; }
       .grid, .leader-grid { grid-template-columns: 1fr; }
+      .rank-preview { padding-left: 0; }
       dl div { grid-template-columns: 1fr; gap: 3px; }
     }
   </style>
@@ -361,7 +383,7 @@
         <p class="subtitle">这是一份独立归档页，可以直接分享给别人查看当天完整卡片。</p>
       </div>
       <div class="quick-stats">
-        <span>当天候选 15 款</span><span>数据更新 2026-04-27 11:24 CST</span><span>定时生成</span>
+        <span>当天候选 15 款</span><span>数据更新 2026-04-27 11:38 CST</span><span>定时生成</span>
       </div>
     </header>
     
@@ -645,7 +667,7 @@
           <div class="score level-low"><b>34</b><span>Low</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>2D</span><span>Idle</span><span>Extraction Shooter</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>6</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>7</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
@@ -714,7 +736,7 @@
           <div class="score level-medium"><b>63</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>卡牌构筑</span><span>地牢</span><span>Roguelite</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>25,601</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>25,304</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>关注基数高</span><span>当前在线人数高</span><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
@@ -745,7 +767,7 @@
           <div class="score level-medium"><b>49</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>策略</span><span>模拟</span><span>God Game</span><span>城建</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>141</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>126</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
@@ -776,7 +798,7 @@
           <div class="score level-medium"><b>50</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>休闲</span><span>模拟</span><span>打字效率</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>2,019</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>热度</b><em>7d +2,869</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>2,022</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>热度</b><em>7d +2,869</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>关注基数高</span><span>已有稳定在线</span><span>低门槛试玩或轻量入口</span><span>已发布，可观察真实在线</span></div>
@@ -807,7 +829,7 @@
           <div class="score level-medium"><b>58</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>策略</span><span>模拟</span><span>多人竞拍</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>23,132</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>热度</b><em>7d +3,971</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>23,837</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>热度</b><em>7d +3,971</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>当前在线人数高</span><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
@@ -838,7 +860,7 @@
           <div class="score level-medium"><b>54</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>管理</span><span>God Game</span><span>自动化</span><span>基地建设</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>612</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>热度</b><em>7d +4,395</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>581</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>热度</b><em>7d +4,395</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
@@ -852,5 +874,28 @@
     </article></div>
     </section>
   </main>
+  <script>
+    document.addEventListener("click", (event) => {
+      const button = event.target.closest(".rank-row");
+      if (!button) return;
+
+      const list = button.closest(".rank-list");
+      const previewId = button.getAttribute("aria-controls");
+      const preview = previewId ? document.getElementById(previewId) : null;
+      if (!list || !preview) return;
+
+      const willOpen = button.getAttribute("aria-expanded") !== "true";
+      for (const openButton of list.querySelectorAll('.rank-row[aria-expanded="true"]')) {
+        if (openButton === button) continue;
+        openButton.setAttribute("aria-expanded", "false");
+        const openPreviewId = openButton.getAttribute("aria-controls");
+        const openPreview = openPreviewId ? document.getElementById(openPreviewId) : null;
+        if (openPreview) openPreview.hidden = true;
+      }
+
+      button.setAttribute("aria-expanded", willOpen ? "true" : "false");
+      preview.hidden = !willOpen;
+    });
+  </script>
 </body>
 </html>

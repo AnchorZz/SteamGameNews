@@ -315,13 +315,24 @@
       grid-template-columns: 34px minmax(0, 1fr) 52px;
       gap: 10px;
       align-items: center;
+      width: 100%;
       min-height: 54px;
       padding: 9px;
       border: 1px solid var(--line);
       border-radius: var(--radius);
       color: var(--ink);
-      text-decoration: none;
       background: #fbfcfd;
+      cursor: pointer;
+      font: inherit;
+      text-align: left;
+      appearance: none;
+    }
+    .rank-row:hover, .rank-row[aria-expanded="true"] {
+      border-color: #9bb7c0;
+      background: #f2f8f8;
+    }
+    .rank-row[aria-expanded="true"] {
+      box-shadow: inset 3px 0 0 #1c6e77;
     }
     .rank-num, .rank-score {
       display: grid;
@@ -336,6 +347,16 @@
     .rank-main { min-width: 0; }
     .rank-main b, .rank-main small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .rank-main small { margin-top: 3px; color: var(--muted); }
+    .rank-preview {
+      margin: 0 0 10px;
+      padding-left: 44px;
+    }
+    .rank-preview .game-card {
+      box-shadow: 0 12px 28px rgba(22, 29, 39, 0.08);
+    }
+    .rank-preview .cover {
+      cursor: default;
+    }
     .empty { color: var(--muted); padding: 12px; }
     @media (max-width: 760px) {
       .shell { padding: 14px 12px 56px; }
@@ -345,6 +366,7 @@
       h1 { font-size: 34px; }
       .quick-stats { justify-content: flex-start; }
       .grid, .leader-grid { grid-template-columns: 1fr; }
+      .rank-preview { padding-left: 0; }
       dl div { grid-template-columns: 1fr; gap: 3px; }
     }
   </style>
@@ -361,7 +383,7 @@
         <p class="subtitle">这是一份独立归档页，可以直接分享给别人查看当天完整卡片。</p>
       </div>
       <div class="quick-stats">
-        <span>当天候选 15 款</span><span>数据更新 2026-04-27 11:24 CST</span><span>定时生成</span>
+        <span>当天候选 15 款</span><span>数据更新 2026-04-27 11:38 CST</span><span>定时生成</span>
       </div>
     </header>
     
@@ -552,7 +574,7 @@
           <div class="score level-medium"><b>45</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>生存</span><span>洞穴探索</span><span>模拟</span><span>硬核</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>549</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>520</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
@@ -676,7 +698,7 @@
           <div class="score level-low"><b>32</b><span>Low</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>放置</span><span>撤离射击</span><span>赛博朋克</span><span>自动战斗</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>6</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>7</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
@@ -852,5 +874,28 @@
     </article></div>
     </section>
   </main>
+  <script>
+    document.addEventListener("click", (event) => {
+      const button = event.target.closest(".rank-row");
+      if (!button) return;
+
+      const list = button.closest(".rank-list");
+      const previewId = button.getAttribute("aria-controls");
+      const preview = previewId ? document.getElementById(previewId) : null;
+      if (!list || !preview) return;
+
+      const willOpen = button.getAttribute("aria-expanded") !== "true";
+      for (const openButton of list.querySelectorAll('.rank-row[aria-expanded="true"]')) {
+        if (openButton === button) continue;
+        openButton.setAttribute("aria-expanded", "false");
+        const openPreviewId = openButton.getAttribute("aria-controls");
+        const openPreview = openPreviewId ? document.getElementById(openPreviewId) : null;
+        if (openPreview) openPreview.hidden = true;
+      }
+
+      button.setAttribute("aria-expanded", willOpen ? "true" : "false");
+      preview.hidden = !willOpen;
+    });
+  </script>
 </body>
 </html>
