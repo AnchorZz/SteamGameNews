@@ -212,7 +212,7 @@
           "contact_url": "https://steamcommunity.com/app/4576510",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg",
           "wishlist_rank": "未公开",
-          "current_players": 446,
+          "current_players": 376,
           "cover_local_path": "/assets/covers/2026-04-27/4576510.jpg",
           "potential_score": 45,
           "watch_level": "Medium",
@@ -344,9 +344,9 @@
           "contact_url": "https://steamcommunity.com/app/4640310",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg",
           "wishlist_rank": "未公开",
-          "current_players": 8,
+          "current_players": 11,
           "cover_local_path": "/assets/covers/2026-04-27/4640310.jpg",
-          "potential_score": 32,
+          "potential_score": 33,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -519,5 +519,5 @@
       ]
     }
   ],
-  "generated_at": "2026-04-27 12:40 CST"
+  "generated_at": "2026-04-27 14:25 CST"
 }
