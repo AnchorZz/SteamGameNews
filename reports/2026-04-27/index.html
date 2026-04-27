@@ -358,7 +358,8 @@
     }
     .rank-preview-card {
       display: grid;
-      grid-template-columns: minmax(280px, 38%) minmax(0, 1fr);
+      grid-template-columns: minmax(0, 460px) minmax(0, 1fr);
+      align-items: start;
       width: 100%;
       overflow: hidden;
       border: 1px solid #d9e2ea;
@@ -368,7 +369,9 @@
     }
     .rank-preview-media {
       position: relative;
-      min-height: 210px;
+      width: 100%;
+      max-width: 460px;
+      aspect-ratio: 460 / 215;
       overflow: hidden;
       background:
         radial-gradient(circle at 22% 18%, rgba(255,255,255,0.32), transparent 30%),
@@ -386,9 +389,9 @@
     .rank-preview-media img {
       display: block;
       width: 100%;
-      height: 100%;
-      min-height: 210px;
-      object-fit: cover;
+      height: auto;
+      aspect-ratio: 460 / 215;
+      object-fit: contain;
     }
     .rank-preview-media img.is-missing {
       display: none;
@@ -490,13 +493,10 @@
       .grid, .leader-grid { grid-template-columns: 1fr; }
       .rank-preview-card { grid-template-columns: 1fr; }
       .rank-preview-media {
-        min-height: 0;
+        max-width: none;
         aspect-ratio: 460 / 215;
         border-right: 0;
         border-bottom: 4px solid var(--accent);
-      }
-      .rank-preview-media img {
-        min-height: 0;
       }
       .rank-preview-head {
         grid-template-columns: minmax(0, 1fr);
@@ -520,7 +520,7 @@
         <p class="subtitle">这是一份独立归档页，可以直接分享给别人查看当天完整卡片。</p>
       </div>
       <div class="quick-stats">
-        <span>当天候选 15 款</span><span>数据更新 2026-04-27 12:16 CST</span><span>定时生成</span>
+        <span>当天候选 15 款</span><span>数据更新 2026-04-27 12:33 CST</span><span>定时生成</span>
       </div>
     </header>
     
@@ -711,7 +711,7 @@
           <div class="score level-medium"><b>45</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>生存</span><span>洞穴探索</span><span>模拟</span><span>硬核</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>487</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>446</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
@@ -835,7 +835,7 @@
           <div class="score level-low"><b>32</b><span>Low</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>放置</span><span>撤离射击</span><span>赛博朋克</span><span>自动战斗</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>10</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>8</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
