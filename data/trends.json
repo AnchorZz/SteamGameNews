@@ -20,8 +20,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +11,699",
-        "current_players": 35046,
-        "potential_score": 64,
+        "current_players": 25601,
+        "potential_score": 63,
         "watch_level": "Medium",
         "score_reasons": [
           "关注基数高",
@@ -53,7 +53,7 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +3,971",
-        "current_players": 24246,
+        "current_players": 23132,
         "potential_score": 58,
         "watch_level": "Medium",
         "score_reasons": [
@@ -64,39 +64,6 @@
         ],
         "steam_url": "https://store.steampowered.com/app/4128580/",
         "contact_url": "https://steamcommunity.com/app/4128580",
-        "report_date": "2026-04-26",
-        "section_title": "新发布游戏"
-      },
-      {
-        "appid": "2213700",
-        "name_zh": "罪托邦",
-        "name_en": "Sintopia",
-        "category": "Released",
-        "tags": [
-          "管理",
-          "God Game",
-          "自动化",
-          "基地建设"
-        ],
-        "developer": "Piraknights Games",
-        "publisher": "Team17",
-        "release_date": "2026-04-16",
-        "followers": "17,764",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "7d +4,395",
-        "current_players": 1920,
-        "potential_score": 56,
-        "watch_level": "Medium",
-        "score_reasons": [
-          "已有稳定在线",
-          "强 IP 或知名发行方",
-          "题材有内容传播点",
-          "已发布，可观察真实在线"
-        ],
-        "steam_url": "https://store.steampowered.com/app/2213700/",
-        "contact_url": "https://www.team17.com/contact/",
         "report_date": "2026-04-26",
         "section_title": "新发布游戏"
       },
@@ -133,6 +100,38 @@
         "contact_url": "https://cs.hoyoverse.com/",
         "report_date": "2026-04-27",
         "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "2213700",
+        "name_zh": "罪托邦",
+        "name_en": "Sintopia",
+        "category": "Released",
+        "tags": [
+          "管理",
+          "God Game",
+          "自动化",
+          "基地建设"
+        ],
+        "developer": "Piraknights Games",
+        "publisher": "Team17",
+        "release_date": "2026-04-16",
+        "followers": "17,764",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "未公开",
+        "heat": "7d +4,395",
+        "current_players": 612,
+        "potential_score": 54,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "强 IP 或知名发行方",
+          "题材有内容传播点",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2213700/",
+        "contact_url": "https://www.team17.com/contact/",
+        "report_date": "2026-04-26",
+        "section_title": "新发布游戏"
       },
       {
         "appid": "3751950",
@@ -236,6 +235,38 @@
         "section_title": "新公布商店页面"
       },
       {
+        "appid": "4216670",
+        "name_zh": "打字农夫",
+        "name_en": "Typing Farmer",
+        "category": "Released",
+        "tags": [
+          "休闲",
+          "模拟",
+          "打字效率"
+        ],
+        "developer": "MilkwayStudio",
+        "publisher": "MilkwayStudio",
+        "release_date": "2026-04-19",
+        "followers": "29,857",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "未公开",
+        "heat": "7d +2,869",
+        "current_players": 2019,
+        "potential_score": 50,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "关注基数高",
+          "已有稳定在线",
+          "低门槛试玩或轻量入口",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4216670/",
+        "contact_url": "https://steamcommunity.com/app/4216670",
+        "report_date": "2026-04-26",
+        "section_title": "新发布游戏"
+      },
+      {
         "appid": "3165650",
         "name_zh": "阿尔比恩大师",
         "name_en": "Masters of Albion",
@@ -254,8 +285,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +3,277",
-        "current_players": 347,
-        "potential_score": 51,
+        "current_players": 141,
+        "potential_score": 49,
         "watch_level": "Medium",
         "score_reasons": [
           "关注基数高",
@@ -265,37 +296,6 @@
         ],
         "steam_url": "https://store.steampowered.com/app/3165650/",
         "contact_url": "https://22cans.com/",
-        "report_date": "2026-04-26",
-        "section_title": "新发布游戏"
-      },
-      {
-        "appid": "4216670",
-        "name_zh": "打字农夫",
-        "name_en": "Typing Farmer",
-        "category": "Released",
-        "tags": [
-          "休闲",
-          "模拟",
-          "打字效率"
-        ],
-        "developer": "MilkwayStudio",
-        "publisher": "MilkwayStudio",
-        "release_date": "2026-04-19",
-        "followers": "29,857",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "7d +2,869",
-        "current_players": 967,
-        "potential_score": 49,
-        "watch_level": "Medium",
-        "score_reasons": [
-          "关注基数高",
-          "低门槛试玩或轻量入口",
-          "已发布，可观察真实在线"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4216670/",
-        "contact_url": "https://steamcommunity.com/app/4216670",
         "report_date": "2026-04-26",
         "section_title": "新发布游戏"
       },
@@ -318,8 +318,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
-        "current_players": 910,
-        "potential_score": 46,
+        "current_players": 549,
+        "potential_score": 45,
         "watch_level": "Medium",
         "score_reasons": [
           "低门槛试玩或轻量入口",
@@ -413,8 +413,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "5 In-Demo",
-        "current_players": 12,
-        "potential_score": 33,
+        "current_players": 6,
+        "potential_score": 32,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
@@ -662,8 +662,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +11,699",
-        "current_players": 35046,
-        "potential_score": 64,
+        "current_players": 25601,
+        "potential_score": 63,
         "watch_level": "Medium",
         "score_reasons": [
           "关注基数高",
@@ -695,7 +695,7 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +3,971",
-        "current_players": 24246,
+        "current_players": 23132,
         "potential_score": 58,
         "watch_level": "Medium",
         "score_reasons": [
@@ -728,11 +728,10 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +4,395",
-        "current_players": 1920,
-        "potential_score": 56,
+        "current_players": 612,
+        "potential_score": 54,
         "watch_level": "Medium",
         "score_reasons": [
-          "已有稳定在线",
           "强 IP 或知名发行方",
           "题材有内容传播点",
           "已发布，可观察真实在线"
@@ -777,6 +776,38 @@
         "section_title": "新公布商店页面"
       },
       {
+        "appid": "4216670",
+        "name_zh": "打字农夫",
+        "name_en": "Typing Farmer",
+        "category": "Released",
+        "tags": [
+          "休闲",
+          "模拟",
+          "打字效率"
+        ],
+        "developer": "MilkwayStudio",
+        "publisher": "MilkwayStudio",
+        "release_date": "2026-04-19",
+        "followers": "29,857",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "未公开",
+        "heat": "7d +2,869",
+        "current_players": 2019,
+        "potential_score": 50,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "关注基数高",
+          "已有稳定在线",
+          "低门槛试玩或轻量入口",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4216670/",
+        "contact_url": "https://steamcommunity.com/app/4216670",
+        "report_date": "2026-04-26",
+        "section_title": "新发布游戏"
+      },
+      {
         "appid": "3165650",
         "name_zh": "阿尔比恩大师",
         "name_en": "Masters of Albion",
@@ -795,8 +826,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +3,277",
-        "current_players": 347,
-        "potential_score": 51,
+        "current_players": 141,
+        "potential_score": 49,
         "watch_level": "Medium",
         "score_reasons": [
           "关注基数高",
@@ -806,37 +837,6 @@
         ],
         "steam_url": "https://store.steampowered.com/app/3165650/",
         "contact_url": "https://22cans.com/",
-        "report_date": "2026-04-26",
-        "section_title": "新发布游戏"
-      },
-      {
-        "appid": "4216670",
-        "name_zh": "打字农夫",
-        "name_en": "Typing Farmer",
-        "category": "Released",
-        "tags": [
-          "休闲",
-          "模拟",
-          "打字效率"
-        ],
-        "developer": "MilkwayStudio",
-        "publisher": "MilkwayStudio",
-        "release_date": "2026-04-19",
-        "followers": "29,857",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "7d +2,869",
-        "current_players": 967,
-        "potential_score": 49,
-        "watch_level": "Medium",
-        "score_reasons": [
-          "关注基数高",
-          "低门槛试玩或轻量入口",
-          "已发布，可观察真实在线"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4216670/",
-        "contact_url": "https://steamcommunity.com/app/4216670",
         "report_date": "2026-04-26",
         "section_title": "新发布游戏"
       },
@@ -959,8 +959,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
-        "current_players": 910,
-        "potential_score": 46,
+        "current_players": 549,
+        "potential_score": 45,
         "watch_level": "Medium",
         "score_reasons": [
           "低门槛试玩或轻量入口",
@@ -1004,38 +1004,6 @@
         "section_title": "新公布商店页面"
       },
       {
-        "appid": "4640310",
-        "name_zh": "非人类 试玩版",
-        "name_en": "UNHUMAN Demo",
-        "category": "Demo",
-        "tags": [
-          "2D",
-          "Idle",
-          "Extraction Shooter"
-        ],
-        "developer": "Kinda Lowkey Games",
-        "publisher": "Kinda Lowkey Games",
-        "release_date": "2026-04-21",
-        "followers": "N/A",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "1 In-Demo",
-        "current_players": 12,
-        "potential_score": 35,
-        "watch_level": "Low",
-        "score_reasons": [
-          "低门槛试玩或轻量入口",
-          "题材有内容传播点",
-          "Demo 可验证试玩转化",
-          "多日连续进入监测池"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4640310/",
-        "contact_url": "https://steamcommunity.com/app/4640310",
-        "report_date": "2026-04-26",
-        "section_title": "新上线 Demo"
-      },
-      {
         "appid": "3393110",
         "name_zh": "AION 2",
         "name_en": "AION 2",
@@ -1066,6 +1034,38 @@
         "contact_url": "https://steamcommunity.com/app/3393110",
         "report_date": "2026-04-27",
         "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "4640310",
+        "name_zh": "非人类 试玩版",
+        "name_en": "UNHUMAN Demo",
+        "category": "Demo",
+        "tags": [
+          "2D",
+          "Idle",
+          "Extraction Shooter"
+        ],
+        "developer": "Kinda Lowkey Games",
+        "publisher": "Kinda Lowkey Games",
+        "release_date": "2026-04-21",
+        "followers": "N/A",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "未公开",
+        "heat": "1 In-Demo",
+        "current_players": 6,
+        "potential_score": 34,
+        "watch_level": "Low",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "Demo 可验证试玩转化",
+          "多日连续进入监测池"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4640310/",
+        "contact_url": "https://steamcommunity.com/app/4640310",
+        "report_date": "2026-04-26",
+        "section_title": "新上线 Demo"
       },
       {
         "appid": "4588570",
@@ -1441,8 +1441,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "5 In-Demo",
-        "current_players": 12,
-        "potential_score": 33,
+        "current_players": 6,
+        "potential_score": 32,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
@@ -1509,8 +1509,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +11,699",
-        "current_players": 35046,
-        "potential_score": 64,
+        "current_players": 25601,
+        "potential_score": 63,
         "watch_level": "Medium",
         "score_reasons": [
           "关注基数高",
@@ -1542,7 +1542,7 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +3,971",
-        "current_players": 24246,
+        "current_players": 23132,
         "potential_score": 58,
         "watch_level": "Medium",
         "score_reasons": [
@@ -1553,6 +1553,38 @@
         ],
         "steam_url": "https://store.steampowered.com/app/4128580/",
         "contact_url": "https://steamcommunity.com/app/4128580",
+        "report_date": "2026-04-26",
+        "section_title": "新发布游戏"
+      },
+      {
+        "appid": "4216670",
+        "name_zh": "打字农夫",
+        "name_en": "Typing Farmer",
+        "category": "Released",
+        "tags": [
+          "休闲",
+          "模拟",
+          "打字效率"
+        ],
+        "developer": "MilkwayStudio",
+        "publisher": "MilkwayStudio",
+        "release_date": "2026-04-19",
+        "followers": "29,857",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "未公开",
+        "heat": "7d +2,869",
+        "current_players": 2019,
+        "potential_score": 50,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "关注基数高",
+          "已有稳定在线",
+          "低门槛试玩或轻量入口",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4216670/",
+        "contact_url": "https://steamcommunity.com/app/4216670",
         "report_date": "2026-04-26",
         "section_title": "新发布游戏"
       },
@@ -1575,48 +1607,16 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +4,395",
-        "current_players": 1920,
-        "potential_score": 56,
+        "current_players": 612,
+        "potential_score": 54,
         "watch_level": "Medium",
         "score_reasons": [
-          "已有稳定在线",
           "强 IP 或知名发行方",
           "题材有内容传播点",
           "已发布，可观察真实在线"
         ],
         "steam_url": "https://store.steampowered.com/app/2213700/",
         "contact_url": "https://www.team17.com/contact/",
-        "report_date": "2026-04-26",
-        "section_title": "新发布游戏"
-      },
-      {
-        "appid": "4216670",
-        "name_zh": "打字农夫",
-        "name_en": "Typing Farmer",
-        "category": "Released",
-        "tags": [
-          "休闲",
-          "模拟",
-          "打字效率"
-        ],
-        "developer": "MilkwayStudio",
-        "publisher": "MilkwayStudio",
-        "release_date": "2026-04-19",
-        "followers": "29,857",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "7d +2,869",
-        "current_players": 967,
-        "potential_score": 49,
-        "watch_level": "Medium",
-        "score_reasons": [
-          "关注基数高",
-          "低门槛试玩或轻量入口",
-          "已发布，可观察真实在线"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4216670/",
-        "contact_url": "https://steamcommunity.com/app/4216670",
         "report_date": "2026-04-26",
         "section_title": "新发布游戏"
       },
@@ -1639,8 +1639,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
-        "current_players": 910,
-        "potential_score": 46,
+        "current_players": 549,
+        "potential_score": 45,
         "watch_level": "Medium",
         "score_reasons": [
           "低门槛试玩或轻量入口",
@@ -1671,8 +1671,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +3,277",
-        "current_players": 347,
-        "potential_score": 51,
+        "current_players": 141,
+        "potential_score": 49,
         "watch_level": "Medium",
         "score_reasons": [
           "关注基数高",
@@ -1704,8 +1704,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "5 In-Demo",
-        "current_players": 12,
-        "potential_score": 33,
+        "current_players": 6,
+        "potential_score": 32,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
@@ -1715,6 +1715,35 @@
         "steam_url": "https://store.steampowered.com/app/4640310/",
         "contact_url": "https://steamcommunity.com/app/4640310",
         "report_date": "2026-04-27",
+        "section_title": "新上线 Demo"
+      },
+      {
+        "appid": "4642530",
+        "name_zh": "哔普增量工坊 试玩版",
+        "name_en": "BleepWare Incrementals Demo",
+        "category": "Demo",
+        "tags": [
+          "增量",
+          "放置"
+        ],
+        "developer": "beep2bleep",
+        "publisher": "beep2bleep",
+        "release_date": "2026-04-20",
+        "followers": "N/A",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "未公开",
+        "heat": "1 In-Demo",
+        "current_players": 1,
+        "potential_score": 21,
+        "watch_level": "Low",
+        "score_reasons": [
+          "低门槛试玩或轻量入口",
+          "Demo 可验证试玩转化"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4642530/",
+        "contact_url": "https://steamcommunity.com/app/4642530",
+        "report_date": "2026-04-26",
         "section_title": "新上线 Demo"
       },
       {
@@ -1973,35 +2002,6 @@
         "contact_url": "https://steamcommunity.com/app/4582190",
         "report_date": "2026-04-26",
         "section_title": "新上线 Demo"
-      },
-      {
-        "appid": "4642530",
-        "name_zh": "哔普增量工坊 试玩版",
-        "name_en": "BleepWare Incrementals Demo",
-        "category": "Demo",
-        "tags": [
-          "增量",
-          "放置"
-        ],
-        "developer": "beep2bleep",
-        "publisher": "beep2bleep",
-        "release_date": "2026-04-20",
-        "followers": "N/A",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "1 In-Demo",
-        "current_players": 0,
-        "potential_score": 20,
-        "watch_level": "Low",
-        "score_reasons": [
-          "低门槛试玩或轻量入口",
-          "Demo 可验证试玩转化"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4642530/",
-        "contact_url": "https://steamcommunity.com/app/4642530",
-        "report_date": "2026-04-26",
-        "section_title": "新上线 Demo"
       }
     ]
   },
@@ -2025,8 +2025,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +11,699",
-        "current_players": 35046,
-        "potential_score": 64,
+        "current_players": 25601,
+        "potential_score": 63,
         "watch_level": "Medium",
         "score_reasons": [
           "关注基数高",
@@ -2058,7 +2058,7 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +3,971",
-        "current_players": 24246,
+        "current_players": 23132,
         "potential_score": 58,
         "watch_level": "Medium",
         "score_reasons": [
@@ -2069,39 +2069,6 @@
         ],
         "steam_url": "https://store.steampowered.com/app/4128580/",
         "contact_url": "https://steamcommunity.com/app/4128580",
-        "report_date": "2026-04-26",
-        "section_title": "新发布游戏"
-      },
-      {
-        "appid": "2213700",
-        "name_zh": "罪托邦",
-        "name_en": "Sintopia",
-        "category": "Released",
-        "tags": [
-          "管理",
-          "God Game",
-          "自动化",
-          "基地建设"
-        ],
-        "developer": "Piraknights Games",
-        "publisher": "Team17",
-        "release_date": "2026-04-16",
-        "followers": "17,764",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "7d +4,395",
-        "current_players": 1920,
-        "potential_score": 56,
-        "watch_level": "Medium",
-        "score_reasons": [
-          "已有稳定在线",
-          "强 IP 或知名发行方",
-          "题材有内容传播点",
-          "已发布，可观察真实在线"
-        ],
-        "steam_url": "https://store.steampowered.com/app/2213700/",
-        "contact_url": "https://www.team17.com/contact/",
         "report_date": "2026-04-26",
         "section_title": "新发布游戏"
       },
@@ -2138,6 +2105,38 @@
         "contact_url": "https://cs.hoyoverse.com/",
         "report_date": "2026-04-27",
         "section_title": "新公布商店页面"
+      },
+      {
+        "appid": "2213700",
+        "name_zh": "罪托邦",
+        "name_en": "Sintopia",
+        "category": "Released",
+        "tags": [
+          "管理",
+          "God Game",
+          "自动化",
+          "基地建设"
+        ],
+        "developer": "Piraknights Games",
+        "publisher": "Team17",
+        "release_date": "2026-04-16",
+        "followers": "17,764",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "未公开",
+        "heat": "7d +4,395",
+        "current_players": 612,
+        "potential_score": 54,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "强 IP 或知名发行方",
+          "题材有内容传播点",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/2213700/",
+        "contact_url": "https://www.team17.com/contact/",
+        "report_date": "2026-04-26",
+        "section_title": "新发布游戏"
       },
       {
         "appid": "3751950",
@@ -2241,6 +2240,38 @@
         "section_title": "新公布商店页面"
       },
       {
+        "appid": "4216670",
+        "name_zh": "打字农夫",
+        "name_en": "Typing Farmer",
+        "category": "Released",
+        "tags": [
+          "休闲",
+          "模拟",
+          "打字效率"
+        ],
+        "developer": "MilkwayStudio",
+        "publisher": "MilkwayStudio",
+        "release_date": "2026-04-19",
+        "followers": "29,857",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "未公开",
+        "heat": "7d +2,869",
+        "current_players": 2019,
+        "potential_score": 50,
+        "watch_level": "Medium",
+        "score_reasons": [
+          "关注基数高",
+          "已有稳定在线",
+          "低门槛试玩或轻量入口",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/4216670/",
+        "contact_url": "https://steamcommunity.com/app/4216670",
+        "report_date": "2026-04-26",
+        "section_title": "新发布游戏"
+      },
+      {
         "appid": "3165650",
         "name_zh": "阿尔比恩大师",
         "name_en": "Masters of Albion",
@@ -2259,8 +2290,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "7d +3,277",
-        "current_players": 347,
-        "potential_score": 51,
+        "current_players": 141,
+        "potential_score": 49,
         "watch_level": "Medium",
         "score_reasons": [
           "关注基数高",
@@ -2270,37 +2301,6 @@
         ],
         "steam_url": "https://store.steampowered.com/app/3165650/",
         "contact_url": "https://22cans.com/",
-        "report_date": "2026-04-26",
-        "section_title": "新发布游戏"
-      },
-      {
-        "appid": "4216670",
-        "name_zh": "打字农夫",
-        "name_en": "Typing Farmer",
-        "category": "Released",
-        "tags": [
-          "休闲",
-          "模拟",
-          "打字效率"
-        ],
-        "developer": "MilkwayStudio",
-        "publisher": "MilkwayStudio",
-        "release_date": "2026-04-19",
-        "followers": "29,857",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "7d +2,869",
-        "current_players": 967,
-        "potential_score": 49,
-        "watch_level": "Medium",
-        "score_reasons": [
-          "关注基数高",
-          "低门槛试玩或轻量入口",
-          "已发布，可观察真实在线"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4216670/",
-        "contact_url": "https://steamcommunity.com/app/4216670",
         "report_date": "2026-04-26",
         "section_title": "新发布游戏"
       },
@@ -2323,8 +2323,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
-        "current_players": 910,
-        "potential_score": 46,
+        "current_players": 549,
+        "potential_score": 45,
         "watch_level": "Medium",
         "score_reasons": [
           "低门槛试玩或轻量入口",
@@ -2418,8 +2418,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "5 In-Demo",
-        "current_players": 12,
-        "potential_score": 33,
+        "current_players": 6,
+        "potential_score": 32,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
@@ -2693,8 +2693,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "1 In-Demo",
-        "current_players": 0,
-        "potential_score": 20,
+        "current_players": 1,
+        "potential_score": 21,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
@@ -2932,8 +2932,8 @@
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
         "heat": "5 In-Demo",
-        "current_players": 12,
-        "potential_score": 33,
+        "current_players": 6,
+        "potential_score": 32,
         "watch_level": "Low",
         "score_reasons": [
           "低门槛试玩或轻量入口",
@@ -3002,8 +3002,8 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "7d +11,699",
-          "current_players": 35046,
-          "potential_score": 64,
+          "current_players": 25601,
+          "potential_score": 63,
           "watch_level": "Medium",
           "score_reasons": [
             "关注基数高",
@@ -3014,39 +3014,6 @@
           ],
           "steam_url": "https://store.steampowered.com/app/3265700/",
           "contact_url": "https://poncle.games",
-          "report_date": "2026-04-26",
-          "section_title": "新发布游戏"
-        },
-        {
-          "appid": "2213700",
-          "name_zh": "罪托邦",
-          "name_en": "Sintopia",
-          "category": "Released",
-          "tags": [
-            "管理",
-            "God Game",
-            "自动化",
-            "基地建设"
-          ],
-          "developer": "Piraknights Games",
-          "publisher": "Team17",
-          "release_date": "2026-04-16",
-          "followers": "17,764",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "7d +4,395",
-          "current_players": 1920,
-          "potential_score": 56,
-          "watch_level": "Medium",
-          "score_reasons": [
-            "已有稳定在线",
-            "强 IP 或知名发行方",
-            "题材有内容传播点",
-            "已发布，可观察真实在线"
-          ],
-          "steam_url": "https://store.steampowered.com/app/2213700/",
-          "contact_url": "https://www.team17.com/contact/",
           "report_date": "2026-04-26",
           "section_title": "新发布游戏"
         },
@@ -3083,6 +3050,38 @@
           "contact_url": "https://cs.hoyoverse.com/",
           "report_date": "2026-04-27",
           "section_title": "新公布商店页面"
+        },
+        {
+          "appid": "2213700",
+          "name_zh": "罪托邦",
+          "name_en": "Sintopia",
+          "category": "Released",
+          "tags": [
+            "管理",
+            "God Game",
+            "自动化",
+            "基地建设"
+          ],
+          "developer": "Piraknights Games",
+          "publisher": "Team17",
+          "release_date": "2026-04-16",
+          "followers": "17,764",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "7d +4,395",
+          "current_players": 612,
+          "potential_score": 54,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "强 IP 或知名发行方",
+            "题材有内容传播点",
+            "已发布，可观察真实在线"
+          ],
+          "steam_url": "https://store.steampowered.com/app/2213700/",
+          "contact_url": "https://www.team17.com/contact/",
+          "report_date": "2026-04-26",
+          "section_title": "新发布游戏"
         },
         {
           "appid": "3751950",
@@ -3203,8 +3202,8 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "7d +11,699",
-          "current_players": 35046,
-          "potential_score": 64,
+          "current_players": 25601,
+          "potential_score": 63,
           "watch_level": "Medium",
           "score_reasons": [
             "关注基数高",
@@ -3236,7 +3235,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "7d +3,971",
-          "current_players": 24246,
+          "current_players": 23132,
           "potential_score": 58,
           "watch_level": "Medium",
           "score_reasons": [
@@ -3318,6 +3317,38 @@
           "section_title": "新公布商店页面"
         },
         {
+          "appid": "4216670",
+          "name_zh": "打字农夫",
+          "name_en": "Typing Farmer",
+          "category": "Released",
+          "tags": [
+            "休闲",
+            "模拟",
+            "打字效率"
+          ],
+          "developer": "MilkwayStudio",
+          "publisher": "MilkwayStudio",
+          "release_date": "2026-04-19",
+          "followers": "29,857",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "7d +2,869",
+          "current_players": 2019,
+          "potential_score": 50,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "关注基数高",
+            "已有稳定在线",
+            "低门槛试玩或轻量入口",
+            "已发布，可观察真实在线"
+          ],
+          "steam_url": "https://store.steampowered.com/app/4216670/",
+          "contact_url": "https://steamcommunity.com/app/4216670",
+          "report_date": "2026-04-26",
+          "section_title": "新发布游戏"
+        },
+        {
           "appid": "3165650",
           "name_zh": "阿尔比恩大师",
           "name_en": "Masters of Albion",
@@ -3336,8 +3367,8 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "7d +3,277",
-          "current_players": 347,
-          "potential_score": 51,
+          "current_players": 141,
+          "potential_score": 49,
           "watch_level": "Medium",
           "score_reasons": [
             "关注基数高",
@@ -3347,37 +3378,6 @@
           ],
           "steam_url": "https://store.steampowered.com/app/3165650/",
           "contact_url": "https://22cans.com/",
-          "report_date": "2026-04-26",
-          "section_title": "新发布游戏"
-        },
-        {
-          "appid": "4216670",
-          "name_zh": "打字农夫",
-          "name_en": "Typing Farmer",
-          "category": "Released",
-          "tags": [
-            "休闲",
-            "模拟",
-            "打字效率"
-          ],
-          "developer": "MilkwayStudio",
-          "publisher": "MilkwayStudio",
-          "release_date": "2026-04-19",
-          "followers": "29,857",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "7d +2,869",
-          "current_players": 967,
-          "potential_score": 49,
-          "watch_level": "Medium",
-          "score_reasons": [
-            "关注基数高",
-            "低门槛试玩或轻量入口",
-            "已发布，可观察真实在线"
-          ],
-          "steam_url": "https://store.steampowered.com/app/4216670/",
-          "contact_url": "https://steamcommunity.com/app/4216670",
           "report_date": "2026-04-26",
           "section_title": "新发布游戏"
         },
@@ -3400,8 +3400,8 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "857 In-Demo",
-          "current_players": 910,
-          "potential_score": 46,
+          "current_players": 549,
+          "potential_score": 45,
           "watch_level": "Medium",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -3464,8 +3464,8 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "5 In-Demo",
-          "current_players": 12,
-          "potential_score": 33,
+          "current_players": 6,
+          "potential_score": 32,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -3593,8 +3593,8 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "7d +11,699",
-          "current_players": 35046,
-          "potential_score": 64,
+          "current_players": 25601,
+          "potential_score": 63,
           "watch_level": "Medium",
           "score_reasons": [
             "关注基数高",
@@ -3626,7 +3626,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "7d +3,971",
-          "current_players": 24246,
+          "current_players": 23132,
           "potential_score": 58,
           "watch_level": "Medium",
           "score_reasons": [
@@ -3741,5 +3741,6 @@
         }
       ]
     }
-  }
+  },
+  "generated_at": "2026-04-27 11:24 CST"
 }
