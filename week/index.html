@@ -367,6 +367,12 @@
       background: #ffffff;
       box-shadow: 0 12px 28px rgba(22, 29, 39, 0.08);
     }
+    .rank-preview-side {
+      min-width: 0;
+      display: grid;
+      align-content: start;
+      border-right: 4px solid var(--accent);
+    }
     .rank-preview-media {
       position: relative;
       width: 100%;
@@ -376,7 +382,7 @@
       background:
         radial-gradient(circle at 22% 18%, rgba(255,255,255,0.32), transparent 30%),
         linear-gradient(135deg, var(--accent), #242832 54%, #0f7173);
-      border-right: 4px solid var(--accent);
+      border-bottom: 4px solid var(--accent);
     }
     .rank-preview-media::after {
       content: "";
@@ -408,6 +414,13 @@
       background: rgba(0,0,0,0.28);
       font-size: 12px;
       font-weight: 800;
+    }
+    .rank-preview-side-panel {
+      display: grid;
+      gap: 10px;
+      padding: 12px;
+      background:
+        linear-gradient(180deg, rgba(247,251,251,0.92), rgba(255,255,255,0.98));
     }
     .rank-preview-content {
       min-width: 0;
@@ -492,6 +505,9 @@
       .quick-stats { justify-content: flex-start; }
       .grid, .leader-grid { grid-template-columns: 1fr; }
       .rank-preview-card { grid-template-columns: 1fr; }
+      .rank-preview-side {
+        border-right: 0;
+      }
       .rank-preview-media {
         max-width: none;
         aspect-ratio: 460 / 215;
@@ -520,7 +536,7 @@
         <p class="subtitle">以最新日报日期为基准，聚合最近 7 天候选，优先看潜力分、新进榜、连续上榜和在线/热度突出项目。</p>
       </div>
       <div class="quick-stats">
-        <span>Top 20</span><span>新进 20</span><span>数据更新 2026-04-27 12:33 CST</span>
+        <span>Top 20</span><span>新进 20</span><span>数据更新 2026-04-27 12:40 CST</span>
       </div>
     </header>
     
@@ -539,9 +555,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-1-3265700-1qs0xnd-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3265700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/header.jpg" alt="Vampire Crawlers: The Turbo Wildcard from Vampire Survivors cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3265700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/header.jpg" alt="Vampire Crawlers: The Turbo Wildcard from Vampire Survivors cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>24,749</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>当前在线人数高</span><span>强 IP 或知名发行方</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -553,8 +575,6 @@
           <div class="score level-medium"><b>63</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>卡牌构筑</span><span>地牢</span><span>Roguelite</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>24,591</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>当前在线人数高</span><span>强 IP 或知名发行方</span></div>
         <p class="rank-preview-summary">口碑和并发同步上扬，是本批里最像已经跑出来的条目，适合优先追踪社区和二创。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3265700/" target="_blank" rel="noreferrer">Steam</a>
@@ -571,9 +591,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-2-4128580-5w48sq-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4128580.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4128580/header.jpg" alt="BidKing cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4128580.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4128580/header.jpg" alt="BidKing cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>29,262</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>热度</b><em>7d +3,971</em></span></div>
+          <div class="rank-preview-reasons"><span>当前在线人数高</span><span>多人/合作传播性好</span><span>题材有内容传播点</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -585,8 +611,6 @@
           <div class="score level-medium"><b>59</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>策略</span><span>模拟</span><span>多人竞拍</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>29,262</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>热度</b><em>7d +3,971</em></span></div>
-        <div class="rank-preview-reasons"><span>当前在线人数高</span><span>多人/合作传播性好</span><span>题材有内容传播点</span></div>
         <p class="rank-preview-summary">热度高但口碑分化，适合做值不值得玩或争议点总结，天然带讨论流量。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">Steam</a>
@@ -603,9 +627,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-3-4162040-5y7hg3-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4162040.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/header.jpg" alt="Zenless Zone Zero cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4162040.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/header.jpg" alt="Zenless Zone Zero cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,342</em></span><span class=""><b>热度</b><em>7d +7,342</em></span><span class="metric-rank"><b>愿望单榜</b><em>#360</em></span></div>
+          <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -617,8 +647,6 @@
           <div class="score level-medium"><b>55</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>免费</span><span>动作</span><span>ARPG</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,342</em></span><span class=""><b>热度</b><em>7d +7,342</em></span><span class="metric-rank"><b>愿望单榜</b><em>#360</em></span></div>
-        <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span></div>
         <p class="rank-preview-summary">成熟产品进入 Steam 后有新的用户入口，后续可重点看首发愿望单、版本节点和平台迁移讨论。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">Steam</a>
@@ -635,9 +663,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-4-2213700-1c0uehh-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/2213700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2213700/header.jpg" alt="Sintopia cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/2213700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2213700/header.jpg" alt="Sintopia cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>544</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>热度</b><em>7d +4,395</em></span></div>
+          <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -649,8 +683,6 @@
           <div class="score level-medium"><b>54</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>管理</span><span>God Game</span><span>自动化</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>544</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>热度</b><em>7d +4,395</em></span></div>
-        <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">中核经营盘稳定，如果更新节奏跟上，后续还有二次扩散空间。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/2213700/" target="_blank" rel="noreferrer">Steam</a>
@@ -667,9 +699,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-5-3751950-1t4mqok-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3751950.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/header.jpg" alt="Assassin&#39;s Creed Black Flag Resynced cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3751950.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/header.jpg" alt="Assassin&#39;s Creed Black Flag Resynced cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>29,621</em></span><span class=""><b>热度</b><em>7d +24,880</em></span><span class="metric-rank"><b>愿望单榜</b><em>#65</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -681,8 +719,6 @@
           <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>动作</span><span>冒险</span><span>潜行</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>29,621</em></span><span class=""><b>热度</b><em>7d +24,880</em></span><span class="metric-rank"><b>愿望单榜</b><em>#65</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
         <p class="rank-preview-summary">经典 IP 重构继续占据新商店页关注高位，重制内容、画面对比和系列口碑修复都容易形成二次传播。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">Steam</a>
@@ -699,9 +735,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-6-2590240-1dkbluc-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2590240.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2590240/header.jpg" alt="METRO 2039 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2590240.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2590240/header.jpg" alt="METRO 2039 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>41,553</em></span><span class=""><b>热度</b><em>7d +19,050</em></span><span class="metric-rank"><b>愿望单榜</b><em>#60</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -713,8 +755,6 @@
           <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>FPS</span><span>后末日</span><span>剧情向</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>41,553</em></span><span class=""><b>热度</b><em>7d +19,050</em></span><span class="metric-rank"><b>愿望单榜</b><em>#60</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
         <p class="rank-preview-summary">系列新作仍有强烈首曝余温，关注基数领先，适合做世界观延展、前作回顾和发售窗口预测。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">Steam</a>
@@ -731,9 +771,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-7-4614080-88pwir-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4614080.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4614080/header.jpg" alt="Cartel Pilots Wanted cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4614080.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4614080/header.jpg" alt="Cartel Pilots Wanted cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,566</em></span><span class=""><b>热度</b><em>7d +9,564</em></span><span class="metric-rank"><b>愿望单榜</b><em>#203</em></span></div>
+          <div class="rank-preview-reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -745,8 +791,6 @@
           <div class="score level-medium"><b>51</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>飞行</span><span>模拟</span><span>合作</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,566</em></span><span class=""><b>热度</b><em>7d +9,564</em></span><span class="metric-rank"><b>愿望单榜</b><em>#203</em></span></div>
-        <div class="rank-preview-reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
         <p class="rank-preview-summary">合作飞行加犯罪运输的高概念组合很适合短视频展示，若能兑现多人混乱感，传播效率会比较高。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">Steam</a>
@@ -763,9 +807,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-8-4216670-6cktcc-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4216670.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4216670/header.jpg" alt="Typing Farmer cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4216670.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4216670/header.jpg" alt="Typing Farmer cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>2,052</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>热度</b><em>7d +2,869</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>已有稳定在线</span><span>低门槛试玩或轻量入口</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -777,8 +827,6 @@
           <div class="score level-medium"><b>50</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>休闲</span><span>模拟</span><span>打字效率</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>2,052</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>热度</b><em>7d +2,869</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>已有稳定在线</span><span>低门槛试玩或轻量入口</span></div>
         <p class="rank-preview-summary">办公陪伴型定位清晰，有效率工具化与游戏化陪伴的差异化内容点。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4216670/" target="_blank" rel="noreferrer">Steam</a>
@@ -795,9 +843,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-9-3165650-1qazams-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3165650.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3165650/header.jpg" alt="Masters of Albion cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3165650.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3165650/header.jpg" alt="Masters of Albion cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>104</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -809,8 +863,6 @@
           <div class="score level-medium"><b>49</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>策略</span><span>模拟</span><span>God Game</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>108</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">题材复兴叠加创作者品牌，适合做玩法深挖和老派 God Game 回归叙事。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3165650/" target="_blank" rel="noreferrer">Steam</a>
@@ -827,9 +879,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-10-4576510-7v0f78-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4576510.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg" alt="Casualties: Unknown Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4576510.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg" alt="Casualties: Unknown Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>446</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -841,8 +899,6 @@
           <div class="score level-medium"><b>45</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>生存</span><span>洞穴探索</span><span>模拟</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>446</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">试玩并发在近期 Demo 中非常突出，肢体和生存系统有内容展示点，适合优先跟进玩家反馈和转化。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4576510/" target="_blank" rel="noreferrer">Steam</a>
@@ -859,9 +915,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-11-1857810-108zlpq-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/1857810.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1857810/header.jpg" alt="DRAGON BALL XENOVERSE 3 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/1857810.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1857810/header.jpg" alt="DRAGON BALL XENOVERSE 3 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,717</em></span><span class=""><b>热度</b><em>7d +9,717</em></span></div>
+          <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -873,8 +935,6 @@
           <div class="score level-low"><b>42</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>动作 RPG</span><span>3D 格斗</span><span>动漫</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,717</em></span><span class=""><b>热度</b><em>7d +9,717</em></span></div>
-        <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
         <p class="rank-preview-summary">强 IP 新条目，首周关注释放直接，适合做角色阵容预测和系列进化讨论。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/1857810/" target="_blank" rel="noreferrer">Steam</a>
@@ -891,9 +951,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-12-3393110-1raojfa-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3393110.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/header.jpg" alt="AION 2 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3393110.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/header.jpg" alt="AION 2 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,288</em></span><span class=""><b>热度</b><em>SteamDB 近周新进</em></span><span class="metric-rank"><b>愿望单榜</b><em>#617</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>新商店页处于愿望单积累期</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -905,8 +971,6 @@
           <div class="score level-low"><b>35</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>免费</span><span>MMORPG</span><span>开放世界</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,288</em></span><span class=""><b>热度</b><em>SteamDB 近周新进</em></span><span class="metric-rank"><b>愿望单榜</b><em>#617</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>新商店页处于愿望单积累期</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">老牌 MMO IP 回归 Steam，主打空战和大型阵营对抗，适合持续跟踪愿望单积累、地区发行节奏和免费 MMO 受众迁移。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3393110/" target="_blank" rel="noreferrer">Steam</a>
@@ -923,9 +987,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-13-4640310-8aases-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4640310.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg" alt="UNHUMAN Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4640310.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg" alt="UNHUMAN Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>8</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -937,8 +1007,6 @@
           <div class="score level-low"><b>32</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>放置</span><span>撤离射击</span><span>赛博朋克</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>8</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
         <p class="rank-preview-summary">放置和撤离射击的组合足够少见，适合观察玩法概念是否能靠短循环和构筑深度形成留存。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">Steam</a>
@@ -955,9 +1023,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-14-4588570-7vlhwt-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4588570.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588570/header.jpg" alt="Tales of Terrarum Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4588570.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588570/header.jpg" alt="Tales of Terrarum Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -969,8 +1043,6 @@
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>模拟经营</span><span>冒险</span><span>城镇建设</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
         <p class="rank-preview-summary">正式版临近解锁，Demo 能提前验证资源管理和角色养成吸引力，适合做轻度经营受众种草。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">Steam</a>
@@ -987,9 +1059,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-15-4283360-6gdeac-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4283360.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4283360/header.jpg" alt="Legionbound cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4283360.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4283360/header.jpg" alt="Legionbound cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>1,424</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1001,8 +1079,6 @@
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>自走棋</span><span>Roguelite</span><span>动作 RPG</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>1,424</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">自走棋、队伍构筑和 Roguelite 进程叠加，Demo 已有一定试玩信号，适合看构筑深度和口碑扩散。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4283360/" target="_blank" rel="noreferrer">Steam</a>
@@ -1019,9 +1095,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-16-2873660-1eyevta-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2873660.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2873660/header.jpg" alt="Global Rescue cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2873660.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2873660/header.jpg" alt="Global Rescue cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>6,008</em></span><span class=""><b>热度</b><em>Early Access Launch</em></span></div>
+          <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1033,8 +1115,6 @@
           <div class="score level-low"><b>29</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>模拟</span><span>策略</span><span>基地建设</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>6,008</em></span><span class=""><b>热度</b><em>Early Access Launch</em></span></div>
-        <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">现实地图救援调度题材清晰，消防、警务、EMS 和 SWAT 组合有管理深度，适合跟踪抢先体验首周留存。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/2873660/" target="_blank" rel="noreferrer">Steam</a>
@@ -1051,9 +1131,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-17-3256150-1qrhnpo-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3256150.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3256150/header.jpg" alt="Moomintroll: Winter&#39;s Warmth cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3256150.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3256150/header.jpg" alt="Moomintroll: Winter&#39;s Warmth cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>5,204</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
+          <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1065,8 +1151,6 @@
           <div class="score level-low"><b>29</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>冒险</span><span>温馨</span><span>家庭友好</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>5,204</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
-        <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">姆明 IP 与温馨冒险调性明确，适合亲子、治愈和手绘风内容方向，需观察首批评价是否带动长尾。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3256150/" target="_blank" rel="noreferrer">Steam</a>
@@ -1083,9 +1167,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-18-4605330-886t0p-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4605330.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4605330/header.jpg" alt="Vanisha Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4605330.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4605330/header.jpg" alt="Vanisha Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1097,8 +1187,6 @@
           <div class="score level-low"><b>25</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>动作</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">试玩留存稳定，说明首轮体验完成度不差，值得关注后续口碑扩散曲线。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4605330/" target="_blank" rel="noreferrer">Steam</a>
@@ -1115,9 +1203,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-19-2121450-1bkb8lt-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2121450.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2121450/header.jpg" alt="Bangkok Story: A Stray Dog cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2121450.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2121450/header.jpg" alt="Bangkok Story: A Stray Dog cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>1,270</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
+          <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1129,8 +1223,6 @@
           <div class="score level-low"><b>24</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>叙事</span><span>像素</span><span>情感</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>1,270</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
-        <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">以真实事件感和曼谷城市记忆作为叙事卖点，适合剧情向长评、独立游戏推荐和情绪型短内容。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/2121450/" target="_blank" rel="noreferrer">Steam</a>
@@ -1147,9 +1239,15 @@
         <div class="rank-preview" id="rank-preview-top-20-8m3kum-20-3896300-1tnyltd-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3896300.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg" alt="Toll Booth Simulator cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3896300.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg" alt="Toll Booth Simulator cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>540</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
+          <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1161,8 +1259,6 @@
           <div class="score level-low"><b>23</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>职业模拟</span><span>管理</span><span>犯罪</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>540</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
-        <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">收费站检查、债务压力和荒诞经营元素有直播互动点，虽然关注基数较低，但题材差异化明显。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3896300/" target="_blank" rel="noreferrer">Steam</a>
@@ -1186,9 +1282,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-1-3265700-1qs0xnd-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3265700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/header.jpg" alt="Vampire Crawlers: The Turbo Wildcard from Vampire Survivors cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3265700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/header.jpg" alt="Vampire Crawlers: The Turbo Wildcard from Vampire Survivors cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>24,749</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>当前在线人数高</span><span>强 IP 或知名发行方</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1200,8 +1302,6 @@
           <div class="score level-medium"><b>63</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>卡牌构筑</span><span>地牢</span><span>Roguelite</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>24,591</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>当前在线人数高</span><span>强 IP 或知名发行方</span></div>
         <p class="rank-preview-summary">口碑和并发同步上扬，是本批里最像已经跑出来的条目，适合优先追踪社区和二创。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3265700/" target="_blank" rel="noreferrer">Steam</a>
@@ -1218,9 +1318,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-2-4128580-5w48sq-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4128580.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4128580/header.jpg" alt="BidKing cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4128580.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4128580/header.jpg" alt="BidKing cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>29,262</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>热度</b><em>7d +3,971</em></span></div>
+          <div class="rank-preview-reasons"><span>当前在线人数高</span><span>多人/合作传播性好</span><span>题材有内容传播点</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1232,8 +1338,6 @@
           <div class="score level-medium"><b>59</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>策略</span><span>模拟</span><span>多人竞拍</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>29,262</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>热度</b><em>7d +3,971</em></span></div>
-        <div class="rank-preview-reasons"><span>当前在线人数高</span><span>多人/合作传播性好</span><span>题材有内容传播点</span></div>
         <p class="rank-preview-summary">热度高但口碑分化，适合做值不值得玩或争议点总结，天然带讨论流量。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">Steam</a>
@@ -1250,9 +1354,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-3-2213700-1c0uehh-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/2213700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2213700/header.jpg" alt="Sintopia cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/2213700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2213700/header.jpg" alt="Sintopia cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>544</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>热度</b><em>7d +4,395</em></span></div>
+          <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1264,8 +1374,6 @@
           <div class="score level-medium"><b>54</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>管理</span><span>God Game</span><span>自动化</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>544</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>热度</b><em>7d +4,395</em></span></div>
-        <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">中核经营盘稳定，如果更新节奏跟上，后续还有二次扩散空间。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/2213700/" target="_blank" rel="noreferrer">Steam</a>
@@ -1282,9 +1390,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-4-4162040-5y7hg3-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4162040.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/header.jpg" alt="Zenless Zone Zero cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4162040.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/header.jpg" alt="Zenless Zone Zero cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,342</em></span><span class=""><b>热度</b><em>7d +7,342</em></span></div>
+          <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1296,8 +1410,6 @@
           <div class="score level-medium"><b>51</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>免费</span><span>动作</span><span>ARPG</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,342</em></span><span class=""><b>热度</b><em>7d +7,342</em></span></div>
-        <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span></div>
         <p class="rank-preview-summary">大盘产品进入 Steam 后有新增用户池，适合做版本入坑、角色内容和平台迁移观察。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">Steam</a>
@@ -1314,9 +1426,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-5-4216670-6cktcc-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4216670.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4216670/header.jpg" alt="Typing Farmer cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4216670.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4216670/header.jpg" alt="Typing Farmer cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>2,052</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>热度</b><em>7d +2,869</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>已有稳定在线</span><span>低门槛试玩或轻量入口</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1328,8 +1446,6 @@
           <div class="score level-medium"><b>50</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>休闲</span><span>模拟</span><span>打字效率</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>2,052</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>热度</b><em>7d +2,869</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>已有稳定在线</span><span>低门槛试玩或轻量入口</span></div>
         <p class="rank-preview-summary">办公陪伴型定位清晰，有效率工具化与游戏化陪伴的差异化内容点。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4216670/" target="_blank" rel="noreferrer">Steam</a>
@@ -1346,9 +1462,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-6-3165650-1qazams-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3165650.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3165650/header.jpg" alt="Masters of Albion cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3165650.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3165650/header.jpg" alt="Masters of Albion cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>104</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1360,8 +1482,6 @@
           <div class="score level-medium"><b>49</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>策略</span><span>模拟</span><span>God Game</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>108</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">题材复兴叠加创作者品牌，适合做玩法深挖和老派 God Game 回归叙事。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3165650/" target="_blank" rel="noreferrer">Steam</a>
@@ -1378,9 +1498,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-7-3751950-1t4mqok-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3751950.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/header.jpg" alt="Assassin&#39;s Creed Black Flag Resynced cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3751950.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/header.jpg" alt="Assassin&#39;s Creed Black Flag Resynced cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>24,880</em></span><span class=""><b>热度</b><em>7d +24,880</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1392,8 +1518,6 @@
           <div class="score level-medium"><b>47</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>动作</span><span>冒险</span><span>潜行</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>24,880</em></span><span class=""><b>热度</b><em>7d +24,880</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span></div>
         <p class="rank-preview-summary">经典 IP 重制，预购期自带传播基础，适合做情怀回归与重制对比内容。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">Steam</a>
@@ -1410,9 +1534,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-8-2590240-1dkbluc-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/2590240.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2590240/header.jpg" alt="METRO 2039 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/2590240.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2590240/header.jpg" alt="METRO 2039 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>41,553</em></span><span class=""><b>热度</b><em>7d +19,050</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1424,8 +1554,6 @@
           <div class="score level-medium"><b>47</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>FPS</span><span>后末日</span><span>剧情向</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>41,553</em></span><span class=""><b>热度</b><em>7d +19,050</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>强 IP 或知名发行方</span><span>新商店页处于愿望单积累期</span></div>
         <p class="rank-preview-summary">系列新作首曝，增粉速度快，世界观辨识度高，适合做设定解读与彩蛋拆解。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">Steam</a>
@@ -1442,9 +1570,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-9-4614080-88pwir-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4614080.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4614080/header.jpg" alt="Cartel Pilots Wanted cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4614080.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4614080/header.jpg" alt="Cartel Pilots Wanted cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,566</em></span><span class=""><b>热度</b><em>7d +9,564</em></span></div>
+          <div class="rank-preview-reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1456,8 +1590,6 @@
           <div class="score level-medium"><b>46</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>飞行</span><span>模拟</span><span>合作</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,566</em></span><span class=""><b>热度</b><em>7d +9,564</em></span></div>
-        <div class="rank-preview-reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
         <p class="rank-preview-summary">合作飞行题材少见，概念记忆点强，适合多人内容和高概念卖点传播。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">Steam</a>
@@ -1474,9 +1606,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-10-4576510-7v0f78-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4576510.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg" alt="Casualties: Unknown Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4576510.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg" alt="Casualties: Unknown Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>446</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1488,8 +1626,6 @@
           <div class="score level-medium"><b>45</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>生存</span><span>洞穴探索</span><span>模拟</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>446</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">试玩并发在近期 Demo 中非常突出，肢体和生存系统有内容展示点，适合优先跟进玩家反馈和转化。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4576510/" target="_blank" rel="noreferrer">Steam</a>
@@ -1506,9 +1642,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-11-1857810-108zlpq-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/1857810.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1857810/header.jpg" alt="DRAGON BALL XENOVERSE 3 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/1857810.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1857810/header.jpg" alt="DRAGON BALL XENOVERSE 3 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,717</em></span><span class=""><b>热度</b><em>7d +9,717</em></span></div>
+          <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1520,8 +1662,6 @@
           <div class="score level-low"><b>42</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>动作 RPG</span><span>3D 格斗</span><span>动漫</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,717</em></span><span class=""><b>热度</b><em>7d +9,717</em></span></div>
-        <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
         <p class="rank-preview-summary">强 IP 新条目，首周关注释放直接，适合做角色阵容预测和系列进化讨论。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/1857810/" target="_blank" rel="noreferrer">Steam</a>
@@ -1538,9 +1678,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-12-3393110-1raojfa-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3393110.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/header.jpg" alt="AION 2 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3393110.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/header.jpg" alt="AION 2 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,288</em></span><span class=""><b>热度</b><em>SteamDB 近周新进</em></span><span class="metric-rank"><b>愿望单榜</b><em>#617</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>新商店页处于愿望单积累期</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1552,8 +1698,6 @@
           <div class="score level-low"><b>35</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>免费</span><span>MMORPG</span><span>开放世界</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,288</em></span><span class=""><b>热度</b><em>SteamDB 近周新进</em></span><span class="metric-rank"><b>愿望单榜</b><em>#617</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>新商店页处于愿望单积累期</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">老牌 MMO IP 回归 Steam，主打空战和大型阵营对抗，适合持续跟踪愿望单积累、地区发行节奏和免费 MMO 受众迁移。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3393110/" target="_blank" rel="noreferrer">Steam</a>
@@ -1570,9 +1714,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-13-4640310-8aases-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4640310.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg" alt="UNHUMAN Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4640310.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg" alt="UNHUMAN Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>8</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>Demo 可验证试玩转化</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1584,8 +1734,6 @@
           <div class="score level-low"><b>34</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>2D</span><span>Idle</span><span>Extraction Shooter</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>8</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>Demo 可验证试玩转化</span></div>
         <p class="rank-preview-summary">Idle 与撤离射击组合少见，适合观察是否能靠玩法概念驱动传播。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">Steam</a>
@@ -1602,9 +1750,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-14-4588570-7vlhwt-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4588570.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588570/header.jpg" alt="Tales of Terrarum Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4588570.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588570/header.jpg" alt="Tales of Terrarum Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1616,8 +1770,6 @@
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>模拟经营</span><span>冒险</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
         <p class="rank-preview-summary">试玩在线信号在同批条目里更亮眼，适合做试玩首印象和种草切片。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">Steam</a>
@@ -1634,9 +1786,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-15-4283360-6gdeac-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4283360.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4283360/header.jpg" alt="Legionbound cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4283360.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4283360/header.jpg" alt="Legionbound cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>1,424</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1648,8 +1806,6 @@
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>自走棋</span><span>Roguelite</span><span>动作 RPG</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>1,424</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">自走棋、队伍构筑和 Roguelite 进程叠加，Demo 已有一定试玩信号，适合看构筑深度和口碑扩散。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4283360/" target="_blank" rel="noreferrer">Steam</a>
@@ -1666,9 +1822,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-16-2873660-1eyevta-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2873660.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2873660/header.jpg" alt="Global Rescue cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2873660.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2873660/header.jpg" alt="Global Rescue cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>6,008</em></span><span class=""><b>热度</b><em>Early Access Launch</em></span></div>
+          <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1680,8 +1842,6 @@
           <div class="score level-low"><b>29</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>模拟</span><span>策略</span><span>基地建设</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>6,008</em></span><span class=""><b>热度</b><em>Early Access Launch</em></span></div>
-        <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">现实地图救援调度题材清晰，消防、警务、EMS 和 SWAT 组合有管理深度，适合跟踪抢先体验首周留存。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/2873660/" target="_blank" rel="noreferrer">Steam</a>
@@ -1698,9 +1858,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-17-3256150-1qrhnpo-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3256150.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3256150/header.jpg" alt="Moomintroll: Winter&#39;s Warmth cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3256150.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3256150/header.jpg" alt="Moomintroll: Winter&#39;s Warmth cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>5,204</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
+          <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1712,8 +1878,6 @@
           <div class="score level-low"><b>29</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>冒险</span><span>温馨</span><span>家庭友好</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>5,204</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
-        <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">姆明 IP 与温馨冒险调性明确，适合亲子、治愈和手绘风内容方向，需观察首批评价是否带动长尾。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3256150/" target="_blank" rel="noreferrer">Steam</a>
@@ -1730,9 +1894,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-18-4605330-886t0p-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4605330.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4605330/header.jpg" alt="Vanisha Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4605330.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4605330/header.jpg" alt="Vanisha Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1744,8 +1914,6 @@
           <div class="score level-low"><b>25</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>动作</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">试玩留存稳定，说明首轮体验完成度不差，值得关注后续口碑扩散曲线。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4605330/" target="_blank" rel="noreferrer">Steam</a>
@@ -1762,9 +1930,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-19-2121450-1bkb8lt-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2121450.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2121450/header.jpg" alt="Bangkok Story: A Stray Dog cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2121450.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2121450/header.jpg" alt="Bangkok Story: A Stray Dog cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>1,270</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
+          <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1776,8 +1950,6 @@
           <div class="score level-low"><b>24</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>叙事</span><span>像素</span><span>情感</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>1,270</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
-        <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">以真实事件感和曼谷城市记忆作为叙事卖点，适合剧情向长评、独立游戏推荐和情绪型短内容。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/2121450/" target="_blank" rel="noreferrer">Steam</a>
@@ -1794,9 +1966,15 @@
         <div class="rank-preview" id="rank-preview-item-1nbo7f9-20-3896300-1tnyltd-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3896300.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg" alt="Toll Booth Simulator cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3896300.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg" alt="Toll Booth Simulator cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>540</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
+          <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1808,8 +1986,6 @@
           <div class="score level-low"><b>23</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>职业模拟</span><span>管理</span><span>犯罪</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>540</em></span><span class=""><b>热度</b><em>Launch Day</em></span></div>
-        <div class="rank-preview-reasons"><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">收费站检查、债务压力和荒诞经营元素有直播互动点，虽然关注基数较低，但题材差异化明显。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3896300/" target="_blank" rel="noreferrer">Steam</a>
@@ -1833,9 +2009,15 @@
         <div class="rank-preview" id="rank-preview-item-18te9vc-1-4162040-5y7hg3-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4162040.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/header.jpg" alt="Zenless Zone Zero cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4162040.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/header.jpg" alt="Zenless Zone Zero cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,342</em></span><span class=""><b>热度</b><em>7d +7,342</em></span><span class="metric-rank"><b>愿望单榜</b><em>#360</em></span></div>
+          <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1847,8 +2029,6 @@
           <div class="score level-medium"><b>55</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>免费</span><span>动作</span><span>ARPG</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,342</em></span><span class=""><b>热度</b><em>7d +7,342</em></span><span class="metric-rank"><b>愿望单榜</b><em>#360</em></span></div>
-        <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span></div>
         <p class="rank-preview-summary">成熟产品进入 Steam 后有新的用户入口，后续可重点看首发愿望单、版本节点和平台迁移讨论。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">Steam</a>
@@ -1865,9 +2045,15 @@
         <div class="rank-preview" id="rank-preview-item-18te9vc-2-3751950-1t4mqok-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3751950.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/header.jpg" alt="Assassin&#39;s Creed Black Flag Resynced cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3751950.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/header.jpg" alt="Assassin&#39;s Creed Black Flag Resynced cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>29,621</em></span><span class=""><b>热度</b><em>7d +24,880</em></span><span class="metric-rank"><b>愿望单榜</b><em>#65</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1879,8 +2065,6 @@
           <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>动作</span><span>冒险</span><span>潜行</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>29,621</em></span><span class=""><b>热度</b><em>7d +24,880</em></span><span class="metric-rank"><b>愿望单榜</b><em>#65</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
         <p class="rank-preview-summary">经典 IP 重构继续占据新商店页关注高位，重制内容、画面对比和系列口碑修复都容易形成二次传播。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">Steam</a>
@@ -1897,9 +2081,15 @@
         <div class="rank-preview" id="rank-preview-item-18te9vc-3-2590240-1dkbluc-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2590240.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2590240/header.jpg" alt="METRO 2039 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2590240.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2590240/header.jpg" alt="METRO 2039 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>41,553</em></span><span class=""><b>热度</b><em>7d +19,050</em></span><span class="metric-rank"><b>愿望单榜</b><em>#60</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1911,8 +2101,6 @@
           <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>FPS</span><span>后末日</span><span>剧情向</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>41,553</em></span><span class=""><b>热度</b><em>7d +19,050</em></span><span class="metric-rank"><b>愿望单榜</b><em>#60</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
         <p class="rank-preview-summary">系列新作仍有强烈首曝余温，关注基数领先，适合做世界观延展、前作回顾和发售窗口预测。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">Steam</a>
@@ -1929,9 +2117,15 @@
         <div class="rank-preview" id="rank-preview-item-18te9vc-4-4614080-88pwir-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4614080.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4614080/header.jpg" alt="Cartel Pilots Wanted cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4614080.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4614080/header.jpg" alt="Cartel Pilots Wanted cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,566</em></span><span class=""><b>热度</b><em>7d +9,564</em></span><span class="metric-rank"><b>愿望单榜</b><em>#203</em></span></div>
+          <div class="rank-preview-reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1943,8 +2137,6 @@
           <div class="score level-medium"><b>51</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>飞行</span><span>模拟</span><span>合作</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,566</em></span><span class=""><b>热度</b><em>7d +9,564</em></span><span class="metric-rank"><b>愿望单榜</b><em>#203</em></span></div>
-        <div class="rank-preview-reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
         <p class="rank-preview-summary">合作飞行加犯罪运输的高概念组合很适合短视频展示，若能兑现多人混乱感，传播效率会比较高。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">Steam</a>
@@ -1961,9 +2153,15 @@
         <div class="rank-preview" id="rank-preview-item-18te9vc-5-4640310-8aases-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4640310.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg" alt="UNHUMAN Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4640310.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg" alt="UNHUMAN Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>8</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -1975,8 +2173,6 @@
           <div class="score level-low"><b>32</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>放置</span><span>撤离射击</span><span>赛博朋克</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>8</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
         <p class="rank-preview-summary">放置和撤离射击的组合足够少见，适合观察玩法概念是否能靠短循环和构筑深度形成留存。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">Steam</a>
@@ -1993,9 +2189,15 @@
         <div class="rank-preview" id="rank-preview-item-18te9vc-6-4588570-7vlhwt-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4588570.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588570/header.jpg" alt="Tales of Terrarum Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4588570.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588570/header.jpg" alt="Tales of Terrarum Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2007,8 +2209,6 @@
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>模拟经营</span><span>冒险</span><span>城镇建设</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
         <p class="rank-preview-summary">正式版临近解锁，Demo 能提前验证资源管理和角色养成吸引力，适合做轻度经营受众种草。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">Steam</a>
@@ -2032,9 +2232,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-1-4128580-5w48sq-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4128580.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4128580/header.jpg" alt="BidKing cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4128580.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4128580/header.jpg" alt="BidKing cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>29,262</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>热度</b><em>7d +3,971</em></span></div>
+          <div class="rank-preview-reasons"><span>当前在线人数高</span><span>多人/合作传播性好</span><span>题材有内容传播点</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2046,8 +2252,6 @@
           <div class="score level-medium"><b>59</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>策略</span><span>模拟</span><span>多人竞拍</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>29,262</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>热度</b><em>7d +3,971</em></span></div>
-        <div class="rank-preview-reasons"><span>当前在线人数高</span><span>多人/合作传播性好</span><span>题材有内容传播点</span></div>
         <p class="rank-preview-summary">热度高但口碑分化，适合做值不值得玩或争议点总结，天然带讨论流量。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4128580/" target="_blank" rel="noreferrer">Steam</a>
@@ -2064,9 +2268,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-2-3265700-1qs0xnd-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3265700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/header.jpg" alt="Vampire Crawlers: The Turbo Wildcard from Vampire Survivors cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3265700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/header.jpg" alt="Vampire Crawlers: The Turbo Wildcard from Vampire Survivors cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>24,749</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>当前在线人数高</span><span>强 IP 或知名发行方</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2078,8 +2288,6 @@
           <div class="score level-medium"><b>63</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>卡牌构筑</span><span>地牢</span><span>Roguelite</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>24,591</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>当前在线人数高</span><span>强 IP 或知名发行方</span></div>
         <p class="rank-preview-summary">口碑和并发同步上扬，是本批里最像已经跑出来的条目，适合优先追踪社区和二创。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3265700/" target="_blank" rel="noreferrer">Steam</a>
@@ -2096,9 +2304,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-3-4216670-6cktcc-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4216670.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4216670/header.jpg" alt="Typing Farmer cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4216670.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4216670/header.jpg" alt="Typing Farmer cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>2,052</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>热度</b><em>7d +2,869</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>已有稳定在线</span><span>低门槛试玩或轻量入口</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2110,8 +2324,6 @@
           <div class="score level-medium"><b>50</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>休闲</span><span>模拟</span><span>打字效率</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>2,052</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>热度</b><em>7d +2,869</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>已有稳定在线</span><span>低门槛试玩或轻量入口</span></div>
         <p class="rank-preview-summary">办公陪伴型定位清晰，有效率工具化与游戏化陪伴的差异化内容点。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4216670/" target="_blank" rel="noreferrer">Steam</a>
@@ -2128,9 +2340,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-4-2213700-1c0uehh-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/2213700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2213700/header.jpg" alt="Sintopia cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/2213700.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2213700/header.jpg" alt="Sintopia cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>544</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>热度</b><em>7d +4,395</em></span></div>
+          <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2142,8 +2360,6 @@
           <div class="score level-medium"><b>54</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>管理</span><span>God Game</span><span>自动化</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>544</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>热度</b><em>7d +4,395</em></span></div>
-        <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">中核经营盘稳定，如果更新节奏跟上，后续还有二次扩散空间。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/2213700/" target="_blank" rel="noreferrer">Steam</a>
@@ -2160,9 +2376,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-5-4576510-7v0f78-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4576510.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg" alt="Casualties: Unknown Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4576510.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg" alt="Casualties: Unknown Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>446</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2174,8 +2396,6 @@
           <div class="score level-medium"><b>45</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>生存</span><span>洞穴探索</span><span>模拟</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>446</em></span><span class=""><b>热度</b><em>857 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">试玩并发在近期 Demo 中非常突出，肢体和生存系统有内容展示点，适合优先跟进玩家反馈和转化。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4576510/" target="_blank" rel="noreferrer">Steam</a>
@@ -2192,9 +2412,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-6-3165650-1qazams-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#6b7c2f">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3165650.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3165650/header.jpg" alt="Masters of Albion cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Released</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/3165650.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3165650/header.jpg" alt="Masters of Albion cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Released</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>104</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2206,8 +2432,6 @@
           <div class="score level-medium"><b>49</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>策略</span><span>模拟</span><span>God Game</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>108</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
         <p class="rank-preview-summary">题材复兴叠加创作者品牌，适合做玩法深挖和老派 God Game 回归叙事。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3165650/" target="_blank" rel="noreferrer">Steam</a>
@@ -2224,9 +2448,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-7-4640310-8aases-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4640310.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg" alt="UNHUMAN Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4640310.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg" alt="UNHUMAN Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>8</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2238,8 +2468,6 @@
           <div class="score level-low"><b>32</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>放置</span><span>撤离射击</span><span>赛博朋克</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>8</em></span><span class=""><b>热度</b><em>5 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
         <p class="rank-preview-summary">放置和撤离射击的组合足够少见，适合观察玩法概念是否能靠短循环和构筑深度形成留存。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4640310/" target="_blank" rel="noreferrer">Steam</a>
@@ -2256,9 +2484,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-8-3751950-1t4mqok-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3751950.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/header.jpg" alt="Assassin&#39;s Creed Black Flag Resynced cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/3751950.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/header.jpg" alt="Assassin&#39;s Creed Black Flag Resynced cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>29,621</em></span><span class=""><b>热度</b><em>7d +24,880</em></span><span class="metric-rank"><b>愿望单榜</b><em>#65</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2270,8 +2504,6 @@
           <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>动作</span><span>冒险</span><span>潜行</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>29,621</em></span><span class=""><b>热度</b><em>7d +24,880</em></span><span class="metric-rank"><b>愿望单榜</b><em>#65</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
         <p class="rank-preview-summary">经典 IP 重构继续占据新商店页关注高位，重制内容、画面对比和系列口碑修复都容易形成二次传播。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/3751950/" target="_blank" rel="noreferrer">Steam</a>
@@ -2288,9 +2520,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-9-2590240-1dkbluc-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2590240.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2590240/header.jpg" alt="METRO 2039 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/2590240.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2590240/header.jpg" alt="METRO 2039 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>41,553</em></span><span class=""><b>热度</b><em>7d +19,050</em></span><span class="metric-rank"><b>愿望单榜</b><em>#60</em></span></div>
+          <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2302,8 +2540,6 @@
           <div class="score level-medium"><b>53</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>FPS</span><span>后末日</span><span>剧情向</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>41,553</em></span><span class=""><b>热度</b><em>7d +19,050</em></span><span class="metric-rank"><b>愿望单榜</b><em>#60</em></span></div>
-        <div class="rank-preview-reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>强 IP 或知名发行方</span></div>
         <p class="rank-preview-summary">系列新作仍有强烈首曝余温，关注基数领先，适合做世界观延展、前作回顾和发售窗口预测。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/2590240/" target="_blank" rel="noreferrer">Steam</a>
@@ -2320,9 +2556,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-10-1857810-108zlpq-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/1857810.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1857810/header.jpg" alt="DRAGON BALL XENOVERSE 3 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/1857810.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1857810/header.jpg" alt="DRAGON BALL XENOVERSE 3 cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,717</em></span><span class=""><b>热度</b><em>7d +9,717</em></span></div>
+          <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2334,8 +2576,6 @@
           <div class="score level-low"><b>42</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>动作 RPG</span><span>3D 格斗</span><span>动漫</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,717</em></span><span class=""><b>热度</b><em>7d +9,717</em></span></div>
-        <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
         <p class="rank-preview-summary">强 IP 新条目，首周关注释放直接，适合做角色阵容预测和系列进化讨论。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/1857810/" target="_blank" rel="noreferrer">Steam</a>
@@ -2352,9 +2592,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-11-4614080-88pwir-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4614080.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4614080/header.jpg" alt="Cartel Pilots Wanted cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4614080.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4614080/header.jpg" alt="Cartel Pilots Wanted cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,566</em></span><span class=""><b>热度</b><em>7d +9,564</em></span><span class="metric-rank"><b>愿望单榜</b><em>#203</em></span></div>
+          <div class="rank-preview-reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2366,8 +2612,6 @@
           <div class="score level-medium"><b>51</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>飞行</span><span>模拟</span><span>合作</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>9,566</em></span><span class=""><b>热度</b><em>7d +9,564</em></span><span class="metric-rank"><b>愿望单榜</b><em>#203</em></span></div>
-        <div class="rank-preview-reasons"><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>新商店页处于愿望单积累期</span></div>
         <p class="rank-preview-summary">合作飞行加犯罪运输的高概念组合很适合短视频展示，若能兑现多人混乱感，传播效率会比较高。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4614080/" target="_blank" rel="noreferrer">Steam</a>
@@ -2384,9 +2628,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-12-4162040-5y7hg3-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#d75b39">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4162040.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/header.jpg" alt="Zenless Zone Zero cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>New Store</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4162040.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/header.jpg" alt="Zenless Zone Zero cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>New Store</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,342</em></span><span class=""><b>热度</b><em>7d +7,342</em></span><span class="metric-rank"><b>愿望单榜</b><em>#360</em></span></div>
+          <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2398,8 +2648,6 @@
           <div class="score level-medium"><b>55</b><span>Medium</span></div>
         </div>
         <div class="rank-preview-tags"><span>免费</span><span>动作</span><span>ARPG</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>关注</b><em>7,342</em></span><span class=""><b>热度</b><em>7d +7,342</em></span><span class="metric-rank"><b>愿望单榜</b><em>#360</em></span></div>
-        <div class="rank-preview-reasons"><span>强 IP 或知名发行方</span><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span></div>
         <p class="rank-preview-summary">成熟产品进入 Steam 后有新的用户入口，后续可重点看首发愿望单、版本节点和平台迁移讨论。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4162040/" target="_blank" rel="noreferrer">Steam</a>
@@ -2416,9 +2664,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-13-4588570-7vlhwt-2026-04-27-j7og0z" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4588570.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588570/header.jpg" alt="Tales of Terrarum Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-27/4588570.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4588570/header.jpg" alt="Tales of Terrarum Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2430,8 +2684,6 @@
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>模拟经营</span><span>冒险</span><span>城镇建设</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
         <p class="rank-preview-summary">正式版临近解锁，Demo 能提前验证资源管理和角色养成吸引力，适合做轻度经营受众种草。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">Steam</a>
@@ -2448,9 +2700,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-14-4605330-886t0p-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4605330.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4605330/header.jpg" alt="Vanisha Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4605330.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4605330/header.jpg" alt="Vanisha Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2462,8 +2720,6 @@
           <div class="score level-low"><b>25</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>动作</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
         <p class="rank-preview-summary">试玩留存稳定，说明首轮体验完成度不差，值得关注后续口碑扩散曲线。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4605330/" target="_blank" rel="noreferrer">Steam</a>
@@ -2480,9 +2736,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-15-4582190-7vhl2l-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4582190.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4582190/header.jpg" alt="IA Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4582190.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4582190/header.jpg" alt="IA Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2494,8 +2756,6 @@
           <div class="score level-low"><b>22</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>视觉小说</span><span>叙事</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span></div>
         <p class="rank-preview-summary">垂类受众明确，更像口碑驱动项目，适合做剧情氛围与人设方向包装。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4582190/" target="_blank" rel="noreferrer">Steam</a>
@@ -2512,9 +2772,15 @@
         <div class="rank-preview" id="rank-preview-item-k810q-16-4642530-8ac3wy-2026-04-26-j7og0y" hidden>
           
     <article class="rank-preview-card" style="--accent:#237f87">
-      <div class="rank-preview-media">
-        <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4642530.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4642530/header.jpg" alt="BleepWare Incrementals Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
-        <span>Demo</span>
+      <div class="rank-preview-side">
+        <div class="rank-preview-media">
+          <img class="rank-preview-cover-img" src="../assets/covers/2026-04-26/4642530.jpg" data-fallback="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4642530/header.jpg" alt="BleepWare Incrementals Demo cover" width="460" height="215" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.classList.add('is-missing');this.removeAttribute('src');}">
+          <span>Demo</span>
+        </div>
+        <div class="rank-preview-side-panel">
+          <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span></div>
+          <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span></div>
+        </div>
       </div>
       <div class="rank-preview-content">
         <div class="rank-preview-head">
@@ -2526,8 +2792,6 @@
           <div class="score level-low"><b>20</b><span>Low</span></div>
         </div>
         <div class="rank-preview-tags"><span>增量</span><span>放置</span></div>
-        <div class="rank-preview-metrics metrics"><span class=""><b>在线</b><em>0</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span></div>
-        <div class="rank-preview-reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span></div>
         <p class="rank-preview-summary">低门槛循环玩法，适合轻推荐、短内容和放置上头感传播。</p>
         <div class="rank-preview-actions actions">
           <a href="https://store.steampowered.com/app/4642530/" target="_blank" rel="noreferrer">Steam</a>

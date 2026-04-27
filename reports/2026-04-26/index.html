@@ -367,6 +367,12 @@
       background: #ffffff;
       box-shadow: 0 12px 28px rgba(22, 29, 39, 0.08);
     }
+    .rank-preview-side {
+      min-width: 0;
+      display: grid;
+      align-content: start;
+      border-right: 4px solid var(--accent);
+    }
     .rank-preview-media {
       position: relative;
       width: 100%;
@@ -376,7 +382,7 @@
       background:
         radial-gradient(circle at 22% 18%, rgba(255,255,255,0.32), transparent 30%),
         linear-gradient(135deg, var(--accent), #242832 54%, #0f7173);
-      border-right: 4px solid var(--accent);
+      border-bottom: 4px solid var(--accent);
     }
     .rank-preview-media::after {
       content: "";
@@ -408,6 +414,13 @@
       background: rgba(0,0,0,0.28);
       font-size: 12px;
       font-weight: 800;
+    }
+    .rank-preview-side-panel {
+      display: grid;
+      gap: 10px;
+      padding: 12px;
+      background:
+        linear-gradient(180deg, rgba(247,251,251,0.92), rgba(255,255,255,0.98));
     }
     .rank-preview-content {
       min-width: 0;
@@ -492,6 +505,9 @@
       .quick-stats { justify-content: flex-start; }
       .grid, .leader-grid { grid-template-columns: 1fr; }
       .rank-preview-card { grid-template-columns: 1fr; }
+      .rank-preview-side {
+        border-right: 0;
+      }
       .rank-preview-media {
         max-width: none;
         aspect-ratio: 460 / 215;
@@ -520,7 +536,7 @@
         <p class="subtitle">这是一份独立归档页，可以直接分享给别人查看当天完整卡片。</p>
       </div>
       <div class="quick-stats">
-        <span>当天候选 15 款</span><span>数据更新 2026-04-27 12:33 CST</span><span>定时生成</span>
+        <span>当天候选 15 款</span><span>数据更新 2026-04-27 12:40 CST</span><span>定时生成</span>
       </div>
     </header>
     
@@ -873,7 +889,7 @@
           <div class="score level-medium"><b>63</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>卡牌构筑</span><span>地牢</span><span>Roguelite</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>24,591</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>24,749</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>关注基数高</span><span>当前在线人数高</span><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
@@ -904,7 +920,7 @@
           <div class="score level-medium"><b>49</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>策略</span><span>模拟</span><span>God Game</span><span>城建</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>108</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>在线</b><em>104</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
