@@ -350,8 +350,36 @@
     }
     .rank-score { background: #b6422e; }
     .rank-main { min-width: 0; }
-    .rank-main b, .rank-main small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .rank-main small { margin-top: 3px; color: var(--muted); }
+    .rank-main b {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .rank-main small {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 8px;
+      margin-top: 4px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+    .rank-detail {
+      display: inline-flex;
+      align-items: center;
+      min-width: 0;
+      max-width: 100%;
+    }
+    .rank-detail:not(:last-child)::after {
+      content: "·";
+      margin-left: 8px;
+      color: #98a2ae;
+    }
+    .rank-detail em {
+      color: #253247;
+      font-style: normal;
+      font-weight: 800;
+    }
     .rank-preview {
       margin: 10px 0 16px;
       padding-left: 0;
@@ -536,7 +564,7 @@
         <p class="subtitle">这是一份独立归档页，可以直接分享给别人查看当天完整卡片。</p>
       </div>
       <div class="quick-stats">
-        <span>当天候选 15 款</span><span>数据更新 2026-04-28 12:31 CST</span><span>定时生成</span>
+        <span>当天候选 15 款</span><span>数据更新 2026-04-28 18:05 CST</span><span>定时生成</span>
       </div>
     </header>
     
@@ -562,7 +590,7 @@
             <p>Assassin&#39;s Creed Black Flag Resynced</p>
             <div class="title-meta"><span>上线 2026-07-09</span><span>Ubisoft Singapore 等</span><span>Ubisoft</span></div>
           </div>
-          <div class="score level-medium"><b>47</b><span>Medium</span></div>
+          <div class="score level-medium"><b>50</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>动作</span><span>冒险</span><span>潜行</span><span>海盗</span></div></div>
         <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3751950"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3751950"><b>评论</b><em>0</em></span><span class=""><b>关注</b><em>24,880</em></span><span class=""><b>热度</b><em>7d +24,880</em></span></div></div>
@@ -593,7 +621,7 @@
             <p>METRO 2039</p>
             <div class="title-meta"><span>4A Games</span><span>Deep Silver</span></div>
           </div>
-          <div class="score level-medium"><b>47</b><span>Medium</span></div>
+          <div class="score level-medium"><b>50</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>FPS</span><span>后末日</span><span>剧情向</span></div></div>
         <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2590240"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="2590240"><b>评论</b><em>0</em></span><span class=""><b>关注</b><em>41,553</em></span><span class=""><b>热度</b><em>7d +19,050</em></span></div></div>
@@ -655,7 +683,7 @@
             <p>Cartel Pilots Wanted</p>
             <div class="title-meta"><span>OldYacht</span><span>Polden Publishing</span></div>
           </div>
-          <div class="score level-medium"><b>46</b><span>Medium</span></div>
+          <div class="score level-medium"><b>49</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>飞行</span><span>模拟</span><span>合作</span><span>开放世界</span></div></div>
         <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4614080"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4614080"><b>评论</b><em>0</em></span><span class=""><b>关注</b><em>9,566</em></span><span class=""><b>热度</b><em>7d +9,564</em></span></div></div>
@@ -686,7 +714,7 @@
             <p>Zenless Zone Zero</p>
             <div class="title-meta"><span>上线 Q2 2026</span><span>COGNOSPHERE</span></div>
           </div>
-          <div class="score level-medium"><b>51</b><span>Medium</span></div>
+          <div class="score level-medium"><b>54</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>免费</span><span>动作</span><span>ARPG</span><span>二次元</span></div></div>
         <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4162040"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4162040"><b>评论</b><em>0</em></span><span class=""><b>关注</b><em>7,342</em></span><span class=""><b>热度</b><em>7d +7,342</em></span></div></div>
@@ -712,19 +740,19 @@
       <a class="cover" href="https://store.steampowered.com/app/4588570/" target="_blank" rel="noreferrer">
         <span class="cover-copy">
           <b>Demo</b>
-          <strong>旅人日记 Demo</strong>
+          <strong>泰拉田园物语 试玩版</strong>
           <small>Tales of Terrarum Demo</small>
         </span>
-        <img src="../../assets/covers/2026-04-26/4588570.jpg" alt="Tales of Terrarum Demo cover" loading="lazy" onerror="this.remove()">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
           <div>
-            <h3>旅人日记 Demo</h3>
+            <h3>泰拉田园物语 试玩版</h3>
             <p>Tales of Terrarum Demo</p>
             <div class="title-meta"><span>上线 2026-04-23</span><span>Electronic Soul</span><span>CYSTUDIO</span></div>
           </div>
-          <div class="score level-low"><b>31</b><span>Low</span></div>
+          <div class="score level-low"><b>34</b><span>Low</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>模拟经营</span><span>冒险</span></div></div>
         <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4588570"><b>在线</b><em>0</em></span><span class="" data-review-count data-appid="4588570"><b>评论</b><em>0</em></span><span class=""><b>热度</b><em>4 In-Demo</em></span></div></div>
@@ -755,10 +783,10 @@
             <p>Vanisha Demo</p>
             <div class="title-meta"><span>上线 2026-04-22</span><span>DANYL</span></div>
           </div>
-          <div class="score level-low"><b>26</b><span>Low</span></div>
+          <div class="score level-low"><b>25</b><span>Low</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>动作</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4605330"><b>在线</b><em>1</em></span><span class="" data-review-count data-appid="4605330"><b>评论</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4605330"><b>在线</b><em>0</em></span><span class="" data-review-count data-appid="4605330"><b>评论</b><em>0</em></span><span class=""><b>热度</b><em>3 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
@@ -817,10 +845,10 @@
             <p>UNHUMAN Demo</p>
             <div class="title-meta"><span>上线 2026-04-21</span><span>Kinda Lowkey Games</span></div>
           </div>
-          <div class="score level-low"><b>35</b><span>Low</span></div>
+          <div class="score level-low"><b>38</b><span>Low</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>2D</span><span>Idle</span><span>Extraction Shooter</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4640310"><b>在线</b><em>12</em></span><span class="" data-review-count data-appid="4640310"><b>评论</b><em>3</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4640310"><b>在线</b><em>16</em></span><span class="" data-review-count data-appid="4640310"><b>评论</b><em>4</em></span><span class=""><b>热度</b><em>1 In-Demo</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>题材有内容传播点</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
@@ -886,10 +914,10 @@
             <p>Vampire Crawlers: The Turbo Wildcard from Vampire Survivors</p>
             <div class="title-meta"><span>上线 2026-04-21</span><span>poncle, Nosebleed</span><span>poncle</span></div>
           </div>
-          <div class="score level-medium"><b>63</b><span>Medium</span></div>
+          <div class="score level-high"><b>69</b><span>High</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>卡牌构筑</span><span>地牢</span><span>Roguelite</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3265700"><b>在线</b><em>20,540</em></span><span class="" data-review-count data-appid="3265700"><b>评论</b><em>9,649</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3265700"><b>在线</b><em>18,751</em></span><span class="" data-review-count data-appid="3265700"><b>评论</b><em>9,796</em></span><span class=""><b>关注</b><em>32,326</em></span><span class=""><b>热度</b><em>7d +11,699</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>关注基数高</span><span>当前在线人数高</span><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
@@ -917,13 +945,13 @@
             <p>Masters of Albion</p>
             <div class="title-meta"><span>上线 2026-04-22</span><span>22cans</span></div>
           </div>
-          <div class="score level-medium"><b>48</b><span>Medium</span></div>
+          <div class="score level-medium"><b>55</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>策略</span><span>模拟</span><span>God Game</span><span>城建</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3165650"><b>在线</b><em>82</em></span><span class="" data-review-count data-appid="3165650"><b>评论</b><em>427</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3165650"><b>在线</b><em>98</em></span><span class="" data-review-count data-appid="3165650"><b>评论</b><em>429</em></span><span class=""><b>关注</b><em>20,243</em></span><span class=""><b>热度</b><em>7d +3,277</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
+      <div class="reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
     </div>
         <p class="summary">题材复兴叠加创作者品牌，适合做玩法深挖和老派 God Game 回归叙事。</p>
         <div class="actions">
@@ -951,7 +979,7 @@
           <div class="score level-medium"><b>50</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>休闲</span><span>模拟</span><span>打字效率</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4216670"><b>在线</b><em>2,196</em></span><span class="" data-review-count data-appid="4216670"><b>评论</b><em>186</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>热度</b><em>7d +2,869</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4216670"><b>在线</b><em>2,372</em></span><span class="" data-review-count data-appid="4216670"><b>评论</b><em>189</em></span><span class=""><b>关注</b><em>29,857</em></span><span class=""><b>热度</b><em>7d +2,869</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>关注基数高</span><span>已有稳定在线</span><span>低门槛试玩或轻量入口</span><span>已发布，可观察真实在线</span></div>
@@ -979,13 +1007,13 @@
             <p>BidKing</p>
             <div class="title-meta"><span>上线 2026-04-16</span><span>MindSurge Network &amp; Games</span><span>Elegoose Games</span></div>
           </div>
-          <div class="score level-medium"><b>59</b><span>Medium</span></div>
+          <div class="score level-high"><b>65</b><span>High</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>策略</span><span>模拟</span><span>多人竞拍</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4128580"><b>在线</b><em>27,911</em></span><span class="" data-review-count data-appid="4128580"><b>评论</b><em>8,078</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>热度</b><em>7d +3,971</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4128580"><b>在线</b><em>37,862</em></span><span class="" data-review-count data-appid="4128580"><b>评论</b><em>8,138</em></span><span class=""><b>关注</b><em>11,553</em></span><span class=""><b>热度</b><em>7d +3,971</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>当前在线人数高</span><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
+      <div class="reasons"><span>当前在线人数高</span><span>多人/合作传播性好</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span><span>多日连续进入监测池</span></div>
     </div>
         <p class="summary">热度高但口碑分化，适合做值不值得玩或争议点总结，天然带讨论流量。</p>
         <div class="actions">
@@ -1010,10 +1038,10 @@
             <p>Sintopia</p>
             <div class="title-meta"><span>上线 2026-04-16</span><span>Piraknights Games</span><span>Team17</span></div>
           </div>
-          <div class="score level-medium"><b>53</b><span>Medium</span></div>
+          <div class="score level-medium"><b>54</b><span>Medium</span></div>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>管理</span><span>God Game</span><span>自动化</span><span>基地建设</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2213700"><b>在线</b><em>451</em></span><span class="" data-review-count data-appid="2213700"><b>评论</b><em>555</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>热度</b><em>7d +4,395</em></span></div></div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2213700"><b>在线</b><em>611</em></span><span class="" data-review-count data-appid="2213700"><b>评论</b><em>559</em></span><span class=""><b>关注</b><em>17,764</em></span><span class=""><b>热度</b><em>7d +4,395</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>强 IP 或知名发行方</span><span>题材有内容传播点</span><span>已发布，可观察真实在线</span></div>
