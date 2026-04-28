@@ -43,7 +43,7 @@
         },
         {
           "appid": "3751950",
-          "name_zh": "刺客信条：黑旗 重构版",
+          "name_zh": "刺客信条：黑旗 记忆重置",
           "name_en": "Assassin's Creed Black Flag Resynced",
           "category": "New Store",
           "tags": [
@@ -79,7 +79,7 @@
         },
         {
           "appid": "2590240",
-          "name_zh": "地铁 2039",
+          "name_zh": "地铁2039",
           "name_en": "METRO 2039",
           "category": "New Store",
           "tags": [
@@ -212,7 +212,7 @@
           "contact_url": "https://steamcommunity.com/app/4576510",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg",
           "wishlist_rank": "未公开",
-          "current_players": 488,
+          "current_players": 469,
           "cover_local_path": "/assets/covers/2026-04-27/4576510.jpg",
           "potential_score": 45,
           "watch_level": "Medium",
@@ -292,7 +292,7 @@
         },
         {
           "appid": "4588570",
-          "name_zh": "旅人日记 试玩版",
+          "name_zh": "旅人日记 Demo",
           "name_en": "Tales of Terrarum Demo",
           "category": "Demo",
           "tags": [
@@ -344,9 +344,9 @@
           "contact_url": "https://steamcommunity.com/app/4640310",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4640310/header.jpg",
           "wishlist_rank": "未公开",
-          "current_players": 9,
+          "current_players": 12,
           "cover_local_path": "/assets/covers/2026-04-27/4640310.jpg",
-          "potential_score": 32,
+          "potential_score": 33,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -383,7 +383,7 @@
           "contact_url": "https://steamcommunity.com/app/2873660",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2873660/header.jpg",
           "wishlist_rank": "未公开",
-          "current_players": 867,
+          "current_players": 825,
           "cover_local_path": "/assets/covers/2026-04-27/2873660.jpg",
           "potential_score": 45,
           "watch_level": "Medium",
@@ -414,7 +414,7 @@
           "contact_url": "https://steamcommunity.com/app/3256150",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3256150/header.jpg",
           "wishlist_rank": "未公开",
-          "current_players": 112,
+          "current_players": 106,
           "cover_local_path": "/assets/covers/2026-04-27/3256150.jpg",
           "potential_score": 41,
           "watch_level": "Low",
@@ -445,7 +445,7 @@
           "contact_url": "https://steamcommunity.com/app/4283360",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4283360/header.jpg",
           "wishlist_rank": "未公开",
-          "current_players": 1432,
+          "current_players": 1379,
           "cover_local_path": "/assets/covers/2026-04-27/4283360.jpg",
           "potential_score": 48,
           "watch_level": "Medium",
@@ -478,9 +478,9 @@
           "contact_url": "https://steamcommunity.com/app/2121450",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2121450/header.jpg",
           "wishlist_rank": "未公开",
-          "current_players": 5,
+          "current_players": 3,
           "cover_local_path": "/assets/covers/2026-04-27/2121450.jpg",
-          "potential_score": 31,
+          "potential_score": 30,
           "watch_level": "Low",
           "score_reasons": [
             "已发布，可观察真实在线"
@@ -489,7 +489,7 @@
         },
         {
           "appid": "3896300",
-          "name_zh": "收费站模拟器",
+          "name_zh": "Toll Booth Simulator | 收费站模拟器",
           "name_en": "Toll Booth Simulator",
           "category": "Released",
           "tags": [
@@ -508,9 +508,9 @@
           "contact_url": "https://steamcommunity.com/app/3896300",
           "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg",
           "wishlist_rank": "未公开",
-          "current_players": 15,
+          "current_players": 13,
           "cover_local_path": "/assets/covers/2026-04-27/3896300.jpg",
-          "potential_score": 32,
+          "potential_score": 31,
           "watch_level": "Low",
           "score_reasons": [
             "已发布，可观察真实在线"
@@ -520,5 +520,5 @@
       ]
     }
   ],
-  "generated_at": "2026-04-28 11:55 CST"
+  "generated_at": "2026-04-28 12:20 CST"
 }
