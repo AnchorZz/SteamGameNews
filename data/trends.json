@@ -3,6 +3,44 @@
   "week": {
     "potential_top": [
       {
+        "appid": "3720420",
+        "name_zh": "卡片魔王：只剩个头！",
+        "name_en": "Demon Lord: Just a Block!",
+        "category": "Released",
+        "tags": [
+          "动作 Roguelite",
+          "卡牌构筑",
+          "策略",
+          "独立"
+        ],
+        "developer": "YuWave",
+        "publisher": "YuWave",
+        "release_date": "2026-04-29",
+        "followers": "5,246",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "#21",
+        "heat": "Steam 热销 #21 / 24h peak 983",
+        "current_players": 1153,
+        "review_count": 28,
+        "summary": "今日上线即冲到 Steam 热销前列，单人开发、卡牌世界、动作 Roguelite 和低反应门槛都很适合口碑传播；风险是首日折扣和中文圈讨论可能放大短期热度，需继续观察一周留存与评价曲线。",
+        "cover_local_path": "/assets/covers/2026-04-29/3720420.jpg",
+        "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720420/50e64cb08d9dd17375b12482c64a15df5444b068/header_schinese.jpg?t=1777449326",
+        "potential_score": 68,
+        "watch_level": "High",
+        "score_reasons": [
+          "Steam 热销榜排名靠前",
+          "已有稳定在线",
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3720420/",
+        "contact_url": "https://steamcommunity.com/app/3720420",
+        "report_date": "2026-04-29",
+        "section_title": "新发布游戏"
+      },
+      {
         "appid": "3265700",
         "name_zh": "吸血鬼爬行者: 屠戮地牢的吸血鬼幸存者",
         "name_en": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
@@ -357,7 +395,7 @@
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
         "current_players": 414,
-        "review_count": null,
+        "review_count": 1023,
         "summary": "试玩并发信号突出，内容展示面强，适合做高压生存话题传播；风险是硬核门槛偏高，转化受众面可能受限。",
         "cover_local_path": "/assets/covers/2026-04-29/4576510.jpg",
         "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg",
@@ -520,41 +558,6 @@
         "section_title": "新发布游戏"
       },
       {
-        "appid": "3896300",
-        "name_zh": "Toll Booth Simulator | 收费站模拟器",
-        "name_en": "Toll Booth Simulator",
-        "category": "Released",
-        "tags": [
-          "职业模拟",
-          "管理",
-          "犯罪",
-          "第一人称"
-        ],
-        "developer": "SifDev",
-        "publisher": "Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.",
-        "release_date": "2026-04-27",
-        "followers": "540",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "Launch Day",
-        "current_players": 24,
-        "review_count": 23,
-        "summary": "职业模拟题材反差感强，直播互动点密集；风险在于中后期内容层次不足时，热度可能短期冲高后回落。",
-        "cover_local_path": "/assets/covers/2026-04-29/3896300.jpg",
-        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg",
-        "potential_score": 38,
-        "watch_level": "Low",
-        "score_reasons": [
-          "已发布，可观察真实在线",
-          "多日连续进入监测池"
-        ],
-        "steam_url": "https://store.steampowered.com/app/3896300/",
-        "contact_url": "https://steamcommunity.com/app/3896300",
-        "report_date": "2026-04-29",
-        "section_title": "新发布游戏"
-      },
-      {
         "appid": "2121450",
         "name_zh": "曼谷故事：一只流浪狗",
         "name_en": "Bangkok Story: A Stray Dog",
@@ -699,40 +702,80 @@
         "section_title": "新上线 Demo"
       },
       {
-        "appid": "4605330",
-        "name_zh": "消逝者 试玩版",
-        "name_en": "Vanisha Demo",
-        "category": "Demo",
+        "appid": "3896300",
+        "name_zh": "Toll Booth Simulator | 收费站模拟器",
+        "name_en": "Toll Booth Simulator",
+        "category": "Released",
         "tags": [
-          "动作"
+          "职业模拟",
+          "管理",
+          "犯罪",
+          "第一人称"
         ],
-        "developer": "DANYL",
-        "publisher": "DANYL",
-        "release_date": "2026-04-22",
-        "followers": "N/A",
+        "developer": "SifDev",
+        "publisher": "Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.",
+        "release_date": "2026-04-27",
+        "followers": "540",
         "wishlist_rank": "未公开",
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
-        "heat": "3 In-Demo",
-        "current_players": 0,
-        "review_count": 0,
-        "summary": "试玩留存稳定，说明首轮体验完成度不差，值得关注后续口碑扩散曲线。",
-        "cover_local_path": "/assets/covers/2026-04-26/4605330.jpg",
-        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4605330/header.jpg",
-        "potential_score": 25,
+        "heat": "Launch Day",
+        "current_players": 24,
+        "review_count": 23,
+        "summary": "收费站检查、债务压力和荒诞经营元素有直播互动点，虽然关注基数较低，但题材差异化明显。",
+        "cover_local_path": "/assets/covers/2026-04-27/3896300.jpg",
+        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg",
+        "potential_score": 32,
         "watch_level": "Low",
         "score_reasons": [
-          "低门槛试玩或轻量入口",
-          "Demo 可验证试玩转化",
-          "曾位于分类头部"
+          "已发布，可观察真实在线"
         ],
-        "steam_url": "https://store.steampowered.com/app/4605330/",
-        "contact_url": "https://steamcommunity.com/app/4605330",
-        "report_date": "2026-04-26",
-        "section_title": "新上线 Demo"
+        "steam_url": "https://store.steampowered.com/app/3896300/",
+        "contact_url": "https://steamcommunity.com/app/3896300",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
       }
     ],
     "indie_potential": [
+      {
+        "appid": "3720420",
+        "name_zh": "卡片魔王：只剩个头！",
+        "name_en": "Demon Lord: Just a Block!",
+        "category": "Released",
+        "tags": [
+          "动作 Roguelite",
+          "卡牌构筑",
+          "策略",
+          "独立"
+        ],
+        "developer": "YuWave",
+        "publisher": "YuWave",
+        "release_date": "2026-04-29",
+        "followers": "5,246",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "#21",
+        "heat": "Steam 热销 #21 / 24h peak 983",
+        "current_players": 1153,
+        "review_count": 28,
+        "summary": "今日上线即冲到 Steam 热销前列，单人开发、卡牌世界、动作 Roguelite 和低反应门槛都很适合口碑传播；风险是首日折扣和中文圈讨论可能放大短期热度，需继续观察一周留存与评价曲线。",
+        "cover_local_path": "/assets/covers/2026-04-29/3720420.jpg",
+        "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720420/50e64cb08d9dd17375b12482c64a15df5444b068/header_schinese.jpg?t=1777449326",
+        "potential_score": 82,
+        "watch_level": "High",
+        "score_reasons": [
+          "非 3A / 小团队候选",
+          "题材或机制有辨识度",
+          "开发/发行团队更轻量",
+          "已有公开数据支撑",
+          "已发布，可观察真实表现"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3720420/",
+        "contact_url": "https://steamcommunity.com/app/3720420",
+        "report_date": "2026-04-29",
+        "section_title": "新发布游戏",
+        "indie_score": 82
+      },
       {
         "appid": "4216670",
         "name_zh": "指尖农场",
@@ -946,7 +989,7 @@
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
         "current_players": 414,
-        "review_count": null,
+        "review_count": 1023,
         "summary": "试玩并发信号突出，内容展示面强，适合做高压生存话题传播；风险是硬核门槛偏高，转化受众面可能受限。",
         "cover_local_path": "/assets/covers/2026-04-29/4576510.jpg",
         "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg",
@@ -1269,48 +1312,47 @@
         "report_date": "2026-04-29",
         "section_title": "新上线 Demo",
         "indie_score": 37
-      },
-      {
-        "appid": "4527110",
-        "name_zh": "肮脏生意：免费版",
-        "name_en": "Dirty Business: Free of Charge",
-        "category": "Demo",
-        "tags": [
-          "模拟经营",
-          "合作",
-          "犯罪",
-          "基地建设"
-        ],
-        "developer": "Plan Dirty Games",
-        "publisher": "Plan Dirty Games",
-        "release_date": "2026-04-23",
-        "followers": "未公开",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "New Demo",
-        "current_players": null,
-        "review_count": 0,
-        "summary": "犯罪经营题材具备高点击潜力，合作联动利于直播分发；风险在于平衡与循环若重复，留存会迅速下滑。",
-        "cover_local_path": "/assets/covers/2026-04-29/4527110.jpg",
-        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4527110/header.jpg",
-        "potential_score": 37,
-        "watch_level": "Low",
-        "score_reasons": [
-          "非 3A / 小团队候选",
-          "题材或机制有辨识度",
-          "开发/发行团队更轻量",
-          "Demo 可验证玩法吸引力",
-          "多人/合作传播性好"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4527110/",
-        "contact_url": "https://steamcommunity.com/app/4527110",
-        "report_date": "2026-04-29",
-        "section_title": "新上线 Demo",
-        "indie_score": 37
       }
     ],
     "new_entries": [
+      {
+        "appid": "3720420",
+        "name_zh": "卡片魔王：只剩个头！",
+        "name_en": "Demon Lord: Just a Block!",
+        "category": "Released",
+        "tags": [
+          "动作 Roguelite",
+          "卡牌构筑",
+          "策略",
+          "独立"
+        ],
+        "developer": "YuWave",
+        "publisher": "YuWave",
+        "release_date": "2026-04-29",
+        "followers": "5,246",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "#21",
+        "heat": "Steam 热销 #21 / 24h peak 983",
+        "current_players": 1153,
+        "review_count": 28,
+        "summary": "今日上线即冲到 Steam 热销前列，单人开发、卡牌世界、动作 Roguelite 和低反应门槛都很适合口碑传播；风险是首日折扣和中文圈讨论可能放大短期热度，需继续观察一周留存与评价曲线。",
+        "cover_local_path": "/assets/covers/2026-04-29/3720420.jpg",
+        "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720420/50e64cb08d9dd17375b12482c64a15df5444b068/header_schinese.jpg?t=1777449326",
+        "potential_score": 68,
+        "watch_level": "High",
+        "score_reasons": [
+          "Steam 热销榜排名靠前",
+          "已有稳定在线",
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3720420/",
+        "contact_url": "https://steamcommunity.com/app/3720420",
+        "report_date": "2026-04-29",
+        "section_title": "新发布游戏"
+      },
       {
         "appid": "3265700",
         "name_zh": "吸血鬼爬行者: 屠戮地牢的吸血鬼幸存者",
@@ -1552,7 +1594,7 @@
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
         "current_players": 414,
-        "review_count": 1022,
+        "review_count": 1023,
         "summary": "试玩并发在近期 Demo 中非常突出，肢体和生存系统有内容展示点，适合优先跟进玩家反馈和转化。",
         "cover_local_path": "/assets/covers/2026-04-27/4576510.jpg",
         "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg",
@@ -1827,41 +1869,6 @@
         "section_title": "新发布游戏"
       },
       {
-        "appid": "3896300",
-        "name_zh": "Toll Booth Simulator | 收费站模拟器",
-        "name_en": "Toll Booth Simulator",
-        "category": "Released",
-        "tags": [
-          "职业模拟",
-          "管理",
-          "犯罪",
-          "第一人称"
-        ],
-        "developer": "SifDev",
-        "publisher": "Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.",
-        "release_date": "2026-04-27",
-        "followers": "540",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "Launch Day",
-        "current_players": 24,
-        "review_count": 23,
-        "summary": "收费站检查、债务压力和荒诞经营元素有直播互动点，虽然关注基数较低，但题材差异化明显。",
-        "cover_local_path": "/assets/covers/2026-04-27/3896300.jpg",
-        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg",
-        "potential_score": 38,
-        "watch_level": "Low",
-        "score_reasons": [
-          "已发布，可观察真实在线",
-          "多日连续进入监测池"
-        ],
-        "steam_url": "https://store.steampowered.com/app/3896300/",
-        "contact_url": "https://steamcommunity.com/app/3896300",
-        "report_date": "2026-04-27",
-        "section_title": "新发布游戏"
-      },
-      {
         "appid": "4640310",
         "name_zh": "非人类 试玩版",
         "name_en": "UNHUMAN Demo",
@@ -2004,37 +2011,38 @@
         "section_title": "新上线 Demo"
       },
       {
-        "appid": "4605330",
-        "name_zh": "消逝者 试玩版",
-        "name_en": "Vanisha Demo",
-        "category": "Demo",
+        "appid": "3896300",
+        "name_zh": "Toll Booth Simulator | 收费站模拟器",
+        "name_en": "Toll Booth Simulator",
+        "category": "Released",
         "tags": [
-          "动作"
+          "职业模拟",
+          "管理",
+          "犯罪",
+          "第一人称"
         ],
-        "developer": "DANYL",
-        "publisher": "DANYL",
-        "release_date": "2026-04-22",
-        "followers": "N/A",
+        "developer": "SifDev",
+        "publisher": "Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.",
+        "release_date": "2026-04-27",
+        "followers": "540",
         "wishlist_rank": "未公开",
         "wishlist_activity_rank": "未公开",
         "top_sellers_rank": "未公开",
-        "heat": "3 In-Demo",
-        "current_players": 0,
-        "review_count": 0,
-        "summary": "试玩留存稳定，说明首轮体验完成度不差，值得关注后续口碑扩散曲线。",
-        "cover_local_path": "/assets/covers/2026-04-26/4605330.jpg",
-        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4605330/header.jpg",
-        "potential_score": 25,
+        "heat": "Launch Day",
+        "current_players": 24,
+        "review_count": 23,
+        "summary": "收费站检查、债务压力和荒诞经营元素有直播互动点，虽然关注基数较低，但题材差异化明显。",
+        "cover_local_path": "/assets/covers/2026-04-27/3896300.jpg",
+        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg",
+        "potential_score": 32,
         "watch_level": "Low",
         "score_reasons": [
-          "低门槛试玩或轻量入口",
-          "Demo 可验证试玩转化",
-          "曾位于分类头部"
+          "已发布，可观察真实在线"
         ],
-        "steam_url": "https://store.steampowered.com/app/4605330/",
-        "contact_url": "https://steamcommunity.com/app/4605330",
-        "report_date": "2026-04-26",
-        "section_title": "新上线 Demo"
+        "steam_url": "https://store.steampowered.com/app/3896300/",
+        "contact_url": "https://steamcommunity.com/app/3896300",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
       }
     ],
     "recurring": [
@@ -2365,7 +2373,7 @@
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
         "current_players": 414,
-        "review_count": null,
+        "review_count": 1023,
         "summary": "试玩并发信号突出，内容展示面强，适合做高压生存话题传播；风险是硬核门槛偏高，转化受众面可能受限。",
         "cover_local_path": "/assets/covers/2026-04-29/4576510.jpg",
         "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg",
@@ -2453,42 +2461,6 @@
         ],
         "steam_url": "https://store.steampowered.com/app/3256150/",
         "contact_url": "https://steamcommunity.com/app/3256150",
-        "report_date": "2026-04-29",
-        "section_title": "新发布游戏",
-        "appearances": 2
-      },
-      {
-        "appid": "3896300",
-        "name_zh": "Toll Booth Simulator | 收费站模拟器",
-        "name_en": "Toll Booth Simulator",
-        "category": "Released",
-        "tags": [
-          "职业模拟",
-          "管理",
-          "犯罪",
-          "第一人称"
-        ],
-        "developer": "SifDev",
-        "publisher": "Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.",
-        "release_date": "2026-04-27",
-        "followers": "540",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "Launch Day",
-        "current_players": 24,
-        "review_count": 23,
-        "summary": "职业模拟题材反差感强，直播互动点密集；风险在于中后期内容层次不足时，热度可能短期冲高后回落。",
-        "cover_local_path": "/assets/covers/2026-04-29/3896300.jpg",
-        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg",
-        "potential_score": 38,
-        "watch_level": "Low",
-        "score_reasons": [
-          "已发布，可观察真实在线",
-          "多日连续进入监测池"
-        ],
-        "steam_url": "https://store.steampowered.com/app/3896300/",
-        "contact_url": "https://steamcommunity.com/app/3896300",
         "report_date": "2026-04-29",
         "section_title": "新发布游戏",
         "appearances": 2
@@ -2756,6 +2728,44 @@
         "section_title": "新发布游戏"
       },
       {
+        "appid": "3720420",
+        "name_zh": "卡片魔王：只剩个头！",
+        "name_en": "Demon Lord: Just a Block!",
+        "category": "Released",
+        "tags": [
+          "动作 Roguelite",
+          "卡牌构筑",
+          "策略",
+          "独立"
+        ],
+        "developer": "YuWave",
+        "publisher": "YuWave",
+        "release_date": "2026-04-29",
+        "followers": "5,246",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "#21",
+        "heat": "Steam 热销 #21 / 24h peak 983",
+        "current_players": 1153,
+        "review_count": 28,
+        "summary": "今日上线即冲到 Steam 热销前列，单人开发、卡牌世界、动作 Roguelite 和低反应门槛都很适合口碑传播；风险是首日折扣和中文圈讨论可能放大短期热度，需继续观察一周留存与评价曲线。",
+        "cover_local_path": "/assets/covers/2026-04-29/3720420.jpg",
+        "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720420/50e64cb08d9dd17375b12482c64a15df5444b068/header_schinese.jpg?t=1777449326",
+        "potential_score": 68,
+        "watch_level": "High",
+        "score_reasons": [
+          "Steam 热销榜排名靠前",
+          "已有稳定在线",
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3720420/",
+        "contact_url": "https://steamcommunity.com/app/3720420",
+        "report_date": "2026-04-29",
+        "section_title": "新发布游戏"
+      },
+      {
         "appid": "4283360",
         "name_zh": "团本自走棋",
         "name_en": "Legionbound",
@@ -2847,7 +2857,7 @@
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
         "current_players": 414,
-        "review_count": null,
+        "review_count": 1023,
         "summary": "试玩并发信号突出，内容展示面强，适合做高压生存话题传播；风险是硬核门槛偏高，转化受众面可能受限。",
         "cover_local_path": "/assets/covers/2026-04-29/4576510.jpg",
         "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg",
@@ -2958,18 +2968,17 @@
         "heat": "Launch Day",
         "current_players": 24,
         "review_count": 23,
-        "summary": "职业模拟题材反差感强，直播互动点密集；风险在于中后期内容层次不足时，热度可能短期冲高后回落。",
-        "cover_local_path": "/assets/covers/2026-04-29/3896300.jpg",
+        "summary": "收费站检查、债务压力和荒诞经营元素有直播互动点，虽然关注基数较低，但题材差异化明显。",
+        "cover_local_path": "/assets/covers/2026-04-27/3896300.jpg",
         "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg",
-        "potential_score": 38,
+        "potential_score": 32,
         "watch_level": "Low",
         "score_reasons": [
-          "已发布，可观察真实在线",
-          "多日连续进入监测池"
+          "已发布，可观察真实在线"
         ],
         "steam_url": "https://store.steampowered.com/app/3896300/",
         "contact_url": "https://steamcommunity.com/app/3896300",
-        "report_date": "2026-04-29",
+        "report_date": "2026-04-27",
         "section_title": "新发布游戏"
       },
       {
@@ -3301,44 +3310,49 @@
         "contact_url": "https://steamcommunity.com/app/4605330",
         "report_date": "2026-04-26",
         "section_title": "新上线 Demo"
-      },
-      {
-        "appid": "4582190",
-        "name_zh": "IA 试玩版",
-        "name_en": "IA Demo",
-        "category": "Demo",
-        "tags": [
-          "视觉小说",
-          "叙事"
-        ],
-        "developer": "Liminal Studios",
-        "publisher": "Liminal Studios",
-        "release_date": "2026-04-17",
-        "followers": "N/A",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "3 In-Demo",
-        "current_players": 0,
-        "review_count": 0,
-        "summary": "垂类受众明确，更像口碑驱动项目，适合做剧情氛围与人设方向包装。",
-        "cover_local_path": "/assets/covers/2026-04-26/4582190.jpg",
-        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4582190/header.jpg",
-        "potential_score": 22,
-        "watch_level": "Low",
-        "score_reasons": [
-          "低门槛试玩或轻量入口",
-          "Demo 可验证试玩转化"
-        ],
-        "steam_url": "https://store.steampowered.com/app/4582190/",
-        "contact_url": "https://steamcommunity.com/app/4582190",
-        "report_date": "2026-04-26",
-        "section_title": "新上线 Demo"
       }
     ]
   },
   "month": {
     "potential_top": [
+      {
+        "appid": "3720420",
+        "name_zh": "卡片魔王：只剩个头！",
+        "name_en": "Demon Lord: Just a Block!",
+        "category": "Released",
+        "tags": [
+          "动作 Roguelite",
+          "卡牌构筑",
+          "策略",
+          "独立"
+        ],
+        "developer": "YuWave",
+        "publisher": "YuWave",
+        "release_date": "2026-04-29",
+        "followers": "5,246",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "#21",
+        "heat": "Steam 热销 #21 / 24h peak 983",
+        "current_players": 1153,
+        "review_count": 28,
+        "summary": "今日上线即冲到 Steam 热销前列，单人开发、卡牌世界、动作 Roguelite 和低反应门槛都很适合口碑传播；风险是首日折扣和中文圈讨论可能放大短期热度，需继续观察一周留存与评价曲线。",
+        "cover_local_path": "/assets/covers/2026-04-29/3720420.jpg",
+        "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720420/50e64cb08d9dd17375b12482c64a15df5444b068/header_schinese.jpg?t=1777449326",
+        "potential_score": 68,
+        "watch_level": "High",
+        "score_reasons": [
+          "Steam 热销榜排名靠前",
+          "已有稳定在线",
+          "低门槛试玩或轻量入口",
+          "题材有内容传播点",
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3720420/",
+        "contact_url": "https://steamcommunity.com/app/3720420",
+        "report_date": "2026-04-29",
+        "section_title": "新发布游戏"
+      },
       {
         "appid": "3265700",
         "name_zh": "吸血鬼爬行者: 屠戮地牢的吸血鬼幸存者",
@@ -3694,7 +3708,7 @@
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
         "current_players": 414,
-        "review_count": null,
+        "review_count": 1023,
         "summary": "试玩并发信号突出，内容展示面强，适合做高压生存话题传播；风险是硬核门槛偏高，转化受众面可能受限。",
         "cover_local_path": "/assets/covers/2026-04-29/4576510.jpg",
         "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg",
@@ -3857,41 +3871,6 @@
         "section_title": "新发布游戏"
       },
       {
-        "appid": "3896300",
-        "name_zh": "Toll Booth Simulator | 收费站模拟器",
-        "name_en": "Toll Booth Simulator",
-        "category": "Released",
-        "tags": [
-          "职业模拟",
-          "管理",
-          "犯罪",
-          "第一人称"
-        ],
-        "developer": "SifDev",
-        "publisher": "Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.",
-        "release_date": "2026-04-27",
-        "followers": "540",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "Launch Day",
-        "current_players": 24,
-        "review_count": 23,
-        "summary": "职业模拟题材反差感强，直播互动点密集；风险在于中后期内容层次不足时，热度可能短期冲高后回落。",
-        "cover_local_path": "/assets/covers/2026-04-29/3896300.jpg",
-        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg",
-        "potential_score": 38,
-        "watch_level": "Low",
-        "score_reasons": [
-          "已发布，可观察真实在线",
-          "多日连续进入监测池"
-        ],
-        "steam_url": "https://store.steampowered.com/app/3896300/",
-        "contact_url": "https://steamcommunity.com/app/3896300",
-        "report_date": "2026-04-29",
-        "section_title": "新发布游戏"
-      },
-      {
         "appid": "2121450",
         "name_zh": "曼谷故事：一只流浪狗",
         "name_en": "Bangkok Story: A Stray Dog",
@@ -4034,6 +4013,40 @@
         "contact_url": "https://steamcommunity.com/app/4588570",
         "report_date": "2026-04-29",
         "section_title": "新上线 Demo"
+      },
+      {
+        "appid": "3896300",
+        "name_zh": "Toll Booth Simulator | 收费站模拟器",
+        "name_en": "Toll Booth Simulator",
+        "category": "Released",
+        "tags": [
+          "职业模拟",
+          "管理",
+          "犯罪",
+          "第一人称"
+        ],
+        "developer": "SifDev",
+        "publisher": "Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.",
+        "release_date": "2026-04-27",
+        "followers": "540",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "未公开",
+        "heat": "Launch Day",
+        "current_players": 24,
+        "review_count": 23,
+        "summary": "收费站检查、债务压力和荒诞经营元素有直播互动点，虽然关注基数较低，但题材差异化明显。",
+        "cover_local_path": "/assets/covers/2026-04-27/3896300.jpg",
+        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg",
+        "potential_score": 32,
+        "watch_level": "Low",
+        "score_reasons": [
+          "已发布，可观察真实在线"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3896300/",
+        "contact_url": "https://steamcommunity.com/app/3896300",
+        "report_date": "2026-04-27",
+        "section_title": "新发布游戏"
       },
       {
         "appid": "4605330",
@@ -4212,6 +4225,45 @@
       }
     ],
     "indie_potential": [
+      {
+        "appid": "3720420",
+        "name_zh": "卡片魔王：只剩个头！",
+        "name_en": "Demon Lord: Just a Block!",
+        "category": "Released",
+        "tags": [
+          "动作 Roguelite",
+          "卡牌构筑",
+          "策略",
+          "独立"
+        ],
+        "developer": "YuWave",
+        "publisher": "YuWave",
+        "release_date": "2026-04-29",
+        "followers": "5,246",
+        "wishlist_rank": "未公开",
+        "wishlist_activity_rank": "未公开",
+        "top_sellers_rank": "#21",
+        "heat": "Steam 热销 #21 / 24h peak 983",
+        "current_players": 1153,
+        "review_count": 28,
+        "summary": "今日上线即冲到 Steam 热销前列，单人开发、卡牌世界、动作 Roguelite 和低反应门槛都很适合口碑传播；风险是首日折扣和中文圈讨论可能放大短期热度，需继续观察一周留存与评价曲线。",
+        "cover_local_path": "/assets/covers/2026-04-29/3720420.jpg",
+        "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720420/50e64cb08d9dd17375b12482c64a15df5444b068/header_schinese.jpg?t=1777449326",
+        "potential_score": 82,
+        "watch_level": "High",
+        "score_reasons": [
+          "非 3A / 小团队候选",
+          "题材或机制有辨识度",
+          "开发/发行团队更轻量",
+          "已有公开数据支撑",
+          "已发布，可观察真实表现"
+        ],
+        "steam_url": "https://store.steampowered.com/app/3720420/",
+        "contact_url": "https://steamcommunity.com/app/3720420",
+        "report_date": "2026-04-29",
+        "section_title": "新发布游戏",
+        "indie_score": 82
+      },
       {
         "appid": "4216670",
         "name_zh": "指尖农场",
@@ -4425,7 +4477,7 @@
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
         "current_players": 414,
-        "review_count": null,
+        "review_count": 1023,
         "summary": "试玩并发信号突出，内容展示面强，适合做高压生存话题传播；风险是硬核门槛偏高，转化受众面可能受限。",
         "cover_local_path": "/assets/covers/2026-04-29/4576510.jpg",
         "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg",
@@ -5117,7 +5169,7 @@
         "top_sellers_rank": "未公开",
         "heat": "857 In-Demo",
         "current_players": 414,
-        "review_count": null,
+        "review_count": 1023,
         "summary": "试玩并发信号突出，内容展示面强，适合做高压生存话题传播；风险是硬核门槛偏高，转化受众面可能受限。",
         "cover_local_path": "/assets/covers/2026-04-29/4576510.jpg",
         "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576510/header.jpg",
@@ -5205,42 +5257,6 @@
         ],
         "steam_url": "https://store.steampowered.com/app/3256150/",
         "contact_url": "https://steamcommunity.com/app/3256150",
-        "report_date": "2026-04-29",
-        "section_title": "新发布游戏",
-        "appearances": 2
-      },
-      {
-        "appid": "3896300",
-        "name_zh": "Toll Booth Simulator | 收费站模拟器",
-        "name_en": "Toll Booth Simulator",
-        "category": "Released",
-        "tags": [
-          "职业模拟",
-          "管理",
-          "犯罪",
-          "第一人称"
-        ],
-        "developer": "SifDev",
-        "publisher": "Ultimate Publishing, Ultimate Games S.A., PlayWay S.A.",
-        "release_date": "2026-04-27",
-        "followers": "540",
-        "wishlist_rank": "未公开",
-        "wishlist_activity_rank": "未公开",
-        "top_sellers_rank": "未公开",
-        "heat": "Launch Day",
-        "current_players": 24,
-        "review_count": 23,
-        "summary": "职业模拟题材反差感强，直播互动点密集；风险在于中后期内容层次不足时，热度可能短期冲高后回落。",
-        "cover_local_path": "/assets/covers/2026-04-29/3896300.jpg",
-        "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3896300/header.jpg",
-        "potential_score": 38,
-        "watch_level": "Low",
-        "score_reasons": [
-          "已发布，可观察真实在线",
-          "多日连续进入监测池"
-        ],
-        "steam_url": "https://store.steampowered.com/app/3896300/",
-        "contact_url": "https://steamcommunity.com/app/3896300",
         "report_date": "2026-04-29",
         "section_title": "新发布游戏",
         "appearances": 2
@@ -5591,6 +5607,44 @@
       ],
       "streamer_friendly": [
         {
+          "appid": "3720420",
+          "name_zh": "卡片魔王：只剩个头！",
+          "name_en": "Demon Lord: Just a Block!",
+          "category": "Released",
+          "tags": [
+            "动作 Roguelite",
+            "卡牌构筑",
+            "策略",
+            "独立"
+          ],
+          "developer": "YuWave",
+          "publisher": "YuWave",
+          "release_date": "2026-04-29",
+          "followers": "5,246",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "#21",
+          "heat": "Steam 热销 #21 / 24h peak 983",
+          "current_players": 1153,
+          "review_count": 28,
+          "summary": "今日上线即冲到 Steam 热销前列，单人开发、卡牌世界、动作 Roguelite 和低反应门槛都很适合口碑传播；风险是首日折扣和中文圈讨论可能放大短期热度，需继续观察一周留存与评价曲线。",
+          "cover_local_path": "/assets/covers/2026-04-29/3720420.jpg",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720420/50e64cb08d9dd17375b12482c64a15df5444b068/header_schinese.jpg?t=1777449326",
+          "potential_score": 68,
+          "watch_level": "High",
+          "score_reasons": [
+            "Steam 热销榜排名靠前",
+            "已有稳定在线",
+            "低门槛试玩或轻量入口",
+            "题材有内容传播点",
+            "已发布，可观察真实在线"
+          ],
+          "steam_url": "https://store.steampowered.com/app/3720420/",
+          "contact_url": "https://steamcommunity.com/app/3720420",
+          "report_date": "2026-04-29",
+          "section_title": "新发布游戏"
+        },
+        {
           "appid": "3265700",
           "name_zh": "吸血鬼爬行者: 屠戮地牢的吸血鬼幸存者",
           "name_en": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
@@ -5815,5 +5869,5 @@
       ]
     }
   },
-  "generated_at": "2026-04-29 18:43 CST"
+  "generated_at": "2026-04-29 18:49 CST"
 }
