@@ -4,27 +4,41 @@
     "title": "Steam 热门游戏推荐",
     "path": "/reports/2026-04-26/",
     "game_count": 15,
-    "generated_at": "2026-05-01 18:14 CST"
+    "generated_at": "2026-05-05 22:52 CST"
   },
   {
     "date": "2026-04-27",
     "title": "Steam 热门游戏推荐",
     "path": "/reports/2026-04-27/",
     "game_count": 15,
-    "generated_at": "2026-05-01 18:14 CST"
+    "generated_at": "2026-05-05 22:52 CST"
+  },
+  {
+    "date": "2026-04-28",
+    "title": "Steam 热门游戏推荐",
+    "path": "/reports/2026-04-28/",
+    "game_count": 15,
+    "generated_at": "2026-05-05 22:52 CST"
   },
   {
     "date": "2026-04-29",
     "title": "Steam 热门游戏推荐",
     "path": "/reports/2026-04-29/",
     "game_count": 15,
-    "generated_at": "2026-05-01 18:14 CST"
+    "generated_at": "2026-05-05 22:52 CST"
   },
   {
     "date": "2026-05-01",
     "title": "Steam 热门游戏推荐",
     "path": "/reports/2026-05-01/",
     "game_count": 20,
-    "generated_at": "2026-05-01 18:14 CST"
+    "generated_at": "2026-05-05 22:52 CST"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Steam 热门游戏推荐日报 2026-05-05",
+    "path": "/reports/2026-05-05/",
+    "game_count": 20,
+    "generated_at": "2026-05-05 22:52 CST"
   }
 ]
