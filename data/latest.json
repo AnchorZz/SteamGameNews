@@ -861,7 +861,7 @@
           "wishlist_activity_rank": "#5 SteamDB",
           "top_sellers_rank": "#9 Steam Store / #4 SteamDB store data",
           "heat": "连续跟踪项。Steam 官方 Top Sellers #9；SteamDB charts 显示 802,998 players right now、#4 top sellers、#5 wishlist activity、647,287 followers。",
-          "current_players": 274891,
+          "current_players": 282568,
           "review_count": 468933,
           "review_percent": 94,
           "summary": "7/10 正式版后仍维持超高并发和收入排名，是近期长尾爆款样本；今日不标记为新发售。",
@@ -907,7 +907,7 @@
           "top_sellers_rank": "#16 Steam Store Top Sellers",
           "heat": "相邻日连续跟踪项。Steam 官方 Top Sellers 当前 #16；SteamDB charts 显示 2,351 players right now、134,273 followers、#384 wishlist activity。",
           "current_players": 13924,
-          "review_count": 29647,
+          "review_count": 29651,
           "review_percent": "未公开",
           "summary": "8/5 发行/1.0 窗口后的 cozy farming 热度延续，适合观察女性向/生活模拟受众转化；今天作为榜单延续项。",
           "steam_url": "https://store.steampowered.com/app/2142790/",
@@ -1782,5 +1782,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-06 19:07 CST"
+  "generated_at": "2026-08-06 19:09 CST"
 }
