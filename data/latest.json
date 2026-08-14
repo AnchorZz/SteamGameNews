@@ -27,26 +27,26 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "VGSpotter 今日 2026-08-14 release calendar 排名 #1，Followers 7,827 / Wishlists est 84,189；SteamDB 页面仍显示 2026-07-31 release date，因此按连续/日期冲突高热项跟踪。",
-          "current_players": 0,
+          "current_players": 1009,
           "summary": "战术 roguelite、回合制和战利品管理组合有清晰核心受众，Demo 已积累大量评价和 In-Demo 信号；但 SteamDB 与 VGSpotter 日期不一致，日报明确记录为连续跟踪项。",
           "steam_url": "https://store.steampowered.com/app/3091140/",
           "contact_url": "https://store.steampowered.com/app/3091140/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3091140/83d6c0dcf5f4dbfead7c35c0751818259cc8bfbd/header.jpg?t=1786622376",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3091140/0f52f0d28b3e8ae6023d919423a9953cf4c39df6/header.jpg?t=1786706775",
           "source_signals": [
             "VGSpotter Aug 14: #1 Lootbound, 7,827 followers, 84,189 wishlists est",
             "SteamDB AppID 3091140: ArtDock / Dreland Enterprises",
             "SteamDB AppID 3091140 currently shows Release Date 31 July 2026, date conflict noted"
           ],
-          "review_count": 0,
+          "review_count": 7,
           "cover_local_path": "/assets/covers/2026-08-14/3091140.jpg",
-          "potential_score": 65,
+          "potential_score": 77,
           "watch_level": "High",
           "score_reasons": [
+            "已有稳定在线",
             "低门槛试玩或轻量入口",
             "题材有内容传播点",
             "新商店页处于愿望单积累期",
-            "多日连续进入监测池",
-            "生命周期阶段发生变化"
+            "多日连续进入监测池"
           ],
           "daily_rank": 1
         },
@@ -75,7 +75,7 @@
           "summary": "成人向黑帮视觉小说，愿望单预估在今日中小体量项目里靠前；受地区限制和成人内容影响，适合垂类跟踪，不作为泛用户推荐主推。",
           "steam_url": "https://store.steampowered.com/app/4193390/",
           "contact_url": "https://store.steampowered.com/app/4193390/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4193390/7a48cf8236e95bfbddd8817ba478d711b011f9e7/header_alt_assets_0.jpg?t=1786338982",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4193390/7a48cf8236e95bfbddd8817ba478d711b011f9e7/header_alt_assets_0.jpg?t=1786682735",
           "source_signals": [
             "VGSpotter Aug 14: #2 Mafia Queens, 3,743 followers, 60,761 wishlists est",
             "SteamDB AppID 4193390: Store Release Date 14 August 2026 12:00 UTC",
@@ -334,7 +334,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "连续跟踪项：不是今日新 Demo，但主游戏在 VGSpotter 今日榜单 #1；SteamDB Demo 显示 652 reviews、79-92 In-Demo 级别公开试玩热度。",
-          "current_players": 316,
+          "current_players": 283,
           "summary": "不是今日新 Demo，而是主游戏今日高热窗口的试玩承接项。Demo 已有可观评价和在线，能支撑主游戏转化判断。",
           "steam_url": "https://store.steampowered.com/app/4290960/",
           "contact_url": "https://store.steampowered.com/app/4290960/",
@@ -344,7 +344,7 @@
             "VGSpotter Aug 14: Lootbound #1 with 84,189 wishlists est",
             "wishlist_rank unavailable publicly"
           ],
-          "review_count": 778,
+          "review_count": 779,
           "cover_local_path": "/assets/covers/2026-08-14/4290960.jpg",
           "potential_score": 30,
           "watch_level": "Low",
@@ -375,7 +375,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "连续/历史 Demo 补位：SteamDB 显示 71 reviews、98% positive、1 In-Demo；用于补足今日 Demo 热度覆盖，不标记为今日新上线。",
-          "current_players": 0,
+          "current_players": 1,
           "summary": "历史 Demo，但评价质量很强，可作为叙事冒险类 Demo 热度参照；今日仅为公开 Demo 信号补位。",
           "steam_url": "https://store.steampowered.com/app/3144250/",
           "contact_url": "https://store.steampowered.com/app/3144250/",
@@ -387,7 +387,7 @@
           ],
           "review_count": 72,
           "cover_local_path": "/assets/covers/2026-08-14/3144250.jpg",
-          "potential_score": 27,
+          "potential_score": 28,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -463,7 +463,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "VGSpotter 今日榜单 #1，84,189 wishlists est；但 SteamDB 主 App 日期仍显示 2026-07-31，按今日高热/日期冲突发售项重复跟踪。",
-          "current_players": 0,
+          "current_players": 1009,
           "summary": "今日最值得看的一档独立候选：Demo 强、愿望单预估高、玩法定位清楚。重复出现在 New Store/Released 是有意生命周期跟踪。",
           "steam_url": "https://store.steampowered.com/app/3091140/",
           "contact_url": "https://store.steampowered.com/app/3091140/",
@@ -473,24 +473,24 @@
             "SteamDB Demo 652 reviews / 79+ In-Demo",
             "SteamDB main-app date conflict noted"
           ],
-          "review_count": 0,
+          "review_count": 7,
           "price_currency": "CNY",
-          "price_initial": null,
-          "price_final": null,
-          "price_discount_percent": null,
-          "price_initial_formatted": "",
-          "price_final_formatted": "",
+          "price_initial": 7900,
+          "price_final": 5135,
+          "price_discount_percent": 35,
+          "price_initial_formatted": "¥ 79.00",
+          "price_final_formatted": "¥ 51.35",
           "price_is_free": false,
-          "price_updated_at": "2026-08-14 09:10 CST",
+          "price_updated_at": "2026-08-14 19:45 CST",
           "cover_local_path": "/assets/covers/2026-08-14/3091140.jpg",
-          "potential_score": 53,
-          "watch_level": "Medium",
+          "potential_score": 69,
+          "watch_level": "High",
           "score_reasons": [
             "愿望单榜单排名靠前",
+            "已有稳定在线",
             "低门槛试玩或轻量入口",
             "已发布，可观察真实在线",
-            "多日连续进入监测池",
-            "生命周期阶段发生变化"
+            "多日连续进入监测池"
           ],
           "daily_rank": 1
         },
@@ -533,7 +533,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-08-14 09:10 CST",
+          "price_updated_at": "2026-08-14 19:45 CST",
           "cover_local_path": "/assets/covers/2026-08-14/1939390.jpg",
           "potential_score": 61,
           "watch_level": "Medium",
@@ -585,7 +585,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-08-14 09:10 CST",
+          "price_updated_at": "2026-08-14 19:45 CST",
           "cover_local_path": "/assets/covers/2026-08-14/4265570.jpg",
           "potential_score": 46,
           "watch_level": "Medium",
@@ -635,7 +635,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-08-14 09:10 CST",
+          "price_updated_at": "2026-08-14 19:45 CST",
           "cover_local_path": "/assets/covers/2026-08-14/2312370.jpg",
           "potential_score": 49,
           "watch_level": "Medium",
@@ -685,7 +685,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-08-14 09:10 CST",
+          "price_updated_at": "2026-08-14 19:45 CST",
           "cover_local_path": "/assets/covers/2026-08-14/4240150.jpg",
           "potential_score": 42,
           "watch_level": "Low",
@@ -806,7 +806,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "今日新/连续冲突双重热度项：VGSpotter 今日 #1 且 Demo 有 652 reviews、79+ In-Demo，是当天最强独立观察对象。",
-          "current_players": 79,
+          "current_players": 1009,
           "summary": "同一 App 重复进入 Released 与 Heat Ranking 是有意的热度跟踪：愿望单、Demo 活跃和玩法辨识度同时较强。",
           "steam_url": "https://store.steampowered.com/app/3091140/",
           "contact_url": "https://store.steampowered.com/app/3091140/",
@@ -816,16 +816,16 @@
             "SteamDB Demo: 652 reviews / 79+ In-Demo",
             "date conflict with SteamDB main app noted"
           ],
-          "review_count": 0,
+          "review_count": 7,
           "cover_local_path": "/assets/covers/2026-08-14/3091140.jpg",
-          "potential_score": 52,
+          "potential_score": 56,
           "watch_level": "Medium",
           "score_reasons": [
             "愿望单榜单排名靠前",
+            "已有稳定在线",
             "低门槛试玩或轻量入口",
             "多日连续进入监测池",
-            "生命周期阶段发生变化",
-            "曾位于分类头部"
+            "生命周期阶段发生变化"
           ],
           "daily_rank": 3
         },
@@ -1644,5 +1644,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-14 09:10 CST"
+  "generated_at": "2026-08-14 19:45 CST"
 }
