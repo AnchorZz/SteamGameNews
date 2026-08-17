@@ -7,15 +7,15 @@
       "games": [
         {
           "date": "2026-08-17",
-          "appid": "4960370",
-          "name_zh": "Somnia",
-          "name_en": "Somnia",
+          "appid": "5000540",
+          "name_zh": "She Never Left",
+          "name_en": "She Never Left",
           "category": "New Store",
           "tags": [
+            "Horror",
             "Adventure",
             "Indie",
             "Atmospheric",
-            "Narrative",
             "Singleplayer"
           ],
           "developer": "未公开",
@@ -25,37 +25,40 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Somnia；片段未给 followers/wishlist，按 2026-08-17 当前新商店页候选跟踪。",
+          "heat": "SteamDB Recent App Events 最新页显示 New on store: She Never Left，且同页随后出现 New: She Never Left；公开 followers/wishlist 未列出。",
           "current_players": 0,
-          "summary": "新商店页事件明确，叙事/氛围独立向适合观察愿望单初始转化；今日不伪装为已发售。",
-          "steam_url": "https://store.steampowered.com/app/4960370/",
-          "contact_url": "https://store.steampowered.com/app/4960370/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4960370/beec5e74cb597af3217329e2b3149938503edf1b/header.jpg?t=1785461844",
+          "summary": "今日新商店页事件明确，恐怖/叙事题材具备短视频传播潜力；按 2026-08-17 新增条目跟踪，未伪装为已发售。",
+          "steam_url": "https://store.steampowered.com/app/5000540/",
+          "contact_url": "https://store.steampowered.com/app/5000540/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000540/6f52037faae078bec92b52d1f0d0594597f1e1ab/header.jpg?t=1786949827",
           "source_signals": [
-            "SteamDB Recent App Events: 4960370 New on store: Somnia"
+            "SteamDB History 2026-08-17 current page: 5000540 New on store: She Never Left",
+            "SteamDB History 2026-08-17 current page: 5000540 New: She Never Left"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-08-17/4960370.jpg",
-          "potential_score": 34,
+          "cover_local_path": "/assets/covers/2026-08-17/5000540.jpg",
+          "potential_score": 12,
           "watch_level": "Low",
           "score_reasons": [
+            "题材有内容传播点",
             "新商店页处于愿望单积累期",
-            "曾位于分类头部"
+            "曾位于分类头部",
+            "公开热度数据较少，需人工复核"
           ],
           "daily_rank": 1
         },
         {
           "date": "2026-08-17",
-          "appid": "4774980",
-          "name_zh": "摆烂生物有限公司",
-          "name_en": "Little Factory",
+          "appid": "5058260",
+          "name_zh": "TypePuppy",
+          "name_en": "TypePuppy",
           "category": "New Store",
           "tags": [
-            "Simulation",
-            "Management",
-            "Indie",
+            "Typing",
             "Casual",
-            "Strategy"
+            "Indie",
+            "Education",
+            "Singleplayer"
           ],
           "developer": "未公开",
           "publisher": "未公开",
@@ -64,20 +67,22 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Little Factory / 摆烂生物有限公司；中文名有本地传播点。",
+          "heat": "SteamDB Recent App Events 最新页显示 New on store: TypePuppy，并有 New: TypePuppy；暂无公开 followers/wishlist。",
           "current_players": 0,
-          "summary": "经营/工厂题材与中文命名利于小众传播，当前公开热度不足，作为今日新商店页候选观察。",
-          "steam_url": "https://store.steampowered.com/app/4774980/",
-          "contact_url": "https://store.steampowered.com/app/4774980/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4774980/64178726c8ca2e66b41e897aab610e5346726218/header_schinese.jpg?t=1786444257",
+          "summary": "打字玩法与轻量休闲定位清楚，适合观察首日愿望单和教育/休闲标签转化。",
+          "steam_url": "https://store.steampowered.com/app/5058260/",
+          "contact_url": "https://store.steampowered.com/app/5058260/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058260/6d8077c6455de7c2bfd504176eb4769ca2c97619/header.jpg?t=1786949645",
           "source_signals": [
-            "SteamDB Recent App Events: 4774980 New on store: Little Factory / 摆烂生物有限公司"
+            "SteamDB History 2026-08-17 current page: 5058260 New on store: TypePuppy",
+            "SteamDB History 2026-08-17 current page: 5058260 New: TypePuppy"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-08-17/4774980.jpg",
-          "potential_score": 8,
+          "cover_local_path": "/assets/covers/2026-08-17/5058260.jpg",
+          "potential_score": 11,
           "watch_level": "Low",
           "score_reasons": [
+            "低门槛试玩或轻量入口",
             "新商店页处于愿望单积累期",
             "曾位于分类头部",
             "公开热度数据较少，需人工复核"
@@ -86,15 +91,15 @@
         },
         {
           "date": "2026-08-17",
-          "appid": "4954740",
-          "name_zh": "Ironwake",
-          "name_en": "Ironwake",
+          "appid": "5039320",
+          "name_zh": "Saturn 94",
+          "name_en": "Saturn 94",
           "category": "New Store",
           "tags": [
-            "Action",
             "Adventure",
+            "Sci-fi",
             "Indie",
-            "Survival",
+            "Retro",
             "Singleplayer"
           ],
           "developer": "未公开",
@@ -104,37 +109,37 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Ironwake；暂无公开 follower/wishlist 排名。",
+          "heat": "SteamDB Recent App Events 最新页显示 New on store: Saturn 94 与 New: Saturn 94；公开榜单数值未公开。",
           "current_players": 0,
-          "summary": "动作冒险题材具备素材传播潜力，但公开指标缺失，后续需跟踪封面、标签和愿望单。",
-          "steam_url": "https://store.steampowered.com/app/4954740/",
-          "contact_url": "https://store.steampowered.com/app/4954740/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954740/c772cea13e1afae9ae1a17c41856134e222d4c6b/header.jpg?t=1785864208",
+          "summary": "复古科幻命名和独立冒险定位有素材辨识度，今日按新商店页候选入池。",
+          "steam_url": "https://store.steampowered.com/app/5039320/",
+          "contact_url": "https://store.steampowered.com/app/5039320/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039320/9b473111d55183ce634142c46c11db2b431d96f0/header.jpg?t=1786949636",
           "source_signals": [
-            "SteamDB Recent App Events: 4954740 New on store: Ironwake"
+            "SteamDB History 2026-08-17 current page: 5039320 New on store: Saturn 94",
+            "SteamDB History 2026-08-17 current page: 5039320 New: Saturn 94"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-08-17/4954740.jpg",
-          "potential_score": 5,
+          "cover_local_path": "/assets/covers/2026-08-17/5039320.jpg",
+          "potential_score": 25,
           "watch_level": "Low",
           "score_reasons": [
-            "新商店页处于愿望单积累期",
-            "公开热度数据较少，需人工复核"
+            "新商店页处于愿望单积累期"
           ],
           "daily_rank": 3
         },
         {
           "date": "2026-08-17",
-          "appid": "4625160",
-          "name_zh": "Mission: Clear Space",
-          "name_en": "Mission: Clear Space",
+          "appid": "5089380",
+          "name_zh": "LIGHTBLADE",
+          "name_en": "LIGHTBLADE",
           "category": "New Store",
           "tags": [
-            "Simulation",
-            "Space",
-            "Strategy",
+            "Action",
             "Indie",
-            "Sci-fi"
+            "Arcade",
+            "Sci-fi",
+            "Singleplayer"
           ],
           "developer": "未公开",
           "publisher": "未公开",
@@ -143,22 +148,21 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Mission: Clear Space；同批还有 Demo 事件，属于生命周期交叉候选。",
+          "heat": "SteamDB Recent App Events 最新页显示 New on store: LIGHTBLADE 与 New: LIGHTBLADE；followers/wishlist 未公开。",
           "current_players": 0,
-          "summary": "太空清理/模拟题材有清晰差异化，Game 与 Demo 同时出现使首日转化值得观察。",
-          "steam_url": "https://store.steampowered.com/app/4625160/",
-          "contact_url": "https://store.steampowered.com/app/4625160/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4625160/8f71d1b1ac782b0e79b42129be6636453d8d69ac/header.jpg?t=1786347938",
+          "summary": "动作街机向名称和视觉预期直接，作为今日新公布商店页观察首轮点击转化。",
+          "steam_url": "https://store.steampowered.com/app/5089380/",
+          "contact_url": "https://store.steampowered.com/app/5089380/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5089380/c937395c0ef9378d74519d905dbfa144ff5811ae/header.jpg?t=1786949481",
           "source_signals": [
-            "SteamDB Recent App Events: 4625160 New on store: Mission: Clear Space",
-            "SteamDB Recent App Events: 4944590 New: Mission: Clear Space Demo"
+            "SteamDB History 2026-08-17 current page: 5089380 New on store: LIGHTBLADE",
+            "SteamDB History 2026-08-17 current page: 5089380 New: LIGHTBLADE"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-08-17/4625160.jpg",
-          "potential_score": 8,
+          "cover_local_path": "/assets/covers/2026-08-17/5089380.jpg",
+          "potential_score": 5,
           "watch_level": "Low",
           "score_reasons": [
-            "低门槛试玩或轻量入口",
             "新商店页处于愿望单积累期",
             "公开热度数据较少，需人工复核"
           ],
@@ -166,15 +170,15 @@
         },
         {
           "date": "2026-08-17",
-          "appid": "4852490",
-          "name_zh": "Tower of Insolence",
-          "name_en": "Tower of Insolence",
+          "appid": "5060800",
+          "name_zh": "TICKER",
+          "name_en": "TICKER",
           "category": "New Store",
           "tags": [
-            "RPG",
+            "Puzzle",
             "Strategy",
             "Indie",
-            "Fantasy",
+            "Minimalist",
             "Singleplayer"
           ],
           "developer": "未公开",
@@ -184,17 +188,18 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Tower of Insolence；无公开榜单数值。",
+          "heat": "SteamDB Recent App Events 最新页显示 New on store: TICKER 与 New: TICKER；未见公开 follower/wishlist 排名。",
           "current_players": 0,
-          "summary": "奇幻塔/策略 RPG 题材有独立用户基础；今日仅按新商店页事件入池，等待后续 SteamDB app 数据。",
-          "steam_url": "https://store.steampowered.com/app/4852490/",
-          "contact_url": "https://store.steampowered.com/app/4852490/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4852490/b076183202ec8c9e08a503eeeab542e1422bccc0/header.jpg?t=1786311032",
+          "summary": "极简/策略解谜题材适合小体量独立传播，今日仅按新商店页事件跟踪。",
+          "steam_url": "https://store.steampowered.com/app/5060800/",
+          "contact_url": "https://store.steampowered.com/app/5060800/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5060800/600187437b879b5880466c63624304d1f3022d24/header.jpg?t=1786948363",
           "source_signals": [
-            "SteamDB Recent App Events: 4852490 New on store: Tower of Insolence"
+            "SteamDB History 2026-08-17 current page: 5060800 New on store: TICKER",
+            "SteamDB History 2026-08-17 current page: 5060800 New: TICKER"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-08-17/4852490.jpg",
+          "cover_local_path": "/assets/covers/2026-08-17/5060800.jpg",
           "potential_score": 5,
           "watch_level": "Low",
           "score_reasons": [
@@ -210,15 +215,15 @@
       "games": [
         {
           "date": "2026-08-17",
-          "appid": "4996210",
-          "name_zh": "Debtbound Demo",
-          "name_en": "Debtbound Demo",
+          "appid": "4956590",
+          "name_zh": "Hell Of War: Combined Arms Demo",
+          "name_en": "Hell Of War: Combined Arms Demo",
           "category": "Demo",
           "tags": [
+            "Action",
+            "Strategy",
+            "War",
             "Simulation",
-            "Narrative",
-            "Indie",
-            "Casual",
             "Singleplayer"
           ],
           "developer": "未公开",
@@ -228,79 +233,37 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Debtbound Demo；followers/wishlist_rank 未公开。",
-          "current_players": 0,
-          "summary": "新 Demo 事件明确，题材可用试玩验证转化；今日公开关注/愿望单覆盖为未公开。",
-          "steam_url": "https://store.steampowered.com/app/4996210/",
-          "contact_url": "https://store.steampowered.com/app/4996210/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4996210/9a5c5431bd177f42350c4bcdc70c01461c11466a/header.jpg?t=1786894582",
+          "heat": "SteamDB Recent App Events 最新页显示 New: Hell Of War: Combined Arms Demo；Demo followers/wishlist_rank 未公开。",
+          "current_players": 1,
+          "summary": "战争/联合兵种试玩题材明确，今日新 Demo 入池；公开关注/愿望单数据暂缺。",
+          "steam_url": "https://store.steampowered.com/app/4956590/",
+          "contact_url": "https://store.steampowered.com/app/4956590/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4956590/61c396fac5d265dde4a3d7abc4b1b548e239f18a/header.jpg?t=1786949231",
           "source_signals": [
-            "SteamDB Recent App Events: 4996210 New on store: Debtbound Demo Demo"
+            "SteamDB History 2026-08-17 current page: 4956590 New: Hell Of War: Combined Arms Demo Demo"
           ],
-          "review_count": 3,
-          "cover_local_path": "/assets/covers/2026-08-17/4996210.jpg",
-          "potential_score": 11,
+          "review_count": 0,
+          "cover_local_path": "/assets/covers/2026-08-17/4956590.jpg",
+          "potential_score": 20,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
             "Demo 可验证试玩转化",
-            "曾位于分类头部",
-            "公开热度数据较少，需人工复核"
+            "曾位于分类头部"
           ],
           "daily_rank": 1
         },
         {
           "date": "2026-08-17",
-          "appid": "4944590",
-          "name_zh": "Mission: Clear Space Demo",
-          "name_en": "Mission: Clear Space Demo",
+          "appid": "4867580",
+          "name_zh": "EXELIO 试玩版",
+          "name_en": "EXELIO Demo",
           "category": "Demo",
           "tags": [
-            "Simulation",
-            "Space",
-            "Strategy",
-            "Indie",
-            "Sci-fi"
-          ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-08-17",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "SteamDB Recent App Events 当前公开片段显示 New: Mission: Clear Space Demo；与本体新商店页同步，是今日重点 Demo。",
-          "current_players": 0,
-          "summary": "Demo 与本体同批出现，太空模拟题材可通过试玩建立愿望单；暂无公开 follower/wishlist 排名。",
-          "steam_url": "https://store.steampowered.com/app/4944590/",
-          "contact_url": "https://store.steampowered.com/app/4944590/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4944590/a22d07e7c1f9f9b217ba94263169914b9572a196/header.jpg?t=1786347865",
-          "source_signals": [
-            "SteamDB Recent App Events: 4944590 New: Mission: Clear Space Demo"
-          ],
-          "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-08-17/4944590.jpg",
-          "potential_score": 11,
-          "watch_level": "Low",
-          "score_reasons": [
-            "低门槛试玩或轻量入口",
-            "Demo 可验证试玩转化",
-            "曾位于分类头部",
-            "公开热度数据较少，需人工复核"
-          ],
-          "daily_rank": 2
-        },
-        {
-          "date": "2026-08-17",
-          "appid": "4972710",
-          "name_zh": "Kairos: Until the Dawn Breaks Demo",
-          "name_en": "Kairos: Until the Dawn Breaks Demo",
-          "category": "Demo",
-          "tags": [
+            "Action",
             "Adventure",
             "Indie",
-            "Fantasy",
-            "Narrative",
+            "Sci-fi",
             "Singleplayer"
           ],
           "developer": "未公开",
@@ -310,17 +273,58 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Recent App Events 当前公开片段显示 New: Kairos: Until the Dawn Breaks Demo；未见公开 followers/wishlist。",
-          "current_players": 0,
-          "summary": "幻想叙事 Demo 适合 Steam 新品节前预热，今日保守记录为新 Demo 候选。",
-          "steam_url": "https://store.steampowered.com/app/4972710/",
-          "contact_url": "https://store.steampowered.com/app/4972710/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4972710/871612cf16d2671b49f423d1dde36402503aace9/header.jpg?t=1785470817",
+          "heat": "SteamDB Recent App Events 最新页显示 New: EXELIO Demo；followers/wishlist_rank 未公开。",
+          "current_players": 1,
+          "summary": "科幻动作/冒险试玩适合验证核心手感，今日按新 Demo 事件记录。",
+          "steam_url": "https://store.steampowered.com/app/4867580/",
+          "contact_url": "https://store.steampowered.com/app/4867580/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4867580/d315aca8ea1b14443cc4e1f0d0b73e592a99e9a8/header.jpg?t=1786948290",
           "source_signals": [
-            "SteamDB Recent App Events: 4972710 New: Kairos: Until the Dawn Breaks Demo"
+            "SteamDB History 2026-08-17 current page: 4867580 New: EXELIO Demo Demo"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-08-17/4972710.jpg",
+          "cover_local_path": "/assets/covers/2026-08-17/4867580.jpg",
+          "potential_score": 20,
+          "watch_level": "Low",
+          "score_reasons": [
+            "低门槛试玩或轻量入口",
+            "Demo 可验证试玩转化",
+            "曾位于分类头部"
+          ],
+          "daily_rank": 2
+        },
+        {
+          "date": "2026-08-17",
+          "appid": "3760000",
+          "name_zh": "Shrine Protectors Demo",
+          "name_en": "Shrine Protectors Demo",
+          "category": "Demo",
+          "tags": [
+            "Strategy",
+            "Tower Defense",
+            "Action",
+            "Indie",
+            "Fantasy"
+          ],
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "2026-08-17",
+          "followers": "未公开",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "SteamDB Recent App Events 最新页显示 New on store 与 New: Shrine Protectors Demo；Demo 公开关注/愿望单数据未列出。",
+          "current_players": 0,
+          "summary": "守护/防御玩法钩子清楚，同页出现新商店页和新 Demo 双事件，值得跟踪首日转化。",
+          "steam_url": "https://store.steampowered.com/app/3760000/",
+          "contact_url": "https://store.steampowered.com/app/3760000/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3760000/8ebb65a55ae00294b9d3e881a0068ecfc1c8c89f/header.jpg?t=1786945008",
+          "source_signals": [
+            "SteamDB History 2026-08-17 current page: 3760000 New on store: Shrine Protectors Demo Demo",
+            "SteamDB History 2026-08-17 current page: 3760000 New: Shrine Protectors Demo Demo"
+          ],
+          "review_count": 0,
+          "cover_local_path": "/assets/covers/2026-08-17/3760000.jpg",
           "potential_score": 8,
           "watch_level": "Low",
           "score_reasons": [
@@ -332,16 +336,16 @@
         },
         {
           "date": "2026-08-17",
-          "appid": "4964550",
-          "name_zh": "Placefall Demo",
-          "name_en": "Placefall Demo",
+          "appid": "4948130",
+          "name_zh": "雀神 Sparrow God Demo",
+          "name_en": "Sparrow God Demo",
           "category": "Demo",
           "tags": [
-            "Action",
-            "Adventure",
+            "Card Game",
+            "Tabletop",
+            "Strategy",
             "Indie",
-            "Platformer",
-            "Singleplayer"
+            "Casual"
           ],
           "developer": "未公开",
           "publisher": "未公开",
@@ -350,17 +354,17 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Recent App Events 当前公开片段显示 New: Placefall Demo；公开关注数据缺失。",
+          "heat": "SteamDB Recent App Events 最新页显示 New: 雀神 Sparrow God Demo；followers/wishlist_rank 未公开。",
           "current_players": 0,
-          "summary": "动作/平台向 Demo 的爆点依赖手感和视频传播，当前先跟踪事件信号。",
-          "steam_url": "https://store.steampowered.com/app/4964550/",
-          "contact_url": "https://store.steampowered.com/app/4964550/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4964550/11f4465c340782afbac210c0bd5c4f13dfc8b117/header.jpg?t=1785284157",
+          "summary": "棋牌/桌游方向具备明确亚洲用户入口，今日新 Demo 入池观察。",
+          "steam_url": "https://store.steampowered.com/app/4948130/",
+          "contact_url": "https://store.steampowered.com/app/4948130/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4948130/a172761e90ad08b3bd1485cefa54ffb34e2e2a39/header.jpg?t=1786942562",
           "source_signals": [
-            "SteamDB Recent App Events: 4964550 New: Placefall Demo"
+            "SteamDB History 2026-08-17 current page: 4948130 New: 雀神 Sparrow God Demo Demo"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-08-17/4964550.jpg",
+          "cover_local_path": "/assets/covers/2026-08-17/4948130.jpg",
           "potential_score": 8,
           "watch_level": "Low",
           "score_reasons": [
@@ -372,15 +376,15 @@
         },
         {
           "date": "2026-08-17",
-          "appid": "4993350",
-          "name_zh": "The Last Zeppelin Demo",
-          "name_en": "The Last Zeppelin Demo",
+          "appid": "4995710",
+          "name_zh": "Black Lotus Demo",
+          "name_en": "Black Lotus Demo",
           "category": "Demo",
           "tags": [
             "Adventure",
-            "Simulation",
+            "RPG",
             "Indie",
-            "Steampunk",
+            "Dark Fantasy",
             "Singleplayer"
           ],
           "developer": "未公开",
@@ -390,17 +394,18 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Recent App Events 当前公开片段显示 New: The Last Zeppelin Demo；followers/wishlist_rank 未公开。",
+          "heat": "SteamDB Recent App Events 最新页显示 New on store 与 New: Black Lotus Demo；Demo followers/wishlist_rank 未公开。",
           "current_players": 0,
-          "summary": "飞艇/蒸汽朋克题材有差异化视觉，Demo 可观察是否带动愿望单增长。",
-          "steam_url": "https://store.steampowered.com/app/4993350/",
-          "contact_url": "https://store.steampowered.com/app/4993350/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4993350/a2f81ad3ad0225fb0c6928b1d5549b569754df3e/header.jpg?t=1785742737",
+          "summary": "暗黑幻想命名具备题材识别度，同日 Demo 事件明确；公开榜单指标暂缺。",
+          "steam_url": "https://store.steampowered.com/app/4995710/",
+          "contact_url": "https://store.steampowered.com/app/4995710/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4995710/171caf0bce732cccdee187cd071eaac19afd07b9/header.jpg?t=1786931204",
           "source_signals": [
-            "SteamDB Recent App Events: 4993350 New: The Last Zeppelin Demo"
+            "SteamDB History 2026-08-17 current page: 4995710 New on store: Black Lotus Demo Demo",
+            "SteamDB History 2026-08-17 current page: 4995710 New: Black Lotus Demo Demo"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-08-17/4993350.jpg",
+          "cover_local_path": "/assets/covers/2026-08-17/4995710.jpg",
           "potential_score": 8,
           "watch_level": "Low",
           "score_reasons": [
@@ -440,7 +445,7 @@
           "summary": "8/17 发售池里最强公开愿望单/关注信号，Morrowind 式 RPG 与合作玩法具备核心玩家扩散潜力。",
           "steam_url": "https://store.steampowered.com/app/3849000/",
           "contact_url": "https://store.steampowered.com/app/3849000/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/b98fe0c76e1cf48d830922efe33852a83915b5cc/header.jpg?t=1786912886",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/b98fe0c76e1cf48d830922efe33852a83915b5cc/header.jpg?t=1786939279",
           "source_signals": [
             "VGSpotter Aug 17 #1: 10,322 followers, 159,274 wishlists est",
             "SteamDB AppID 3849000 release date 17 August 2026"
@@ -453,7 +458,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-08-17 10:11 CST",
+          "price_updated_at": "2026-08-17 18:07 CST",
           "cover_local_path": "/assets/covers/2026-08-17/3849000.jpg",
           "potential_score": 46,
           "watch_level": "Medium",
@@ -489,7 +494,7 @@
           "summary": "手绘舒适解谜有明确受众，已有 Demo 口碑信号，是今日独立 Top 5 高优先候选。",
           "steam_url": "https://store.steampowered.com/app/2933200/",
           "contact_url": "https://store.steampowered.com/app/2933200/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2933200/8ba258b9db04d7da7c4d31b14418f3075087ba77/header_alt_assets_1_schinese.jpg?t=1786913618",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2933200/8ba258b9db04d7da7c4d31b14418f3075087ba77/header_alt_assets_1_schinese.jpg?t=1786958548",
           "source_signals": [
             "VGSpotter Aug 17 #2: 2,731 followers, 45,037 wishlists est",
             "SteamDB AppID 2933200 release date 17 August 2026",
@@ -503,7 +508,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-08-17 10:11 CST",
+          "price_updated_at": "2026-08-17 18:07 CST",
           "cover_local_path": "/assets/covers/2026-08-17/2933200.jpg",
           "potential_score": 35,
           "watch_level": "Low",
@@ -552,7 +557,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-08-17 10:11 CST",
+          "price_updated_at": "2026-08-17 18:07 CST",
           "cover_local_path": "/assets/covers/2026-08-17/2477710.jpg",
           "potential_score": 32,
           "watch_level": "Low",
@@ -600,7 +605,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-08-17 10:11 CST",
+          "price_updated_at": "2026-08-17 18:07 CST",
           "cover_local_path": "/assets/covers/2026-08-17/3561740.jpg",
           "potential_score": 28,
           "watch_level": "Low",
@@ -647,7 +652,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-08-17 10:11 CST",
+          "price_updated_at": "2026-08-17 18:07 CST",
           "cover_local_path": "/assets/covers/2026-08-17/3503710.jpg",
           "potential_score": 28,
           "watch_level": "Low",
@@ -661,47 +666,6 @@
     {
       "title": "SteamDB/Steam 热度信号",
       "games": [
-        {
-          "date": "2026-08-17",
-          "appid": "431960",
-          "name_zh": "Wallpaper Engine：壁纸引擎",
-          "name_en": "Wallpaper Engine",
-          "category": "Heat Ranking",
-          "tags": [
-            "Utilities",
-            "Workshop",
-            "Design & Illustration",
-            "Anime",
-            "Software"
-          ],
-          "developer": "Wallpaper Engine Team",
-          "publisher": "Wallpaper Engine Team",
-          "release_date": "2018-11-16",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#1 global top sellers",
-          "heat": "SteamDB Global Top Sellers 今日 #1；连续榜单项，不是今日新发。",
-          "current_players": 61876,
-          "summary": "销售榜第一用于校准今日商业热度环境。",
-          "steam_url": "https://store.steampowered.com/app/431960/",
-          "contact_url": "https://store.steampowered.com/app/431960/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/header_schinese.jpg?t=1779452230",
-          "source_signals": [
-            "SteamDB Global Top Sellers: #1 Wallpaper Engine"
-          ],
-          "review_count": 1009684,
-          "cover_local_path": "/assets/covers/2026-08-17/431960.jpg",
-          "potential_score": 38,
-          "watch_level": "Low",
-          "score_reasons": [
-            "当前在线人数高",
-            "题材有内容传播点",
-            "多日连续进入监测池",
-            "曾位于分类头部"
-          ],
-          "daily_rank": 1
-        },
         {
           "date": "2026-08-17",
           "appid": "730",
@@ -718,75 +682,75 @@
           "developer": "Valve",
           "publisher": "Valve",
           "release_date": "2023-09-27",
-          "followers": "未公开",
+          "followers": "4,895,120",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#2 global top sellers",
-          "heat": "SteamDB Charts 今日约 896,252 online / 1,441,605 peak；Global Top Sellers #2。连续榜单项。",
-          "current_players": 540122,
-          "summary": "常青竞技游戏占据当前流量基线，不计为今日新候选。",
+          "top_sellers_rank": "#1 global top sellers",
+          "heat": "SteamDB Global Top Sellers 当前 #1；Charts 当前约 719,623 online / 1,862,531 peak。连续榜单项，不是今日新发。",
+          "current_players": 727363,
+          "summary": "常青竞技游戏占据今日销售与在线基线，用于校准新品曝光竞争。",
           "steam_url": "https://store.steampowered.com/app/730/",
           "contact_url": "https://store.steampowered.com/app/730/",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header_schinese.jpg?t=1784564069",
           "source_signals": [
-            "SteamDB Charts current players: 896,252 online / 1,441,605 peak",
-            "SteamDB Global Top Sellers: #2 Counter-Strike 2"
+            "SteamDB Global Top Sellers 2026-08-17 current page: #1 Counter-Strike 2",
+            "SteamDB Charts/SteamDB home current players: 719,623 online / 1,862,531 peak"
           ],
-          "review_count": 9794832,
+          "review_count": 9795256,
           "cover_local_path": "/assets/covers/2026-08-17/730.jpg",
-          "potential_score": 59,
+          "potential_score": 56,
           "watch_level": "Medium",
           "score_reasons": [
-            "7日关注增长强",
+            "关注基数高",
             "当前在线人数高",
             "多人/合作传播性好",
             "多日连续进入监测池",
             "生命周期阶段发生变化"
           ],
-          "daily_rank": 2
+          "daily_rank": 1
         },
         {
           "date": "2026-08-17",
-          "appid": "578080",
-          "name_zh": "PUBG: BATTLEGROUNDS",
-          "name_en": "PUBG: BATTLEGROUNDS",
+          "appid": "1172470",
+          "name_zh": "Apex Legends",
+          "name_en": "Apex Legends",
           "category": "Heat Ranking",
           "tags": [
             "Battle Royale",
+            "FPS",
             "Shooter",
             "Multiplayer",
-            "Survival",
-            "PvP"
+            "Free to Play"
           ],
-          "developer": "KRAFTON, Inc.",
-          "publisher": "KRAFTON, Inc.",
-          "release_date": "2017-12-21",
-          "followers": "未公开",
+          "developer": "Respawn Entertainment",
+          "publisher": "Electronic Arts",
+          "release_date": "2020-11-04",
+          "followers": "608,960",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#3 global top sellers",
-          "heat": "SteamDB Charts 今日约 217,905 online / 756,435 peak；Global Top Sellers #3。连续榜单项。",
-          "current_players": 131017,
-          "summary": "免费射击大盘热度仍高，用于判断新品曝光竞争。",
-          "steam_url": "https://store.steampowered.com/app/578080/",
-          "contact_url": "https://store.steampowered.com/app/578080/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1786493086",
+          "top_sellers_rank": "#2 global top sellers",
+          "heat": "SteamDB Global Top Sellers 当前 #2，约 114,157 online / 624,473 peak。连续榜单项。",
+          "current_players": 111386,
+          "summary": "免费竞技射击继续提供大盘流量参照，不计为今日新候选。",
+          "steam_url": "https://store.steampowered.com/app/1172470/",
+          "contact_url": "https://store.steampowered.com/app/1172470/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/6cf04767652d703b6050da84b82cfb1194258d7d/header.jpg?t=1786031871",
           "source_signals": [
-            "SteamDB Charts current players: 217,905 online / 756,435 peak",
-            "SteamDB Global Top Sellers: #3 PUBG"
+            "SteamDB Global Top Sellers 2026-08-17 current page: #2 Apex Legends",
+            "SteamDB current table: 114,157 online / 624,473 peak"
           ],
-          "review_count": 2743756,
-          "cover_local_path": "/assets/covers/2026-08-17/578080.jpg",
-          "potential_score": 60,
+          "review_count": 1064104,
+          "cover_local_path": "/assets/covers/2026-08-17/1172470.jpg",
+          "potential_score": 58,
           "watch_level": "Medium",
           "score_reasons": [
-            "7日关注增长强",
+            "关注基数高",
             "当前在线人数高",
             "多人/合作传播性好",
             "低门槛试玩或轻量入口",
             "多日连续进入监测池"
           ],
-          "daily_rank": 3
+          "daily_rank": 2
         },
         {
           "date": "2026-08-17",
@@ -804,73 +768,111 @@
           "developer": "Valve",
           "publisher": "Valve",
           "release_date": "2013-07-09",
-          "followers": "未公开",
+          "followers": "2,535,596",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#4 global top sellers",
-          "heat": "SteamDB Charts 今日约 469,204 online / 736,309 peak；Global Top Sellers #4。连续榜单项。",
-          "current_players": 442614,
-          "summary": "MOBA 常青榜单信号，作为热度参照。",
+          "top_sellers_rank": "#3 global top sellers",
+          "heat": "SteamDB Global Top Sellers 当前 #3，约 604,997 online / 1,295,114 peak。连续榜单项。",
+          "current_players": 622839,
+          "summary": "MOBA 常青榜单信号，作为今日 Steam 热度环境参照。",
           "steam_url": "https://store.steampowered.com/app/570/",
           "contact_url": "https://store.steampowered.com/app/570/",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
           "source_signals": [
-            "SteamDB Charts current players: 469,204 online / 736,309 peak",
-            "SteamDB Global Top Sellers: #4 Dota 2"
+            "SteamDB Global Top Sellers 2026-08-17 current page: #3 Dota 2",
+            "SteamDB current table: 604,997 online / 1,295,114 peak"
           ],
-          "review_count": 2758943,
+          "review_count": 2759054,
           "cover_local_path": "/assets/covers/2026-08-17/570.jpg",
-          "potential_score": 59,
+          "potential_score": 58,
           "watch_level": "Medium",
           "score_reasons": [
-            "7日关注增长强",
+            "关注基数高",
             "当前在线人数高",
             "多人/合作传播性好",
             "多日连续进入监测池",
             "生命周期阶段发生变化"
           ],
+          "daily_rank": 3
+        },
+        {
+          "date": "2026-08-17",
+          "appid": "2552430",
+          "name_zh": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+          "name_en": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+          "category": "Heat Ranking",
+          "tags": [
+            "Action",
+            "RPG",
+            "Adventure",
+            "JRPG",
+            "Singleplayer"
+          ],
+          "developer": "Square Enix",
+          "publisher": "Square Enix",
+          "release_date": "2024-06-13",
+          "followers": "37,101",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "#4 global top sellers",
+          "heat": "SteamDB Global Top Sellers 当前 #4，70% 折扣带动销售；SteamDB app 页可核 AppID 2552430。连续促销榜单项。",
+          "current_players": 3799,
+          "summary": "折扣驱动老游戏回榜，说明今日销售榜前列不全是新品。",
+          "steam_url": "https://store.steampowered.com/app/2552430/",
+          "contact_url": "https://store.steampowered.com/app/2552430/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/header.jpg?t=1779418330",
+          "source_signals": [
+            "SteamDB Global Top Sellers 2026-08-17 current page: #4 KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+            "SteamDB AppID 2552430: developer/publisher Square Enix"
+          ],
+          "review_count": 11438,
+          "cover_local_path": "/assets/covers/2026-08-17/2552430.jpg",
+          "potential_score": 34,
+          "watch_level": "Low",
+          "score_reasons": [
+            "关注基数高",
+            "已有稳定在线"
+          ],
           "daily_rank": 4
         },
         {
           "date": "2026-08-17",
-          "appid": "440",
-          "name_zh": "Team Fortress 2",
-          "name_en": "Team Fortress 2",
+          "appid": "553850",
+          "name_zh": "HELLDIVERS 2",
+          "name_en": "HELLDIVERS 2",
           "category": "Heat Ranking",
           "tags": [
-            "Hero Shooter",
-            "FPS",
+            "Action",
+            "Co-op",
+            "Shooter",
             "Multiplayer",
-            "Free to Play",
-            "Class-Based"
+            "Third-Person Shooter"
           ],
-          "developer": "Valve",
-          "publisher": "Valve",
-          "release_date": "2007-10-10",
-          "followers": "未公开",
+          "developer": "Arrowhead Game Studios",
+          "publisher": "PlayStation Publishing LLC",
+          "release_date": "2024-02-08",
+          "followers": "526,078",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#5 global top sellers",
-          "heat": "SteamDB Charts 今日约 64,440 online / 113,596 peak；Global Top Sellers #5。连续榜单项。",
-          "current_players": 46116,
-          "summary": "老牌免费 FPS 继续上榜，说明 Steam 今日热度由常青服务型游戏主导。",
-          "steam_url": "https://store.steampowered.com/app/440/",
-          "contact_url": "https://store.steampowered.com/app/440/",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
+          "heat": "SteamDB Global Top Sellers 当前 #5，约 42,205 online / 458,709 peak。连续榜单项。",
+          "current_players": 43432,
+          "summary": "合作射击与折扣/活动信号维持销售前列，不作为今日新发售项。",
+          "steam_url": "https://store.steampowered.com/app/553850/",
+          "contact_url": "https://store.steampowered.com/app/553850/",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/3b637a129cd859a9710381a6fd9c78b931df7b51/header_schinese.jpg?t=1786525389",
           "source_signals": [
-            "SteamDB Charts current players: 64,440 online / 113,596 peak",
-            "SteamDB Global Top Sellers: #5 Team Fortress 2"
+            "SteamDB Global Top Sellers 2026-08-17 current page: #5 HELLDIVERS 2",
+            "SteamDB current table: 42,205 online / 458,709 peak"
           ],
-          "review_count": 1246912,
-          "cover_local_path": "/assets/covers/2026-08-17/440.jpg",
-          "potential_score": 52,
-          "watch_level": "Medium",
+          "review_count": 1155624,
+          "cover_local_path": "/assets/covers/2026-08-17/553850.jpg",
+          "potential_score": 42,
+          "watch_level": "Low",
           "score_reasons": [
-            "7日关注增长强",
+            "关注基数高",
             "当前在线人数高",
-            "多人/合作传播性好",
-            "低门槛试玩或轻量入口",
-            "多日连续进入监测池"
+            "多人/合作传播性好"
           ],
           "daily_rank": 5
         }
@@ -880,15 +882,15 @@
   "games": [
     {
       "date": "2026-08-17",
-      "appid": "4960370",
-      "name_zh": "Somnia",
-      "name_en": "Somnia",
+      "appid": "5000540",
+      "name_zh": "She Never Left",
+      "name_en": "She Never Left",
       "category": "New Store",
       "tags": [
+        "Horror",
         "Adventure",
         "Indie",
         "Atmospheric",
-        "Narrative",
         "Singleplayer"
       ],
       "developer": "未公开",
@@ -898,28 +900,29 @@
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "未公开",
-      "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Somnia；片段未给 followers/wishlist，按 2026-08-17 当前新商店页候选跟踪。",
+      "heat": "SteamDB Recent App Events 最新页显示 New on store: She Never Left，且同页随后出现 New: She Never Left；公开 followers/wishlist 未列出。",
       "current_players": 0,
-      "summary": "新商店页事件明确，叙事/氛围独立向适合观察愿望单初始转化；今日不伪装为已发售。",
-      "steam_url": "https://store.steampowered.com/app/4960370/",
-      "contact_url": "https://store.steampowered.com/app/4960370/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4960370/header.jpg",
+      "summary": "今日新商店页事件明确，恐怖/叙事题材具备短视频传播潜力；按 2026-08-17 新增条目跟踪，未伪装为已发售。",
+      "steam_url": "https://store.steampowered.com/app/5000540/",
+      "contact_url": "https://store.steampowered.com/app/5000540/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5000540/header.jpg",
       "source_signals": [
-        "SteamDB Recent App Events: 4960370 New on store: Somnia"
+        "SteamDB History 2026-08-17 current page: 5000540 New on store: She Never Left",
+        "SteamDB History 2026-08-17 current page: 5000540 New: She Never Left"
       ]
     },
     {
       "date": "2026-08-17",
-      "appid": "4774980",
-      "name_zh": "摆烂生物有限公司",
-      "name_en": "Little Factory",
+      "appid": "5058260",
+      "name_zh": "TypePuppy",
+      "name_en": "TypePuppy",
       "category": "New Store",
       "tags": [
-        "Simulation",
-        "Management",
-        "Indie",
+        "Typing",
         "Casual",
-        "Strategy"
+        "Indie",
+        "Education",
+        "Singleplayer"
       ],
       "developer": "未公开",
       "publisher": "未公开",
@@ -928,118 +931,242 @@
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "未公开",
-      "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Little Factory / 摆烂生物有限公司；中文名有本地传播点。",
+      "heat": "SteamDB Recent App Events 最新页显示 New on store: TypePuppy，并有 New: TypePuppy；暂无公开 followers/wishlist。",
       "current_players": 0,
-      "summary": "经营/工厂题材与中文命名利于小众传播，当前公开热度不足，作为今日新商店页候选观察。",
-      "steam_url": "https://store.steampowered.com/app/4774980/",
-      "contact_url": "https://store.steampowered.com/app/4774980/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4774980/header.jpg",
+      "summary": "打字玩法与轻量休闲定位清楚，适合观察首日愿望单和教育/休闲标签转化。",
+      "steam_url": "https://store.steampowered.com/app/5058260/",
+      "contact_url": "https://store.steampowered.com/app/5058260/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5058260/header.jpg",
       "source_signals": [
-        "SteamDB Recent App Events: 4774980 New on store: Little Factory / 摆烂生物有限公司"
+        "SteamDB History 2026-08-17 current page: 5058260 New on store: TypePuppy",
+        "SteamDB History 2026-08-17 current page: 5058260 New: TypePuppy"
       ]
     },
     {
       "date": "2026-08-17",
-      "appid": "4954740",
-      "name_zh": "Ironwake",
-      "name_en": "Ironwake",
+      "appid": "5039320",
+      "name_zh": "Saturn 94",
+      "name_en": "Saturn 94",
       "category": "New Store",
+      "tags": [
+        "Adventure",
+        "Sci-fi",
+        "Indie",
+        "Retro",
+        "Singleplayer"
+      ],
+      "developer": "未公开",
+      "publisher": "未公开",
+      "release_date": "待定",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "SteamDB Recent App Events 最新页显示 New on store: Saturn 94 与 New: Saturn 94；公开榜单数值未公开。",
+      "current_players": 0,
+      "summary": "复古科幻命名和独立冒险定位有素材辨识度，今日按新商店页候选入池。",
+      "steam_url": "https://store.steampowered.com/app/5039320/",
+      "contact_url": "https://store.steampowered.com/app/5039320/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5039320/header.jpg",
+      "source_signals": [
+        "SteamDB History 2026-08-17 current page: 5039320 New on store: Saturn 94",
+        "SteamDB History 2026-08-17 current page: 5039320 New: Saturn 94"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "appid": "5089380",
+      "name_zh": "LIGHTBLADE",
+      "name_en": "LIGHTBLADE",
+      "category": "New Store",
+      "tags": [
+        "Action",
+        "Indie",
+        "Arcade",
+        "Sci-fi",
+        "Singleplayer"
+      ],
+      "developer": "未公开",
+      "publisher": "未公开",
+      "release_date": "待定",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "SteamDB Recent App Events 最新页显示 New on store: LIGHTBLADE 与 New: LIGHTBLADE；followers/wishlist 未公开。",
+      "current_players": 0,
+      "summary": "动作街机向名称和视觉预期直接，作为今日新公布商店页观察首轮点击转化。",
+      "steam_url": "https://store.steampowered.com/app/5089380/",
+      "contact_url": "https://store.steampowered.com/app/5089380/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5089380/header.jpg",
+      "source_signals": [
+        "SteamDB History 2026-08-17 current page: 5089380 New on store: LIGHTBLADE",
+        "SteamDB History 2026-08-17 current page: 5089380 New: LIGHTBLADE"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "appid": "5060800",
+      "name_zh": "TICKER",
+      "name_en": "TICKER",
+      "category": "New Store",
+      "tags": [
+        "Puzzle",
+        "Strategy",
+        "Indie",
+        "Minimalist",
+        "Singleplayer"
+      ],
+      "developer": "未公开",
+      "publisher": "未公开",
+      "release_date": "待定",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "SteamDB Recent App Events 最新页显示 New on store: TICKER 与 New: TICKER；未见公开 follower/wishlist 排名。",
+      "current_players": 0,
+      "summary": "极简/策略解谜题材适合小体量独立传播，今日仅按新商店页事件跟踪。",
+      "steam_url": "https://store.steampowered.com/app/5060800/",
+      "contact_url": "https://store.steampowered.com/app/5060800/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5060800/header.jpg",
+      "source_signals": [
+        "SteamDB History 2026-08-17 current page: 5060800 New on store: TICKER",
+        "SteamDB History 2026-08-17 current page: 5060800 New: TICKER"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "appid": "4956590",
+      "name_zh": "Hell Of War: Combined Arms Demo",
+      "name_en": "Hell Of War: Combined Arms Demo",
+      "category": "Demo",
+      "tags": [
+        "Action",
+        "Strategy",
+        "War",
+        "Simulation",
+        "Singleplayer"
+      ],
+      "developer": "未公开",
+      "publisher": "未公开",
+      "release_date": "2026-08-17",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "SteamDB Recent App Events 最新页显示 New: Hell Of War: Combined Arms Demo；Demo followers/wishlist_rank 未公开。",
+      "current_players": 0,
+      "summary": "战争/联合兵种试玩题材明确，今日新 Demo 入池；公开关注/愿望单数据暂缺。",
+      "steam_url": "https://store.steampowered.com/app/4956590/",
+      "contact_url": "https://store.steampowered.com/app/4956590/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4956590/header.jpg",
+      "source_signals": [
+        "SteamDB History 2026-08-17 current page: 4956590 New: Hell Of War: Combined Arms Demo Demo"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "appid": "4867580",
+      "name_zh": "EXELIO Demo",
+      "name_en": "EXELIO Demo",
+      "category": "Demo",
       "tags": [
         "Action",
         "Adventure",
         "Indie",
-        "Survival",
+        "Sci-fi",
         "Singleplayer"
       ],
       "developer": "未公开",
       "publisher": "未公开",
-      "release_date": "待定",
+      "release_date": "2026-08-17",
       "followers": "未公开",
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "未公开",
-      "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Ironwake；暂无公开 follower/wishlist 排名。",
+      "heat": "SteamDB Recent App Events 最新页显示 New: EXELIO Demo；followers/wishlist_rank 未公开。",
       "current_players": 0,
-      "summary": "动作冒险题材具备素材传播潜力，但公开指标缺失，后续需跟踪封面、标签和愿望单。",
-      "steam_url": "https://store.steampowered.com/app/4954740/",
-      "contact_url": "https://store.steampowered.com/app/4954740/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4954740/header.jpg",
+      "summary": "科幻动作/冒险试玩适合验证核心手感，今日按新 Demo 事件记录。",
+      "steam_url": "https://store.steampowered.com/app/4867580/",
+      "contact_url": "https://store.steampowered.com/app/4867580/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4867580/header.jpg",
       "source_signals": [
-        "SteamDB Recent App Events: 4954740 New on store: Ironwake"
+        "SteamDB History 2026-08-17 current page: 4867580 New: EXELIO Demo Demo"
       ]
     },
     {
       "date": "2026-08-17",
-      "appid": "4625160",
-      "name_zh": "Mission: Clear Space",
-      "name_en": "Mission: Clear Space",
-      "category": "New Store",
+      "appid": "3760000",
+      "name_zh": "Shrine Protectors Demo",
+      "name_en": "Shrine Protectors Demo",
+      "category": "Demo",
       "tags": [
-        "Simulation",
-        "Space",
         "Strategy",
+        "Tower Defense",
+        "Action",
         "Indie",
-        "Sci-fi"
+        "Fantasy"
       ],
       "developer": "未公开",
       "publisher": "未公开",
-      "release_date": "待定",
+      "release_date": "2026-08-17",
       "followers": "未公开",
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "未公开",
-      "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Mission: Clear Space；同批还有 Demo 事件，属于生命周期交叉候选。",
+      "heat": "SteamDB Recent App Events 最新页显示 New on store 与 New: Shrine Protectors Demo；Demo 公开关注/愿望单数据未列出。",
       "current_players": 0,
-      "summary": "太空清理/模拟题材有清晰差异化，Game 与 Demo 同时出现使首日转化值得观察。",
-      "steam_url": "https://store.steampowered.com/app/4625160/",
-      "contact_url": "https://store.steampowered.com/app/4625160/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4625160/header.jpg",
+      "summary": "守护/防御玩法钩子清楚，同页出现新商店页和新 Demo 双事件，值得跟踪首日转化。",
+      "steam_url": "https://store.steampowered.com/app/3760000/",
+      "contact_url": "https://store.steampowered.com/app/3760000/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3760000/header.jpg",
       "source_signals": [
-        "SteamDB Recent App Events: 4625160 New on store: Mission: Clear Space",
-        "SteamDB Recent App Events: 4944590 New: Mission: Clear Space Demo"
+        "SteamDB History 2026-08-17 current page: 3760000 New on store: Shrine Protectors Demo Demo",
+        "SteamDB History 2026-08-17 current page: 3760000 New: Shrine Protectors Demo Demo"
       ]
     },
     {
       "date": "2026-08-17",
-      "appid": "4852490",
-      "name_zh": "Tower of Insolence",
-      "name_en": "Tower of Insolence",
-      "category": "New Store",
+      "appid": "4948130",
+      "name_zh": "雀神 Sparrow God Demo",
+      "name_en": "Sparrow God Demo",
+      "category": "Demo",
       "tags": [
+        "Card Game",
+        "Tabletop",
+        "Strategy",
+        "Indie",
+        "Casual"
+      ],
+      "developer": "未公开",
+      "publisher": "未公开",
+      "release_date": "2026-08-17",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "SteamDB Recent App Events 最新页显示 New: 雀神 Sparrow God Demo；followers/wishlist_rank 未公开。",
+      "current_players": 0,
+      "summary": "棋牌/桌游方向具备明确亚洲用户入口，今日新 Demo 入池观察。",
+      "steam_url": "https://store.steampowered.com/app/4948130/",
+      "contact_url": "https://store.steampowered.com/app/4948130/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4948130/header.jpg",
+      "source_signals": [
+        "SteamDB History 2026-08-17 current page: 4948130 New: 雀神 Sparrow God Demo Demo"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "appid": "4995710",
+      "name_zh": "Black Lotus Demo",
+      "name_en": "Black Lotus Demo",
+      "category": "Demo",
+      "tags": [
+        "Adventure",
         "RPG",
-        "Strategy",
         "Indie",
-        "Fantasy",
-        "Singleplayer"
-      ],
-      "developer": "未公开",
-      "publisher": "未公开",
-      "release_date": "待定",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Tower of Insolence；无公开榜单数值。",
-      "current_players": 0,
-      "summary": "奇幻塔/策略 RPG 题材有独立用户基础；今日仅按新商店页事件入池，等待后续 SteamDB app 数据。",
-      "steam_url": "https://store.steampowered.com/app/4852490/",
-      "contact_url": "https://store.steampowered.com/app/4852490/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4852490/header.jpg",
-      "source_signals": [
-        "SteamDB Recent App Events: 4852490 New on store: Tower of Insolence"
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "appid": "4996210",
-      "name_zh": "Debtbound Demo",
-      "name_en": "Debtbound Demo",
-      "category": "Demo",
-      "tags": [
-        "Simulation",
-        "Narrative",
-        "Indie",
-        "Casual",
+        "Dark Fantasy",
         "Singleplayer"
       ],
       "developer": "未公开",
@@ -1049,134 +1176,15 @@
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "未公开",
-      "heat": "SteamDB Recent App Events 当前公开片段显示 New on store: Debtbound Demo；followers/wishlist_rank 未公开。",
+      "heat": "SteamDB Recent App Events 最新页显示 New on store 与 New: Black Lotus Demo；Demo followers/wishlist_rank 未公开。",
       "current_players": 0,
-      "summary": "新 Demo 事件明确，题材可用试玩验证转化；今日公开关注/愿望单覆盖为未公开。",
-      "steam_url": "https://store.steampowered.com/app/4996210/",
-      "contact_url": "https://store.steampowered.com/app/4996210/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4996210/header.jpg",
+      "summary": "暗黑幻想命名具备题材识别度，同日 Demo 事件明确；公开榜单指标暂缺。",
+      "steam_url": "https://store.steampowered.com/app/4995710/",
+      "contact_url": "https://store.steampowered.com/app/4995710/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4995710/header.jpg",
       "source_signals": [
-        "SteamDB Recent App Events: 4996210 New on store: Debtbound Demo Demo"
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "appid": "4944590",
-      "name_zh": "Mission: Clear Space Demo",
-      "name_en": "Mission: Clear Space Demo",
-      "category": "Demo",
-      "tags": [
-        "Simulation",
-        "Space",
-        "Strategy",
-        "Indie",
-        "Sci-fi"
-      ],
-      "developer": "未公开",
-      "publisher": "未公开",
-      "release_date": "2026-08-17",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "SteamDB Recent App Events 当前公开片段显示 New: Mission: Clear Space Demo；与本体新商店页同步，是今日重点 Demo。",
-      "current_players": 0,
-      "summary": "Demo 与本体同批出现，太空模拟题材可通过试玩建立愿望单；暂无公开 follower/wishlist 排名。",
-      "steam_url": "https://store.steampowered.com/app/4944590/",
-      "contact_url": "https://store.steampowered.com/app/4944590/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4944590/header.jpg",
-      "source_signals": [
-        "SteamDB Recent App Events: 4944590 New: Mission: Clear Space Demo"
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "appid": "4972710",
-      "name_zh": "Kairos: Until the Dawn Breaks Demo",
-      "name_en": "Kairos: Until the Dawn Breaks Demo",
-      "category": "Demo",
-      "tags": [
-        "Adventure",
-        "Indie",
-        "Fantasy",
-        "Narrative",
-        "Singleplayer"
-      ],
-      "developer": "未公开",
-      "publisher": "未公开",
-      "release_date": "2026-08-17",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "SteamDB Recent App Events 当前公开片段显示 New: Kairos: Until the Dawn Breaks Demo；未见公开 followers/wishlist。",
-      "current_players": 0,
-      "summary": "幻想叙事 Demo 适合 Steam 新品节前预热，今日保守记录为新 Demo 候选。",
-      "steam_url": "https://store.steampowered.com/app/4972710/",
-      "contact_url": "https://store.steampowered.com/app/4972710/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4972710/header.jpg",
-      "source_signals": [
-        "SteamDB Recent App Events: 4972710 New: Kairos: Until the Dawn Breaks Demo"
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "appid": "4964550",
-      "name_zh": "Placefall Demo",
-      "name_en": "Placefall Demo",
-      "category": "Demo",
-      "tags": [
-        "Action",
-        "Adventure",
-        "Indie",
-        "Platformer",
-        "Singleplayer"
-      ],
-      "developer": "未公开",
-      "publisher": "未公开",
-      "release_date": "2026-08-17",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "SteamDB Recent App Events 当前公开片段显示 New: Placefall Demo；公开关注数据缺失。",
-      "current_players": 0,
-      "summary": "动作/平台向 Demo 的爆点依赖手感和视频传播，当前先跟踪事件信号。",
-      "steam_url": "https://store.steampowered.com/app/4964550/",
-      "contact_url": "https://store.steampowered.com/app/4964550/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4964550/header.jpg",
-      "source_signals": [
-        "SteamDB Recent App Events: 4964550 New: Placefall Demo"
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "appid": "4993350",
-      "name_zh": "The Last Zeppelin Demo",
-      "name_en": "The Last Zeppelin Demo",
-      "category": "Demo",
-      "tags": [
-        "Adventure",
-        "Simulation",
-        "Indie",
-        "Steampunk",
-        "Singleplayer"
-      ],
-      "developer": "未公开",
-      "publisher": "未公开",
-      "release_date": "2026-08-17",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "SteamDB Recent App Events 当前公开片段显示 New: The Last Zeppelin Demo；followers/wishlist_rank 未公开。",
-      "current_players": 0,
-      "summary": "飞艇/蒸汽朋克题材有差异化视觉，Demo 可观察是否带动愿望单增长。",
-      "steam_url": "https://store.steampowered.com/app/4993350/",
-      "contact_url": "https://store.steampowered.com/app/4993350/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4993350/header.jpg",
-      "source_signals": [
-        "SteamDB Recent App Events: 4993350 New: The Last Zeppelin Demo"
+        "SteamDB History 2026-08-17 current page: 4995710 New on store: Black Lotus Demo Demo",
+        "SteamDB History 2026-08-17 current page: 4995710 New: Black Lotus Demo Demo"
       ]
     },
     {
@@ -1337,36 +1345,6 @@
     },
     {
       "date": "2026-08-17",
-      "appid": "431960",
-      "name_zh": "Wallpaper Engine",
-      "name_en": "Wallpaper Engine",
-      "category": "Heat Ranking",
-      "tags": [
-        "Utilities",
-        "Workshop",
-        "Design & Illustration",
-        "Anime",
-        "Software"
-      ],
-      "developer": "Wallpaper Engine Team",
-      "publisher": "Wallpaper Engine Team",
-      "release_date": "2018-11-16",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "#1 global top sellers",
-      "heat": "SteamDB Global Top Sellers 今日 #1；连续榜单项，不是今日新发。",
-      "current_players": 0,
-      "summary": "销售榜第一用于校准今日商业热度环境。",
-      "steam_url": "https://store.steampowered.com/app/431960/",
-      "contact_url": "https://store.steampowered.com/app/431960/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/431960/header.jpg",
-      "source_signals": [
-        "SteamDB Global Top Sellers: #1 Wallpaper Engine"
-      ]
-    },
-    {
-      "date": "2026-08-17",
       "appid": "730",
       "name_zh": "Counter-Strike 2",
       "name_en": "Counter-Strike 2",
@@ -1381,50 +1359,50 @@
       "developer": "Valve",
       "publisher": "Valve",
       "release_date": "2023-09-27",
-      "followers": "未公开",
+      "followers": "4,895,120",
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "#2 global top sellers",
-      "heat": "SteamDB Charts 今日约 896,252 online / 1,441,605 peak；Global Top Sellers #2。连续榜单项。",
-      "current_players": 896252,
-      "summary": "常青竞技游戏占据当前流量基线，不计为今日新候选。",
+      "top_sellers_rank": "#1 global top sellers",
+      "heat": "SteamDB Global Top Sellers 当前 #1；Charts 当前约 719,623 online / 1,862,531 peak。连续榜单项，不是今日新发。",
+      "current_players": 719623,
+      "summary": "常青竞技游戏占据今日销售与在线基线，用于校准新品曝光竞争。",
       "steam_url": "https://store.steampowered.com/app/730/",
       "contact_url": "https://store.steampowered.com/app/730/",
       "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/header.jpg",
       "source_signals": [
-        "SteamDB Charts current players: 896,252 online / 1,441,605 peak",
-        "SteamDB Global Top Sellers: #2 Counter-Strike 2"
+        "SteamDB Global Top Sellers 2026-08-17 current page: #1 Counter-Strike 2",
+        "SteamDB Charts/SteamDB home current players: 719,623 online / 1,862,531 peak"
       ]
     },
     {
       "date": "2026-08-17",
-      "appid": "578080",
-      "name_zh": "PUBG: BATTLEGROUNDS",
-      "name_en": "PUBG: BATTLEGROUNDS",
+      "appid": "1172470",
+      "name_zh": "Apex Legends",
+      "name_en": "Apex Legends",
       "category": "Heat Ranking",
       "tags": [
         "Battle Royale",
+        "FPS",
         "Shooter",
         "Multiplayer",
-        "Survival",
-        "PvP"
+        "Free to Play"
       ],
-      "developer": "KRAFTON, Inc.",
-      "publisher": "KRAFTON, Inc.",
-      "release_date": "2017-12-21",
-      "followers": "未公开",
+      "developer": "Respawn Entertainment",
+      "publisher": "Electronic Arts",
+      "release_date": "2020-11-04",
+      "followers": "608,960",
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "#3 global top sellers",
-      "heat": "SteamDB Charts 今日约 217,905 online / 756,435 peak；Global Top Sellers #3。连续榜单项。",
-      "current_players": 217905,
-      "summary": "免费射击大盘热度仍高，用于判断新品曝光竞争。",
-      "steam_url": "https://store.steampowered.com/app/578080/",
-      "contact_url": "https://store.steampowered.com/app/578080/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578080/header.jpg",
+      "top_sellers_rank": "#2 global top sellers",
+      "heat": "SteamDB Global Top Sellers 当前 #2，约 114,157 online / 624,473 peak。连续榜单项。",
+      "current_players": 114157,
+      "summary": "免费竞技射击继续提供大盘流量参照，不计为今日新候选。",
+      "steam_url": "https://store.steampowered.com/app/1172470/",
+      "contact_url": "https://store.steampowered.com/app/1172470/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
       "source_signals": [
-        "SteamDB Charts current players: 217,905 online / 756,435 peak",
-        "SteamDB Global Top Sellers: #3 PUBG"
+        "SteamDB Global Top Sellers 2026-08-17 current page: #2 Apex Legends",
+        "SteamDB current table: 114,157 online / 624,473 peak"
       ]
     },
     {
@@ -1443,50 +1421,81 @@
       "developer": "Valve",
       "publisher": "Valve",
       "release_date": "2013-07-09",
-      "followers": "未公开",
+      "followers": "2,535,596",
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "#4 global top sellers",
-      "heat": "SteamDB Charts 今日约 469,204 online / 736,309 peak；Global Top Sellers #4。连续榜单项。",
-      "current_players": 469204,
-      "summary": "MOBA 常青榜单信号，作为热度参照。",
+      "top_sellers_rank": "#3 global top sellers",
+      "heat": "SteamDB Global Top Sellers 当前 #3，约 604,997 online / 1,295,114 peak。连续榜单项。",
+      "current_players": 604997,
+      "summary": "MOBA 常青榜单信号，作为今日 Steam 热度环境参照。",
       "steam_url": "https://store.steampowered.com/app/570/",
       "contact_url": "https://store.steampowered.com/app/570/",
       "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570/header.jpg",
       "source_signals": [
-        "SteamDB Charts current players: 469,204 online / 736,309 peak",
-        "SteamDB Global Top Sellers: #4 Dota 2"
+        "SteamDB Global Top Sellers 2026-08-17 current page: #3 Dota 2",
+        "SteamDB current table: 604,997 online / 1,295,114 peak"
       ]
     },
     {
       "date": "2026-08-17",
-      "appid": "440",
-      "name_zh": "Team Fortress 2",
-      "name_en": "Team Fortress 2",
+      "appid": "2552430",
+      "name_zh": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "name_en": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
       "category": "Heat Ranking",
       "tags": [
-        "Hero Shooter",
-        "FPS",
-        "Multiplayer",
-        "Free to Play",
-        "Class-Based"
+        "Action",
+        "RPG",
+        "Adventure",
+        "JRPG",
+        "Singleplayer"
       ],
-      "developer": "Valve",
-      "publisher": "Valve",
-      "release_date": "2007-10-10",
-      "followers": "未公开",
+      "developer": "Square Enix",
+      "publisher": "Square Enix",
+      "release_date": "2024-06-13",
+      "followers": "37,101",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "#4 global top sellers",
+      "heat": "SteamDB Global Top Sellers 当前 #4，70% 折扣带动销售；SteamDB app 页可核 AppID 2552430。连续促销榜单项。",
+      "current_players": 3759,
+      "summary": "折扣驱动老游戏回榜，说明今日销售榜前列不全是新品。",
+      "steam_url": "https://store.steampowered.com/app/2552430/",
+      "contact_url": "https://store.steampowered.com/app/2552430/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2552430/header.jpg",
+      "source_signals": [
+        "SteamDB Global Top Sellers 2026-08-17 current page: #4 KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+        "SteamDB AppID 2552430: developer/publisher Square Enix"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "appid": "553850",
+      "name_zh": "HELLDIVERS 2",
+      "name_en": "HELLDIVERS 2",
+      "category": "Heat Ranking",
+      "tags": [
+        "Action",
+        "Co-op",
+        "Shooter",
+        "Multiplayer",
+        "Third-Person Shooter"
+      ],
+      "developer": "Arrowhead Game Studios",
+      "publisher": "PlayStation Publishing LLC",
+      "release_date": "2024-02-08",
+      "followers": "526,078",
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "#5 global top sellers",
-      "heat": "SteamDB Charts 今日约 64,440 online / 113,596 peak；Global Top Sellers #5。连续榜单项。",
-      "current_players": 64440,
-      "summary": "老牌免费 FPS 继续上榜，说明 Steam 今日热度由常青服务型游戏主导。",
-      "steam_url": "https://store.steampowered.com/app/440/",
-      "contact_url": "https://store.steampowered.com/app/440/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/440/header.jpg",
+      "heat": "SteamDB Global Top Sellers 当前 #5，约 42,205 online / 458,709 peak。连续榜单项。",
+      "current_players": 42205,
+      "summary": "合作射击与折扣/活动信号维持销售前列，不作为今日新发售项。",
+      "steam_url": "https://store.steampowered.com/app/553850/",
+      "contact_url": "https://store.steampowered.com/app/553850/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
       "source_signals": [
-        "SteamDB Charts current players: 64,440 online / 113,596 peak",
-        "SteamDB Global Top Sellers: #5 Team Fortress 2"
+        "SteamDB Global Top Sellers 2026-08-17 current page: #5 HELLDIVERS 2",
+        "SteamDB current table: 42,205 online / 458,709 peak"
       ]
     }
   ],
@@ -1523,9 +1532,9 @@
       ],
       "indie_score": 92,
       "indie_reasons": [
-        "VGSpotter 8/17 愿望单估算 159,274",
-        "SteamDB 确认 8/17 发售",
-        "RPG/合作/幻想题材爆款面宽"
+        "8/17 发售池最高公开 followers 与愿望单估计",
+        "RPG/合作玩法有核心玩家扩散潜力",
+        "SteamDB/VGSpotter 均提供同日发售信号"
       ]
     },
     {
@@ -1561,9 +1570,9 @@
       ],
       "indie_score": 84,
       "indie_reasons": [
-        "45,037 愿望单估算",
-        "舒适手绘解谜受众明确",
-        "Demo 历史评价 130 条且好评率 86.70%"
+        "舒适手绘解谜受众清晰",
+        "Demo 历史评价信号较好",
+        "8/17 同日发售且 followers 在独立池靠前"
       ]
     },
     {
@@ -1598,9 +1607,9 @@
       ],
       "indie_score": 77,
       "indie_reasons": [
-        "生物收集+生活模拟+roguelite 组合有差异化",
-        "VGSpotter 愿望单估算 27,832",
-        "Megasploot 既有受众可转化"
+        "生活模拟、生物收集、roguelite 组合差异化明确",
+        "VGSpotter 8/17 日历给出较高愿望单估计",
+        "SteamDB 日期粒度为月，已标注来源差异"
       ]
     },
     {
@@ -1635,23 +1644,23 @@
       ],
       "indie_score": 69,
       "indie_reasons": [
-        "模拟经营题材明确",
-        "SteamDB 确认 8/17 发售",
-        "17,598 愿望单估算"
+        "中世纪交易模拟题材稀缺",
+        "8/17 同日发售且公开 followers 超千",
+        "经营钩子适合首周评价跟踪"
       ]
     },
     {
       "date": "2026-08-17",
-      "appid": "4944590",
-      "name_zh": "Mission: Clear Space Demo",
-      "name_en": "Mission: Clear Space Demo",
+      "appid": "3760000",
+      "name_zh": "Shrine Protectors Demo",
+      "name_en": "Shrine Protectors Demo",
       "category": "Demo",
       "tags": [
-        "Simulation",
-        "Space",
         "Strategy",
+        "Tower Defense",
+        "Action",
         "Indie",
-        "Sci-fi"
+        "Fantasy"
       ],
       "developer": "未公开",
       "publisher": "未公开",
@@ -1660,22 +1669,23 @@
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "未公开",
-      "heat": "SteamDB Recent App Events 当前公开片段显示 New: Mission: Clear Space Demo；与本体新商店页同步，是今日重点 Demo。",
+      "heat": "SteamDB Recent App Events 最新页显示 New on store 与 New: Shrine Protectors Demo；Demo 公开关注/愿望单数据未列出。",
       "current_players": 0,
-      "summary": "Demo 与本体同批出现，太空模拟题材可通过试玩建立愿望单；暂无公开 follower/wishlist 排名。",
-      "steam_url": "https://store.steampowered.com/app/4944590/",
-      "contact_url": "https://store.steampowered.com/app/4944590/",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4944590/header.jpg",
+      "summary": "守护/防御玩法钩子清楚，同页出现新商店页和新 Demo 双事件，值得跟踪首日转化。",
+      "steam_url": "https://store.steampowered.com/app/3760000/",
+      "contact_url": "https://store.steampowered.com/app/3760000/",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3760000/header.jpg",
       "source_signals": [
-        "SteamDB Recent App Events: 4944590 New: Mission: Clear Space Demo"
+        "SteamDB History 2026-08-17 current page: 3760000 New on store: Shrine Protectors Demo Demo",
+        "SteamDB History 2026-08-17 current page: 3760000 New: Shrine Protectors Demo Demo"
       ],
-      "indie_score": 58,
+      "indie_score": 57,
       "indie_reasons": [
-        "本体与 Demo 同批出现在 SteamDB Recent App Events",
-        "太空模拟题材清晰",
-        "Demo 有利于首日愿望单转化"
+        "SteamDB history 同页出现 New on store 与 New Demo 双事件",
+        "塔防/守护玩法可用试玩验证转化",
+        "公开 Demo followers/wishlist 暂缺但新鲜度强"
       ]
     }
   ],
-  "generated_at": "2026-08-17 10:11 CST"
+  "generated_at": "2026-08-17 18:07 CST"
 }
