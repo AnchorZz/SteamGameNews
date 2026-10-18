@@ -1,238 +1,236 @@
 {
-  "date": "2026-10-16",
-  "title": "Steam 热门游戏候选日报 - 2026-10-16",
+  "date": "2026-10-18",
+  "title": "Steam 热门游戏候选日报 - 2026-10-18",
   "source_notes": [
-    "按 Asia/Shanghai 日期 2026-10-16 新生成；候选来自当天 Steam 商店发售/高曝光页、SteamDB Recent App Events 与公开 Top Sellers 快照，未复用 10 月 15 日的候选作为今日新增。",
-    "New Store 栏为今日解锁窗口内的高曝光商店页，并非声称今日首次公布；5 个均在 summary/heat 标记为解锁日连续预热。",
-    "SteamDB 的公开 Demo 事件页可确认 Demo 上架事件及 appid；本轮无法从无需登录的页面核对 Demo 的 followers、wishlist_rank、wishlist_activity_rank，因此逐项保留并填“未公开”。",
-    "热度排行基准是当日市场背景的连续跟踪项，非今日新公布或新发售项目。"
+    "按 Asia/Shanghai 日期 2026-10-18 新生成；Steam 官方 Upcoming/Search 当日清单确认今日可见的发售与 Demo 候选，未复用 10 月 16 日日报。",
+    "SteamDB 公开 Trending Followers 与 Weekly Top Sellers 已核对；热度排行全部标为连续基准。New Store 栏也明确标记为当前高曝光/连续预热，未伪称今日首次公布。",
+    "Demo 均核对 SteamDB 公共趋势、愿望单和愿望单活动页面；未找到可公开归属的 followers/wishlist 数值，因此三个字段均按要求填写“未公开”。"
   ],
   "sections": [
     {
       "title": "新公布/高曝光商店页",
       "games": [
         {
-          "date": "2026-10-16",
-          "appid": 2121510,
-          "name_zh": "梦魇幽影",
-          "name_en": "Tenebris Somnia",
+          "date": "2026-10-18",
+          "appid": 4012780,
+          "name_zh": "苍白心灵",
+          "name_en": "PALE ANIMUS",
           "category": "New Store",
           "tags": [
             "生存恐怖",
             "像素",
-            "剧情"
+            "洛夫克拉夫特"
           ],
-          "developer": "Andrés Borghi, Saibot Studios",
-          "publisher": "New Blood Interactive",
-          "release_date": "2026 年 10 月 16 日",
+          "developer": "TENA-Vision",
+          "publisher": "TENA-Vision",
+          "release_date": "2026-10-19",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
+          "heat": "连续跟踪项：商店页在今日 Upcoming 窗口高曝光，明日解锁；并非今日首次公布。像素恐怖 RPG 与解谜/回合战斗的组合值得观察。",
           "current_players": "未公开",
-          "heat": "Steam 商店页列为 10/16 解锁；New Blood 发行与复古恐怖/FM V卖点带来高曝光。连续预热解锁项。",
-          "summary": "非今日首次公布：此前已公开发售日，今日进入解锁窗口。2D 生存恐怖结合真人过场，适合追踪首批口碑与直播传播。",
-          "steam_url": "https://store.steampowered.com/app/2121510/",
-          "contact_url": "https://steamcommunity.com/app/2121510",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/61f3fb4ddb5387876aa498f621386e1d4442c219/header.jpg?t=1792102818",
+          "summary": "连续跟踪项：商店页在今日 Upcoming 窗口高曝光，明日解锁；并非今日首次公布。像素恐怖 RPG 与解谜/回合战斗的组合值得观察。",
+          "steam_url": "https://store.steampowered.com/app/4012780/",
+          "contact_url": "https://steamcommunity.com/app/4012780",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4012780/e5989b1557229fba6e2d235ac96289d96e3b957d/header.jpg?t=1791742891",
           "source_signals": [
-            "Steam store page Oct 16",
-            "Steam Popular Upcoming",
-            "continuous unlock watch"
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
           ],
-          "indie_score": 89,
+          "indie_score": 86,
           "indie_reasons": [
-            "New Blood 发行",
-            "FMV+像素恐怖反差",
-            "今日解锁窗口"
+            "独立自发行",
+            "洛氏像素恐怖",
+            "临近发售"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-10-16/2121510.jpg",
-          "potential_score": 24,
+          "cover_local_path": "/assets/covers/2026-10-18/4012780.jpg",
+          "potential_score": 19,
           "watch_level": "Low",
           "score_reasons": [
             "新商店页处于愿望单积累期",
-            "曾位于分类头部"
+            "多日连续进入监测池",
+            "生命周期阶段发生变化",
+            "曾位于分类头部",
+            "公开热度数据较少，需人工复核"
           ],
           "daily_rank": 1
         },
         {
-          "date": "2026-10-16",
-          "appid": 3695930,
-          "name_zh": "企鹅异闻录",
-          "name_en": "Penguin Colony",
+          "date": "2026-10-18",
+          "appid": 1730790,
+          "name_zh": "姐妹的旅程",
+          "name_en": "A Sister's Journey",
           "category": "New Store",
           "tags": [
-            "洛夫克拉夫特",
-            "叙事",
-            "探索"
+            "类银河战士恶魔城",
+            "像素",
+            "动作"
           ],
-          "developer": "ORIGAME DIGITAL",
-          "publisher": "Fellow Traveller",
-          "release_date": "2026 年 10 月 16 日",
+          "developer": "Florian Lackner",
+          "publisher": "Florian Lackner",
+          "release_date": "2026-10-20",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
+          "heat": "连续跟踪项：今日持续出现在 Steam Upcoming 高曝光位，10/20 解锁，非今日新公布；高精度平台跳跃和跑轰玩法具备试玩转化点。",
           "current_players": "未公开",
-          "heat": "Steam 商店页确认 10/16 发售；Fellow Traveller 发行、企鹅视角宇宙恐怖形成鲜明钩子。连续预热解锁项。",
-          "summary": "非今日首次公布：今日是既定解锁窗口。企鹅视角改编洛氏恐怖，概念辨识度强，值得看叙事玩家的首日反馈。",
-          "steam_url": "https://store.steampowered.com/app/3695930/",
-          "contact_url": "https://steamcommunity.com/app/3695930",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3695930/e59deb98960d4d574f7a239aa858a438ca3f184a/header_schinese.jpg?t=1791298493",
+          "summary": "连续跟踪项：今日持续出现在 Steam Upcoming 高曝光位，10/20 解锁，非今日新公布；高精度平台跳跃和跑轰玩法具备试玩转化点。",
+          "steam_url": "https://store.steampowered.com/app/1730790/",
+          "contact_url": "https://steamcommunity.com/app/1730790",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730790/b34d8b71b0bb56b0856dbdf217de7ed6cc342445/header.jpg?t=1792053940",
           "source_signals": [
-            "Steam store page Oct 16",
-            "Steam Popular Upcoming",
-            "continuous unlock watch"
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
           ],
-          "indie_score": 87,
+          "indie_score": 88,
           "indie_reasons": [
-            "Fellow Traveller 发行",
-            "洛氏叙事",
-            "独特主角视角"
+            "个人开发",
+            "像素类银河战士恶魔城",
+            "临近发售"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-10-16/3695930.jpg",
-          "potential_score": 24,
+          "cover_local_path": "/assets/covers/2026-10-18/1730790.jpg",
+          "potential_score": 27,
           "watch_level": "Low",
           "score_reasons": [
+            "低门槛试玩或轻量入口",
             "新商店页处于愿望单积累期",
             "曾位于分类头部"
           ],
           "daily_rank": 2
         },
         {
-          "date": "2026-10-16",
-          "appid": 4094350,
-          "name_zh": "在线：404",
-          "name_en": "Online: 404",
+          "date": "2026-10-18",
+          "appid": 1713730,
+          "name_zh": "魔卓拉",
+          "name_en": "Moadra",
           "category": "New Store",
           "tags": [
-            "生存",
-            "合作",
-            "开放世界"
+            "类银河战士恶魔城",
+            "科幻",
+            "探索"
           ],
-          "developer": "Cornfield Games",
-          "publisher": "Cornfield Games",
-          "release_date": "2026 年 10 月 16 日（抢先体验）",
+          "developer": "Gloomsoft",
+          "publisher": "Gloomsoft",
+          "release_date": "2026-10-22",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
+          "heat": "连续跟踪项：官方商店页已公告 10/22 发售，今日仍在高曝光预热；非今日首次公布。大型异星探索与 Demo 可形成愿望单转化。",
           "current_players": "未公开",
-          "heat": "Steam 主页与商店页均列为 10/16 上线，主打合作生存与建造。连续预热解锁项。",
-          "summary": "非今日首次公布：发售日曾延期并已公告，今日进入 EA 解锁窗口；合作生存赛道适合观察首日联机人数。",
-          "steam_url": "https://store.steampowered.com/app/4094350/",
-          "contact_url": "https://steamcommunity.com/app/4094350",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094350/d64835e6cf8346d193f6f029551956716c01b281/header.jpg?t=1791588786",
+          "summary": "连续跟踪项：官方商店页已公告 10/22 发售，今日仍在高曝光预热；非今日首次公布。大型异星探索与 Demo 可形成愿望单转化。",
+          "steam_url": "https://store.steampowered.com/app/1713730/",
+          "contact_url": "https://steamcommunity.com/app/1713730",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1713730/1cef7bac0a7ccc38387fee0de3570195f728a699/header.jpg?t=1790838585",
           "source_signals": [
-            "Steam store page Oct 16",
-            "Steam homepage",
-            "release-date update"
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
           ],
-          "indie_score": 78,
+          "indie_score": 91,
           "indie_reasons": [
-            "合作生存",
-            "EA 内容迭代",
-            "今日解锁"
+            "小团队",
+            "高完成度类银河战士恶魔城",
+            "发售日公告"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-10-16/4094350.jpg",
+          "cover_local_path": "/assets/covers/2026-10-18/1713730.jpg",
           "potential_score": 24,
           "watch_level": "Low",
           "score_reasons": [
-            "多人/合作传播性好",
+            "低门槛试玩或轻量入口",
             "新商店页处于愿望单积累期"
           ],
           "daily_rank": 3
         },
         {
-          "date": "2026-10-16",
-          "appid": 4071650,
-          "name_zh": "直播列车",
-          "name_en": "Stream Train",
+          "date": "2026-10-18",
+          "appid": 2401350,
+          "name_zh": "永恒之雨",
+          "name_en": "Timeless Rain",
           "category": "New Store",
           "tags": [
-            "多人合作",
-            "恐怖",
-            "直播"
+            "类银河战士恶魔城",
+            "时间操控",
+            "手绘"
           ],
-          "developer": "Half Past Yellow",
-          "publisher": "Half Past Yellow",
-          "release_date": "2026 年 10 月 16 日",
+          "developer": "Young Cat Games Ltd",
+          "publisher": "Young Cat Games Ltd",
+          "release_date": "2026-10-26",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
+          "heat": "连续跟踪项：今日 Steam Upcoming 可见且提供 Demo，非今日首次公布；时间操控与手绘 2D 关卡是清晰的内容钩子。",
           "current_players": "未公开",
-          "heat": "Steam 商店页确认今日解锁，最多 6 人合作与直播聊天室机制具有主播内容传播性。连续预热解锁项。",
-          "summary": "非今日首次公布：今日为既定发售窗口。把观众打赏作为合作恐怖资源循环，首日很适合看实况切片扩散。",
-          "steam_url": "https://store.steampowered.com/app/4071650/",
-          "contact_url": "https://steamcommunity.com/app/4071650",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4071650/512c370a44998c759933c3f22be977cd26f336b5/header.jpg?t=1792078122",
+          "summary": "连续跟踪项：今日 Steam Upcoming 可见且提供 Demo，非今日首次公布；时间操控与手绘 2D 关卡是清晰的内容钩子。",
+          "steam_url": "https://store.steampowered.com/app/2401350/",
+          "contact_url": "https://steamcommunity.com/app/2401350",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2401350/618d9b455772860b6890210c841e3bc621db6478/header.jpg?t=1791127392",
           "source_signals": [
-            "Steam store page Oct 16",
-            "Steam Popular Upcoming",
-            "launch FAQ Oct 14"
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
           ],
-          "indie_score": 85,
+          "indie_score": 82,
           "indie_reasons": [
-            "6 人合作",
-            "直播机制",
-            "高切片潜力"
+            "独立自发行",
+            "时间操控",
+            "Demo 可转化"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-10-16/4071650.jpg",
-          "potential_score": 28,
+          "cover_local_path": "/assets/covers/2026-10-18/2401350.jpg",
+          "potential_score": 22,
           "watch_level": "Low",
           "score_reasons": [
-            "多人/合作传播性好",
-            "题材有内容传播点",
+            "低门槛试玩或轻量入口",
             "新商店页处于愿望单积累期"
           ],
           "daily_rank": 4
         },
         {
-          "date": "2026-10-16",
-          "appid": 4103280,
-          "name_zh": "猫咪妄想症",
-          "name_en": "Purranoia",
+          "date": "2026-10-18",
+          "appid": 5294670,
+          "name_zh": "穆尔西亚恶魔城",
+          "name_en": "Murciavania",
           "category": "New Store",
           "tags": [
-            "动作肉鸽",
-            "弹幕",
-            "猫"
+            "类银河战士恶魔城",
+            "像素",
+            "民俗"
           ],
-          "developer": "Eerie Veery",
-          "publisher": "Eerie Veery",
-          "release_date": "2026 年 10 月 16 日",
+          "developer": "Manuel Manzano",
+          "publisher": "Manuel Manzano",
+          "release_date": "2026-Q4",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
+          "heat": "连续跟踪项：今日 Upcoming 页面持续出现，非今日首次公布；单人团队、地区民俗与格挡/法术系统形成明确差异化。",
           "current_players": "未公开",
-          "heat": "Steam 商店页列为 10/16 发售；不可控移动的动作肉鸽与猫题材提供明显玩法钩子。连续预热解锁项。",
-          "summary": "非今日首次公布：今日进入解锁窗口。非传统移动控制与构筑组合适合短视频测试，需观察首日评价是否认可操作设计。",
-          "steam_url": "https://store.steampowered.com/app/4103280/",
-          "contact_url": "https://steamcommunity.com/app/4103280",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4103280/cf8c2b1a9b9046e90c4c901230834afeaa8a2a52/header.jpg?t=1788956596",
+          "summary": "连续跟踪项：今日 Upcoming 页面持续出现，非今日首次公布；单人团队、地区民俗与格挡/法术系统形成明确差异化。",
+          "steam_url": "https://store.steampowered.com/app/5294670/",
+          "contact_url": "https://steamcommunity.com/app/5294670",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5294670/6a833803231bf16456c761ff9fecb4a3e19919d4/header.jpg?t=1792220549",
           "source_signals": [
-            "Steam store page Oct 16",
-            "Steam Popular Upcoming",
-            "continuous unlock watch"
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
           ],
-          "indie_score": 79,
+          "indie_score": 84,
           "indie_reasons": [
-            "动作肉鸽",
-            "猫题材",
-            "差异化操作"
+            "单人工作室",
+            "西班牙民俗",
+            "高概念像素动作"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-10-16/4103280.jpg",
-          "potential_score": 21,
+          "cover_local_path": "/assets/covers/2026-10-18/5294670.jpg",
+          "potential_score": 5,
           "watch_level": "Low",
           "score_reasons": [
-            "新商店页处于愿望单积累期"
+            "新商店页处于愿望单积累期",
+            "公开热度数据较少，需人工复核"
           ],
           "daily_rank": 5
         }
@@ -242,88 +240,41 @@
       "title": "新上线 Demo",
       "games": [
         {
-          "date": "2026-10-16",
-          "appid": 5432020,
-          "name_zh": "小小骑士 Demo",
-          "name_en": "Tiny Knights Demo",
+          "date": "2026-10-18",
+          "appid": 4696110,
+          "name_zh": "节点突破 Demo",
+          "name_en": "Nodebreak Demo",
           "category": "Demo",
           "tags": [
-            "休闲",
-            "独立",
-            "模拟"
+            "动作",
+            "精密平台",
+            "益智"
           ],
-          "developer": "Jabbaaaaaaa, Chartech Industries, Oopsie",
-          "publisher": "Crystal Frog Games",
-          "release_date": "2026 年 10 月 16 日（SteamDB 事件流）",
+          "developer": "Blownfuse Softlabs",
+          "publisher": "Blownfuse Softlabs",
+          "release_date": "2026-10-18",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
+          "heat": "今日 Steam Demo 上线；高速节点网络和反应挑战适合短视频验证。",
           "current_players": "未公开",
-          "heat": "SteamDB Recent App Events 当天显示 New: Tiny Knights Demo；父应用为 Tiny Knights (5330180)。",
-          "summary": "今日 SteamDB Demo 事件流新增项；公开页可确认上架事件，followers/愿望单榜单无公开数值。",
-          "steam_url": "https://store.steampowered.com/app/5432020/",
-          "contact_url": "https://steamcommunity.com/app/5432020",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432020/83ffea767f5dd377e95a7cb3fd498830eaca4662/header.jpg?t=1792087273",
+          "summary": "今日 Steam Upcoming 清单显示 Demo 上线/可下载；今日 Steam Demo 上线；高速节点网络和反应挑战适合短视频验证。。已核对 SteamDB 公开趋势页与愿望单相关榜单，未找到可归属该 Demo 的公开 followers 或愿望单名次。",
+          "steam_url": "https://store.steampowered.com/app/4696110/",
+          "contact_url": "https://steamcommunity.com/app/4696110",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4696110/cdfdc2d324c1848b85790bb8730fade95cb32dbc/header.jpg?t=1791699353",
           "source_signals": [
-            "SteamDB Recent App Events Oct 16",
-            "SteamDB Demo History",
-            "parent app 5330180"
+            "Steam Upcoming / Search Oct 18",
+            "SteamDB public trend & wishlist surfaces checked"
           ],
-          "indie_score": 74,
+          "indie_score": 80,
           "indie_reasons": [
-            "今日 Demo 事件",
             "小团队",
-            "轻量玩法"
+            "高速精密挑战",
+            "今日 Demo"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-10-16/5432020.jpg",
-          "potential_score": 38,
-          "watch_level": "Low",
-          "score_reasons": [
-            "7日关注增长强",
-            "低门槛试玩或轻量入口",
-            "Demo 可验证试玩转化",
-            "曾位于分类头部"
-          ],
-          "daily_rank": 1
-        },
-        {
-          "date": "2026-10-16",
-          "appid": 5413580,
-          "name_zh": "回合骑士 Demo",
-          "name_en": "The Knight of Turn Demo",
-          "category": "Demo",
-          "tags": [
-            "策略",
-            "回合制",
-            "独立"
-          ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026 年 10 月 16 日（SteamDB 事件流）",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "current_players": "未公开",
-          "heat": "SteamDB Recent App Events 当天显示 New: The Knight of Turn Demo。",
-          "summary": "今日新增 Demo 事件；策略题材适合用试玩反馈验证循环深度，公开 followers/愿望单未披露。",
-          "steam_url": "https://store.steampowered.com/app/5413580/",
-          "contact_url": "https://steamcommunity.com/app/5413580",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5413580/452352b6a1ad07a816d28b7f94ea6c224342ec29/header.jpg?t=1792011281",
-          "source_signals": [
-            "SteamDB Recent App Events Oct 16",
-            "public metrics unavailable"
-          ],
-          "indie_score": 73,
-          "indie_reasons": [
-            "今日 Demo",
-            "策略钩子",
-            "可试玩验证"
-          ],
-          "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-10-16/5413580.jpg",
+          "cover_local_path": "/assets/covers/2026-10-18/4696110.jpg",
           "potential_score": 11,
           "watch_level": "Low",
           "score_reasons": [
@@ -332,44 +283,91 @@
             "曾位于分类头部",
             "公开热度数据较少，需人工复核"
           ],
-          "daily_rank": 2
+          "daily_rank": 1
         },
         {
-          "date": "2026-10-16",
-          "appid": 4914170,
-          "name_zh": "微型地城 Demo",
-          "name_en": "tinydungeon Demo",
+          "date": "2026-10-18",
+          "appid": 5162600,
+          "name_zh": "怪诞漫游 Demo",
+          "name_en": "Eccentric Wander Demo",
           "category": "Demo",
           "tags": [
-            "地牢",
-            "独立",
+            "动作",
+            "恐怖",
             "冒险"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026 年 10 月 16 日（SteamDB 事件流）",
+          "developer": "NNGames",
+          "publisher": "NNGames",
+          "release_date": "2026-10-18",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
+          "heat": "今日 Steam Demo 上线；轻喜剧叙事混合恐怖、潜行与多结局，主播反应素材潜力较强。",
           "current_players": "未公开",
-          "heat": "SteamDB Recent App Events 当天显示 New: tinydungeon Demo。",
-          "summary": "今日 Demo 事件流新增；地牢题材易于让试玩玩家验证核心循环，公开指标暂不可读。",
-          "steam_url": "https://store.steampowered.com/app/4914170/",
-          "contact_url": "https://steamcommunity.com/app/4914170",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4914170/886c65688e62006643b4a16db637c0671c909057/header.jpg?t=1792000631",
+          "summary": "今日 Steam Upcoming 清单显示 Demo 上线/可下载；今日 Steam Demo 上线；轻喜剧叙事混合恐怖、潜行与多结局，主播反应素材潜力较强。。已核对 SteamDB 公开趋势页与愿望单相关榜单，未找到可归属该 Demo 的公开 followers 或愿望单名次。",
+          "steam_url": "https://store.steampowered.com/app/5162600/",
+          "contact_url": "https://steamcommunity.com/app/5162600",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5162600/62457a29d07c2bf10de69300b8d3793e31bcf9bd/header.jpg?t=1788066432",
           "source_signals": [
-            "SteamDB Recent App Events Oct 16",
-            "public metrics unavailable"
+            "Steam Upcoming / Search Oct 18",
+            "SteamDB public trend & wishlist surfaces checked"
           ],
-          "indie_score": 72,
+          "indie_score": 81,
           "indie_reasons": [
-            "今日 Demo",
-            "地牢题材",
-            "轻量传播"
+            "独立开发",
+            "恐怖反差",
+            "多结局"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-10-16/4914170.jpg",
+          "cover_local_path": "/assets/covers/2026-10-18/5162600.jpg",
+          "potential_score": 15,
+          "watch_level": "Low",
+          "score_reasons": [
+            "低门槛试玩或轻量入口",
+            "题材有内容传播点",
+            "Demo 可验证试玩转化",
+            "曾位于分类头部",
+            "公开热度数据较少，需人工复核"
+          ],
+          "daily_rank": 2
+        },
+        {
+          "date": "2026-10-18",
+          "appid": 4939190,
+          "name_zh": "地狱塔 Demo",
+          "name_en": "Helltower Demo",
+          "category": "Demo",
+          "tags": [
+            "动作 RPG",
+            "节奏",
+            "肉鸽"
+          ],
+          "developer": "Pikiboiii, Tony Andriamanana",
+          "publisher": "Pikiboiii",
+          "release_date": "2026-10-18",
+          "followers": "未公开",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "今日 Steam Demo 上线；节奏格子战斗与像素动作的组合具备垂类辨识度。",
+          "current_players": "未公开",
+          "summary": "今日 Steam Upcoming 清单显示 Demo 上线/可下载；今日 Steam Demo 上线；节奏格子战斗与像素动作的组合具备垂类辨识度。。已核对 SteamDB 公开趋势页与愿望单相关榜单，未找到可归属该 Demo 的公开 followers 或愿望单名次。",
+          "steam_url": "https://store.steampowered.com/app/4939190/",
+          "contact_url": "https://steamcommunity.com/app/4939190",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4939190/f38460a68f7c60c29eca45095197bc2882c17c43/header.jpg?t=1791330800",
+          "source_signals": [
+            "Steam Upcoming / Search Oct 18",
+            "SteamDB public trend & wishlist surfaces checked"
+          ],
+          "indie_score": 83,
+          "indie_reasons": [
+            "双人团队",
+            "节奏动作",
+            "像素肉鸽"
+          ],
+          "review_count": 0,
+          "cover_local_path": "/assets/covers/2026-10-18/4939190.jpg",
           "potential_score": 8,
           "watch_level": "Low",
           "score_reasons": [
@@ -380,46 +378,44 @@
           "daily_rank": 3
         },
         {
-          "date": "2026-10-16",
-          "appid": 5085220,
-          "name_zh": "炸弹游戏 Demo",
-          "name_en": "THAT BOMB GAME Demo",
+          "date": "2026-10-18",
+          "appid": 5233310,
+          "name_zh": "闲置指挥官 Demo",
+          "name_en": "Idle Commander Demo",
           "category": "Demo",
           "tags": [
-            "益智",
-            "合作",
-            "独立"
+            "自动战斗",
+            "放置",
+            "策略"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026 年 10 月 16 日（SteamDB 事件流）",
+          "developer": "CryCauseDry",
+          "publisher": "CryCauseDry",
+          "release_date": "2026-10-18",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
+          "heat": "今日 Steam Demo 上线；装备词条、首领招募和构筑循环适合观察放置玩家的留存兴趣。",
           "current_players": "未公开",
-          "heat": "SteamDB Recent App Events 当天显示 New on store: THAT BOMB GAME Demo。",
-          "summary": "今日商店新增 Demo；高概念合作/益智题材可优先观察好友联机与直播反馈，公开榜单指标未披露。",
-          "steam_url": "https://store.steampowered.com/app/5085220/",
-          "contact_url": "https://steamcommunity.com/app/5085220",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085220/1b4aa3b13a67cc5372322ee7bcd2169c03590003/header.jpg?t=1791824276",
+          "summary": "今日 Steam Upcoming 清单显示 Demo 上线/可下载；今日 Steam Demo 上线；装备词条、首领招募和构筑循环适合观察放置玩家的留存兴趣。。已核对 SteamDB 公开趋势页与愿望单相关榜单，未找到可归属该 Demo 的公开 followers 或愿望单名次。",
+          "steam_url": "https://store.steampowered.com/app/5233310/",
+          "contact_url": "https://steamcommunity.com/app/5233310",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5233310/1af46ddad9b3257abc4b5abcd83df13652017448/header.jpg?t=1790772313",
           "source_signals": [
-            "SteamDB Recent App Events Oct 16",
-            "New on store",
-            "public metrics unavailable"
+            "Steam Upcoming / Search Oct 18",
+            "SteamDB public trend & wishlist surfaces checked"
           ],
-          "indie_score": 75,
+          "indie_score": 79,
           "indie_reasons": [
-            "今日商店 Demo",
-            "合作钩子",
-            "直播潜力"
+            "独立自发行",
+            "构筑放置",
+            "今日 Demo"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-10-16/5085220.jpg",
-          "potential_score": 11,
+          "cover_local_path": "/assets/covers/2026-10-18/5233310.jpg",
+          "potential_score": 8,
           "watch_level": "Low",
           "score_reasons": [
-            "多人/合作传播性好",
             "低门槛试玩或轻量入口",
             "Demo 可验证试玩转化",
             "公开热度数据较少，需人工复核"
@@ -427,41 +423,41 @@
           "daily_rank": 4
         },
         {
-          "date": "2026-10-16",
-          "appid": 5417070,
-          "name_zh": "淘金：黄金矿业大亨 Demo",
-          "name_en": "PAYDIRT: Gold Mining Tycoon Demo",
+          "date": "2026-10-18",
+          "appid": 5054210,
+          "name_zh": "冒险者公会放置 Demo",
+          "name_en": "The Adventurer's Guild Idler Demo",
           "category": "Demo",
           "tags": [
-            "模拟",
-            "经营",
-            "独立"
+            "放置",
+            "管理",
+            "肉鸽"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026 年 10 月 16 日（SteamDB 事件流）",
+          "developer": "Arkras Studio",
+          "publisher": "Arkras Studio",
+          "release_date": "2026-10-18",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
+          "heat": "今日 Steam Demo 上线；公会管理、自动远征与养成循环适合关注试玩转愿望单表现。",
           "current_players": "未公开",
-          "heat": "SteamDB Recent App Events 当天显示 New: PAYDIRT: Gold Mining Tycoon Demo。",
-          "summary": "今日新增经营 Demo；模拟/经营受众清晰，需依赖试玩后公开数据验证愿望单转化。",
-          "steam_url": "https://store.steampowered.com/app/5417070/",
-          "contact_url": "https://steamcommunity.com/app/5417070",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5417070/5e7aaaf670276a8ded255d6519f4f7d579e86523/header.jpg?t=1792086634",
+          "summary": "今日 Steam Upcoming 清单显示 Demo 上线/可下载；今日 Steam Demo 上线；公会管理、自动远征与养成循环适合关注试玩转愿望单表现。。已核对 SteamDB 公开趋势页与愿望单相关榜单，未找到可归属该 Demo 的公开 followers 或愿望单名次。",
+          "steam_url": "https://store.steampowered.com/app/5054210/",
+          "contact_url": "https://steamcommunity.com/app/5054210",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5054210/28e96e4fca56adb8fb0d12f9cfe2e6e593b65b7f/header.jpg?t=1791740737",
           "source_signals": [
-            "SteamDB Recent App Events Oct 16",
-            "public metrics unavailable"
+            "Steam Upcoming / Search Oct 18",
+            "SteamDB public trend & wishlist surfaces checked"
           ],
-          "indie_score": 74,
+          "indie_score": 77,
           "indie_reasons": [
-            "今日 Demo",
-            "经营模拟",
-            "受众明确"
+            "小团队",
+            "公会经营",
+            "今日 Demo"
           ],
           "review_count": 0,
-          "cover_local_path": "/assets/covers/2026-10-16/5417070.jpg",
+          "cover_local_path": "/assets/covers/2026-10-18/5054210.jpg",
           "potential_score": 8,
           "watch_level": "Low",
           "score_reasons": [
@@ -477,39 +473,38 @@
       "title": "新发布游戏",
       "games": [
         {
-          "date": "2026-10-16",
-          "appid": 3826670,
-          "name_zh": "基机受难记 (Flipping is Hard)",
-          "name_en": "Flipping is Hard",
+          "date": "2026-10-18",
+          "appid": 5220910,
+          "name_zh": "五子足球",
+          "name_en": "GomokuSoccer",
           "category": "Released",
           "tags": [
-            "平台跳跃",
+            "棋盘",
             "物理",
-            "多人合作"
+            "多人"
           ],
-          "developer": "Elegant Horse Studios",
-          "publisher": "Elegant Horse Studios, Dawn Wood Games",
-          "release_date": "2026 年 10 月 16 日",
+          "developer": "Hero Parker",
+          "publisher": "Hero Parker",
+          "release_date": "2026-10-18",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
+          "heat": "今日 Steam 发售；五子棋与弹射物理合体，规则易懂且对战局面有短视频传播性。",
           "current_players": "未公开",
-          "heat": "官方发布资料确认 10/16 17:00 UTC 发售；支持最多 16 人合作与主播模式。",
-          "summary": "今日发售；反向翻转手机的物理挑战与多人掉落场景具备高短视频传播性，适合重点复核首日直播热度。",
-          "steam_url": "https://store.steampowered.com/app/3826670/",
-          "contact_url": "https://steamcommunity.com/app/3826670",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3826670/bb58a55e6b89f3bd9e7de378f4950c9c76bc56b7/header_schinese.jpg?t=1791952986",
+          "summary": "今日 Steam 发售；五子棋与弹射物理合体，规则易懂且对战局面有短视频传播性。",
+          "steam_url": "https://store.steampowered.com/app/5220910/",
+          "contact_url": "https://steamcommunity.com/app/5220910",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5220910/534c764792674d735f782b5d7049d490ddff5416/header.jpg?t=1791260537",
           "source_signals": [
-            "official launch release Oct 16",
-            "Steam store page",
-            "16-player co-op"
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
           ],
-          "indie_score": 90,
+          "indie_score": 85,
           "indie_reasons": [
-            "16 人合作",
-            "物理喜剧",
-            "主播模式"
+            "独立自发行",
+            "混合规则玩法",
+            "多人对战"
           ],
           "review_count": 0,
           "price_currency": "CNY",
@@ -519,61 +514,62 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-10-16 18:01 CST",
-          "cover_local_path": "/assets/covers/2026-10-16/3826670.jpg",
-          "potential_score": 24,
+          "price_updated_at": "2026-10-18 18:01 CST",
+          "cover_local_path": "/assets/covers/2026-10-18/5220910.jpg",
+          "potential_score": 12,
           "watch_level": "Low",
           "score_reasons": [
             "多人/合作传播性好",
             "已发布，可观察真实在线",
-            "曾位于分类头部"
+            "曾位于分类头部",
+            "公开热度数据较少，需人工复核"
           ],
           "daily_rank": 1
         },
         {
-          "date": "2026-10-16",
-          "appid": 5319290,
-          "name_zh": "废料浪潮",
-          "name_en": "SCRAPWAVE",
+          "date": "2026-10-18",
+          "appid": 5335610,
+          "name_zh": "物理考试训练器",
+          "name_en": "Physics Exam Trainer",
           "category": "Released",
           "tags": [
-            "动作肉鸽",
-            "机甲",
-            "生存"
+            "模拟",
+            "物理",
+            "教育"
           ],
-          "developer": "sedoli",
-          "publisher": "sedoli",
-          "release_date": "2026 年 10 月 16 日",
+          "developer": "ZHANG DONG",
+          "publisher": "ZHANG DONG",
+          "release_date": "2026-10-18",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "current_players": 0,
-          "heat": "Steam 商店页确认今日完整发售；可拆敌方机甲部件即时重组。",
-          "summary": "今日发售；机甲部件夺取+八槽构筑有明确的实况展示性，需观察其与同类幸存者产品的差异化口碑。",
-          "steam_url": "https://store.steampowered.com/app/5319290/",
-          "contact_url": "https://steamcommunity.com/app/5319290",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5319290/1433d96d13fa840ac1314857639096d5c069906e/header.jpg?t=1792115435",
+          "heat": "今日 Steam 发售；以“计算—预测—运行”的交互实验包装物理题目，教育/模拟细分定位明确。",
+          "current_players": "未公开",
+          "summary": "今日 Steam 发售；以“计算—预测—运行”的交互实验包装物理题目，教育/模拟细分定位明确。",
+          "steam_url": "https://store.steampowered.com/app/5335610/",
+          "contact_url": "https://steamcommunity.com/app/5335610",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335610/c88c72e97bf18cee56f5df6274b7cf54ae8a7998/header.jpg?t=1791604418",
           "source_signals": [
-            "Steam store page Oct 16",
-            "full-release announcement"
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
           ],
-          "indie_score": 83,
+          "indie_score": 76,
           "indie_reasons": [
-            "机甲构筑",
-            "今日发售",
-            "动作肉鸽"
+            "独立自发行",
+            "教育游戏",
+            "物理实验交互"
           ],
           "review_count": 0,
           "price_currency": "CNY",
-          "price_initial": 1800,
-          "price_final": 1440,
-          "price_discount_percent": 20,
-          "price_initial_formatted": "¥ 18.00",
-          "price_final_formatted": "¥ 14.40",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-10-16 18:01 CST",
-          "cover_local_path": "/assets/covers/2026-10-16/5319290.jpg",
+          "price_updated_at": "2026-10-18 18:01 CST",
+          "cover_local_path": "/assets/covers/2026-10-18/5335610.jpg",
           "potential_score": 9,
           "watch_level": "Low",
           "score_reasons": [
@@ -584,142 +580,38 @@
           "daily_rank": 2
         },
         {
-          "date": "2026-10-16",
-          "appid": 3755350,
-          "name_zh": "爱丽丝与彼岸",
-          "name_en": "Alice Nation",
-          "category": "Released",
-          "tags": [
-            "叙事",
-            "卡牌",
-            "冒险"
-          ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026 年 10 月 16 日",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "current_players": 349,
-          "heat": "Steam 新闻页显示 Alice Nation 已于 10/16 上线并有首发折扣。",
-          "summary": "今日发售；卡牌拖放探索结合童话叙事，适合关注首批评价对交互深度与内容量的反馈。",
-          "steam_url": "https://store.steampowered.com/app/3755350/",
-          "contact_url": "https://steamcommunity.com/app/3755350",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755350/d0943452601093b0fcc89547da2359ed03d0d29f/header_schinese.jpg?t=1792123557",
-          "source_signals": [
-            "Steam announcement Oct 16",
-            "Steam store page"
-          ],
-          "indie_score": 79,
-          "indie_reasons": [
-            "卡牌叙事",
-            "首发折扣",
-            "今日上线"
-          ],
-          "review_count": 34,
-          "price_currency": "CNY",
-          "price_initial": 3300,
-          "price_final": 2970,
-          "price_discount_percent": 10,
-          "price_initial_formatted": "¥ 33.00",
-          "price_final_formatted": "¥ 29.70",
-          "price_is_free": false,
-          "price_updated_at": "2026-10-16 18:01 CST",
-          "cover_local_path": "/assets/covers/2026-10-16/3755350.jpg",
-          "potential_score": 33,
-          "watch_level": "Low",
-          "score_reasons": [
-            "已发布，可观察真实在线"
-          ],
-          "daily_rank": 3
-        },
-        {
-          "date": "2026-10-16",
-          "appid": 2336220,
-          "name_zh": "杯杯倒满 Feed The Cups",
-          "name_en": "Feed the Cups",
+          "date": "2026-10-18",
+          "appid": 5339070,
+          "name_zh": "青蛙一起跳",
+          "name_en": "Frogs Jump Together",
           "category": "Released",
           "tags": [
             "合作",
-            "经营",
-            "烹饪"
+            "平台跳跃",
+            "多人"
           ],
-          "developer": "Vambear Games",
-          "publisher": "IndieArk",
-          "release_date": "2026 年 10 月 16 日（正式版）",
+          "developer": "TL Studio",
+          "publisher": "TL Studio",
+          "release_date": "2026-10-18",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "current_players": 1881,
-          "heat": "Steam 商店页公告确认 10/16 结束抢先体验并推出正式版。",
-          "summary": "今日正式版节点；双人饮品店合作具备稳定受众，版本转正后重点观察老玩家回流与评价曲线。",
-          "steam_url": "https://store.steampowered.com/app/2336220/",
-          "contact_url": "https://steamcommunity.com/app/2336220",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2336220/308a3ca63c6b6fa948168908311dff859745ce81/header_alt_assets_0_schinese.jpg?t=1792117816",
-          "source_signals": [
-            "Steam Early Access exit Oct 16",
-            "Steam announcement"
-          ],
-          "indie_score": 81,
-          "indie_reasons": [
-            "合作经营",
-            "正式版节点",
-            "成熟玩法"
-          ],
-          "review_count": 6601,
-          "price_currency": "CNY",
-          "price_initial": 5800,
-          "price_final": 4350,
-          "price_discount_percent": 25,
-          "price_initial_formatted": "¥ 58.00",
-          "price_final_formatted": "¥ 43.50",
-          "price_is_free": false,
-          "price_updated_at": "2026-10-16 18:01 CST",
-          "cover_local_path": "/assets/covers/2026-10-16/2336220.jpg",
-          "potential_score": 38,
-          "watch_level": "Low",
-          "score_reasons": [
-            "已有稳定在线",
-            "多人/合作传播性好",
-            "已发布，可观察真实在线"
-          ],
-          "daily_rank": 4
-        },
-        {
-          "date": "2026-10-16",
-          "appid": 2425720,
-          "name_zh": "往昔碎片",
-          "name_en": "Shards of the Past",
-          "category": "Released",
-          "tags": [
-            "互动小说",
-            "冒险",
-            "抢先体验"
-          ],
-          "developer": "Garou24",
-          "publisher": "G24 Games",
-          "release_date": "2026 年 10 月 16 日（抢先体验）",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
+          "heat": "今日 Steam 发售；在线合作攀爬、踩队友借力与排行榜共同构成直播/好友局传播钩子。",
           "current_players": "未公开",
-          "heat": "Steam 商店页确认 10/16 EA 解锁，互动叙事与选择分支为核心卖点。",
-          "summary": "今日抢先体验发售；目标受众明确，传播性取决于剧情分支与内容完成度，建议跟踪首批评测。",
-          "steam_url": "https://store.steampowered.com/app/2425720/",
-          "contact_url": "https://steamcommunity.com/app/2425720",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2425720/header.jpg?t=1791060717",
+          "summary": "今日 Steam 发售；在线合作攀爬、踩队友借力与排行榜共同构成直播/好友局传播钩子。",
+          "steam_url": "https://store.steampowered.com/app/5339070/",
+          "contact_url": "https://steamcommunity.com/app/5339070",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339070/c04745bb51992510c1795af0041431d2bf4cc7f1/header.jpg?t=1790862627",
           "source_signals": [
-            "Steam store page Oct 16",
-            "Early Access launch"
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
           ],
-          "indie_score": 70,
+          "indie_score": 87,
           "indie_reasons": [
-            "互动叙事",
-            "今日 EA",
-            "多语言"
+            "独立自发行",
+            "合作攀爬",
+            "主播互动潜力"
           ],
           "review_count": 0,
           "price_currency": "CNY",
@@ -729,12 +621,120 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-10-16 18:01 CST",
-          "cover_local_path": "/assets/covers/2026-10-16/2425720.jpg",
-          "potential_score": 18,
+          "price_updated_at": "2026-10-18 18:01 CST",
+          "cover_local_path": "/assets/covers/2026-10-18/5339070.jpg",
+          "potential_score": 9,
           "watch_level": "Low",
           "score_reasons": [
-            "已发布，可观察真实在线"
+            "多人/合作传播性好",
+            "已发布，可观察真实在线",
+            "公开热度数据较少，需人工复核"
+          ],
+          "daily_rank": 3
+        },
+        {
+          "date": "2026-10-18",
+          "appid": 4659400,
+          "name_zh": "超自然档案:前厅",
+          "name_en": "Supernatural Archives: The Frontrooms",
+          "category": "Released",
+          "tags": [
+            "心理恐怖",
+            "探索",
+            "解谜"
+          ],
+          "developer": "Carbonated Rabbit",
+          "publisher": "Carbonated Rabbit",
+          "release_date": "2026-10-18",
+          "followers": "未公开",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "今日 Steam 发售窗口候选；以异常空间观察、环境线索与轻解谜为核心，适合追踪首批实况反馈。",
+          "current_players": "未公开",
+          "summary": "今日 Steam 发售窗口候选；以异常空间观察、环境线索与轻解谜为核心，适合追踪首批实况反馈。",
+          "steam_url": "https://store.steampowered.com/app/4659400/",
+          "contact_url": "https://steamcommunity.com/app/4659400",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4659400/73d61c1854961383ab3b87ebc05dd16c2f594f6f/header.jpg?t=1786159240",
+          "source_signals": [
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
+          ],
+          "indie_score": 78,
+          "indie_reasons": [
+            "独立团队",
+            "心理恐怖",
+            "空间解谜"
+          ],
+          "review_count": 0,
+          "price_currency": "CNY",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
+          "price_is_free": false,
+          "price_updated_at": "2026-10-18 18:01 CST",
+          "cover_local_path": "/assets/covers/2026-10-18/4659400.jpg",
+          "potential_score": 6,
+          "watch_level": "Low",
+          "score_reasons": [
+            "已发布，可观察真实在线",
+            "公开热度数据较少，需人工复核"
+          ],
+          "daily_rank": 4
+        },
+        {
+          "date": "2026-10-18",
+          "appid": 4012780,
+          "name_zh": "苍白心灵",
+          "name_en": "PALE ANIMUS",
+          "category": "Released",
+          "tags": [
+            "生存恐怖",
+            "像素",
+            "RPG"
+          ],
+          "developer": "TENA-Vision",
+          "publisher": "TENA-Vision",
+          "release_date": "2026-10-19（上海时区临近解锁）",
+          "followers": "未公开",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "时区边界连续跟踪项：商店页列 10/19 解锁，18 日上海晚间已进入发布窗口，明确非 10/18 首次公布。",
+          "current_players": "未公开",
+          "summary": "时区边界连续跟踪项：商店页列 10/19 解锁，18 日上海晚间已进入发布窗口，明确非 10/18 首次公布。",
+          "steam_url": "https://store.steampowered.com/app/4012780/",
+          "contact_url": "https://steamcommunity.com/app/4012780",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4012780/header.jpg",
+          "source_signals": [
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
+          ],
+          "indie_score": 86,
+          "indie_reasons": [
+            "独立自发行",
+            "洛氏像素恐怖",
+            "临近发售"
+          ],
+          "review_count": 0,
+          "price_currency": "CNY",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
+          "price_is_free": false,
+          "price_updated_at": "2026-10-18 18:01 CST",
+          "cover_local_path": "/assets/covers/2026-10-18/4012780.jpg",
+          "potential_score": 32,
+          "watch_level": "Low",
+          "score_reasons": [
+            "已发布，可观察真实在线",
+            "多日连续进入监测池",
+            "生命周期阶段发生变化",
+            "曾位于分类头部"
           ],
           "daily_rank": 5
         }
@@ -744,50 +744,7 @@
       "title": "热度排行基准",
       "games": [
         {
-          "date": "2026-10-16",
-          "appid": 578080,
-          "name_zh": "绝地求生",
-          "name_en": "PUBG: BATTLEGROUNDS",
-          "category": "Heat Ranking",
-          "tags": [
-            "大逃杀",
-            "多人",
-            "免费开玩"
-          ],
-          "developer": "KRAFTON, Inc.",
-          "publisher": "KRAFTON, Inc.",
-          "release_date": "已发布（连续跟踪）",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#1",
-          "current_players": 345311,
-          "heat": "StatsWell 10/16 全球 Steam Top Sellers #1；连续基准项。",
-          "summary": "连续跟踪项，非今日新上架；用于衡量新品面对的全站流量竞争。",
-          "steam_url": "https://store.steampowered.com/app/578080/",
-          "contact_url": "https://steamcommunity.com/app/578080",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1786493086",
-          "source_signals": [
-            "StatsWell Top Sellers Oct 16",
-            "continuous benchmark"
-          ],
-          "indie_score": 0,
-          "indie_reasons": [],
-          "review_count": 2748444,
-          "cover_local_path": "/assets/covers/2026-10-16/578080.jpg",
-          "potential_score": 48,
-          "watch_level": "Medium",
-          "score_reasons": [
-            "当前在线人数高",
-            "多人/合作传播性好",
-            "低门槛试玩或轻量入口",
-            "多日连续进入监测池",
-            "曾位于分类头部"
-          ],
-          "daily_rank": 1
-        },
-        {
-          "date": "2026-10-16",
+          "date": "2026-10-18",
           "appid": 570,
           "name_zh": "Dota 2",
           "name_en": "Dota 2",
@@ -795,30 +752,73 @@
           "tags": [
             "MOBA",
             "多人",
-            "免费开玩"
+            "免费"
           ],
           "developer": "Valve",
           "publisher": "Valve",
-          "release_date": "已发布（连续跟踪）",
+          "release_date": "已发布",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#2",
-          "current_players": 565210,
-          "heat": "StatsWell 10/16 全球 Steam Top Sellers #2；连续基准项。",
-          "summary": "连续跟踪项，非今日新上架；作为今日 Steam 商店整体注意力的背景。",
+          "top_sellers_rank": "#1",
+          "heat": "SteamDB 周度全球热销 #1（10/6–10/13），连续基准项，非今日新增。",
+          "current_players": 761357,
+          "summary": "SteamDB 周度全球热销 #1（10/6–10/13），连续基准项，非今日新增。",
           "steam_url": "https://store.steampowered.com/app/570/",
           "contact_url": "https://steamcommunity.com/app/570",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1791407503",
           "source_signals": [
-            "StatsWell Top Sellers Oct 16",
-            "continuous benchmark"
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
           ],
           "indie_score": 0,
           "indie_reasons": [],
-          "review_count": 2798545,
-          "cover_local_path": "/assets/covers/2026-10-16/570.jpg",
-          "potential_score": 50,
+          "review_count": 2799733,
+          "cover_local_path": "/assets/covers/2026-10-18/570.jpg",
+          "potential_score": 47,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "当前在线人数高",
+            "多人/合作传播性好",
+            "低门槛试玩或轻量入口",
+            "多日连续进入监测池",
+            "生命周期阶段发生变化"
+          ],
+          "daily_rank": 1
+        },
+        {
+          "date": "2026-10-18",
+          "appid": 3393110,
+          "name_zh": "永恒之塔 2",
+          "name_en": "AION 2",
+          "category": "Heat Ranking",
+          "tags": [
+            "MMORPG",
+            "免费",
+            "多人"
+          ],
+          "developer": "NC",
+          "publisher": "NC",
+          "release_date": "2026-10-05",
+          "followers": "未公开",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "#2",
+          "heat": "SteamDB 周度全球热销 #2；SteamDB 粉丝周增长公开为 5,893，连续基准项，非今日新增。",
+          "current_players": 233969,
+          "summary": "SteamDB 周度全球热销 #2；SteamDB 粉丝周增长公开为 5,893，连续基准项，非今日新增。",
+          "steam_url": "https://store.steampowered.com/app/3393110/",
+          "contact_url": "https://steamcommunity.com/app/3393110",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1791504829",
+          "source_signals": [
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
+          ],
+          "indie_score": 0,
+          "indie_reasons": [],
+          "review_count": 33937,
+          "cover_local_path": "/assets/covers/2026-10-18/3393110.jpg",
+          "potential_score": 48,
           "watch_level": "Medium",
           "score_reasons": [
             "当前在线人数高",
@@ -830,50 +830,7 @@
           "daily_rank": 2
         },
         {
-          "date": "2026-10-16",
-          "appid": 3393110,
-          "name_zh": "永恒之塔 2",
-          "name_en": "AION 2",
-          "category": "Heat Ranking",
-          "tags": [
-            "MMORPG",
-            "角色扮演",
-            "免费开玩"
-          ],
-          "developer": "NCSOFT",
-          "publisher": "NCSOFT",
-          "release_date": "已发布（连续跟踪）",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#4",
-          "current_players": 190249,
-          "heat": "StatsWell 10/16 全球 Steam Top Sellers #4；连续基准项。",
-          "summary": "连续跟踪项，非今日新上架；保持在前列，说明大型免费 MMO 仍占据当前注意力。",
-          "steam_url": "https://store.steampowered.com/app/3393110/",
-          "contact_url": "https://steamcommunity.com/app/3393110",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1791504829",
-          "source_signals": [
-            "StatsWell Top Sellers Oct 16",
-            "continuous benchmark"
-          ],
-          "indie_score": 0,
-          "indie_reasons": [],
-          "review_count": 32158,
-          "cover_local_path": "/assets/covers/2026-10-16/3393110.jpg",
-          "potential_score": 47,
-          "watch_level": "Medium",
-          "score_reasons": [
-            "当前在线人数高",
-            "低门槛试玩或轻量入口",
-            "多日连续进入监测池",
-            "生命周期阶段发生变化",
-            "曾位于分类头部"
-          ],
-          "daily_rank": 3
-        },
-        {
-          "date": "2026-10-16",
+          "date": "2026-10-18",
           "appid": 730,
           "name_zh": "反恐精英 2",
           "name_en": "Counter-Strike 2",
@@ -881,30 +838,30 @@
           "tags": [
             "FPS",
             "多人",
-            "免费开玩"
+            "免费"
           ],
           "developer": "Valve",
           "publisher": "Valve",
-          "release_date": "已发布（连续跟踪）",
+          "release_date": "已发布",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#5",
-          "current_players": 686807,
-          "heat": "StatsWell 10/16 全球 Steam Top Sellers #5；连续基准项。",
-          "summary": "连续跟踪项，非今日新上架；作为稳定头部服务型游戏的竞争背景。",
+          "top_sellers_rank": "#3",
+          "heat": "SteamDB 周度全球热销 #3；SteamDB 粉丝总量/增长仍处高位，连续基准项。",
+          "current_players": 896065,
+          "summary": "SteamDB 周度全球热销 #3；SteamDB 粉丝总量/增长仍处高位，连续基准项。",
           "steam_url": "https://store.steampowered.com/app/730/",
           "contact_url": "https://steamcommunity.com/app/730",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header_schinese.jpg?t=1791824795",
           "source_signals": [
-            "StatsWell Top Sellers Oct 16",
-            "continuous benchmark"
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
           ],
           "indie_score": 0,
           "indie_reasons": [],
-          "review_count": 9925693,
-          "cover_local_path": "/assets/covers/2026-10-16/730.jpg",
-          "potential_score": 50,
+          "review_count": 9930222,
+          "cover_local_path": "/assets/covers/2026-10-18/730.jpg",
+          "potential_score": 49,
           "watch_level": "Medium",
           "score_reasons": [
             "当前在线人数高",
@@ -913,45 +870,86 @@
             "多日连续进入监测池",
             "生命周期阶段发生变化"
           ],
-          "daily_rank": 4
+          "daily_rank": 3
         },
         {
-          "date": "2026-10-16",
-          "appid": 221100,
-          "name_zh": "DayZ",
-          "name_en": "DayZ",
+          "date": "2026-10-18",
+          "appid": 632360,
+          "name_zh": "雨中冒险 2",
+          "name_en": "Risk of Rain 2",
           "category": "Heat Ranking",
           "tags": [
-            "生存",
-            "僵尸",
-            "多人"
+            "肉鸽",
+            "动作",
+            "合作"
           ],
-          "developer": "Bohemia Interactive",
-          "publisher": "Bohemia Interactive",
-          "release_date": "已发布（连续跟踪）",
+          "developer": "Hopoo Games",
+          "publisher": "Gearbox Publishing",
+          "release_date": "已发布",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#6",
-          "current_players": 24504,
-          "heat": "StatsWell 10/16 全球 Steam Top Sellers #6，较前日大幅上升；连续基准项。",
-          "summary": "连续跟踪项，非今日新上架；生存品类热度上行，是今日合作生存新品的重要竞争参照。",
-          "steam_url": "https://store.steampowered.com/app/221100/",
-          "contact_url": "https://steamcommunity.com/app/221100",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1792059745",
+          "top_sellers_rank": "#8",
+          "heat": "SteamDB 周度全球热销 #8，连续基准项；DLC 与促销影响须与新品自然热度区分。",
+          "current_players": 18313,
+          "summary": "SteamDB 周度全球热销 #8，连续基准项；DLC 与促销影响须与新品自然热度区分。",
+          "steam_url": "https://store.steampowered.com/app/632360/",
+          "contact_url": "https://steamcommunity.com/app/632360",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/77f4cff7fea7de8a4566d1fb76ace16967604da7/header_alt_assets_7.jpg?t=1791475448",
           "source_signals": [
-            "StatsWell Top Sellers Oct 16",
-            "rank rise",
-            "continuous benchmark"
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
           ],
           "indie_score": 0,
           "indie_reasons": [],
-          "review_count": 471412,
-          "cover_local_path": "/assets/covers/2026-10-16/221100.jpg",
-          "potential_score": 30,
+          "review_count": 355397,
+          "cover_local_path": "/assets/covers/2026-10-18/632360.jpg",
+          "potential_score": 41,
           "watch_level": "Low",
           "score_reasons": [
             "当前在线人数高",
+            "多人/合作传播性好",
+            "多日连续进入监测池",
+            "曾位于分类头部"
+          ],
+          "daily_rank": 4
+        },
+        {
+          "date": "2026-10-18",
+          "appid": 2958340,
+          "name_zh": "战犬",
+          "name_en": "WARDOGS",
+          "category": "Heat Ranking",
+          "tags": [
+            "射击",
+            "多人",
+            "动作"
+          ],
+          "developer": "BULKHEAD",
+          "publisher": "BULKHEAD",
+          "release_date": "2026-09-10",
+          "followers": "238,322",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "#15",
+          "heat": "SteamDB 周度全球热销 #15，粉丝 238,322、7 日 +5,186（公开趋势快照）；连续基准项，非今日新增。",
+          "current_players": "未公开",
+          "summary": "SteamDB 周度全球热销 #15，粉丝 238,322、7 日 +5,186（公开趋势快照）；连续基准项，非今日新增。",
+          "steam_url": "https://store.steampowered.com/app/2958340/",
+          "contact_url": "https://steamcommunity.com/app/2958340",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/2958340/header.jpg",
+          "source_signals": [
+            "Steam Upcoming / Search Oct 18",
+            "Steam public store page"
+          ],
+          "indie_score": 0,
+          "indie_reasons": [],
+          "review_count": 0,
+          "cover_local_path": "",
+          "potential_score": 25,
+          "watch_level": "Low",
+          "score_reasons": [
+            "关注基数高",
             "多人/合作传播性好"
           ],
           "daily_rank": 5
@@ -961,80 +959,80 @@
   ],
   "indie_highlights": [
     {
-      "appid": 3826670,
-      "name_zh": "翻盖真难",
-      "name_en": "Flipping is Hard",
-      "indie_score": 90,
+      "appid": 1713730,
+      "name_zh": "莫阿德拉",
+      "name_en": "Moadra",
+      "indie_score": 91,
       "indie_reasons": [
-        "16 人合作",
-        "物理挑战易出切片",
-        "主播模式"
+        "小团队",
+        "高完成度类银河战士恶魔城",
+        "发售日公告"
       ],
       "source_signals": [
-        "official launch release Oct 16",
-        "Steam store page"
+        "Steam Upcoming / Search Oct 18",
+        "Steam public store page"
       ]
     },
     {
-      "appid": 2121510,
-      "name_zh": "梦魇幽影",
-      "name_en": "Tenebris Somnia",
-      "indie_score": 89,
+      "appid": 1730790,
+      "name_zh": "姐妹的旅程",
+      "name_en": "A Sister's Journey",
+      "indie_score": 88,
       "indie_reasons": [
-        "New Blood 发行",
-        "FMV+像素恐怖",
-        "今日解锁窗口"
+        "个人开发",
+        "像素类银河战士恶魔城",
+        "临近发售"
       ],
       "source_signals": [
-        "Steam store page Oct 16",
-        "Steam Popular Upcoming"
+        "Steam Upcoming / Search Oct 18",
+        "Steam public store page"
       ]
     },
     {
-      "appid": 3695930,
-      "name_zh": "企鹅殖民地",
-      "name_en": "Penguin Colony",
+      "appid": 5339070,
+      "name_zh": "青蛙一起跳",
+      "name_en": "Frogs Jump Together",
       "indie_score": 87,
       "indie_reasons": [
-        "Fellow Traveller 发行",
-        "洛氏叙事",
-        "企鹅视角"
+        "独立自发行",
+        "合作攀爬",
+        "主播互动潜力"
       ],
       "source_signals": [
-        "Steam store page Oct 16",
-        "Steam Popular Upcoming"
+        "Steam Upcoming / Search Oct 18",
+        "Steam public store page"
       ]
     },
     {
-      "appid": 4071650,
-      "name_zh": "直播列车",
-      "name_en": "Stream Train",
+      "appid": 4012780,
+      "name_zh": "苍白心灵",
+      "name_en": "PALE ANIMUS",
+      "indie_score": 86,
+      "indie_reasons": [
+        "独立自发行",
+        "洛氏像素恐怖",
+        "临近发售"
+      ],
+      "source_signals": [
+        "Steam Upcoming / Search Oct 18",
+        "Steam public store page"
+      ]
+    },
+    {
+      "appid": 5220910,
+      "name_zh": "五子足球",
+      "name_en": "GomokuSoccer",
       "indie_score": 85,
       "indie_reasons": [
-        "6 人合作",
-        "直播互动机制",
-        "高实况潜力"
+        "独立自发行",
+        "混合规则玩法",
+        "多人对战"
       ],
       "source_signals": [
-        "Steam store page Oct 16",
-        "launch FAQ Oct 14"
-      ]
-    },
-    {
-      "appid": 5319290,
-      "name_zh": "废料浪潮",
-      "name_en": "SCRAPWAVE",
-      "indie_score": 83,
-      "indie_reasons": [
-        "机甲拆装构筑",
-        "动作肉鸽",
-        "今日正式发售"
-      ],
-      "source_signals": [
-        "Steam store page Oct 16",
-        "full-release announcement"
+        "Steam Upcoming / Search Oct 18",
+        "Steam public store page"
       ]
     }
   ],
-  "generated_at": "2026-10-16 18:01 CST"
+  "generated_at": "2026-10-18 18:02 CST"
 }
