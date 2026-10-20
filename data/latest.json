@@ -457,7 +457,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-10-20 18:05 CST",
+          "price_updated_at": "2026-10-20 18:06 CST",
           "cover_local_path": "/assets/covers/2026-10-20/2315050.jpg",
           "potential_score": 53,
           "watch_level": "Medium",
@@ -506,7 +506,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-10-20 18:05 CST",
+          "price_updated_at": "2026-10-20 18:06 CST",
           "cover_local_path": "/assets/covers/2026-10-20/3469910.jpg",
           "potential_score": 37,
           "watch_level": "Low",
@@ -552,7 +552,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-10-20 18:05 CST",
+          "price_updated_at": "2026-10-20 18:06 CST",
           "cover_local_path": "/assets/covers/2026-10-20/4131220.jpg",
           "potential_score": 23,
           "watch_level": "Low",
@@ -598,7 +598,7 @@
           "price_initial_formatted": "¥58.00",
           "price_final_formatted": "¥ 58.00",
           "price_is_free": false,
-          "price_updated_at": "2026-10-20 18:05 CST",
+          "price_updated_at": "2026-10-20 18:06 CST",
           "cover_local_path": "/assets/covers/2026-10-20/3247750.jpg",
           "potential_score": 31,
           "watch_level": "Low",
@@ -644,7 +644,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-10-20 18:05 CST",
+          "price_updated_at": "2026-10-20 18:06 CST",
           "cover_local_path": "/assets/covers/2026-10-20/2679790.jpg",
           "potential_score": 44,
           "watch_level": "Low",
@@ -1023,5 +1023,5 @@
       "indie_reasons": "独立团队/小型发行商 + 今日发售或 Next Fest 可玩 + 公开关注或题材辨识度。"
     }
   ],
-  "generated_at": "2026-10-20 18:05 CST"
+  "generated_at": "2026-10-20 18:06 CST"
 }
