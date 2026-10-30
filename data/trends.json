@@ -4292,7 +4292,7 @@
         "price_updated_at": "",
         "summary": "今日发售的桌面工厂模拟项目；实时在线已提供第一轮可验证信号。",
         "cover_local_path": "/assets/covers/2026-10-30/4864900.jpg",
-        "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4864900/dd1cbc7d9193224ef8399ad613aaacca4c85e953/header_schinese.jpg?t=1793141036",
+        "cover_source_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/4864900/header.jpg",
         "potential_score": 23,
         "watch_level": "Low",
         "score_reasons": [],
@@ -4331,7 +4331,7 @@
         "price_updated_at": "",
         "summary": "今日发售的低基数项目；较好的热销位次与低在线形成早期转化观察点。",
         "cover_local_path": "/assets/covers/2026-10-30/4714010.jpg",
-        "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4714010/75ca4e6af63bd9e3b981247913966d7877cd2272/header.jpg?t=1793314939",
+        "cover_source_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/4714010/header.jpg",
         "potential_score": 28,
         "watch_level": "Low",
         "score_reasons": [
@@ -10565,5 +10565,5 @@
       ]
     }
   },
-  "generated_at": "2026-10-30 18:06 CST"
+  "generated_at": "2026-10-30 18:07 CST"
 }
