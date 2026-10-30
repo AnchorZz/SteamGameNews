@@ -437,7 +437,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-10-30 18:06 CST",
+          "price_updated_at": "2026-10-30 18:07 CST",
           "cover_local_path": "",
           "potential_score": 57,
           "watch_level": "Medium",
@@ -484,7 +484,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-10-30 18:06 CST",
+          "price_updated_at": "2026-10-30 18:07 CST",
           "cover_local_path": "",
           "potential_score": 57,
           "watch_level": "Medium",
@@ -531,7 +531,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-10-30 18:06 CST",
+          "price_updated_at": "2026-10-30 18:07 CST",
           "cover_local_path": "",
           "potential_score": 57,
           "watch_level": "Medium",
@@ -613,7 +613,7 @@
           "summary": "今日发售的微型独立项目；作为低基数对照，后续只在数据明显上升时继续跟踪。",
           "steam_url": "https://store.steampowered.com/app/3120010/",
           "contact_url": "https://steamcommunity.com/app/3120010",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3120010/13f0efc7f65d9fd977bfb8eb6790bb2b9c0839f9/header.jpg?t=1793329219",
+          "cover_source_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/3120010/header.jpg",
           "source_signals": [
             "SteamDB charts 10/30"
           ],
@@ -662,7 +662,7 @@
           "summary": "长期在线基准，仅用于衡量今日新作的注意力竞争环境。",
           "steam_url": "https://store.steampowered.com/app/730/",
           "contact_url": "https://steamcommunity.com/app/730",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header_schinese.jpg?t=1793054556",
+          "cover_source_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
           "source_signals": [
             "SteamDB charts 10/30",
             "连续跟踪，非今日新公布"
@@ -702,7 +702,7 @@
           "summary": "连续跟踪项而非今日新发售；首日后在线回落和评价走势值得观察。",
           "steam_url": "https://store.steampowered.com/app/4715160/",
           "contact_url": "https://steamcommunity.com/app/4715160",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715160/3d05c4f85866620b0b47754e30414cb4414b42dc/header.jpg?t=1793289966",
+          "cover_source_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/4715160/header.jpg",
           "source_signals": [
             "SteamDB charts 10/30",
             "连续跟踪，非今日新公布"
@@ -741,7 +741,7 @@
           "summary": "今日小体量放置项目的实时数据对照；需看首日高点能否转化为评价。",
           "steam_url": "https://store.steampowered.com/app/5147000/",
           "contact_url": "https://steamcommunity.com/app/5147000",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5147000/8fee24038c115d6d29f207ce1ac66ba0d272596b/header.jpg?t=1793271766",
+          "cover_source_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/5147000/header.jpg",
           "source_signals": [
             "SteamDB charts 10/30"
           ],
