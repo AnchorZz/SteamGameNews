@@ -345,7 +345,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "Steam 官方 Demo Released_DESC 当前首屏；公开关注/愿望单排行未公开。",
-          "current_players": 0,
+          "current_players": 3,
           "summary": "氛围向试玩在当日首屏出现，适合关注演出、主播反应和愿望单转化。",
           "steam_url": "https://store.steampowered.com/app/5496350/",
           "contact_url": "https://steamcommunity.com/app/5496350",
@@ -356,13 +356,12 @@
           ],
           "review_count": null,
           "cover_local_path": "/assets/covers/2026-11-02/5496350.jpg",
-          "potential_score": 12,
+          "potential_score": 22,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
             "题材有内容传播点",
-            "Demo 可验证试玩转化",
-            "公开热度数据较少，需人工复核"
+            "Demo 可验证试玩转化"
           ],
           "daily_rank": 4
         },
@@ -470,7 +469,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "Steam 官方 Released_DESC 当前首屏，11/2 发售窗口。",
-          "current_players": 21,
+          "current_players": null,
           "summary": "卡丁车队管理的垂类模拟项目，适合观察系统深度与赛车受众的首日评价。",
           "steam_url": "https://store.steampowered.com/app/5345280/",
           "contact_url": "https://steamcommunity.com/app/5345280",
@@ -480,7 +479,7 @@
           ],
           "review_count": null,
           "cover_local_path": "/assets/covers/2026-11-02/5345280.jpg",
-          "potential_score": 31,
+          "potential_score": 22,
           "watch_level": "Low",
           "score_reasons": [
             "已发布，可观察真实在线",
@@ -507,7 +506,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "Steam 官方 Released_DESC 当前首屏，11/2 发售窗口。",
-          "current_players": 0,
+          "current_players": 1,
           "summary": "桌面滑板题材的小体量项目，操作观感和挑战性是首日传播关键。",
           "steam_url": "https://store.steampowered.com/app/5066400/",
           "contact_url": "https://steamcommunity.com/app/5066400",
@@ -517,7 +516,7 @@
           ],
           "review_count": null,
           "cover_local_path": "/assets/covers/2026-11-02/5066400.jpg",
-          "potential_score": 22,
+          "potential_score": 27,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -580,7 +579,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "Steam 官方 Released_DESC 与公开 11/2 发售日历均列出。",
-          "current_players": 2,
+          "current_players": 3,
           "summary": "叙事 RPG 的第一章式发售更依赖口碑扩散，适合作为独立长线样本观察。",
           "steam_url": "https://store.steampowered.com/app/5091340/",
           "contact_url": "https://steamcommunity.com/app/5091340",
@@ -591,7 +590,7 @@
           ],
           "review_count": null,
           "cover_local_path": "/assets/covers/2026-11-02/5091340.jpg",
-          "potential_score": 27,
+          "potential_score": 28,
           "watch_level": "Low",
           "score_reasons": [
             "多人/合作传播性好",
@@ -625,7 +624,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#1",
           "heat": "Steam 当前热销 #1；SteamDB 7 日关注 +37,019，连续热度跟踪项。",
-          "current_players": 815026,
+          "current_players": 827080,
           "summary": "头部动作 RPG 继续占据热销首位，关注增长与榜单位置一致。",
           "steam_url": "https://store.steampowered.com/app/4115450/",
           "contact_url": "https://steamcommunity.com/app/4115450",
@@ -665,7 +664,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#2",
           "heat": "Steam 当前热销 #2；长期榜单基准，连续跟踪项。",
-          "current_players": 1044269,
+          "current_players": 1080042,
           "summary": "成熟服务型产品作为热销基准，用于对照新品流量与商业热度。",
           "steam_url": "https://store.steampowered.com/app/730/",
           "contact_url": "https://steamcommunity.com/app/730",
@@ -742,7 +741,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#4",
           "heat": "Steam 当前热销 #4；SteamDB 7 日关注 +2,215，连续热度跟踪项。",
-          "current_players": 185308,
+          "current_players": 188232,
           "summary": "大型免费 MMORPG 仍在榜单前列，适合持续观察其发售后留存和社区节奏。",
           "steam_url": "https://store.steampowered.com/app/3393110/",
           "contact_url": "https://steamcommunity.com/app/3393110",
@@ -783,7 +782,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#5",
           "heat": "Steam 当前热销 #5；长期榜单基准，连续跟踪项。",
-          "current_players": 80416,
+          "current_players": 80511,
           "summary": "成熟免费服务产品维持榜单高位，为当日新品的转化环境提供对照。",
           "steam_url": "https://store.steampowered.com/app/230410/",
           "contact_url": "https://steamcommunity.com/app/230410",
@@ -826,7 +825,7 @@
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "#5",
       "heat": "Steam 当前热销 #5；长期榜单基准，连续跟踪项。",
-      "current_players": 80416,
+      "current_players": 80511,
       "review_count": null,
       "summary": "成熟免费服务产品维持榜单高位，为当日新品的转化环境提供对照。",
       "cover_local_path": "/assets/covers/2026-11-02/230410.jpg",
@@ -874,7 +873,7 @@
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "#2",
       "heat": "Steam 当前热销 #2；长期榜单基准，连续跟踪项。",
-      "current_players": 1044269,
+      "current_players": 1080042,
       "review_count": null,
       "summary": "成熟服务型产品作为热销基准，用于对照新品流量与商业热度。",
       "cover_local_path": "/assets/covers/2026-11-02/730.jpg",
@@ -922,7 +921,7 @@
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "#1",
       "heat": "Steam 当前热销 #1；SteamDB 7 日关注 +37,019，连续热度跟踪项。",
-      "current_players": 815026,
+      "current_players": 827080,
       "review_count": null,
       "summary": "头部动作 RPG 继续占据热销首位，关注增长与榜单位置一致。",
       "cover_local_path": "/assets/covers/2026-11-02/4115450.jpg",
@@ -951,6 +950,51 @@
       "source_signals": [
         "Steam Top Sellers 当前 #1",
         "SteamDB Trending Followers #1：163,409 follows / +37,019 7d"
+      ]
+    },
+    {
+      "appid": 5091340,
+      "name_zh": "Reveria: Act 1",
+      "name_en": "Reveria: Act 1",
+      "category": "Released",
+      "tags": [
+        "角色扮演",
+        "叙事",
+        "独立"
+      ],
+      "developer": "Enefium Studios",
+      "publisher": "Enefium Studios",
+      "release_date": "2026-11-02",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "Steam 官方 Released_DESC 与公开 11/2 发售日历均列出。",
+      "current_players": 3,
+      "review_count": null,
+      "summary": "叙事 RPG 的第一章式发售更依赖口碑扩散，适合作为独立长线样本观察。",
+      "cover_local_path": "/assets/covers/2026-11-02/5091340.jpg",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5091340/header.jpg",
+      "potential_score": 82,
+      "watch_level": "High",
+      "score_reasons": [
+        "11/2 发售",
+        "小团队自发行",
+        "叙事 RPG 首章结构"
+      ],
+      "steam_url": "https://store.steampowered.com/app/5091340/",
+      "contact_url": "https://steamcommunity.com/app/5091340",
+      "report_date": "2026-11-02",
+      "section_title": "今日新发布游戏",
+      "indie_score": 82,
+      "indie_reasons": [
+        "11/2 发售",
+        "小团队自发行",
+        "叙事 RPG 首章结构"
+      ],
+      "source_signals": [
+        "Steam 官方 Released_DESC",
+        "RageQuit 11/2 日历"
       ]
     },
     {
@@ -998,52 +1042,7 @@
         "SteamDB Trending Followers #3",
         "Steam 商店 Nov 4 发售"
       ]
-    },
-    {
-      "appid": 5091340,
-      "name_zh": "Reveria: Act 1",
-      "name_en": "Reveria: Act 1",
-      "category": "Released",
-      "tags": [
-        "角色扮演",
-        "叙事",
-        "独立"
-      ],
-      "developer": "Enefium Studios",
-      "publisher": "Enefium Studios",
-      "release_date": "2026-11-02",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "Steam 官方 Released_DESC 与公开 11/2 发售日历均列出。",
-      "current_players": 2,
-      "review_count": null,
-      "summary": "叙事 RPG 的第一章式发售更依赖口碑扩散，适合作为独立长线样本观察。",
-      "cover_local_path": "/assets/covers/2026-11-02/5091340.jpg",
-      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5091340/header.jpg",
-      "potential_score": 82,
-      "watch_level": "High",
-      "score_reasons": [
-        "11/2 发售",
-        "小团队自发行",
-        "叙事 RPG 首章结构"
-      ],
-      "steam_url": "https://store.steampowered.com/app/5091340/",
-      "contact_url": "https://steamcommunity.com/app/5091340",
-      "report_date": "2026-11-02",
-      "section_title": "今日新发布游戏",
-      "indie_score": 82,
-      "indie_reasons": [
-        "11/2 发售",
-        "小团队自发行",
-        "叙事 RPG 首章结构"
-      ],
-      "source_signals": [
-        "Steam 官方 Released_DESC",
-        "RageQuit 11/2 日历"
-      ]
     }
   ],
-  "generated_at": "2026-11-02 22:12 CST"
+  "generated_at": "2026-11-02 22:23 CST"
 }
