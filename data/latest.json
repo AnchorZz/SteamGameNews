@@ -141,18 +141,18 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "SteamDB 关注 5,587 / 7 日 +187；Steam 今日发售窗口",
-          "current_players": "未公开",
+          "current_players": 172,
           "summary": "今日发售窗口的多人卡牌/恐怖项目；公开 SteamDB 发售周列表可见关注规模，首日社区互动和多人匹配表现值得跟踪。",
           "steam_url": "https://store.steampowered.com/app/4661070/",
           "contact_url": "https://steamcommunity.com/app/4661070",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4661070/1a0bee98f8e5b25723732c1d046711eefb6cb494/header.jpg?t=1794405728",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4661070/972d3e6aa238297a34cc5ea2e7e6a5b923fb057a/header.jpg?t=1794557677",
           "source_signals": [
             "Steam popular coming soon：2026-11-13",
             "SteamDB upcoming：关注 5,587、7 日 +187",
             "SteamDB app 页面"
           ],
           "cover_local_path": "/assets/covers/2026-11-13/4661070.jpg",
-          "potential_score": 48,
+          "potential_score": 57,
           "watch_level": "Medium",
           "score_reasons": [
             "7日关注增长强",
@@ -298,7 +298,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "Steam Demo Released_DESC 当日最新列表；公开关注/愿望单排名未披露",
-          "current_players": 0,
+          "current_players": 1,
           "summary": "今日最新 Steam Demo 候选；体育模拟题材受众明确，需继续观察 Demo 在线、愿望单和社区内容是否起量。",
           "steam_url": "https://store.steampowered.com/app/5488290/",
           "contact_url": "https://steamcommunity.com/app/5488290",
@@ -308,12 +308,11 @@
             "SteamDB app/trending followers/wishlist 公开面核对：未见可归因数值"
           ],
           "cover_local_path": "/assets/covers/2026-11-13/5488290.jpg",
-          "potential_score": 8,
+          "potential_score": 17,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
-            "Demo 可验证试玩转化",
-            "公开热度数据较少，需人工复核"
+            "Demo 可验证试玩转化"
           ],
           "daily_rank": 3
         },
@@ -416,7 +415,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "Steam Released_DESC 当前首位；今日新发布",
-          "current_players": 9,
+          "current_players": 2960,
           "summary": "今日新发布的肉鸽/构筑候选；首日位置来自 Steam 最新发布检索，值得观察评价速度和首周榜单穿透。",
           "steam_url": "https://store.steampowered.com/app/4459590/",
           "contact_url": "https://steamcommunity.com/app/4459590",
@@ -432,11 +431,12 @@
           "price_initial_formatted": "¥ 42.00",
           "price_final_formatted": "¥ 37.80",
           "price_is_free": false,
-          "price_updated_at": "2026-11-13 10:13 CST",
+          "price_updated_at": "2026-11-13 18:01 CST",
           "cover_local_path": "/assets/covers/2026-11-13/4459590.jpg",
-          "potential_score": 25,
+          "potential_score": 35,
           "watch_level": "Low",
           "score_reasons": [
+            "已有稳定在线",
             "已发布，可观察真实在线",
             "曾位于分类头部"
           ],
@@ -460,7 +460,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "Steam Released_DESC 当前前列；今日新发布",
-          "current_players": 0,
+          "current_players": 1,
           "summary": "今日新发布的恐怖向项目；题材具备主播反应和短内容扩散可能，需结合首日评论与在线继续筛选。",
           "steam_url": "https://store.steampowered.com/app/4348420/",
           "contact_url": "https://steamcommunity.com/app/4348420",
@@ -476,15 +476,14 @@
           "price_initial_formatted": "¥ 33.00",
           "price_final_formatted": "¥ 28.71",
           "price_is_free": false,
-          "price_updated_at": "2026-11-13 10:13 CST",
+          "price_updated_at": "2026-11-13 18:01 CST",
           "cover_local_path": "/assets/covers/2026-11-13/4348420.jpg",
-          "potential_score": 13,
+          "potential_score": 26,
           "watch_level": "Low",
           "score_reasons": [
             "题材有内容传播点",
             "已发布，可观察真实在线",
-            "曾位于分类头部",
-            "公开热度数据较少，需人工复核"
+            "曾位于分类头部"
           ],
           "daily_rank": 2
         },
@@ -506,11 +505,11 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "SteamDB 发售周：关注 1,839、7 日 +98；今日新发布",
-          "current_players": 97,
+          "current_players": 532,
           "summary": "今日新发布项目；SteamDB 发售周已显示可公开的关注基数和近 7 日增长，适合在上线后观察评价转化。",
           "steam_url": "https://store.steampowered.com/app/4829780/",
           "contact_url": "https://steamcommunity.com/app/4829780",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4829780/da3c6737e2898653a8fe5446e9d23dd20419157a/header_schinese.jpg?t=1794534739",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4829780/da3c6737e2898653a8fe5446e9d23dd20419157a/header_schinese.jpg?t=1794546859",
           "source_signals": [
             "Steam Released_DESC：当日最新",
             "SteamDB releases 2026W46：关注 1,839、+98"
@@ -522,9 +521,9 @@
           "price_initial_formatted": "¥ 48.00",
           "price_final_formatted": "¥ 43.20",
           "price_is_free": false,
-          "price_updated_at": "2026-11-13 10:13 CST",
+          "price_updated_at": "2026-11-13 18:01 CST",
           "cover_local_path": "/assets/covers/2026-11-13/4829780.jpg",
-          "potential_score": 50,
+          "potential_score": 53,
           "watch_level": "Medium",
           "score_reasons": [
             "已发布，可观察真实在线"
@@ -565,7 +564,7 @@
           "price_initial_formatted": "¥ 42.00",
           "price_final_formatted": "¥ 25.20",
           "price_is_free": false,
-          "price_updated_at": "2026-11-13 10:13 CST",
+          "price_updated_at": "2026-11-13 18:02 CST",
           "cover_local_path": "/assets/covers/2026-11-13/4781790.jpg",
           "potential_score": 6,
           "watch_level": "Low",
@@ -594,11 +593,11 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "Steam Released_DESC 当前前列；今日新发布",
-          "current_players": 0,
+          "current_players": 1,
           "summary": "今日新发布的三国题材策略/RPG 候选；题材辨识度高，需继续观察中文社区讨论和首批评价是否形成传播。",
           "steam_url": "https://store.steampowered.com/app/3745320/",
           "contact_url": "https://steamcommunity.com/app/3745320",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745320/8e4f430190b0626c7229fcd34061accdd267e312/header.jpg?t=1794534150",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745320/8e4f430190b0626c7229fcd34061accdd267e312/header.jpg?t=1794536726",
           "source_signals": [
             "Steam Released_DESC：当日最新",
             "SteamDB/Steam 公开榜单核对"
@@ -610,13 +609,12 @@
           "price_initial_formatted": "¥ 6.00",
           "price_final_formatted": "¥ 5.40",
           "price_is_free": false,
-          "price_updated_at": "2026-11-13 10:13 CST",
+          "price_updated_at": "2026-11-13 18:02 CST",
           "cover_local_path": "/assets/covers/2026-11-13/3745320.jpg",
-          "potential_score": 6,
+          "potential_score": 19,
           "watch_level": "Low",
           "score_reasons": [
-            "已发布，可观察真实在线",
-            "公开热度数据较少，需人工复核"
+            "已发布，可观察真实在线"
           ],
           "daily_rank": 5
         }
@@ -643,7 +641,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#1（SteamDB 周榜 11/03–11/10）",
           "heat": "连续跟踪项：SteamDB 全球周热销 #1，非今日新发布",
-          "current_players": 116892,
+          "current_players": 298125,
           "summary": "连续跟踪项，用作今日榜单热度基准；不是 11 月 13 日新发布。",
           "steam_url": "https://store.steampowered.com/app/578080/",
           "contact_url": "https://steamcommunity.com/app/578080",
@@ -659,7 +657,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "免费开玩",
           "price_is_free": true,
-          "price_updated_at": "2026-11-13 10:14 CST",
+          "price_updated_at": "2026-11-13 18:02 CST",
           "cover_local_path": "/assets/covers/2026-11-13/578080.jpg",
           "potential_score": 60,
           "watch_level": "Medium",
@@ -690,7 +688,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#4（SteamDB 周榜 11/03–11/10）",
           "heat": "连续跟踪项：SteamDB 全球周热销 #4，非今日新发布",
-          "current_players": 434894,
+          "current_players": 628112,
           "summary": "连续跟踪项，用作今日榜单热度基准；不是 11 月 13 日新发布。",
           "steam_url": "https://store.steampowered.com/app/730/",
           "contact_url": "https://steamcommunity.com/app/730",
@@ -706,7 +704,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "免费开玩",
           "price_is_free": true,
-          "price_updated_at": "2026-11-13 10:14 CST",
+          "price_updated_at": "2026-11-13 18:02 CST",
           "cover_local_path": "/assets/covers/2026-11-13/730.jpg",
           "potential_score": 62,
           "watch_level": "Medium",
@@ -737,7 +735,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#6（SteamDB 周榜 11/03–11/10）",
           "heat": "连续跟踪项：SteamDB 全球周热销 #6，非今日新发布",
-          "current_players": 366425,
+          "current_players": 480925,
           "summary": "连续跟踪项，用作今日榜单热度基准；不是 11 月 13 日新发布。",
           "steam_url": "https://store.steampowered.com/app/570/",
           "contact_url": "https://steamcommunity.com/app/570",
@@ -753,7 +751,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "免费开玩",
           "price_is_free": true,
-          "price_updated_at": "2026-11-13 10:14 CST",
+          "price_updated_at": "2026-11-13 18:02 CST",
           "cover_local_path": "/assets/covers/2026-11-13/570.jpg",
           "potential_score": 63,
           "watch_level": "Medium",
@@ -800,7 +798,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-13 10:14 CST",
+          "price_updated_at": "2026-11-13 18:02 CST",
           "cover_local_path": "/assets/covers/2026-11-13/3582400.jpg",
           "potential_score": 17,
           "watch_level": "Low",
@@ -827,7 +825,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#7（SteamDB 周榜 11/03–11/10）",
           "heat": "连续跟踪项：SteamDB 全球周热销 #7，11 月 10 日发布，非今日新发布",
-          "current_players": 130,
+          "current_players": 61,
           "summary": "连续跟踪项，11 月 10 日发售后仍在周热销前列；不是 11 月 13 日新发布。",
           "steam_url": "https://store.steampowered.com/app/39140/",
           "contact_url": "https://steamcommunity.com/app/39140",
@@ -843,9 +841,9 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-13 10:14 CST",
+          "price_updated_at": "2026-11-13 18:02 CST",
           "cover_local_path": "/assets/covers/2026-11-13/39140.jpg",
-          "potential_score": 30,
+          "potential_score": 29,
           "watch_level": "Low",
           "score_reasons": [
             "已发布，可观察真实在线"
@@ -1022,5 +1020,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-13 10:14 CST"
+  "generated_at": "2026-11-13 18:02 CST"
 }
