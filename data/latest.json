@@ -316,7 +316,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "SteamWatch 11/16 日历 / SteamDB Demo 公开面；未见可归因 followers 或愿望单排名。",
-          "current_players": 0,
+          "current_players": 1,
           "summary": "11 月 16 日 Demo 候选；与本体当日发售窗口联动；试玩已公开，归为持续跟踪而非当日首次出现。",
           "steam_url": "https://store.steampowered.com/app/4698510/",
           "contact_url": "https://steamcommunity.com/app/4698510",
@@ -326,7 +326,7 @@
             "已查 SteamDB App、Trending Followers 与 Wishlist 公开榜面；无可归因数据。"
           ],
           "cover_local_path": "",
-          "potential_score": 24,
+          "potential_score": 25,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -353,7 +353,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "SteamWatch 11/16 日历 / SteamDB Demo 公开面；未见可归因 followers 或愿望单排名。",
-          "current_players": 3,
+          "current_players": 0,
           "summary": "11 月 16 日 Demo 候选；与本体 11/16 发售窗口联动；试玩作为转化观察点。",
           "steam_url": "https://store.steampowered.com/app/4988980/",
           "contact_url": "https://steamcommunity.com/app/4988980",
@@ -363,7 +363,7 @@
             "已查 SteamDB App、Trending Followers 与 Wishlist 公开榜面；无可归因数据。"
           ],
           "cover_local_path": "",
-          "potential_score": 26,
+          "potential_score": 24,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -410,7 +410,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-16 05:11 CST",
+          "price_updated_at": "2026-11-16 18:01 CST",
           "cover_local_path": "",
           "potential_score": 22,
           "watch_level": "Low",
@@ -453,7 +453,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-16 05:11 CST",
+          "price_updated_at": "2026-11-16 18:01 CST",
           "cover_local_path": "",
           "potential_score": 22,
           "watch_level": "Low",
@@ -495,7 +495,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-16 05:12 CST",
+          "price_updated_at": "2026-11-16 18:01 CST",
           "cover_local_path": "",
           "potential_score": 19,
           "watch_level": "Low",
@@ -521,7 +521,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "SteamWatch 11/16 当日发布日历；SteamDB 本周发行窗口交叉核对。",
-          "current_players": "未公开",
+          "current_players": 1,
           "summary": "11 月 16 日新发布候选；SteamWatch 当日发布日历收录。",
           "steam_url": "https://store.steampowered.com/app/5287810/",
           "contact_url": "https://steamcommunity.com/app/5287810",
@@ -536,9 +536,9 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-16 05:12 CST",
+          "price_updated_at": "2026-11-16 18:01 CST",
           "cover_local_path": "",
-          "potential_score": 19,
+          "potential_score": 24,
           "watch_level": "Low",
           "score_reasons": [
             "已发布，可观察真实在线"
@@ -577,7 +577,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-16 05:12 CST",
+          "price_updated_at": "2026-11-16 18:01 CST",
           "cover_local_path": "",
           "potential_score": 19,
           "watch_level": "Low",
@@ -610,7 +610,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#1",
           "heat": "SteamDB 全球热销实时榜第 1；当前公开在线 21,039。",
-          "current_players": 26242,
+          "current_players": 7859,
           "summary": "连续跟踪项：仅作 11 月 16 日热销基准，并非当天新发布；SteamDB 实时榜。",
           "steam_url": "https://store.steampowered.com/app/2406770/",
           "contact_url": "https://steamcommunity.com/app/2406770",
@@ -619,10 +619,10 @@
             "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
           ],
           "cover_local_path": "",
-          "potential_score": 41,
+          "potential_score": 39,
           "watch_level": "Low",
           "score_reasons": [
-            "当前在线人数高",
+            "已有稳定在线",
             "多人/合作传播性好",
             "多日连续进入监测池",
             "生命周期阶段发生变化",
@@ -647,7 +647,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#2",
           "heat": "SteamDB 全球热销实时榜第 2；当前公开在线 561,263。",
-          "current_players": 866319,
+          "current_players": 606212,
           "summary": "连续跟踪项：仅作 11 月 16 日热销基准，并非当天新发布；SteamDB 实时榜。",
           "steam_url": "https://store.steampowered.com/app/730/",
           "contact_url": "https://steamcommunity.com/app/730",
@@ -720,7 +720,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#4",
           "heat": "SteamDB 全球热销实时榜第 4；当前公开在线 115,549。",
-          "current_players": 70392,
+          "current_players": 85139,
           "summary": "连续跟踪项：仅作 11 月 16 日热销基准，并非当天新发布；SteamDB 实时榜。",
           "steam_url": "https://store.steampowered.com/app/1172470/",
           "contact_url": "https://steamcommunity.com/app/1172470",
@@ -729,7 +729,7 @@
             "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
           ],
           "cover_local_path": "",
-          "potential_score": 43,
+          "potential_score": 44,
           "watch_level": "Low",
           "score_reasons": [
             "当前在线人数高",
@@ -756,7 +756,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "#5",
           "heat": "SteamDB 全球热销实时榜第 5；当前公开在线 29,800。",
-          "current_players": 70830,
+          "current_players": 36001,
           "summary": "连续跟踪项：仅作 11 月 16 日热销基准，并非当天新发布；SteamDB 实时榜。",
           "steam_url": "https://store.steampowered.com/app/227300/",
           "contact_url": "https://steamcommunity.com/app/227300",
@@ -765,7 +765,7 @@
             "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
           ],
           "cover_local_path": "",
-          "potential_score": 31,
+          "potential_score": 29,
           "watch_level": "Low",
           "score_reasons": [
             "当前在线人数高",
@@ -944,5 +944,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-16 05:12 CST"
+  "generated_at": "2026-11-16 18:02 CST"
 }
