@@ -420,7 +420,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-17 18:07 CST",
+          "price_updated_at": "2026-11-17 18:09 CST",
           "cover_local_path": "",
           "potential_score": 58,
           "watch_level": "Medium",
@@ -466,7 +466,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-17 18:07 CST",
+          "price_updated_at": "2026-11-17 18:09 CST",
           "cover_local_path": "",
           "potential_score": 36,
           "watch_level": "Low",
@@ -510,7 +510,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-17 18:07 CST",
+          "price_updated_at": "2026-11-17 18:09 CST",
           "cover_local_path": "",
           "potential_score": 33,
           "watch_level": "Low",
@@ -553,7 +553,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-17 18:07 CST",
+          "price_updated_at": "2026-11-17 18:09 CST",
           "cover_local_path": "",
           "potential_score": 36,
           "watch_level": "Low",
@@ -597,7 +597,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-17 18:07 CST",
+          "price_updated_at": "2026-11-17 18:09 CST",
           "cover_local_path": "",
           "potential_score": 38,
           "watch_level": "Low",
@@ -611,6 +611,177 @@
       ]
     }
   ],
-  "indie_highlights": [],
-  "generated_at": "2026-11-17 18:07 CST"
+  "indie_highlights": [
+    {
+      "appid": "3218350",
+      "name_zh": "Melvor Idle 2: A RuneScape Adventure",
+      "name_en": "Melvor Idle 2: A RuneScape Adventure",
+      "category": "Released",
+      "tags": [
+        "RPG",
+        "放置",
+        "独立"
+      ],
+      "developer": "Games by Malcs",
+      "publisher": "Jagex",
+      "release_date": "2026-11-17",
+      "followers": "14,348",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "SteamDB W47 当日发售，14,348 followers，首日峰值 2,811。",
+      "current_players": "未公开",
+      "summary": "11/17 Early Access 发售；前作受众和公开首日峰值构成可持续观察信号。",
+      "steam_url": "https://store.steampowered.com/app/3218350/",
+      "contact_url": "https://steamcommunity.com/app/3218350",
+      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/3218350/header.jpg",
+      "indie_score": 91,
+      "indie_reasons": [
+        "11/17 当日发售",
+        "高关注者基数",
+        "放置 RPG 题材明确"
+      ],
+      "source_signals": [
+        "SteamDB W47 Upcoming/Followers",
+        "SteamDB App 公开首日峰值"
+      ]
+    },
+    {
+      "appid": "2781660",
+      "name_zh": "Dawn of Defense",
+      "name_en": "Dawn of Defense",
+      "category": "Released",
+      "tags": [
+        "策略",
+        "塔防",
+        "独立"
+      ],
+      "developer": "6side Studio",
+      "publisher": "6side Studio",
+      "release_date": "2026-11-17",
+      "followers": "8,415",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "SteamDB W47 当日发售，8,415 followers。",
+      "current_players": "未公开",
+      "summary": "11/17 发售的策略候选，公开关注者体量可用于后续首日转化验证。",
+      "steam_url": "https://store.steampowered.com/app/2781660/",
+      "contact_url": "https://steamcommunity.com/app/2781660",
+      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/2781660/header.jpg",
+      "indie_score": 88,
+      "indie_reasons": [
+        "小团队自发行",
+        "11/17 当日发售",
+        "策略题材具备垂类传播性"
+      ],
+      "source_signals": [
+        "SteamDB W47 Upcoming/Followers",
+        "Steam 11/17 发售日历"
+      ]
+    },
+    {
+      "appid": "2561460",
+      "name_zh": "Burning Sword: Death Sun",
+      "name_en": "Burning Sword: Death Sun",
+      "category": "Released",
+      "tags": [
+        "动作",
+        "武侠",
+        "独立"
+      ],
+      "developer": "Nomadic Games",
+      "publisher": "Nomadic Games",
+      "release_date": "2026-11-17",
+      "followers": "6,036",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "SteamDB W47 当日发售，6,036 followers。",
+      "current_players": "未公开",
+      "summary": "11/17 动作发售窗口候选，题材辨识度与关注者信号并存。",
+      "steam_url": "https://store.steampowered.com/app/2561460/",
+      "contact_url": "https://steamcommunity.com/app/2561460",
+      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/2561460/header.jpg",
+      "indie_score": 85,
+      "indie_reasons": [
+        "小团队自发行",
+        "11/17 当日发售",
+        "动作题材具传播潜力"
+      ],
+      "source_signals": [
+        "SteamDB W47 Upcoming/Followers",
+        "Steam 11/17 发售日历"
+      ]
+    },
+    {
+      "appid": "4259360",
+      "name_zh": "Milki Delivery",
+      "name_en": "Milki Delivery",
+      "category": "Released",
+      "tags": [
+        "休闲",
+        "配送",
+        "独立"
+      ],
+      "developer": "Blibloop, Doot",
+      "publisher": "未公开",
+      "release_date": "2026-11-17",
+      "followers": "4,096",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "SteamDB W47 当日发售，4,096 followers。",
+      "current_players": "未公开",
+      "summary": "11/17 小团队发售候选，轻量化题材适合跟踪内容传播。",
+      "steam_url": "https://store.steampowered.com/app/4259360/",
+      "contact_url": "https://steamcommunity.com/app/4259360",
+      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4259360/header.jpg",
+      "indie_score": 81,
+      "indie_reasons": [
+        "独立团队信号",
+        "11/17 当日发售",
+        "题材可做短内容验证"
+      ],
+      "source_signals": [
+        "SteamDB W47 Upcoming/Followers",
+        "Steam 11/17 发售日历"
+      ]
+    },
+    {
+      "appid": "5336430",
+      "name_zh": "Dungeon Contractor Demo",
+      "name_en": "Dungeon Contractor Demo",
+      "category": "Demo",
+      "tags": [
+        "模拟",
+        "策略",
+        "试玩"
+      ],
+      "developer": "Perseverance Games",
+      "publisher": "Perseverance Games",
+      "release_date": "2026-11-17",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "SteamDB Recent app events 于 11/17 标注 New on store。",
+      "current_players": "未公开",
+      "summary": "11/17 新 Demo；地城维护经营玩法可迅速获得试玩反馈。",
+      "steam_url": "https://store.steampowered.com/app/5336430/",
+      "contact_url": "https://steamcommunity.com/app/5336430",
+      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5336430/header.jpg",
+      "indie_score": 76,
+      "indie_reasons": [
+        "小团队自发行",
+        "当日新 Demo",
+        "模拟经营玩法便于验证"
+      ],
+      "source_signals": [
+        "SteamDB Recent app events type=demo",
+        "SteamDB App、Trending Followers 与 Wishlist Activity 公共面未披露归因数据"
+      ]
+    }
+  ],
+  "generated_at": "2026-11-17 18:09 CST"
 }
