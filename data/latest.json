@@ -1,111 +1,114 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "title": "Steam 热门游戏推荐",
   "sections": [
     {
       "id": "new-store",
       "title": "新公布商店页面",
-      "description": "11/16 商店页与临近发售窗口候选（连续项已明确标注）",
+      "description": "11/17 当前高增长商店页；均为持续跟踪，未伪装成今日新公布。",
       "games": [
         {
-          "appid": "2483700",
-          "name_zh": "HARMA",
-          "name_en": "HARMA",
+          "appid": "4915700",
+          "name_zh": "Ebbtide",
+          "name_en": "Ebbtide",
           "category": "New Store",
           "tags": [
-            "卡牌构筑",
-            "Roguelike",
+            "僵尸",
+            "即时战术",
+            "策略",
             "独立"
           ],
-          "developer": "INDIRECT SHINE",
-          "publisher": "INDIRECT SHINE",
-          "release_date": "2026-11-16",
-          "followers": "2,045",
+          "developer": "ProjectAlive",
+          "publisher": "ProjectAlive",
+          "release_date": "Coming soon",
+          "followers": "29,800",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Upcoming：11/16 计划发售，2,045 followers。",
+          "heat": "SteamDB Trending Followers #12，7日 +4,509 followers。",
           "current_players": "未公开",
-          "summary": "11 月 16 日发售窗口候选；11/16 高增长关注者信号，需注意 Steam 社区公告显示 EA 已调整为 11/17，作为连续临近发售项跟踪。",
-          "steam_url": "https://store.steampowered.com/app/2483700/",
-          "contact_url": "https://steamcommunity.com/app/2483700",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/2483700/header.jpg",
+          "summary": "持续跟踪项：非 11/17 首次公布；今日仍位于 SteamDB 关注者增速榜，僵尸生存 RTS 商店页适合继续观察。",
+          "steam_url": "https://store.steampowered.com/app/4915700/",
+          "contact_url": "https://steamcommunity.com/app/4915700",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4915700/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
+            "SteamDB Trending Followers 11/17",
+            "SteamDB 公开 App 页：29,800 followers、Coming soon；愿望单排行未公开。"
           ],
           "cover_local_path": "",
-          "potential_score": 35,
+          "potential_score": 37,
           "watch_level": "Low",
           "score_reasons": [
+            "关注基数高",
             "新商店页处于愿望单积累期",
             "曾位于分类头部"
           ],
           "daily_rank": 1
         },
         {
-          "appid": "3607230",
-          "name_zh": "Ridiculous Space Battles",
-          "name_en": "Ridiculous Space Battles",
+          "appid": "4039200",
+          "name_zh": "Exterminauts",
+          "name_en": "Exterminauts",
           "category": "New Store",
           "tags": [
-            "自动战斗",
-            "策略",
+            "动作",
+            "合作",
             "独立"
           ],
-          "developer": "Positech Games",
-          "publisher": "Positech Games",
-          "release_date": "2026-11-16",
-          "followers": "1,226",
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "Coming soon",
+          "followers": "9,980",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Upcoming：11/16 计划发售，1,226 followers。",
+          "heat": "SteamDB Trending Followers #26，7日 +3,000 followers。",
           "current_players": "未公开",
-          "summary": "11 月 16 日发售窗口候选；经典太空自动战斗续作，当日计划发售且有公开试玩入口。",
-          "steam_url": "https://store.steampowered.com/app/3607230/",
-          "contact_url": "https://steamcommunity.com/app/3607230",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/3607230/header.jpg",
+          "summary": "持续跟踪项：非 11/17 首次公布；公开关注者增幅进入当日榜单，作为即将发售页的增速信号。",
+          "steam_url": "https://store.steampowered.com/app/4039200/",
+          "contact_url": "https://steamcommunity.com/app/4039200",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4039200/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
+            "SteamDB Trending Followers 11/17；公开愿望单与活动榜名次未披露。"
           ],
           "cover_local_path": "",
-          "potential_score": 37,
+          "potential_score": 41,
           "watch_level": "Low",
           "score_reasons": [
-            "低门槛试玩或轻量入口",
+            "多人/合作传播性好",
             "新商店页处于愿望单积累期",
             "曾位于分类头部"
           ],
           "daily_rank": 2
         },
         {
-          "appid": "4589000",
-          "name_zh": "Void Step",
-          "name_en": "Void Step",
+          "appid": "5469000",
+          "name_zh": "Grażyna Returns on Sunday",
+          "name_en": "Grażyna Returns on Sunday",
           "category": "New Store",
           "tags": [
-            "节奏",
-            "跑酷",
-            "独立"
+            "独立",
+            "冒险",
+            "叙事"
           ],
           "developer": "未公开",
           "publisher": "未公开",
-          "release_date": "2026-11-16",
-          "followers": "450",
+          "release_date": "Coming soon",
+          "followers": "3,284",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Upcoming：11/16 计划发售，450 followers。",
+          "heat": "SteamDB Trending Followers #29，7日 +2,742 followers。",
           "current_players": "未公开",
-          "summary": "11 月 16 日发售窗口候选；关注者七日增长显著；正式版发售日为 11/16。",
-          "steam_url": "https://store.steampowered.com/app/4589000/",
-          "contact_url": "https://steamcommunity.com/app/4589000",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4589000/header.jpg",
+          "summary": "持续跟踪项：非 11/17 首次公布；当日关注者增速显著，纳入商店页高增长观察。",
+          "steam_url": "https://store.steampowered.com/app/5469000/",
+          "contact_url": "https://steamcommunity.com/app/5469000",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5469000/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
+            "SteamDB Trending Followers 11/17；公开愿望单与活动榜名次未披露。"
           ],
           "cover_local_path": "",
-          "potential_score": 30,
+          "potential_score": 34,
           "watch_level": "Low",
           "score_reasons": [
             "新商店页处于愿望单积累期"
@@ -113,67 +116,69 @@
           "daily_rank": 3
         },
         {
-          "appid": "4957380",
-          "name_zh": "Demockracy",
-          "name_en": "Demockracy",
+          "appid": "5072600",
+          "name_zh": "Family Time",
+          "name_en": "Family Time",
           "category": "New Store",
           "tags": [
-            "策略",
+            "独立",
             "模拟",
-            "独立"
+            "多人"
           ],
-          "developer": "SKLC Games",
-          "publisher": "SKLC Games",
-          "release_date": "2026-11-16",
-          "followers": "357",
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "2027-Q1",
+          "followers": "54,516",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Upcoming：11/16 计划发售，357 followers。",
+          "heat": "SteamDB Trending Followers #30，7日 +2,611 followers。",
           "current_players": "未公开",
-          "summary": "11 月 16 日发售窗口候选；政治模拟有可试玩版本，Steam 页显示 11/16 发售窗口。",
-          "steam_url": "https://store.steampowered.com/app/4957380/",
-          "contact_url": "https://steamcommunity.com/app/4957380",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4957380/header.jpg",
+          "summary": "持续跟踪项：非 11/17 首次公布；大体量关注者基数仍有当日增长，观察后续商店页转化。",
+          "steam_url": "https://store.steampowered.com/app/5072600/",
+          "contact_url": "https://steamcommunity.com/app/5072600",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5072600/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
+            "SteamDB Trending Followers 11/17；公开愿望单与活动榜名次未披露。"
           ],
           "cover_local_path": "",
-          "potential_score": 33,
+          "potential_score": 38,
           "watch_level": "Low",
           "score_reasons": [
-            "低门槛试玩或轻量入口",
+            "关注基数高",
+            "多人/合作传播性好",
             "新商店页处于愿望单积累期"
           ],
           "daily_rank": 4
         },
         {
-          "appid": "5299660",
-          "name_zh": "Arks of Twilight",
-          "name_en": "Arks of Twilight",
+          "appid": "5534190",
+          "name_zh": "Aveltuner",
+          "name_en": "Aveltuner",
           "category": "New Store",
           "tags": [
-            "策略",
-            "独立"
+            "独立",
+            "动作",
+            "节奏"
           ],
           "developer": "未公开",
           "publisher": "未公开",
-          "release_date": "2026-11-16",
-          "followers": "未公开",
+          "release_date": "TBA",
+          "followers": "1,784",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Upcoming：11/16 计划发售，未公开 followers。",
+          "heat": "SteamDB Trending Followers #51，7日 +1,782 followers。",
           "current_players": "未公开",
-          "summary": "11 月 16 日发售窗口候选；SteamWatch 11/16 日历中的当日商店页候选；公开排名尚未披露。",
-          "steam_url": "https://store.steampowered.com/app/5299660/",
-          "contact_url": "https://steamcommunity.com/app/5299660",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5299660/header.jpg",
+          "summary": "持续跟踪项：非 11/17 首次公布；关注者周增长接近总量，属于值得核验的短期商店页动量。",
+          "steam_url": "https://store.steampowered.com/app/5534190/",
+          "contact_url": "https://steamcommunity.com/app/5534190",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5534190/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
+            "SteamDB Trending Followers 11/17；公开愿望单与活动榜名次未披露。"
           ],
           "cover_local_path": "",
-          "potential_score": 22,
+          "potential_score": 35,
           "watch_level": "Low",
           "score_reasons": [
             "新商店页处于愿望单积累期"
@@ -185,34 +190,34 @@
     {
       "id": "new-demo",
       "title": "新上线 Demo",
-      "description": "11/16 SteamWatch/SteamDB 公开面 Demo 候选",
+      "description": "Steam 官方 Demo 搜索与 SteamDB 公共 App/事件页交叉核对的 11/17 Demo。",
       "games": [
         {
-          "appid": "5556290",
-          "name_zh": "204Snake Demo",
-          "name_en": "204Snake Demo",
+          "appid": "5628450",
+          "name_zh": "Ballpeak Demo",
+          "name_en": "Ballpeak Demo",
           "category": "Demo",
           "tags": [
-            "益智",
+            "休闲",
             "独立",
             "试玩"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-16",
+          "developer": "RawiGames",
+          "publisher": "RawiGames",
+          "release_date": "2026-11-17",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/16 日历 / SteamDB Demo 公开面；未见可归因 followers 或愿望单排名。",
+          "heat": "SteamDB Demo 页显示 11/17 08:53 UTC 上线。",
           "current_players": "未公开",
-          "summary": "11 月 16 日 Demo 候选；SteamWatch 11/16 当日 Demo 日历收录，适合观察短局留存。",
-          "steam_url": "https://store.steampowered.com/app/5556290/",
-          "contact_url": "https://steamcommunity.com/app/5556290",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5556290/header.jpg",
+          "summary": "11/17 新上线 Demo；SteamDB 公开页确认发行时点与独立品类，等待首批试玩反馈。",
+          "steam_url": "https://store.steampowered.com/app/5628450/",
+          "contact_url": "https://steamcommunity.com/app/5628450",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5628450/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。",
-            "已查 SteamDB App、Trending Followers 与 Wishlist 公开榜面；无可归因数据。"
+            "Steam 官方 Demo 搜索 11/17",
+            "已查 SteamDB App、Trending Followers、Wishlist Activity 公共面：无可归因 followers/愿望单数据。"
           ],
           "cover_local_path": "",
           "potential_score": 27,
@@ -225,36 +230,37 @@
           "daily_rank": 1
         },
         {
-          "appid": "5322940",
-          "name_zh": "Asteroid Lanes Demo",
-          "name_en": "Asteroid Lanes Demo",
+          "appid": "5631060",
+          "name_zh": "Seat of Power Demo",
+          "name_en": "Seat of Power Demo",
           "category": "Demo",
           "tags": [
-            "太空",
             "策略",
+            "多人",
             "试玩"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-16",
+          "developer": "Boomer Studios",
+          "publisher": "Boomer Studios",
+          "release_date": "2026-11-17",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/16 日历 / SteamDB Demo 公开面；未见可归因 followers 或愿望单排名。",
+          "heat": "SteamDB Demo 页显示 11/17 09:00 UTC 上线。",
           "current_players": "未公开",
-          "summary": "11 月 16 日 Demo 候选；SteamWatch 11/16 当日 Demo 日历收录。",
-          "steam_url": "https://store.steampowered.com/app/5322940/",
-          "contact_url": "https://steamcommunity.com/app/5322940",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5322940/header.jpg",
+          "summary": "11/17 新上线 Demo；支持 PvP/合作，适合优先验证多人局的首批留存。",
+          "steam_url": "https://store.steampowered.com/app/5631060/",
+          "contact_url": "https://steamcommunity.com/app/5631060",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5631060/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。",
-            "已查 SteamDB App、Trending Followers 与 Wishlist 公开榜面；无可归因数据。"
+            "Steam 官方 Demo 搜索 11/17",
+            "已查 SteamDB App、Trending Followers、Wishlist Activity 公共面：无可归因 followers/愿望单数据。"
           ],
           "cover_local_path": "",
-          "potential_score": 27,
+          "potential_score": 30,
           "watch_level": "Low",
           "score_reasons": [
+            "多人/合作传播性好",
             "低门槛试玩或轻量入口",
             "Demo 可验证试玩转化",
             "曾位于分类头部"
@@ -262,68 +268,69 @@
           "daily_rank": 2
         },
         {
-          "appid": "5529810",
-          "name_zh": "Astral Trace Demo",
-          "name_en": "Astral Trace Demo",
+          "appid": "5336430",
+          "name_zh": "Dungeon Contractor Demo",
+          "name_en": "Dungeon Contractor Demo",
           "category": "Demo",
           "tags": [
-            "动作",
-            "独立",
+            "模拟",
+            "策略",
             "试玩"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-16",
+          "developer": "Perseverance Games",
+          "publisher": "Perseverance Games",
+          "release_date": "2026-11-17",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/16 日历 / SteamDB Demo 公开面；未见可归因 followers 或愿望单排名。",
+          "heat": "SteamDB Recent app events 标注 New on store；发行时点为 11/17 15:00 UTC。",
           "current_players": "未公开",
-          "summary": "11 月 16 日 Demo 候选；SteamWatch 11/16 当日 Demo 日历收录。",
-          "steam_url": "https://store.steampowered.com/app/5529810/",
-          "contact_url": "https://steamcommunity.com/app/5529810",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5529810/header.jpg",
+          "summary": "11/17 新上线 Demo；地城维护经营循环清晰，可从首批主播/玩家反馈判断题材切口。",
+          "steam_url": "https://store.steampowered.com/app/5336430/",
+          "contact_url": "https://steamcommunity.com/app/5336430",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5336430/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。",
-            "已查 SteamDB App、Trending Followers 与 Wishlist 公开榜面；无可归因数据。"
+            "SteamDB Recent app events type=demo",
+            "已查 SteamDB App、Trending Followers、Wishlist Activity 公共面：无可归因 followers/愿望单数据。"
           ],
           "cover_local_path": "",
-          "potential_score": 24,
+          "potential_score": 28,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
+            "题材有内容传播点",
             "Demo 可验证试玩转化"
           ],
           "daily_rank": 3
         },
         {
-          "appid": "4698510",
-          "name_zh": "Void Step Demo",
-          "name_en": "Void Step Demo",
+          "appid": "5485300",
+          "name_zh": "Roads Taken Demo",
+          "name_en": "Roads Taken Demo",
           "category": "Demo",
           "tags": [
-            "节奏",
-            "跑酷",
+            "RPG",
+            "策略",
             "独立",
             "试玩"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-16",
+          "developer": "PetRem Labs",
+          "publisher": "PetRem Labs",
+          "release_date": "2026-11-17",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/16 日历 / SteamDB Demo 公开面；未见可归因 followers 或愿望单排名。",
+          "heat": "SteamDB Demo 包记录于 11/17 更新，公开页显示 11/17 16:00 UTC 上线。",
           "current_players": 1,
-          "summary": "11 月 16 日 Demo 候选；与本体当日发售窗口联动；试玩已公开，归为持续跟踪而非当日首次出现。",
-          "steam_url": "https://store.steampowered.com/app/4698510/",
-          "contact_url": "https://steamcommunity.com/app/4698510",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4698510/header.jpg",
+          "summary": "11/17 新上线 Demo；含简体中文与 Steam Cloud，先跟踪愿望单转化的公开迹象。",
+          "steam_url": "https://store.steampowered.com/app/5485300/",
+          "contact_url": "https://steamcommunity.com/app/5485300",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5485300/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。",
-            "已查 SteamDB App、Trending Followers 与 Wishlist 公开榜面；无可归因数据。"
+            "Steam 官方 Demo 搜索 11/17；SteamDB Demo package",
+            "已查 SteamDB App、Trending Followers、Wishlist Activity 公共面：无可归因 followers/愿望单数据。"
           ],
           "cover_local_path": "",
           "potential_score": 25,
@@ -335,32 +342,32 @@
           "daily_rank": 4
         },
         {
-          "appid": "4988980",
-          "name_zh": "Demockracy Demo",
-          "name_en": "Demockracy Demo",
+          "appid": "5557200",
+          "name_zh": "Moorlet Demo",
+          "name_en": "Moorlet Demo",
           "category": "Demo",
           "tags": [
-            "策略",
             "模拟",
+            "策略",
             "独立",
             "试玩"
           ],
-          "developer": "SKLC Games",
-          "publisher": "SKLC Games",
-          "release_date": "2026-11-16",
+          "developer": "Balint Varga",
+          "publisher": "Balint Varga",
+          "release_date": "2026-11-17",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/16 日历 / SteamDB Demo 公开面；未见可归因 followers 或愿望单排名。",
+          "heat": "SteamDB Demo 包记录于 11/17 更新，公开页显示 11/17 17:00 UTC 上线。",
           "current_players": 0,
-          "summary": "11 月 16 日 Demo 候选；与本体 11/16 发售窗口联动；试玩作为转化观察点。",
-          "steam_url": "https://store.steampowered.com/app/4988980/",
-          "contact_url": "https://steamcommunity.com/app/4988980",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4988980/header.jpg",
+          "summary": "11/17 新上线 Demo；独立模拟/策略方向，首日不以未公开指标臆测热度。",
+          "steam_url": "https://store.steampowered.com/app/5557200/",
+          "contact_url": "https://steamcommunity.com/app/5557200",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5557200/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。",
-            "已查 SteamDB App、Trending Followers 与 Wishlist 公开榜面；无可归因数据。"
+            "Steam 官方 Demo 搜索 11/17；SteamDB Demo package",
+            "已查 SteamDB App、Trending Followers、Wishlist Activity 公共面：无可归因 followers/愿望单数据。"
           ],
           "cover_local_path": "",
           "potential_score": 24,
@@ -374,119 +381,37 @@
       ]
     },
     {
-      "id": "new-release",
+      "id": "released",
       "title": "新发布游戏",
-      "description": "11/16 当日发布日历候选",
+      "description": "SteamDB W47 发售页与 Steam 发售日历核对的 11/17 发售窗口。",
       "games": [
         {
-          "appid": "3916430",
-          "name_zh": "771: Smile and work",
-          "name_en": "771: Smile and work",
+          "appid": "3218350",
+          "name_zh": "Melvor Idle 2: A RuneScape Adventure",
+          "name_en": "Melvor Idle 2: A RuneScape Adventure",
           "category": "Released",
           "tags": [
-            "独立",
-            "叙事"
-          ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-16",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/16 当日发布日历；SteamDB 本周发行窗口交叉核对。",
-          "current_players": "未公开",
-          "summary": "11 月 16 日新发布候选；SteamWatch 当日发布日历收录。",
-          "steam_url": "https://store.steampowered.com/app/3916430/",
-          "contact_url": "https://steamcommunity.com/app/3916430",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/3916430/header.jpg",
-          "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
-          ],
-          "price_currency": "CNY",
-          "price_initial": null,
-          "price_final": null,
-          "price_discount_percent": null,
-          "price_initial_formatted": "",
-          "price_final_formatted": "",
-          "price_is_free": false,
-          "price_updated_at": "2026-11-16 18:01 CST",
-          "cover_local_path": "",
-          "potential_score": 22,
-          "watch_level": "Low",
-          "score_reasons": [
-            "已发布，可观察真实在线",
-            "曾位于分类头部"
-          ],
-          "daily_rank": 1
-        },
-        {
-          "appid": "4310360",
-          "name_zh": "A Baker's Dungeon",
-          "name_en": "A Baker's Dungeon",
-          "category": "Released",
-          "tags": [
-            "Roguelike",
-            "独立",
-            "地牢"
-          ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-16",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/16 当日发布日历；SteamDB 本周发行窗口交叉核对。",
-          "current_players": "未公开",
-          "summary": "11 月 16 日新发布候选；SteamWatch 当日发布日历收录。",
-          "steam_url": "https://store.steampowered.com/app/4310360/",
-          "contact_url": "https://steamcommunity.com/app/4310360",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4310360/header.jpg",
-          "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
-          ],
-          "price_currency": "CNY",
-          "price_initial": null,
-          "price_final": null,
-          "price_discount_percent": null,
-          "price_initial_formatted": "",
-          "price_final_formatted": "",
-          "price_is_free": false,
-          "price_updated_at": "2026-11-16 18:01 CST",
-          "cover_local_path": "",
-          "potential_score": 22,
-          "watch_level": "Low",
-          "score_reasons": [
-            "已发布，可观察真实在线",
-            "曾位于分类头部"
-          ],
-          "daily_rank": 2
-        },
-        {
-          "appid": "5022940",
-          "name_zh": "Accursed",
-          "name_en": "Accursed",
-          "category": "Released",
-          "tags": [
-            "恐怖",
+            "RPG",
+            "放置",
+            "冒险",
             "独立"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-16",
-          "followers": "未公开",
+          "developer": "Games by Malcs",
+          "publisher": "Jagex",
+          "release_date": "2026-11-17",
+          "followers": "14,348",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/16 当日发布日历；SteamDB 本周发行窗口交叉核对。",
-          "current_players": "未公开",
-          "summary": "11 月 16 日新发布候选；SteamDB Upcoming 11/16 窗口且显示 306 followers、7 日 +69。",
-          "steam_url": "https://store.steampowered.com/app/5022940/",
-          "contact_url": "https://steamcommunity.com/app/5022940",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5022940/header.jpg",
+          "heat": "SteamDB W47 发售榜 followers #1（14,348）；SteamDB 记录全时期峰值 2,811。",
+          "current_players": 5496,
+          "summary": "11/17 正式进入 Early Access；成熟前作受众与首日峰值共同构成当天最强独立发售窗口之一。",
+          "steam_url": "https://store.steampowered.com/app/3218350/",
+          "contact_url": "https://steamcommunity.com/app/3218350",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/3218350/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
+            "SteamDB App：11/17 09:01 UTC 发行、峰值 2,811",
+            "SteamDB W47 Upcoming/Followers；愿望单公开排名未披露。"
           ],
           "price_currency": "CNY",
           "price_initial": null,
@@ -495,454 +420,197 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-16 18:01 CST",
+          "price_updated_at": "2026-11-17 18:07 CST",
           "cover_local_path": "",
-          "potential_score": 19,
-          "watch_level": "Low",
-          "score_reasons": [
-            "已发布，可观察真实在线"
-          ],
-          "daily_rank": 3
-        },
-        {
-          "appid": "5287810",
-          "name_zh": "Advancing Legion",
-          "name_en": "Advancing Legion",
-          "category": "Released",
-          "tags": [
-            "策略",
-            "独立"
-          ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-16",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/16 当日发布日历；SteamDB 本周发行窗口交叉核对。",
-          "current_players": 1,
-          "summary": "11 月 16 日新发布候选；SteamWatch 当日发布日历收录。",
-          "steam_url": "https://store.steampowered.com/app/5287810/",
-          "contact_url": "https://steamcommunity.com/app/5287810",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5287810/header.jpg",
-          "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
-          ],
-          "price_currency": "CNY",
-          "price_initial": null,
-          "price_final": null,
-          "price_discount_percent": null,
-          "price_initial_formatted": "",
-          "price_final_formatted": "",
-          "price_is_free": false,
-          "price_updated_at": "2026-11-16 18:01 CST",
-          "cover_local_path": "",
-          "potential_score": 24,
-          "watch_level": "Low",
-          "score_reasons": [
-            "已发布，可观察真实在线"
-          ],
-          "daily_rank": 4
-        },
-        {
-          "appid": "5113830",
-          "name_zh": "Alchemaidens",
-          "name_en": "Alchemaidens",
-          "category": "Released",
-          "tags": [
-            "角色扮演",
-            "独立"
-          ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-16",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/16 当日发布日历；SteamDB 本周发行窗口交叉核对。",
-          "current_players": "未公开",
-          "summary": "11 月 16 日新发布候选；SteamWatch 当日发布日历收录。",
-          "steam_url": "https://store.steampowered.com/app/5113830/",
-          "contact_url": "https://steamcommunity.com/app/5113830",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5113830/header.jpg",
-          "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
-          ],
-          "price_currency": "CNY",
-          "price_initial": null,
-          "price_final": null,
-          "price_discount_percent": null,
-          "price_initial_formatted": "",
-          "price_final_formatted": "",
-          "price_is_free": false,
-          "price_updated_at": "2026-11-16 18:01 CST",
-          "cover_local_path": "",
-          "potential_score": 19,
-          "watch_level": "Low",
-          "score_reasons": [
-            "已发布，可观察真实在线"
-          ],
-          "daily_rank": 5
-        }
-      ]
-    },
-    {
-      "id": "heat-ranking",
-      "title": "Steam 热度榜",
-      "description": "SteamDB 全球实时热销基准（均为连续跟踪项）",
-      "games": [
-        {
-          "appid": "2406770",
-          "name_zh": "Bodycam",
-          "name_en": "Bodycam",
-          "category": "Heat Ranking",
-          "tags": [
-            "热门",
-            "多人"
-          ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "连续跟踪",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#1",
-          "heat": "SteamDB 全球热销实时榜第 1；当前公开在线 21,039。",
-          "current_players": 7859,
-          "summary": "连续跟踪项：仅作 11 月 16 日热销基准，并非当天新发布；SteamDB 实时榜。",
-          "steam_url": "https://store.steampowered.com/app/2406770/",
-          "contact_url": "https://steamcommunity.com/app/2406770",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/2406770/header.jpg",
-          "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
-          ],
-          "cover_local_path": "",
-          "potential_score": 39,
-          "watch_level": "Low",
-          "score_reasons": [
-            "已有稳定在线",
-            "多人/合作传播性好",
-            "多日连续进入监测池",
-            "生命周期阶段发生变化",
-            "曾位于分类头部"
-          ],
-          "daily_rank": 1
-        },
-        {
-          "appid": "730",
-          "name_zh": "Counter-Strike 2",
-          "name_en": "Counter-Strike 2",
-          "category": "Heat Ranking",
-          "tags": [
-            "热门",
-            "多人"
-          ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "连续跟踪",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#2",
-          "heat": "SteamDB 全球热销实时榜第 2；当前公开在线 561,263。",
-          "current_players": 606212,
-          "summary": "连续跟踪项：仅作 11 月 16 日热销基准，并非当天新发布；SteamDB 实时榜。",
-          "steam_url": "https://store.steampowered.com/app/730/",
-          "contact_url": "https://steamcommunity.com/app/730",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
-          "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
-          ],
-          "cover_local_path": "",
-          "potential_score": 45,
+          "potential_score": 58,
           "watch_level": "Medium",
           "score_reasons": [
-            "当前在线人数高",
-            "多人/合作传播性好",
-            "多日连续进入监测池",
-            "生命周期阶段发生变化",
+            "已有稳定在线",
+            "低门槛试玩或轻量入口",
+            "已发布，可观察真实在线",
+            "曾位于分类头部"
+          ],
+          "daily_rank": 1
+        },
+        {
+          "appid": "2781660",
+          "name_zh": "Dawn of Defense",
+          "name_en": "Dawn of Defense",
+          "category": "Released",
+          "tags": [
+            "策略",
+            "塔防",
+            "独立"
+          ],
+          "developer": "6side Studio",
+          "publisher": "6side Studio",
+          "release_date": "2026-11-17",
+          "followers": "8,415",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "SteamDB W47 当日发售、8,415 followers。",
+          "current_players": "未公开",
+          "summary": "11/17 发售窗口；高关注者基数的策略项目，适合观察首日评价与同步在线是否兑现。",
+          "steam_url": "https://store.steampowered.com/app/2781660/",
+          "contact_url": "https://steamcommunity.com/app/2781660",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/2781660/header.jpg",
+          "source_signals": [
+            "SteamDB W47 Upcoming/Followers",
+            "Steam 11/17 发售日历；愿望单公开排名未披露。"
+          ],
+          "price_currency": "CNY",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
+          "price_is_free": false,
+          "price_updated_at": "2026-11-17 18:07 CST",
+          "cover_local_path": "",
+          "potential_score": 36,
+          "watch_level": "Low",
+          "score_reasons": [
+            "已发布，可观察真实在线",
             "曾位于分类头部"
           ],
           "daily_rank": 2
         },
         {
-          "appid": "4435490",
-          "name_zh": "Call of Duty®: Modern Warfare® 4 DLC",
-          "name_en": "Call of Duty®: Modern Warfare® 4 DLC",
-          "category": "Heat Ranking",
+          "appid": "2561460",
+          "name_zh": "Burning Sword: Death Sun",
+          "name_en": "Burning Sword: Death Sun",
+          "category": "Released",
           "tags": [
-            "热门",
-            "多人"
+            "动作",
+            "武侠",
+            "独立"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "连续跟踪",
-          "followers": "未公开",
+          "developer": "Nomadic Games",
+          "publisher": "Nomadic Games",
+          "release_date": "2026-11-17",
+          "followers": "6,036",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#3",
-          "heat": "SteamDB 全球热销实时榜第 3；当前公开在线 未公开。",
-          "current_players": 0,
-          "summary": "连续跟踪项：仅作 11 月 16 日热销基准，并非当天新发布；SteamDB 实时榜；DLC 未披露独立在线。",
-          "steam_url": "https://store.steampowered.com/app/4435490/",
-          "contact_url": "https://steamcommunity.com/app/4435490",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4435490/header.jpg",
+          "top_sellers_rank": "未公开",
+          "heat": "SteamDB W47 当日发售、6,036 followers。",
+          "current_players": "未公开",
+          "summary": "11/17 发售窗口；动作题材拥有可观公开关注者，需以首日评价和在线验证实际破圈力。",
+          "steam_url": "https://store.steampowered.com/app/2561460/",
+          "contact_url": "https://steamcommunity.com/app/2561460",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/2561460/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
+            "SteamDB W47 Upcoming/Followers",
+            "Steam 11/17 发售日历；愿望单公开排名未披露。"
           ],
+          "price_currency": "CNY",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
+          "price_is_free": false,
+          "price_updated_at": "2026-11-17 18:07 CST",
           "cover_local_path": "",
-          "potential_score": 25,
+          "potential_score": 33,
           "watch_level": "Low",
           "score_reasons": [
-            "多人/合作传播性好",
-            "多日连续进入监测池",
-            "生命周期阶段发生变化",
-            "曾位于分类头部"
+            "已发布，可观察真实在线"
           ],
           "daily_rank": 3
         },
         {
-          "appid": "1172470",
-          "name_zh": "Apex Legends™",
-          "name_en": "Apex Legends™",
-          "category": "Heat Ranking",
+          "appid": "4259360",
+          "name_zh": "Milki Delivery",
+          "name_en": "Milki Delivery",
+          "category": "Released",
           "tags": [
-            "热门",
-            "多人"
+            "休闲",
+            "配送",
+            "独立"
           ],
-          "developer": "未公开",
+          "developer": "Blibloop, Doot",
           "publisher": "未公开",
-          "release_date": "连续跟踪",
-          "followers": "未公开",
+          "release_date": "2026-11-17",
+          "followers": "4,096",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#4",
-          "heat": "SteamDB 全球热销实时榜第 4；当前公开在线 115,549。",
-          "current_players": 85139,
-          "summary": "连续跟踪项：仅作 11 月 16 日热销基准，并非当天新发布；SteamDB 实时榜。",
-          "steam_url": "https://store.steampowered.com/app/1172470/",
-          "contact_url": "https://steamcommunity.com/app/1172470",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/1172470/header.jpg",
+          "top_sellers_rank": "未公开",
+          "heat": "SteamDB W47 当日发售、4,096 followers。",
+          "current_players": "未公开",
+          "summary": "11/17 发售窗口；小团队题材辨识度强，适合观察首批内容创作者的传播反馈。",
+          "steam_url": "https://store.steampowered.com/app/4259360/",
+          "contact_url": "https://steamcommunity.com/app/4259360",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4259360/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
+            "SteamDB W47 Upcoming/Followers",
+            "Steam 11/17 发售日历；愿望单公开排名未披露。"
           ],
+          "price_currency": "CNY",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
+          "price_is_free": false,
+          "price_updated_at": "2026-11-17 18:07 CST",
           "cover_local_path": "",
-          "potential_score": 44,
+          "potential_score": 36,
           "watch_level": "Low",
           "score_reasons": [
-            "当前在线人数高",
-            "多人/合作传播性好",
-            "多日连续进入监测池",
-            "曾位于分类头部"
+            "低门槛试玩或轻量入口",
+            "已发布，可观察真实在线"
           ],
           "daily_rank": 4
         },
         {
-          "appid": "227300",
-          "name_zh": "Euro Truck Simulator 2",
-          "name_en": "Euro Truck Simulator 2",
-          "category": "Heat Ranking",
+          "appid": "4815320",
+          "name_zh": "Gold Miner: Party Rush",
+          "name_en": "Gold Miner: Party Rush",
+          "category": "Released",
           "tags": [
-            "热门",
-            "多人"
+            "派对",
+            "休闲",
+            "独立"
           ],
           "developer": "未公开",
           "publisher": "未公开",
-          "release_date": "连续跟踪",
-          "followers": "未公开",
+          "release_date": "2026-11-17",
+          "followers": "2,434",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "#5",
-          "heat": "SteamDB 全球热销实时榜第 5；当前公开在线 29,800。",
-          "current_players": 36001,
-          "summary": "连续跟踪项：仅作 11 月 16 日热销基准，并非当天新发布；SteamDB 实时榜。",
-          "steam_url": "https://store.steampowered.com/app/227300/",
-          "contact_url": "https://steamcommunity.com/app/227300",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/227300/header.jpg",
+          "top_sellers_rank": "未公开",
+          "heat": "SteamDB W47 当日发售、2,434 followers。",
+          "current_players": "未公开",
+          "summary": "11/17 发售窗口；派对向题材具备直播切片潜力，首周需重点看多人在线曲线。",
+          "steam_url": "https://store.steampowered.com/app/4815320/",
+          "contact_url": "https://steamcommunity.com/app/4815320",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4815320/header.jpg",
           "source_signals": [
-            "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
+            "SteamDB W47 Upcoming/Followers",
+            "Steam 11/17 发售日历；愿望单公开排名未披露。"
           ],
+          "price_currency": "CNY",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
+          "price_is_free": false,
+          "price_updated_at": "2026-11-17 18:07 CST",
           "cover_local_path": "",
-          "potential_score": 29,
+          "potential_score": 38,
           "watch_level": "Low",
           "score_reasons": [
-            "当前在线人数高",
-            "多人/合作传播性好"
+            "多人/合作传播性好",
+            "低门槛试玩或轻量入口",
+            "已发布，可观察真实在线"
           ],
           "daily_rank": 5
         }
       ]
     }
   ],
-  "indie_highlights": [
-    {
-      "appid": "2483700",
-      "name_zh": "HARMA",
-      "name_en": "HARMA",
-      "category": "New Store",
-      "tags": [
-        "卡牌构筑",
-        "Roguelike",
-        "独立"
-      ],
-      "developer": "INDIRECT SHINE",
-      "publisher": "INDIRECT SHINE",
-      "release_date": "2026-11-16",
-      "followers": "2,045",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "SteamDB Upcoming：11/16 计划发售，2,045 followers。",
-      "current_players": "未公开",
-      "summary": "11 月 16 日发售窗口候选；11/16 高增长关注者信号，需注意 Steam 社区公告显示 EA 已调整为 11/17，作为连续临近发售项跟踪。",
-      "steam_url": "https://store.steampowered.com/app/2483700/",
-      "contact_url": "https://steamcommunity.com/app/2483700",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/2483700/header.jpg",
-      "source_signals": [
-        "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
-      ],
-      "indie_score": 92,
-      "indie_reasons": [
-        "独立团队/独立品类信号",
-        "11 月 16 日独立候选池",
-        "公开 followers 或增长信号可跟踪"
-      ]
-    },
-    {
-      "appid": "3607230",
-      "name_zh": "Ridiculous Space Battles",
-      "name_en": "Ridiculous Space Battles",
-      "category": "New Store",
-      "tags": [
-        "自动战斗",
-        "策略",
-        "独立"
-      ],
-      "developer": "Positech Games",
-      "publisher": "Positech Games",
-      "release_date": "2026-11-16",
-      "followers": "1,226",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "SteamDB Upcoming：11/16 计划发售，1,226 followers。",
-      "current_players": "未公开",
-      "summary": "11 月 16 日发售窗口候选；经典太空自动战斗续作，当日计划发售且有公开试玩入口。",
-      "steam_url": "https://store.steampowered.com/app/3607230/",
-      "contact_url": "https://steamcommunity.com/app/3607230",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/3607230/header.jpg",
-      "source_signals": [
-        "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
-      ],
-      "indie_score": 89,
-      "indie_reasons": [
-        "独立团队/独立品类信号",
-        "11 月 16 日独立候选池",
-        "公开 followers 或增长信号可跟踪"
-      ]
-    },
-    {
-      "appid": "4589000",
-      "name_zh": "Void Step",
-      "name_en": "Void Step",
-      "category": "New Store",
-      "tags": [
-        "节奏",
-        "跑酷",
-        "独立"
-      ],
-      "developer": "未公开",
-      "publisher": "未公开",
-      "release_date": "2026-11-16",
-      "followers": "450",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "SteamDB Upcoming：11/16 计划发售，450 followers。",
-      "current_players": "未公开",
-      "summary": "11 月 16 日发售窗口候选；关注者七日增长显著；正式版发售日为 11/16。",
-      "steam_url": "https://store.steampowered.com/app/4589000/",
-      "contact_url": "https://steamcommunity.com/app/4589000",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4589000/header.jpg",
-      "source_signals": [
-        "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
-      ],
-      "indie_score": 86,
-      "indie_reasons": [
-        "独立团队/独立品类信号",
-        "11 月 16 日独立候选池",
-        "公开 followers 或增长信号可跟踪"
-      ]
-    },
-    {
-      "appid": "5556290",
-      "name_zh": "204Snake Demo",
-      "name_en": "204Snake Demo",
-      "category": "Demo",
-      "tags": [
-        "益智",
-        "独立",
-        "试玩"
-      ],
-      "developer": "未公开",
-      "publisher": "未公开",
-      "release_date": "2026-11-16",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "SteamWatch 11/16 日历 / SteamDB Demo 公开面；未见可归因 followers 或愿望单排名。",
-      "current_players": "未公开",
-      "summary": "11 月 16 日 Demo 候选；SteamWatch 11/16 当日 Demo 日历收录，适合观察短局留存。",
-      "steam_url": "https://store.steampowered.com/app/5556290/",
-      "contact_url": "https://steamcommunity.com/app/5556290",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5556290/header.jpg",
-      "source_signals": [
-        "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。",
-        "已查 SteamDB App、Trending Followers 与 Wishlist 公开榜面；无可归因数据。"
-      ],
-      "indie_score": 81,
-      "indie_reasons": [
-        "独立团队/独立品类信号",
-        "11 月 16 日独立候选池",
-        "当日 Demo/发布窗口适合观察首批反馈"
-      ]
-    },
-    {
-      "appid": "4310360",
-      "name_zh": "A Baker's Dungeon",
-      "name_en": "A Baker's Dungeon",
-      "category": "Released",
-      "tags": [
-        "Roguelike",
-        "独立",
-        "地牢"
-      ],
-      "developer": "未公开",
-      "publisher": "未公开",
-      "release_date": "2026-11-16",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "SteamWatch 11/16 当日发布日历；SteamDB 本周发行窗口交叉核对。",
-      "current_players": "未公开",
-      "summary": "11 月 16 日新发布候选；SteamWatch 当日发布日历收录。",
-      "steam_url": "https://store.steampowered.com/app/4310360/",
-      "contact_url": "https://steamcommunity.com/app/4310360",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4310360/header.jpg",
-      "source_signals": [
-        "2026-11-16 上海时区复核：SteamWatch 当日发行日历、SteamDB Upcoming/Trending Followers/公开 App 页与全球热销榜；Steam 未公开的愿望单与活动排名保留为未公开。"
-      ],
-      "indie_score": 78,
-      "indie_reasons": [
-        "独立团队/独立品类信号",
-        "11 月 16 日独立候选池",
-        "当日 Demo/发布窗口适合观察首批反馈"
-      ]
-    }
-  ],
-  "generated_at": "2026-11-16 18:02 CST"
+  "indie_highlights": [],
+  "generated_at": "2026-11-17 18:07 CST"
 }
