@@ -300,87 +300,65 @@
     }
     .cover-copy {
       position: absolute;
-      inset: clamp(11px, 1.1vw, 16px);
+      inset: 16px;
       z-index: 4;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      gap: clamp(5px, 0.58vw, 8px);
+      gap: 8px;
       color: #fff;
     }
     .cover-copy b {
       align-self: flex-start;
-      padding: clamp(4px, 0.46vw, 6px) clamp(7px, 0.66vw, 9px);
+      padding: 6px 9px;
       border: 1px solid rgba(255,255,255,0.24);
       border-radius: var(--radius);
       background: rgba(8,13,23,0.34);
       backdrop-filter: blur(8px);
-      font-size: clamp(9px, 0.7vw, 11px);
+      font-size: 11px;
       letter-spacing: 0;
     }
     .cover-copy strong {
-      display: -webkit-box;
-      max-width: 94%;
-      overflow: hidden;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow-wrap: anywhere;
-      font-size: clamp(21px, 1.62vw, 28px);
-      line-height: 1.14;
+      max-width: 88%;
+      font-size: 28px;
+      line-height: 1.16;
       letter-spacing: 0;
     }
     .cover-copy small {
-      display: -webkit-box;
-      max-width: 94%;
-      overflow: hidden;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow-wrap: anywhere;
+      max-width: 88%;
       color: rgba(255,255,255,0.82);
-      font-size: clamp(11px, 0.94vw, 14px);
+      font-size: 14px;
       line-height: 1.35;
     }
-    .card-body { padding: clamp(12px, 1.15vw, 17px); }
+    .card-body { padding: 17px; }
     .title-row {
       display: grid;
       grid-template-columns: minmax(0, 1fr) auto;
-      gap: clamp(8px, 0.8vw, 12px);
+      gap: 12px;
       align-items: start;
     }
-    h3 {
-      margin: 0;
-      overflow-wrap: anywhere;
-      font-size: clamp(18px, 1.34vw, 23px);
-      line-height: 1.2;
-      letter-spacing: 0;
-    }
+    h3 { margin: 0; font-size: 23px; line-height: 1.22; letter-spacing: 0; }
     .rank {
       display: inline-flex;
-      margin-right: clamp(5px, 0.5vw, 8px);
+      margin-right: 8px;
       color: var(--accent);
-      font-size: clamp(15px, 1.05vw, 18px);
+      font-size: 18px;
     }
-    .title-row p {
-      margin: 6px 0 0;
-      color: var(--muted);
-      overflow-wrap: anywhere;
-      font-size: clamp(13px, 1vw, 16px);
-      line-height: 1.42;
-    }
+    .title-row p { margin: 6px 0 0; color: var(--muted); line-height: 1.45; }
     .title-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: clamp(6px, 0.55vw, 8px);
-      margin-top: clamp(8px, 0.75vw, 10px);
+      gap: 8px;
+      margin-top: 10px;
       color: #52606f;
-      font-size: clamp(11px, 0.8vw, 12px);
+      font-size: 12px;
       line-height: 1.4;
     }
     .title-meta span {
       display: inline-flex;
       align-items: center;
-      min-height: clamp(21px, 1.55vw, 24px);
-      padding: clamp(3px, 0.38vw, 4px) clamp(6px, 0.58vw, 8px);
+      min-height: 24px;
+      padding: 4px 8px;
       border: 1px solid #e0e5eb;
       border-radius: var(--radius);
       background: var(--soft);
@@ -388,21 +366,21 @@
     .score {
       display: grid;
       place-items: center;
-      min-width: clamp(48px, 3.6vw, 58px);
-      padding: clamp(6px, 0.62vw, 8px);
+      min-width: 58px;
+      padding: 8px;
       border-radius: var(--radius);
       color: #fff;
       background: #6c7685;
       box-shadow: 0 10px 18px rgba(17, 24, 39, 0.12);
     }
-    .score b { font-size: clamp(20px, 1.42vw, 24px); line-height: 1; }
-    .score span { margin-top: 3px; font-size: clamp(9px, 0.72vw, 11px); font-weight: 800; }
+    .score b { font-size: 24px; line-height: 1; }
+    .score span { margin-top: 3px; font-size: 11px; font-weight: 800; }
     .level-high { background: linear-gradient(180deg, #d45537, #a93425); }
     .level-medium { background: linear-gradient(180deg, #16867d, #115e59); }
     .level-low { background: #6c7685; }
     .chip-block {
-      margin-top: clamp(10px, 0.92vw, 14px);
-      padding: clamp(8px, 0.78vw, 11px);
+      margin-top: 14px;
+      padding: 11px;
       border: 1px solid var(--line);
       border-radius: var(--radius);
     }
@@ -421,18 +399,17 @@
     .tags, .metrics, .reasons {
       display: flex;
       flex-wrap: wrap;
-      gap: clamp(6px, 0.58vw, 8px);
+      gap: 8px;
     }
     .tags span, .metrics span, .reasons span {
       display: inline-flex;
       align-items: center;
-      min-height: clamp(27px, 2vw, 32px);
-      padding: clamp(5px, 0.55vw, 7px) clamp(8px, 0.72vw, 10px);
+      min-height: 32px;
+      padding: 7px 10px;
       border: 1px solid var(--line);
       border-radius: var(--radius);
       background: #fbfcfd;
-      overflow-wrap: anywhere;
-      font-size: clamp(11px, 0.88vw, 13px);
+      font-size: 13px;
     }
     .tags span {
       border-color: #cfd8e6;
@@ -443,14 +420,14 @@
     .metrics span {
       display: grid;
       grid-template-columns: auto minmax(0, 1fr);
-      gap: clamp(4px, 0.46vw, 6px);
+      gap: 6px;
       border-color: #bfdcda;
       color: #174845;
       background: #ffffff;
     }
     .metrics b {
       color: var(--brand-strong);
-      font-size: clamp(10px, 0.78vw, 12px);
+      font-size: 12px;
     }
     .metrics em {
       min-width: 0;
@@ -468,77 +445,44 @@
     .metrics .metric-rank b {
       color: #a45215;
     }
-    .price-overview {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: clamp(6px, 0.58vw, 8px);
-      margin-top: clamp(10px, 0.92vw, 14px);
-      padding: clamp(9px, 0.82vw, 12px);
-      border: 1px solid #e6d0b8;
-      border-radius: var(--radius);
-      color: #3e2b15;
-      background: linear-gradient(180deg, #fffaf2, #fff3df);
-    }
-    .price-label {
-      color: #7a5122;
-      font-size: clamp(11px, 0.8vw, 12px);
-      font-weight: 800;
-    }
-    .price-overview strong {
-      color: #171f2b;
-      font-size: clamp(17px, 1.25vw, 21px);
-      line-height: 1;
-    }
-    .price-overview del {
-      color: #7b8794;
-      font-size: clamp(11px, 0.84vw, 13px);
-      text-decoration-thickness: 1px;
-    }
-    .price-discount {
-      padding: 4px 7px;
-      border-radius: var(--radius);
-      color: #fff;
-      background: #b64b22;
-      font-size: clamp(11px, 0.82vw, 13px);
-      font-weight: 900;
-      line-height: 1;
-    }
-    .price-free {
-      border-color: #b9d8d5;
-      color: #124844;
-      background: linear-gradient(180deg, #f4fbfa, #e6f4f2);
-    }
-    .price-unavailable {
-      border-color: #d8dee8;
-      color: #52606f;
-      background: #f8fafc;
-    }
-    .price-unavailable strong {
-      color: #52606f;
-      font-size: clamp(14px, 1vw, 16px);
-    }
     .reasons span {
       border-color: #d4c9e4;
       color: #3c2f5c;
       background: #ffffff;
       box-shadow: inset 3px 0 0 #8b6bb8;
     }
-    .summary {
-      margin: clamp(10px, 0.92vw, 14px) 0 0;
-      padding: clamp(9px, 0.86vw, 12px);
+    .analysis-block {
+      margin: 14px 0 0;
+      padding: 13px 14px;
       border-radius: var(--radius);
       background: linear-gradient(180deg, #f8fafc, #f1f5f9);
       border: 1px solid #e2e8f0;
       color: #27313d;
-      overflow-wrap: anywhere;
-      font-size: clamp(13px, 0.96vw, 16px);
-      line-height: 1.58;
+    }
+    .analysis-block b {
+      display: block;
+      margin-bottom: 6px;
+      color: #0f766e;
+      font-size: 13px;
+      font-weight: 900;
+    }
+    .analysis-block p {
+      margin: 0;
+      line-height: 1.65;
+    }
+    .summary {
+      margin: 14px 0 0;
+      padding: 12px;
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, #f8fafc, #f1f5f9);
+      border: 1px solid #e2e8f0;
+      color: #27313d;
+      line-height: 1.65;
     }
     .actions {
       display: flex;
-      gap: clamp(6px, 0.58vw, 8px);
-      margin-top: clamp(10px, 0.92vw, 14px);
+      gap: 8px;
+      margin-top: 14px;
     }
     .actions a {
       flex: 1;
@@ -546,9 +490,8 @@
       color: #fff;
       background: var(--brand);
       text-decoration: none;
-      padding: clamp(8px, 0.75vw, 10px) clamp(10px, 0.86vw, 12px);
+      padding: 10px 12px;
       border-radius: var(--radius);
-      font-size: clamp(13px, 0.95vw, 16px);
       font-weight: 800;
       transition: transform 160ms ease, filter 160ms ease;
     }
@@ -766,9 +709,6 @@
       border-radius: var(--radius);
       background: linear-gradient(180deg, #f7fbfb, #eef7f6);
     }
-    .rank-preview-price {
-      margin-top: 0;
-    }
     .rank-preview-summary {
       margin: 0;
       padding: 11px;
@@ -859,7 +799,7 @@
       <div class="brand">SteamGameNews</div>
       <nav><a class="" href="../../index.html">首页</a><a class="" href="../../week/index.html">本周</a><a class="" href="../../month/index.html">本月</a></nav>
     </div>
-    <header class="hero" style="--hero-image:url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4260840/header.jpg')">
+    <header class="hero">
       <div>
         <p class="hero-kicker">Steam 游戏趋势监测</p>
         <h1>2026-05-12 Steam 推荐归档</h1>
@@ -867,7 +807,7 @@
         <a class="hero-action" href="../../week/index.html">查看本周趋势 →</a>
       </div>
       <div class="quick-stats">
-        <span>当天候选 20 款</span><span>数据更新 2026-11-17 18:09 CST</span>
+        <span>当天候选 20 款</span><span>数据更新 2026-11-18 18:09 CST</span>
       </div>
     </header>
     
@@ -884,7 +824,7 @@
           <strong>STRANGER THAN HEAVEN</strong>
           <small>STRANGER THAN HEAVEN</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4260840/header.jpg" alt="STRANGER THAN HEAVEN cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -895,14 +835,16 @@
           </div>
           <div class="score level-medium"><b>46</b><span>Medium</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>RGG/SEGA 新作在今天的 SteamDB 热门入口与关注增长榜同步出现，犯罪叙事、跨年代日本舞台和动作 RPG 组合有强传播钩子。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>动作 RPG</span><span>动作冒险</span><span>犯罪</span><span>剧情</span><span>开放世界</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>6,765</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#22</em></span><span class=""><b>榜单/热度信号</b><em>今日公开热度：SteamDB popular today 入口展示，trending followers #9，7 日关注增长 +6,765；不是 5 月 12 日首次建页，Last Record Update 为 5 月 9 日。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4260840"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4260840"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>6,765</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#22</em></span><span class=""><b>热度</b><em>今日公开热度：SteamDB popular today 入口展示，trending followers #9，7 日关注增长 +6,765；不是 5 月 12 日首次建页，Last Record Update 为 5 月 9 日。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：新商店页处于愿望单积累期；多日连续进入监测池；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4260840/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/4260840" target="_blank" rel="noreferrer">联系</a>
@@ -916,7 +858,7 @@
           <strong>I Have No Change</strong>
           <small>I Have No Change</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3426150/header.jpg" alt="I Have No Change cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -927,14 +869,16 @@
           </div>
           <div class="score level-medium"><b>45</b><span>Medium</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>小团队叙事项目在关注增长榜异常靠前，夜间小卖部题材具备短篇叙事传播性，但发售窗口较远，需要继续观察是否能维持热度。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>叙事</span><span>第一人称</span><span>沉浸模拟</span><span>步行模拟</span><span>独立</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>18,112</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#13</em></span><span class=""><b>榜单/热度信号</b><em>今日公开热度：SteamDB trending followers #3、wishlist activity #13，7 日关注增长 +9,494；连续跟踪项，Last Record Update 为 5 月 11 日。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3426150"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3426150"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>18,112</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#13</em></span><span class=""><b>热度</b><em>今日公开热度：SteamDB trending followers #3、wishlist activity #13，7 日关注增长 +9,494；连续跟踪项，Last Record Update 为 5 月 11 日。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：新商店页处于愿望单积累期；多日连续进入监测池；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3426150/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3426150" target="_blank" rel="noreferrer">联系</a>
@@ -948,7 +892,7 @@
           <strong>Subnautica 2：异星水域</strong>
           <small>Subnautica 2</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1962700/header.jpg" alt="Subnautica 2 cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -957,16 +901,18 @@
             <p>Subnautica 2</p>
             <div class="title-meta"><span>上线 2026-05-14</span><span>Unknown Worlds Entertainment</span></div>
           </div>
-          <div class="score level-medium"><b>56</b><span>Medium</span></div>
+          <div class="score level-high"><b>72</b><span>High</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>不是今日首次建页；5 月 14 日抢先体验临近，系列品牌与合作生存卖点继续把愿望单、热销和关注增长三项推到头部。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>生存</span><span>水下</span><span>合作</span><span>开放世界</span><span>抢先体验</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>340,387</em></span><span class="metric-rank"><b>愿望单榜 · SteamDB</b><em>#1</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#2</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>#1</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪项：SteamDB most wishlisted #1、global top sellers #1、trending followers #1，7 日关注增长 +18,429。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="1962700"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="1962700"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>340,387</em></span><span class="metric-rank"><b>愿望单榜 · SteamDB</b><em>#1</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#2</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>#1</em></span><span class=""><b>热度</b><em>连续跟踪项：SteamDB most wishlisted #1、global top sellers #1、trending followers #1，7 日关注增长 +18,429。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>多人/合作传播性好</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+      <div class="reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>Steam 热销榜排名靠前</span><span>多人/合作传播性好</span><span>新商店页处于愿望单积累期</span></div>
     </div>
-        <p class="summary">推荐理由：关注基数高；愿望单榜单排名靠前；多人/合作传播性好；新商店页处于愿望单积累期；多日连续进入监测池。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/1962700/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/1962700" target="_blank" rel="noreferrer">联系</a>
@@ -980,7 +926,7 @@
           <strong>极限竞速：地平线 6</strong>
           <small>Forza Horizon 6</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg" alt="Forza Horizon 6 cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -989,16 +935,18 @@
             <p>Forza Horizon 6</p>
             <div class="title-meta"><span>上线 2026-05-19</span><span>Playground Games</span><span>Xbox Game Studios</span></div>
           </div>
-          <div class="score level-medium"><b>58</b><span>Medium</span></div>
+          <div class="score level-high"><b>74</b><span>High</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>不是今日首次建页；日本开放世界和系列品牌仍强，热销榜高位说明预购转化健康，泄露事件可能进一步放大短期讨论。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>竞速</span><span>开放世界</span><span>驾驶</span><span>多人</span><span>模拟</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>215,225</em></span><span class="metric-rank"><b>愿望单榜 · SteamDB</b><em>#3</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#14</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>#3</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪项：SteamDB global top sellers #3、most wishlisted #3、trending followers #12，7 日关注增长 +6,339；今日外部新闻还显示预发售泄露带来额外话题。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2483190"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="2483190"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>215,225</em></span><span class="metric-rank"><b>愿望单榜 · SteamDB</b><em>#3</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#14</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>#3</em></span><span class=""><b>热度</b><em>连续跟踪项：SteamDB global top sellers #3、most wishlisted #3、trending followers #12，7 日关注增长 +6,339；今日外部新闻还显示预发售泄露带来额外话题。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>多人/合作传播性好</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span></div>
+      <div class="reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>Steam 热销榜排名靠前</span><span>多人/合作传播性好</span><span>新商店页处于愿望单积累期</span></div>
     </div>
-        <p class="summary">推荐理由：关注基数高；愿望单榜单排名靠前；多人/合作传播性好；新商店页处于愿望单积累期；多日连续进入监测池。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2483190/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/2483190" target="_blank" rel="noreferrer">联系</a>
@@ -1012,7 +960,7 @@
           <strong>007 初露锋芒</strong>
           <small>007 First Light</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3768760/header.jpg" alt="007 First Light cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1021,16 +969,18 @@
             <p>007 First Light</p>
             <div class="title-meta"><span>上线 2026-05-27</span><span>IO Interactive A/S</span></div>
           </div>
-          <div class="score level-medium"><b>57</b><span>Medium</span></div>
+          <div class="score level-high"><b>68</b><span>High</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>不是今日首次建页；Bond IP、IOI 潜行设计与 5 月下旬发售窗口构成商业潜力，今天仍在愿望单和热销榜都有位置。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>动作</span><span>潜行</span><span>冒险</span><span>电影化</span><span>第三人称射击</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>54,072</em></span><span class="metric-rank"><b>愿望单榜 · SteamDB</b><em>#21</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>#63</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪项：SteamDB most wishlisted #21、global top sellers #63、trending followers #18，7 日关注增长 +4,332；Last Record Update 为 5 月 11 日。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3768760"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3768760"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>54,072</em></span><span class="metric-rank"><b>愿望单榜 · SteamDB</b><em>#21</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>#63</em></span><span class=""><b>热度</b><em>连续跟踪项：SteamDB most wishlisted #21、global top sellers #63、trending followers #18，7 日关注增长 +4,332；Last Record Update 为 5 月 11 日。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>关注基数高</span><span>愿望单榜单排名靠前</span><span>新商店页处于愿望单积累期</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span></div>
     </div>
-        <p class="summary">推荐理由：关注基数高；愿望单榜单排名靠前；新商店页处于愿望单积累期；多日连续进入监测池；生命周期阶段发生变化。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3768760/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3768760" target="_blank" rel="noreferrer">联系</a>
@@ -1051,7 +1001,7 @@
           <strong>Directive 8020</strong>
           <small>Directive 8020</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2255370/header.jpg" alt="Directive 8020 cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1060,22 +1010,18 @@
             <p>Directive 8020</p>
             <div class="title-meta"><span>上线 2026-05-12</span><span>Supermassive Games</span></div>
           </div>
-          <div class="score level-medium"><b>46</b><span>Medium</span></div>
+          <div class="score level-medium"><b>57</b><span>Medium</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>Supermassive 的电影化恐怖品牌和科幻船难设定适合首发口碑观察，今天热销榜已经出现，后续关键是评价稳定性。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>冒险</span><span>生存恐怖</span><span>选择取向</span><span>科幻</span><span>电影化</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>18,548</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>#52</em></span><span class=""><b>榜单/热度信号</b><em>今日发售：SteamDB Release Date 12 May 2026，global top sellers #52，followers 18,548。</em></span></div></div>
-        
-    <div class="price-overview price-unavailable" data-price-overview data-appid="2255370">
-      <span class="price-label">国区售价</span>
-      
-      <strong>价格未公开</strong>
-      
-    </div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2255370"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="2255370"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>18,548</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>#52</em></span><span class=""><b>热度</b><em>今日发售：SteamDB Release Date 12 May 2026，global top sellers #52，followers 18,548。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>已发布，可观察真实在线</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：已发布，可观察真实在线；多日连续进入监测池；生命周期阶段发生变化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2255370/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/2255370" target="_blank" rel="noreferrer">联系</a>
@@ -1089,7 +1035,7 @@
           <strong>古神之呼唤</strong>
           <small>Call of the Elder Gods</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2174380/header.jpg" alt="Call of the Elder Gods cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1100,20 +1046,16 @@
           </div>
           <div class="score level-low"><b>22</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>《Call of the Sea》团队的叙事解谜续作，中文本地化与 Lovecraft 题材具备中腰部独立传播潜力。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>解谜</span><span>剧情丰富</span><span>洛夫克拉夫特</span><span>冒险</span><span>第一人称</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>今日发售：SteamDB Release Date 12 May 2026；公开 followers/愿望单排名未披露。</em></span></div></div>
-        
-    <div class="price-overview price-unavailable" data-price-overview data-appid="2174380">
-      <span class="price-label">国区售价</span>
-      
-      <strong>价格未公开</strong>
-      
-    </div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2174380"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="2174380"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>今日发售：SteamDB Release Date 12 May 2026；公开 followers/愿望单排名未披露。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：已发布，可观察真实在线；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2174380/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/2174380" target="_blank" rel="noreferrer">联系</a>
@@ -1127,7 +1069,7 @@
           <strong>Clockwork Ambrosia</strong>
           <small>Clockwork Ambrosia</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/896010/header.jpg" alt="Clockwork Ambrosia cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1138,20 +1080,16 @@
           </div>
           <div class="score level-low"><b>22</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>武器模组规则超过 100 种的蒸汽朋克银河城，适合看硬核动作玩家的 Demo 到购买转化。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>银河城</span><span>2D 平台</span><span>射击</span><span>蒸汽朋克</span><span>动作 RPG</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>今日发售：SteamDB Release Date 12 May 2026；Steam 商店同时展示 Demo 和 Playtest。</em></span></div></div>
-        
-    <div class="price-overview price-unavailable" data-price-overview data-appid="896010">
-      <span class="price-label">国区售价</span>
-      
-      <strong>价格未公开</strong>
-      
-    </div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="896010"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="896010"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>今日发售：SteamDB Release Date 12 May 2026；Steam 商店同时展示 Demo 和 Playtest。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>已发布，可观察真实在线</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；已发布，可观察真实在线。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/896010/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/896010" target="_blank" rel="noreferrer">联系</a>
@@ -1165,7 +1103,7 @@
           <strong>OCTOPinbs</strong>
           <small>OCTOPinbs</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2660510/header.jpg" alt="OCTOPinbs cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1176,20 +1114,16 @@
           </div>
           <div class="score level-low"><b>25</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>3-10 人消防主题社交推理有直播局和派对传播潜力，Aniplex 发行可带来日区初始曝光。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>社交推理</span><span>派对</span><span>在线合作</span><span>休闲</span><span>多人</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>今日发售：SteamDB Release Date 12 May 2026；公开 followers/愿望单排名未披露。</em></span></div></div>
-        
-    <div class="price-overview price-unavailable" data-price-overview data-appid="2660510">
-      <span class="price-label">国区售价</span>
-      
-      <strong>价格未公开</strong>
-      
-    </div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2660510"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="2660510"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>今日发售：SteamDB Release Date 12 May 2026；公开 followers/愿望单排名未披露。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>多人/合作传播性好</span><span>低门槛试玩或轻量入口</span><span>已发布，可观察真实在线</span></div>
     </div>
-        <p class="summary">推荐理由：多人/合作传播性好；低门槛试玩或轻量入口；已发布，可观察真实在线。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2660510/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/2660510" target="_blank" rel="noreferrer">联系</a>
@@ -1203,7 +1137,7 @@
           <strong>FLAW</strong>
           <small>FLAW</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2510060/header.jpg" alt="FLAW cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1214,20 +1148,16 @@
           </div>
           <div class="score level-low"><b>22</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>单人复古 FPS 与抢先体验组合适合靠 Demo 反馈和关卡内容扩散，首日需要重点看手感评价。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>Boomer Shooter</span><span>FPS</span><span>动作</span><span>科幻</span><span>抢先体验</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>今日发售：SteamDB Release Date 12 May 2026；Steam 商店展示可下载 Demo，公开榜单数据未披露。</em></span></div></div>
-        
-    <div class="price-overview price-unavailable" data-price-overview data-appid="2510060">
-      <span class="price-label">国区售价</span>
-      
-      <strong>价格未公开</strong>
-      
-    </div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2510060"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="2510060"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>今日发售：SteamDB Release Date 12 May 2026；Steam 商店展示可下载 Demo，公开榜单数据未披露。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>已发布，可观察真实在线</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；已发布，可观察真实在线。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2510060/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/2510060" target="_blank" rel="noreferrer">联系</a>
@@ -1248,7 +1178,7 @@
           <strong>COSMIC HOLES Junior Demo</strong>
           <small>COSMIC HOLES Junior Demo</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4693750/header.jpg" alt="COSMIC HOLES Junior Demo cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1259,14 +1189,16 @@
           </div>
           <div class="score level-low"><b>27</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>面向全年龄的外星数独式逻辑玩法，103 种语言支持是少见信号，可用 Demo 验证益智规则是否有跨地区传播性。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>独立</span><span>逻辑</span><span>益智</span><span>家庭友好</span><span>试玩</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>今日 Demo：SteamDB App Type Demo，Release Date 12 May 2026；SteamDB/榜单未公开 followers 与愿望单排名。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4693750"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4693750"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>今日 Demo：SteamDB App Type Demo，Release Date 12 May 2026；SteamDB/榜单未公开 followers 与愿望单排名。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；Demo 可验证试玩转化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4693750/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/4693750" target="_blank" rel="noreferrer">联系</a>
@@ -1280,7 +1212,7 @@
           <strong>Shinies: Call of Light Demo</strong>
           <small>Shinies: Call of Light Demo</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4674150/header.jpg" alt="Shinies: Call of Light Demo cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1291,14 +1223,16 @@
           </div>
           <div class="score level-low"><b>27</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>父应用 Shinies: Call of Light 的试玩包今天上线，适合观察美术风格与轻冒险玩法的首批反馈。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>试玩</span><span>冒险</span><span>独立</span><span>休闲</span><span>奇幻</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>今日 Demo：SteamDB App Type Demo，Release Date 12 May 2026；公开 followers/愿望单排名未披露。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4674150"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4674150"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>今日 Demo：SteamDB App Type Demo，Release Date 12 May 2026；公开 followers/愿望单排名未披露。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；Demo 可验证试玩转化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4674150/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/4674150" target="_blank" rel="noreferrer">联系</a>
@@ -1312,7 +1246,7 @@
           <strong>Pixelwave Off Episode 1</strong>
           <small>Pixelwave Off Episode 1</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4515880/header.jpg" alt="Pixelwave Off Episode 1 cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1323,14 +1257,16 @@
           </div>
           <div class="score level-low"><b>24</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>章节式试玩今天上架，像素叙事项目需靠前 15 分钟体验留住愿望单，当前公开热度数据不足。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>试玩</span><span>像素</span><span>冒险</span><span>独立</span><span>叙事</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>今日 Demo：SteamDB App Type Demo，Release Date 12 May 2026；公开 followers/愿望单排名未披露。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4515880"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4515880"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>今日 Demo：SteamDB App Type Demo，Release Date 12 May 2026；公开 followers/愿望单排名未披露。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；Demo 可验证试玩转化。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4515880/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/4515880" target="_blank" rel="noreferrer">联系</a>
@@ -1344,7 +1280,7 @@
           <strong>Poolscape Demo</strong>
           <small>Poolscape Demo</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4189480/header.jpg" alt="Poolscape Demo cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1355,14 +1291,16 @@
           </div>
           <div class="score level-low"><b>24</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>PSX 风格 poolrooms/liminal space 题材具备短视频辨识度，Demo 可快速验证氛围探索是否转化为愿望单。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>冒险</span><span>休闲</span><span>独立</span><span>模拟</span><span>心理恐怖</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>今日 Demo：Steam 商店显示 Download Poolscape Demo，Release Date May 12, 2026；SteamDB 榜单未公开 followers/愿望单排名。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4189480"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4189480"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>今日 Demo：Steam 商店显示 Download Poolscape Demo，Release Date May 12, 2026；SteamDB 榜单未公开 followers/愿望单排名。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；Demo 可验证试玩转化。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4189480/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/4189480" target="_blank" rel="noreferrer">联系</a>
@@ -1376,7 +1314,7 @@
           <strong>Fail Fail Succeed Demo</strong>
           <small>Fail Fail Succeed Demo</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3816180/header.jpg" alt="Fail Fail Succeed Demo cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1387,14 +1325,16 @@
           </div>
           <div class="score level-low"><b>24</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>失败铺路的解谜平台核心清晰，适合用 Demo 观察关卡设计能否产生口碑剪辑与解法传播。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>2D 平台</span><span>解谜平台</span><span>逻辑</span><span>独立</span><span>像素</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>今日 Demo：Steam 商店显示 Download Fail Fail Succeed Demo，Release Date May 12, 2026；公开 followers/愿望单排名未披露。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3816180"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3816180"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>今日 Demo：Steam 商店显示 Download Fail Fail Succeed Demo，Release Date May 12, 2026；公开 followers/愿望单排名未披露。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；Demo 可验证试玩转化。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3816180/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3816180" target="_blank" rel="noreferrer">联系</a>
@@ -1415,7 +1355,7 @@
           <strong>Outbound / 拾光旅人</strong>
           <small>Outbound</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2681030/header.jpg" alt="Outbound cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1424,16 +1364,18 @@
             <p>Outbound</p>
             <div class="title-meta"><span>上线 2026-05-11</span><span>Square Glade Games</span></div>
           </div>
-          <div class="score level-low"><b>38</b><span>Low</span></div>
+          <div class="score level-medium"><b>53</b><span>Medium</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>不是今日新发售；温馨车居建造和合作玩法的首发热销仍在延续，今天重点看评价从混合向稳定口碑的走势。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>温馨</span><span>探索</span><span>基地建设</span><span>合作</span><span>模拟</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2681030"><b>在线</b><em>2,129</em></span><span class=""><b>关注</b><em>64,425</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>#5</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪项：昨日发售后今天升至 SteamDB global top sellers #5，followers 64,425，当前在线 2,129，峰值 5,778。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2681030"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="2681030"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>64,425</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>#5</em></span><span class=""><b>热度</b><em>连续跟踪项：昨日发售后今天升至 SteamDB global top sellers #5，followers 64,425，当前在线 2,129，峰值 5,778。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>关注基数高</span><span>多人/合作传播性好</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
+      <div class="reasons"><span>关注基数高</span><span>Steam 热销榜排名靠前</span><span>多人/合作传播性好</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span></div>
     </div>
-        <p class="summary">推荐理由：关注基数高；多人/合作传播性好；多日连续进入监测池；生命周期阶段发生变化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2681030/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/2681030" target="_blank" rel="noreferrer">联系</a>
@@ -1447,7 +1389,7 @@
           <strong>Farever</strong>
           <small>Farever</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3672400/header.jpg" alt="Farever cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1456,16 +1398,18 @@
             <p>Farever</p>
             <div class="title-meta"><span>上线 2026-05-06</span><span>Shiro Games</span></div>
           </div>
-          <div class="score level-low"><b>36</b><span>Low</span></div>
+          <div class="score level-medium"><b>47</b><span>Medium</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>不是今日新发售；开放世界在线 ARPG 在发售后一周关注增速反而上升，但评价压力仍是后续转化风险。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>动作 RPG</span><span>开放世界</span><span>在线合作</span><span>冒险</span><span>多人</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3672400"><b>在线</b><em>5,516</em></span><span class=""><b>关注</b><em>22,303</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#15</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>#72</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪项：SteamDB trending followers #2、wishlist activity #15、global top sellers #72，7 日关注增长 +11,701，当前在线 5,516。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3672400"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3672400"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>22,303</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#15</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>#72</em></span><span class=""><b>热度</b><em>连续跟踪项：SteamDB trending followers #2、wishlist activity #15、global top sellers #72，7 日关注增长 +11,701，当前在线 5,516。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>关注基数高</span><span>多人/合作传播性好</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：关注基数高；多人/合作传播性好；多日连续进入监测池；生命周期阶段发生变化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3672400/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3672400" target="_blank" rel="noreferrer">联系</a>
@@ -1479,7 +1423,7 @@
           <strong>Dead as Disco</strong>
           <small>Dead as Disco</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3404260/header.jpg" alt="Dead as Disco cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1488,16 +1432,18 @@
             <p>Dead as Disco</p>
             <div class="title-meta"><span>上线 2026-05-05</span><span>Brain Jar Games, Inc.</span></div>
           </div>
-          <div class="score level-low"><b>39</b><span>Low</span></div>
+          <div class="score level-medium"><b>52</b><span>Medium</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>不是今日新发售；节奏清版动作评价与热销信号同步较强，适合继续跟踪主播内容和动作玩家留存。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>清版动作</span><span>节奏</span><span>武术</span><span>Hack and Slash</span><span>音乐</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3404260"><b>在线</b><em>2,421</em></span><span class=""><b>关注</b><em>46,903</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#7</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>#22</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪项：SteamDB trending followers #5、wishlist activity #7、global top sellers #22，7 日关注增长 +7,954，当前在线 2,421。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3404260"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3404260"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>46,903</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#7</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>#22</em></span><span class=""><b>热度</b><em>连续跟踪项：SteamDB trending followers #5、wishlist activity #7、global top sellers #22，7 日关注增长 +7,954，当前在线 2,421。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>关注基数高</span><span>题材有内容传播点</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
+      <div class="reasons"><span>关注基数高</span><span>Steam 热销榜排名靠前</span><span>题材有内容传播点</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span></div>
     </div>
-        <p class="summary">推荐理由：关注基数高；题材有内容传播点；多日连续进入监测池；生命周期阶段发生变化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3404260/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3404260" target="_blank" rel="noreferrer">联系</a>
@@ -1511,7 +1457,7 @@
           <strong>Gamble With Your Friends</strong>
           <small>Gamble With Your Friends</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg" alt="Gamble With Your Friends cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1520,16 +1466,18 @@
             <p>Gamble With Your Friends</p>
             <div class="title-meta"><span>上线 2026-05-01</span><span>SkyBrave, blazitt, Gevizz, Kiwick</span><span>TENSTACK</span></div>
           </div>
-          <div class="score level-low"><b>38</b><span>Low</span></div>
+          <div class="score level-medium"><b>52</b><span>Medium</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>不是今日新发售；合作 casino crawler 的直播友好性继续推高愿望单活动和热销，仍是 5 月独立黑马候选。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>在线合作</span><span>物理</span><span>赌博</span><span>探索</span><span>卡牌</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3892270"><b>在线</b><em>7,479</em></span><span class=""><b>关注</b><em>16,007</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#4</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>#11</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪项：SteamDB wishlist activity #4、trending followers #6、global top sellers #11，7 日关注增长 +7,887，当前在线 7,479。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3892270"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3892270"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>16,007</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#4</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>#11</em></span><span class=""><b>热度</b><em>连续跟踪项：SteamDB wishlist activity #4、trending followers #6、global top sellers #11，7 日关注增长 +7,887，当前在线 7,479。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>多人/合作传播性好</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
+      <div class="reasons"><span>Steam 热销榜排名靠前</span><span>多人/合作传播性好</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：多人/合作传播性好；多日连续进入监测池；生命周期阶段发生变化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3892270/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3892270" target="_blank" rel="noreferrer">联系</a>
@@ -1543,7 +1491,7 @@
           <strong>Everything is Crab: The Animal Evolution Roguelite</strong>
           <small>Everything is Crab</small>
         </span>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3526710/header.jpg" alt="Everything is Crab cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1552,16 +1500,18 @@
             <p>Everything is Crab</p>
             <div class="title-meta"><span>上线 2026-05-08</span><span>Odd Dreams Digital</span><span>Secret Mode</span></div>
           </div>
-          <div class="score level-low"><b>41</b><span>Low</span></div>
+          <div class="score level-medium"><b>53</b><span>Medium</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>不是今日新发售；动物进化 Roguelite 维持五位数在线，题材记忆点强，今天仍有热销和活动榜双重信号。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>动作 Roguelike</span><span>Roguelite</span><span>角色自定义</span><span>重复可玩</span><span>程序生成</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3526710"><b>在线</b><em>10,334</em></span><span class=""><b>关注</b><em>19,950</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#19</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>#29</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪项：SteamDB trending followers #15、wishlist activity #19、global top sellers #29，7 日关注增长 +4,947，当前在线 10,334。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3526710"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3526710"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>19,950</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>#19</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>#29</em></span><span class=""><b>热度</b><em>连续跟踪项：SteamDB trending followers #15、wishlist activity #19、global top sellers #29，7 日关注增长 +4,947，当前在线 10,334。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>题材有内容传播点</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span></div>
+      <div class="reasons"><span>Steam 热销榜排名靠前</span><span>题材有内容传播点</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span></div>
     </div>
-        <p class="summary">推荐理由：题材有内容传播点；多日连续进入监测池；生命周期阶段发生变化。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3526710/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3526710" target="_blank" rel="noreferrer">联系</a>
@@ -1598,8 +1548,6 @@
     const liveAppids = [...new Set(livePlayerNodes.map((node) => node.dataset.appid).filter(Boolean))];
     const liveReviewNodes = [...document.querySelectorAll("[data-review-count][data-appid]")];
     const liveReviewAppids = [...new Set(liveReviewNodes.map((node) => node.dataset.appid).filter(Boolean))];
-    const livePriceNodes = [...document.querySelectorAll("[data-price-overview][data-appid]")];
-    const livePriceAppids = [...new Set(livePriceNodes.map((node) => node.dataset.appid).filter(Boolean))];
 
     function setLivePlayers(appid, playerCount) {
       for (const node of livePlayerNodes.filter((item) => item.dataset.appid === appid)) {
@@ -1614,55 +1562,6 @@
       for (const node of liveReviewNodes.filter((item) => item.dataset.appid === appid)) {
         const value = node.querySelector("em");
         if (value) value.textContent = formatLiveNumber(reviewCount);
-        node.title = "页面打开时实时刷新";
-        node.dataset.live = "true";
-      }
-    }
-
-    function formatSteamAmount(value, currency = "CNY") {
-      if (value === null || value === undefined || value === "") return "";
-
-      const number = Number(value);
-      if (!Number.isFinite(number)) return "";
-
-      try {
-        return new Intl.NumberFormat("zh-CN", {
-          style: "currency",
-          currency,
-          currencyDisplay: "narrowSymbol"
-        }).format(number / 100);
-      } catch {
-        return `${currency} ${(number / 100).toFixed(2)}`;
-      }
-    }
-
-    function appendPricePart(node, tagName, className, text) {
-      if (!text) return;
-      const element = document.createElement(tagName);
-      if (className) element.className = className;
-      element.textContent = text;
-      node.append(element);
-    }
-
-    function setLivePrices(appid, price) {
-      for (const node of livePriceNodes.filter((item) => item.dataset.appid === appid)) {
-        const discount = Number(price.discount_percent ?? 0);
-        const hasFinalPrice = price.final !== null && price.final !== undefined && Number.isFinite(Number(price.final));
-        const isFree = price.is_free || (hasFinalPrice && Number(price.final) === 0);
-        const finalText = isFree ? "免费开玩" : price.final_formatted || formatSteamAmount(price.final, price.currency || "CNY");
-        const initialText = discount > 0 ? price.initial_formatted || formatSteamAmount(price.initial, price.currency || "CNY") : "";
-
-        if (!finalText) continue;
-
-        node.replaceChildren();
-        node.classList.toggle("price-discounted", discount > 0);
-        node.classList.toggle("price-standard", !isFree && discount <= 0);
-        node.classList.toggle("price-free", isFree);
-        node.classList.remove("price-unavailable");
-        appendPricePart(node, "span", "price-label", discount > 0 ? "国区折扣" : "国区售价");
-        if (discount > 0) appendPricePart(node, "span", "price-discount", `-${discount}%`);
-        appendPricePart(node, "strong", "", finalText);
-        appendPricePart(node, "del", "", initialText);
         node.title = "页面打开时实时刷新";
         node.dataset.live = "true";
       }
@@ -1717,53 +1616,6 @@
       return null;
     }
 
-    function parseLivePrice(data, appid) {
-      const details = data?.[appid]?.data;
-      const price = details?.price_overview;
-
-      if (price) {
-        return {
-          currency: price.currency || "CNY",
-          initial: Number.isFinite(Number(price.initial)) ? Number(price.initial) : null,
-          final: Number.isFinite(Number(price.final)) ? Number(price.final) : null,
-          discount_percent: Number.isFinite(Number(price.discount_percent)) ? Number(price.discount_percent) : 0,
-          initial_formatted: price.initial_formatted || "",
-          final_formatted: price.final_formatted || "",
-          is_free: Number(price.final) === 0
-        };
-      }
-
-      if (details?.is_free) {
-        return {
-          currency: "CNY",
-          initial: 0,
-          final: 0,
-          discount_percent: 0,
-          initial_formatted: "",
-          final_formatted: "免费开玩",
-          is_free: true
-        };
-      }
-
-      return null;
-    }
-
-    async function fetchLivePrice(appid) {
-      const steamUrl = `https://store.steampowered.com/api/appdetails?appids=${encodeURIComponent(appid)}&filters=price_overview&cc=cn&l=schinese`;
-      const urls = [
-        steamUrl,
-        `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(steamUrl)}`
-      ];
-
-      for (const url of urls) {
-        const data = await fetchJsonWithTimeout(url);
-        const price = parseLivePrice(data, appid);
-        if (price) return price;
-      }
-
-      return null;
-    }
-
     async function refreshLiveValues(appids, fetcher, setter) {
       const concurrency = 4;
       for (let index = 0; index < appids.length; index += concurrency) {
@@ -1780,9 +1632,6 @@
     }
     if (liveReviewAppids.length > 0) {
       refreshLiveValues(liveReviewAppids, fetchLiveReviews, setLiveReviews);
-    }
-    if (livePriceAppids.length > 0) {
-      refreshLiveValues(livePriceAppids, fetchLivePrice, setLivePrices);
     }
   </script>
 </body>

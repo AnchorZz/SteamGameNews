@@ -300,87 +300,65 @@
     }
     .cover-copy {
       position: absolute;
-      inset: clamp(11px, 1.1vw, 16px);
+      inset: 16px;
       z-index: 4;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      gap: clamp(5px, 0.58vw, 8px);
+      gap: 8px;
       color: #fff;
     }
     .cover-copy b {
       align-self: flex-start;
-      padding: clamp(4px, 0.46vw, 6px) clamp(7px, 0.66vw, 9px);
+      padding: 6px 9px;
       border: 1px solid rgba(255,255,255,0.24);
       border-radius: var(--radius);
       background: rgba(8,13,23,0.34);
       backdrop-filter: blur(8px);
-      font-size: clamp(9px, 0.7vw, 11px);
+      font-size: 11px;
       letter-spacing: 0;
     }
     .cover-copy strong {
-      display: -webkit-box;
-      max-width: 94%;
-      overflow: hidden;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow-wrap: anywhere;
-      font-size: clamp(21px, 1.62vw, 28px);
-      line-height: 1.14;
+      max-width: 88%;
+      font-size: 28px;
+      line-height: 1.16;
       letter-spacing: 0;
     }
     .cover-copy small {
-      display: -webkit-box;
-      max-width: 94%;
-      overflow: hidden;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow-wrap: anywhere;
+      max-width: 88%;
       color: rgba(255,255,255,0.82);
-      font-size: clamp(11px, 0.94vw, 14px);
+      font-size: 14px;
       line-height: 1.35;
     }
-    .card-body { padding: clamp(12px, 1.15vw, 17px); }
+    .card-body { padding: 17px; }
     .title-row {
       display: grid;
       grid-template-columns: minmax(0, 1fr) auto;
-      gap: clamp(8px, 0.8vw, 12px);
+      gap: 12px;
       align-items: start;
     }
-    h3 {
-      margin: 0;
-      overflow-wrap: anywhere;
-      font-size: clamp(18px, 1.34vw, 23px);
-      line-height: 1.2;
-      letter-spacing: 0;
-    }
+    h3 { margin: 0; font-size: 23px; line-height: 1.22; letter-spacing: 0; }
     .rank {
       display: inline-flex;
-      margin-right: clamp(5px, 0.5vw, 8px);
+      margin-right: 8px;
       color: var(--accent);
-      font-size: clamp(15px, 1.05vw, 18px);
+      font-size: 18px;
     }
-    .title-row p {
-      margin: 6px 0 0;
-      color: var(--muted);
-      overflow-wrap: anywhere;
-      font-size: clamp(13px, 1vw, 16px);
-      line-height: 1.42;
-    }
+    .title-row p { margin: 6px 0 0; color: var(--muted); line-height: 1.45; }
     .title-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: clamp(6px, 0.55vw, 8px);
-      margin-top: clamp(8px, 0.75vw, 10px);
+      gap: 8px;
+      margin-top: 10px;
       color: #52606f;
-      font-size: clamp(11px, 0.8vw, 12px);
+      font-size: 12px;
       line-height: 1.4;
     }
     .title-meta span {
       display: inline-flex;
       align-items: center;
-      min-height: clamp(21px, 1.55vw, 24px);
-      padding: clamp(3px, 0.38vw, 4px) clamp(6px, 0.58vw, 8px);
+      min-height: 24px;
+      padding: 4px 8px;
       border: 1px solid #e0e5eb;
       border-radius: var(--radius);
       background: var(--soft);
@@ -388,21 +366,21 @@
     .score {
       display: grid;
       place-items: center;
-      min-width: clamp(48px, 3.6vw, 58px);
-      padding: clamp(6px, 0.62vw, 8px);
+      min-width: 58px;
+      padding: 8px;
       border-radius: var(--radius);
       color: #fff;
       background: #6c7685;
       box-shadow: 0 10px 18px rgba(17, 24, 39, 0.12);
     }
-    .score b { font-size: clamp(20px, 1.42vw, 24px); line-height: 1; }
-    .score span { margin-top: 3px; font-size: clamp(9px, 0.72vw, 11px); font-weight: 800; }
+    .score b { font-size: 24px; line-height: 1; }
+    .score span { margin-top: 3px; font-size: 11px; font-weight: 800; }
     .level-high { background: linear-gradient(180deg, #d45537, #a93425); }
     .level-medium { background: linear-gradient(180deg, #16867d, #115e59); }
     .level-low { background: #6c7685; }
     .chip-block {
-      margin-top: clamp(10px, 0.92vw, 14px);
-      padding: clamp(8px, 0.78vw, 11px);
+      margin-top: 14px;
+      padding: 11px;
       border: 1px solid var(--line);
       border-radius: var(--radius);
     }
@@ -421,18 +399,17 @@
     .tags, .metrics, .reasons {
       display: flex;
       flex-wrap: wrap;
-      gap: clamp(6px, 0.58vw, 8px);
+      gap: 8px;
     }
     .tags span, .metrics span, .reasons span {
       display: inline-flex;
       align-items: center;
-      min-height: clamp(27px, 2vw, 32px);
-      padding: clamp(5px, 0.55vw, 7px) clamp(8px, 0.72vw, 10px);
+      min-height: 32px;
+      padding: 7px 10px;
       border: 1px solid var(--line);
       border-radius: var(--radius);
       background: #fbfcfd;
-      overflow-wrap: anywhere;
-      font-size: clamp(11px, 0.88vw, 13px);
+      font-size: 13px;
     }
     .tags span {
       border-color: #cfd8e6;
@@ -443,14 +420,14 @@
     .metrics span {
       display: grid;
       grid-template-columns: auto minmax(0, 1fr);
-      gap: clamp(4px, 0.46vw, 6px);
+      gap: 6px;
       border-color: #bfdcda;
       color: #174845;
       background: #ffffff;
     }
     .metrics b {
       color: var(--brand-strong);
-      font-size: clamp(10px, 0.78vw, 12px);
+      font-size: 12px;
     }
     .metrics em {
       min-width: 0;
@@ -468,77 +445,44 @@
     .metrics .metric-rank b {
       color: #a45215;
     }
-    .price-overview {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: clamp(6px, 0.58vw, 8px);
-      margin-top: clamp(10px, 0.92vw, 14px);
-      padding: clamp(9px, 0.82vw, 12px);
-      border: 1px solid #e6d0b8;
-      border-radius: var(--radius);
-      color: #3e2b15;
-      background: linear-gradient(180deg, #fffaf2, #fff3df);
-    }
-    .price-label {
-      color: #7a5122;
-      font-size: clamp(11px, 0.8vw, 12px);
-      font-weight: 800;
-    }
-    .price-overview strong {
-      color: #171f2b;
-      font-size: clamp(17px, 1.25vw, 21px);
-      line-height: 1;
-    }
-    .price-overview del {
-      color: #7b8794;
-      font-size: clamp(11px, 0.84vw, 13px);
-      text-decoration-thickness: 1px;
-    }
-    .price-discount {
-      padding: 4px 7px;
-      border-radius: var(--radius);
-      color: #fff;
-      background: #b64b22;
-      font-size: clamp(11px, 0.82vw, 13px);
-      font-weight: 900;
-      line-height: 1;
-    }
-    .price-free {
-      border-color: #b9d8d5;
-      color: #124844;
-      background: linear-gradient(180deg, #f4fbfa, #e6f4f2);
-    }
-    .price-unavailable {
-      border-color: #d8dee8;
-      color: #52606f;
-      background: #f8fafc;
-    }
-    .price-unavailable strong {
-      color: #52606f;
-      font-size: clamp(14px, 1vw, 16px);
-    }
     .reasons span {
       border-color: #d4c9e4;
       color: #3c2f5c;
       background: #ffffff;
       box-shadow: inset 3px 0 0 #8b6bb8;
     }
-    .summary {
-      margin: clamp(10px, 0.92vw, 14px) 0 0;
-      padding: clamp(9px, 0.86vw, 12px);
+    .analysis-block {
+      margin: 14px 0 0;
+      padding: 13px 14px;
       border-radius: var(--radius);
       background: linear-gradient(180deg, #f8fafc, #f1f5f9);
       border: 1px solid #e2e8f0;
       color: #27313d;
-      overflow-wrap: anywhere;
-      font-size: clamp(13px, 0.96vw, 16px);
-      line-height: 1.58;
+    }
+    .analysis-block b {
+      display: block;
+      margin-bottom: 6px;
+      color: #0f766e;
+      font-size: 13px;
+      font-weight: 900;
+    }
+    .analysis-block p {
+      margin: 0;
+      line-height: 1.65;
+    }
+    .summary {
+      margin: 14px 0 0;
+      padding: 12px;
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, #f8fafc, #f1f5f9);
+      border: 1px solid #e2e8f0;
+      color: #27313d;
+      line-height: 1.65;
     }
     .actions {
       display: flex;
-      gap: clamp(6px, 0.58vw, 8px);
-      margin-top: clamp(10px, 0.92vw, 14px);
+      gap: 8px;
+      margin-top: 14px;
     }
     .actions a {
       flex: 1;
@@ -546,9 +490,8 @@
       color: #fff;
       background: var(--brand);
       text-decoration: none;
-      padding: clamp(8px, 0.75vw, 10px) clamp(10px, 0.86vw, 12px);
+      padding: 10px 12px;
       border-radius: var(--radius);
-      font-size: clamp(13px, 0.95vw, 16px);
       font-weight: 800;
       transition: transform 160ms ease, filter 160ms ease;
     }
@@ -766,9 +709,6 @@
       border-radius: var(--radius);
       background: linear-gradient(180deg, #f7fbfb, #eef7f6);
     }
-    .rank-preview-price {
-      margin-top: 0;
-    }
     .rank-preview-summary {
       margin: 0;
       padding: 11px;
@@ -859,7 +799,7 @@
       <div class="brand">SteamGameNews</div>
       <nav><a class="" href="../../index.html">首页</a><a class="" href="../../week/index.html">本周</a><a class="" href="../../month/index.html">本月</a></nav>
     </div>
-    <header class="hero" style="--hero-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2846530/header.jpg?t=1780080577')">
+    <header class="hero">
       <div>
         <p class="hero-kicker">Steam 游戏趋势监测</p>
         <h1>2026-05-30 Steam 推荐归档</h1>
@@ -867,7 +807,7 @@
         <a class="hero-action" href="../../week/index.html">查看本周趋势 →</a>
       </div>
       <div class="quick-stats">
-        <span>当天候选 20 款</span><span>数据更新 2026-11-17 18:09 CST</span>
+        <span>当天候选 20 款</span><span>数据更新 2026-11-18 18:09 CST</span>
       </div>
     </header>
     
@@ -884,7 +824,7 @@
           <strong>BrokenLore: FOLLOW</strong>
           <small>BrokenLore: FOLLOW</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2846530/header.jpg?t=1780080577" alt="BrokenLore: FOLLOW cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -895,14 +835,16 @@
           </div>
           <div class="score level-low"><b>26</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>近上线新商店页：BrokenLore 系列和心理恐怖题材有明确直播传播性；5/30 重点是页面进入解锁倒计时，需继续观察首日评价与愿望单转化。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>心理恐怖</span><span>第一人称</span><span>叙事</span><span>Demo Available</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>当天核对项：Steam Coming Soon/搜索页显示接近 5/30-5/31 解锁窗口，并提供 Demo/Playtest；作为近上线新商店页跟踪，不计作已发售。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2846530"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="2846530"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>当天核对项：Steam Coming Soon/搜索页显示接近 5/30-5/31 解锁窗口，并提供 Demo/Playtest；作为近上线新商店页跟踪，不计作已发售。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>新商店页处于愿望单积累期</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；新商店页处于愿望单积累期；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2846530/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/2846530" target="_blank" rel="noreferrer">联系</a>
@@ -916,7 +858,7 @@
           <strong>Jupiter</strong>
           <small>Jupiter</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3970800/65e50136db74da88656585673798508c65366198/header.jpg?t=1779763055" alt="Jupiter cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -927,14 +869,16 @@
           </div>
           <div class="score level-low"><b>34</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>今日新页候选：Jupiter 在搜索索引中带 5/30 日期，但公开热度数据不足；保留为新商店页观察位，等待 SteamDB followers 或愿望单信号。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>独立</span><span>冒险</span><span>探索</span><span>剧情</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>当天新商店页核对项：搜索索引显示 2026-05-30 且 Steam 页面仍为未上线；以新公布/近上线候选跟踪。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3970800"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3970800"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>当天新商店页核对项：搜索索引显示 2026-05-30 且 Steam 页面仍为未上线；以新公布/近上线候选跟踪。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>新商店页处于愿望单积累期</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：新商店页处于愿望单积累期；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3970800/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3970800" target="_blank" rel="noreferrer">联系</a>
@@ -948,7 +892,7 @@
           <strong>Tamer: King of Dinosaurs</strong>
           <small>Tamer: King of Dinosaurs</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3026730/3f2c17e39fe6729358df62bc4a0f1a261b879099/header.jpg?t=1779790934" alt="Tamer: King of Dinosaurs cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -959,14 +903,16 @@
           </div>
           <div class="score level-low"><b>32</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>连续跟踪项：恐龙生存、建造和恋爱叙事组合辨识度高；SteamDB followers 在 5/30 日历候选中靠前，适合继续监测解锁转化。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>生存</span><span>动作 RPG</span><span>恐龙</span><span>基地建设</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>4,655</em></span><span class=""><b>榜单/热度信号</b><em>当天 SteamDB 5/30 日历高 followers 预发售项：4,655 followers，属于本月持续预热的新商店页，不伪装成今天刚创建。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3026730"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3026730"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>4,655</em></span><span class=""><b>热度</b><em>当天 SteamDB 5/30 日历高 followers 预发售项：4,655 followers，属于本月持续预热的新商店页，不伪装成今天刚创建。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>新商店页处于愿望单积累期</span></div>
     </div>
-        <p class="summary">推荐理由：新商店页处于愿望单积累期。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3026730/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3026730" target="_blank" rel="noreferrer">联系</a>
@@ -980,7 +926,7 @@
           <strong>Mike goes on hike</strong>
           <small>Mike goes on hike</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/912000/header.jpg?t=1778754649" alt="Mike goes on hike cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -991,14 +937,16 @@
           </div>
           <div class="score level-low"><b>35</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>连续跟踪项：第一人称徒步和轻合作卖点清晰，followers 基数优于多数 5/30 小体量候选；需要首发评价验证留存。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>徒步模拟</span><span>探索</span><span>合作</span><span>独立</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>3,551</em></span><span class=""><b>榜单/热度信号</b><em>当天 SteamDB 5/30 日历显示 May 2026 且 3,551 followers；多日预热项，5/30 继续跟踪。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="912000"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="912000"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>3,551</em></span><span class=""><b>热度</b><em>当天 SteamDB 5/30 日历显示 May 2026 且 3,551 followers；多日预热项，5/30 继续跟踪。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>多人/合作传播性好</span><span>新商店页处于愿望单积累期</span></div>
     </div>
-        <p class="summary">推荐理由：多人/合作传播性好；新商店页处于愿望单积累期。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/912000/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/912000" target="_blank" rel="noreferrer">联系</a>
@@ -1012,7 +960,7 @@
           <strong>BABELOMANIA</strong>
           <small>BABELOMANIA</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3515630/7937717daa1e97de3fcc2affa4d8430d96cdbde0/header.jpg?t=1758962142" alt="BABELOMANIA cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1023,14 +971,16 @@
           </div>
           <div class="score level-low"><b>36</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>今日小众新页候选：技术哥特恐怖视觉小说有垂直受众，但公开热度很低；入选原因是题材辨识度和本月窗口，不是榜单爆量。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>恐怖</span><span>视觉小说</span><span>点击解谜</span><span>冒险</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>39</em></span><span class=""><b>榜单/热度信号</b><em>当天 Steam/SteamDB 可见 May 2026 预发售项；followers 仅 39，属于题材潜力而非热度领先。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3515630"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3515630"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>39</em></span><span class=""><b>热度</b><em>当天 Steam/SteamDB 可见 May 2026 预发售项；followers 仅 39，属于题材潜力而非热度领先。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>新商店页处于愿望单积累期</span></div>
     </div>
-        <p class="summary">推荐理由：新商店页处于愿望单积累期。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3515630/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3515630" target="_blank" rel="noreferrer">联系</a>
@@ -1051,7 +1001,7 @@
           <strong>Don Memo Demo</strong>
           <small>Don Memo Demo</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4709950/4b7dbdd06b3aa782dd852e1a10bcdabde67dbcda/header.jpg?t=1780101871" alt="Don Memo Demo cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1062,14 +1012,16 @@
           </div>
           <div class="score level-low"><b>25</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>今日新 Demo：记忆/益智玩法易试玩，SteamDB 已给出首日 peak 93；followers、wishlist_rank、wishlist_activity_rank 未公开，字段已保留。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>记忆</span><span>休闲</span><span>益智</span><span>独立</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>今日新上线 Demo：SteamDB 5/30 日历列为 Demo，6 reviews，peak 93；Demo followers/wishlist 未公开。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4709950"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4709950"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>今日新上线 Demo：SteamDB 5/30 日历列为 Demo，6 reviews，peak 93；Demo followers/wishlist 未公开。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；Demo 可验证试玩转化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4709950/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/4709950" target="_blank" rel="noreferrer">联系</a>
@@ -1083,7 +1035,7 @@
           <strong>Momento Isles Demo</strong>
           <small>Momento Isles Demo</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4067210/header.jpg" alt="Momento Isles Demo cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1094,14 +1046,16 @@
           </div>
           <div class="score level-low"><b>25</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>Demo 补位：背包构筑与动作 roguelike 有试玩传播潜力；公开 followers、wishlist_rank、wishlist_activity_rank 均未公开。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>动作 Roguelike</span><span>背包构筑</span><span>冒险</span><span>独立</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>今日 Demo 补位：SteamDB 5/30 日历列为 Demo，Steam 搜索索引今日抓取；未见公开 followers/wishlist 排名。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4067210"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4067210"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>今日 Demo 补位：SteamDB 5/30 日历列为 Demo，Steam 搜索索引今日抓取；未见公开 followers/wishlist 排名。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；Demo 可验证试玩转化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4067210/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/4067210" target="_blank" rel="noreferrer">联系</a>
@@ -1115,7 +1069,7 @@
           <strong>The Sound of Piano Demo</strong>
           <small>The Sound of Piano Demo</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4603660/bd89b9f8645f49ea4067df0a4ad267f228bd80ba/header.jpg" alt="The Sound of Piano Demo cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1126,14 +1080,16 @@
           </div>
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>连续跟踪 Demo：硬核键盘钢琴节奏玩法有明确垂直玩家；SteamDB/Steam 未公开 followers 与愿望单排名，保留为 未公开。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>音乐</span><span>节奏</span><span>键盘</span><span>独立</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>连续跟踪项：5/29 Demo Released_DESC 头部，5/30 因当天公开 Demo 样本不足继续补位；不是今日新上线。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4603660"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4603660"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>连续跟踪项：5/29 Demo Released_DESC 头部，5/30 因当天公开 Demo 样本不足继续补位；不是今日新上线。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；Demo 可验证试玩转化；多日连续进入监测池；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4603660/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/4603660" target="_blank" rel="noreferrer">联系</a>
@@ -1147,7 +1103,7 @@
           <strong>纸上征服者 Demo</strong>
           <small>Paper Conqueror Demo</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4440740/header.jpg" alt="Paper Conqueror Demo cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1158,14 +1114,16 @@
           </div>
           <div class="score level-low"><b>31</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>连续跟踪 Demo：中文纸面策略题材适合核心玩家试错；followers、wishlist_rank、wishlist_activity_rank 未公开。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>策略</span><span>卡牌</span><span>桌上游戏</span><span>独立</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>连续跟踪项：5/29 中文策略 Demo 头部；5/30 仅作为 Demo 数据覆盖补位，不标为今天新上线。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4440740"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4440740"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>连续跟踪项：5/29 中文策略 Demo 头部；5/30 仅作为 Demo 数据覆盖补位，不标为今天新上线。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；Demo 可验证试玩转化；多日连续进入监测池；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4440740/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/4440740" target="_blank" rel="noreferrer">联系</a>
@@ -1179,7 +1137,7 @@
           <strong>The Goddess&#39;s Will Demo</strong>
           <small>The Goddess&#39;s Will Demo</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045560/10b204ef8fa78bb1e83d9858a81477165899c101/header.jpg?t=1780046434" alt="The Goddess&#39;s Will Demo cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1190,14 +1148,16 @@
           </div>
           <div class="score level-low"><b>28</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>连续跟踪 Demo：视觉小说/角色叙事有垂直转化机会；SteamDB 公开 followers 和愿望单排名不可得，字段保留为 未公开。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>视觉小说</span><span>冒险</span><span>独立</span><span>剧情</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>榜单/热度信号</b><em>连续跟踪项：5/29 Demo 头部；5/30 未发现足够新 Demo 公开热度数据，故明确补位。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4045560"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4045560"><b>评论</b><em>刷新中</em></span><span class=""><b>热度</b><em>连续跟踪项：5/29 Demo 头部；5/30 未发现足够新 Demo 公开热度数据，故明确补位。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>Demo 可验证试玩转化</span><span>多日连续进入监测池</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；Demo 可验证试玩转化；多日连续进入监测池。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4045560/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/4045560" target="_blank" rel="noreferrer">联系</a>
@@ -1218,7 +1178,7 @@
           <strong>Dawn of Corruption</strong>
           <small>Dawn of Corruption</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1608730/3345a21ee98ea0128ddaf82a93f4b0de6d17f731/header.jpg?t=1780117887" alt="Dawn of Corruption cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1227,22 +1187,18 @@
             <p>Dawn of Corruption</p>
             <div class="title-meta"><span>上线 2026-05-30</span><span>Sombreve</span></div>
           </div>
-          <div class="score level-low"><b>40</b><span>Low</span></div>
+          <div class="score level-low"><b>33</b><span>Low</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>今日新发布：免费 RPG 有首日评价和可见在线；关注点是成人向/限制地区会压缩覆盖面，但免费入口降低试错成本。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>RPG</span><span>卡牌战斗</span><span>剧情</span><span>免费</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="1608730"><b>在线</b><em>6</em></span><span class=""><b>关注</b><em>988</em></span><span class=""><b>榜单/热度信号</b><em>今日发布：SteamDB 5/30 日历 #1，988 followers、109 reviews、peak 28，免费 RPG 首日评价可见。</em></span></div></div>
-        
-    <div class="price-overview price-unavailable" data-price-overview data-appid="1608730">
-      <span class="price-label">国区售价</span>
-      
-      <strong>价格未公开</strong>
-      
-    </div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="1608730"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="1608730"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>988</em></span><span class=""><b>热度</b><em>今日发布：SteamDB 5/30 日历 #1，988 followers、109 reviews、peak 28，免费 RPG 首日评价可见。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；已发布，可观察真实在线；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/1608730/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/1608730" target="_blank" rel="noreferrer">联系</a>
@@ -1256,7 +1212,7 @@
           <strong>Tavern, Inn, and the Halberd</strong>
           <small>Tavern, Inn, and the Halberd</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4110360/414883823183c05b5458fc170945ec3bf704e267/header.jpg?t=1780112119" alt="Tavern, Inn, and the Halberd cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1267,20 +1223,16 @@
           </div>
           <div class="score level-low"><b>32</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>今日新发布：酒馆/旅店经营题材直观，peak 86 显示有首日试玩池；后续看折扣后评价量能否放大。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>管理</span><span>模拟</span><span>中世纪</span><span>独立</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>688</em></span><span class=""><b>榜单/热度信号</b><em>今日发布：SteamDB 5/30 日历 #2，688 followers、10 reviews、peak 86；题材和首日在线均优于多数同日小品。</em></span></div></div>
-        
-    <div class="price-overview price-unavailable" data-price-overview data-appid="4110360">
-      <span class="price-label">国区售价</span>
-      
-      <strong>价格未公开</strong>
-      
-    </div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="4110360"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="4110360"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>688</em></span><span class=""><b>热度</b><em>今日发布：SteamDB 5/30 日历 #2，688 followers、10 reviews、peak 86；题材和首日在线均优于多数同日小品。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>低门槛试玩或轻量入口</span><span>已发布，可观察真实在线</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：低门槛试玩或轻量入口；已发布，可观察真实在线；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/4110360/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/4110360" target="_blank" rel="noreferrer">联系</a>
@@ -1294,7 +1246,7 @@
           <strong>Fathoms</strong>
           <small>Fathoms</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3050170/header.jpg?t=1780106535" alt="Fathoms cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1303,22 +1255,18 @@
             <p>Fathoms</p>
             <div class="title-meta"><span>上线 2026-05-30</span><span>Bloop</span></div>
           </div>
-          <div class="score level-low"><b>27</b><span>Low</span></div>
+          <div class="score level-low"><b>21</b><span>Low</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>今日新发布：水下载具动作冒险差异化明显，但公开 followers 很低；属于小众潜力观察而非热度领先。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>潜艇</span><span>探索</span><span>类银河战士恶魔城</span><span>抢劫</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3050170"><b>在线</b><em>1</em></span><span class=""><b>关注</b><em>20</em></span><span class=""><b>榜单/热度信号</b><em>今日发布：SteamDB 5/30 日历标 30 May，followers 20、peak 1；热度低但题材差异化。</em></span></div></div>
-        
-    <div class="price-overview price-unavailable" data-price-overview data-appid="3050170">
-      <span class="price-label">国区售价</span>
-      
-      <strong>价格未公开</strong>
-      
-    </div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3050170"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3050170"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>20</em></span><span class=""><b>热度</b><em>今日发布：SteamDB 5/30 日历标 30 May，followers 20、peak 1；热度低但题材差异化。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>已发布，可观察真实在线</span></div>
     </div>
-        <p class="summary">推荐理由：已发布，可观察真实在线。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3050170/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3050170" target="_blank" rel="noreferrer">联系</a>
@@ -1332,7 +1280,7 @@
           <strong>Dreamstranded</strong>
           <small>Dreamstranded</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326670/1791e9f0758da0c712bc2e292d5ecf4184054903/header.jpg?t=1778559041" alt="Dreamstranded cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1343,20 +1291,16 @@
           </div>
           <div class="score level-low"><b>26</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>月末持续跟踪项：followers 接近 700，在同日小体量候选中较靠前；需要精确发布日期和首批评价确认。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>生存</span><span>冒险</span><span>探索</span><span>独立</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>663</em></span><span class=""><b>榜单/热度信号</b><em>5/30 日历当前页候选：663 followers，但日期仅 May 2026；作为月末持续跟踪，不伪装成精确 5/30 发布。</em></span></div></div>
-        
-    <div class="price-overview price-unavailable" data-price-overview data-appid="3326670">
-      <span class="price-label">国区售价</span>
-      
-      <strong>价格未公开</strong>
-      
-    </div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3326670"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3326670"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>663</em></span><span class=""><b>热度</b><em>5/30 日历当前页候选：663 followers，但日期仅 May 2026；作为月末持续跟踪，不伪装成精确 5/30 发布。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>已发布，可观察真实在线</span></div>
     </div>
-        <p class="summary">推荐理由：已发布，可观察真实在线。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3326670/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3326670" target="_blank" rel="noreferrer">联系</a>
@@ -1370,7 +1314,7 @@
           <strong>Dire Echo</strong>
           <small>Dire Echo</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743180/05c22cf5ef7893b5dd61c756ce94e5d5ebfb3d53/header.jpg?t=1780135093" alt="Dire Echo cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1381,20 +1325,16 @@
           </div>
           <div class="score level-low"><b>25</b><span>Low</span></div>
         </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>月末持续跟踪项：恐怖题材具备直播切片可能，但 followers 仍低；入选是题材潜力和 5/30 当前页曝光。</p>
+        </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>恐怖</span><span>冒险</span><span>独立</span><span>剧情</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class=""><b>关注</b><em>201</em></span><span class=""><b>榜单/热度信号</b><em>5/30 日历当前页候选：201 followers，日期为 May 2026；按月末持续项处理。</em></span></div></div>
-        
-    <div class="price-overview price-unavailable" data-price-overview data-appid="3743180">
-      <span class="price-label">国区售价</span>
-      
-      <strong>价格未公开</strong>
-      
-    </div>
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3743180"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3743180"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>201</em></span><span class=""><b>热度</b><em>5/30 日历当前页候选：201 followers，日期为 May 2026；按月末持续项处理。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
       <div class="reasons"><span>已发布，可观察真实在线</span></div>
     </div>
-        <p class="summary">推荐理由：已发布，可观察真实在线。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3743180/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3743180" target="_blank" rel="noreferrer">联系</a>
@@ -1415,7 +1355,7 @@
           <strong>Forza Horizon 6</strong>
           <small>Forza Horizon 6</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg" alt="Forza Horizon 6 cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1424,16 +1364,18 @@
             <p>Forza Horizon 6</p>
             <div class="title-meta"><span>上线 May 2026</span><span>Playground Games</span><span>Xbox Game Studios</span></div>
           </div>
-          <div class="score level-low"><b>37</b><span>Low</span></div>
+          <div class="score level-medium"><b>53</b><span>Medium</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>连续跟踪榜单项：强 IP 与高在线仍支撑榜单位置；今日用于热度基准，不作为 5/30 新品。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>竞速</span><span>开放世界</span><span>多人</span><span>强 IP</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2483190"><b>在线</b><em>167,876</em></span><span class=""><b>关注</b><em>276,608</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>4</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>2</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪榜单项：SteamDB global top sellers #2，wishlist activity #4，followers 276,608，online 167,876；非今日新发布。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="2483190"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="2483190"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>276,608</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>4</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>2</em></span><span class=""><b>热度</b><em>连续跟踪榜单项：SteamDB global top sellers #2，wishlist activity #4，followers 276,608，online 167,876；非今日新发布。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>关注基数高</span><span>多人/合作传播性好</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
+      <div class="reasons"><span>关注基数高</span><span>Steam 热销榜排名靠前</span><span>多人/合作传播性好</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span></div>
     </div>
-        <p class="summary">推荐理由：关注基数高；多人/合作传播性好；多日连续进入监测池；生命周期阶段发生变化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/2483190/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/2483190" target="_blank" rel="noreferrer">联系</a>
@@ -1447,7 +1389,7 @@
           <strong>007 First Light</strong>
           <small>007 First Light</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/header.jpg" alt="007 First Light cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1456,16 +1398,18 @@
             <p>007 First Light</p>
             <div class="title-meta"><span>上线 May 2026</span><span>IO Interactive</span></div>
           </div>
-          <div class="score level-low"><b>33</b><span>Low</span></div>
+          <div class="score level-medium"><b>49</b><span>Medium</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>连续跟踪榜单项：首发周强 IP 仍在热销和愿望单活跃双榜前列；作为爆款热度参照保留。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>动作冒险</span><span>潜行</span><span>强 IP</span><span>单人</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3768760"><b>在线</b><em>47,485</em></span><span class=""><b>关注</b><em>83,797</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>1</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>3</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪榜单项：SteamDB wishlist activity #1、global top sellers #3，followers 83,797，online 47,485；5/30 仍强势。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="3768760"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="3768760"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>83,797</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>1</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>3</em></span><span class=""><b>热度</b><em>连续跟踪榜单项：SteamDB wishlist activity #1、global top sellers #3，followers 83,797，online 47,485；5/30 仍强势。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>关注基数高</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
+      <div class="reasons"><span>关注基数高</span><span>Steam 热销榜排名靠前</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：关注基数高；多日连续进入监测池；生命周期阶段发生变化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/3768760/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/3768760" target="_blank" rel="noreferrer">联系</a>
@@ -1479,7 +1423,7 @@
           <strong>Paralives</strong>
           <small>Paralives</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/header.jpg" alt="Paralives cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1488,16 +1432,18 @@
             <p>Paralives</p>
             <div class="title-meta"><span>上线 May 2026</span><span>Paralives Studio</span></div>
           </div>
-          <div class="score level-low"><b>35</b><span>Low</span></div>
+          <div class="score level-medium"><b>49</b><span>Medium</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>连续跟踪榜单项：生活模拟竞品叙事继续带来讨论和销量；今日用作中重度独立/模拟热度参照。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>生活模拟</span><span>沙盒</span><span>建造</span><span>创意工坊</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="1118520"><b>在线</b><em>19,162</em></span><span class=""><b>关注</b><em>223,348</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>3</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>6</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪榜单项：SteamDB wishlist activity #3、top sellers #6，followers 223,348，online 19,162；5/30 仍具长尾。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="1118520"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="1118520"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>223,348</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>3</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>6</em></span><span class=""><b>热度</b><em>连续跟踪榜单项：SteamDB wishlist activity #3、top sellers #6，followers 223,348，online 19,162；5/30 仍具长尾。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>关注基数高</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
+      <div class="reasons"><span>关注基数高</span><span>Steam 热销榜排名靠前</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
     </div>
-        <p class="summary">推荐理由：关注基数高；多日连续进入监测池；生命周期阶段发生变化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/1118520/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/1118520" target="_blank" rel="noreferrer">联系</a>
@@ -1511,7 +1457,7 @@
           <strong>Subnautica 2</strong>
           <small>Subnautica 2</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/header.jpg" alt="Subnautica 2 cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1520,16 +1466,18 @@
             <p>Subnautica 2</p>
             <div class="title-meta"><span>上线 May 2026</span><span>Unknown Worlds Entertainment</span></div>
           </div>
-          <div class="score level-low"><b>37</b><span>Low</span></div>
+          <div class="score level-medium"><b>52</b><span>Medium</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>连续跟踪榜单项：高 followers 和稳定在线说明生存品类仍有强扩散；今日作为大盘基准。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>生存</span><span>开放世界</span><span>水下</span><span>合作</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="1962700"><b>在线</b><em>36,384</em></span><span class=""><b>关注</b><em>452,601</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>2</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>7</em></span><span class=""><b>榜单/热度信号</b><em>连续跟踪榜单项：SteamDB wishlist activity #2、top sellers #7，followers 452,601，online 36,384；非今日新发。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="1962700"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="1962700"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>452,601</em></span><span class="metric-rank"><b>活跃榜 · SteamDB</b><em>2</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>7</em></span><span class=""><b>热度</b><em>连续跟踪榜单项：SteamDB wishlist activity #2、top sellers #7，followers 452,601，online 36,384；非今日新发。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>关注基数高</span><span>多人/合作传播性好</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span><span>曾位于分类头部</span></div>
+      <div class="reasons"><span>关注基数高</span><span>Steam 热销榜排名靠前</span><span>多人/合作传播性好</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span></div>
     </div>
-        <p class="summary">推荐理由：关注基数高；多人/合作传播性好；多日连续进入监测池；生命周期阶段发生变化；曾位于分类头部。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/1962700/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/1962700" target="_blank" rel="noreferrer">联系</a>
@@ -1543,7 +1491,7 @@
           <strong>Mina the Hollower</strong>
           <small>Mina the Hollower</small>
         </span>
-        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/header.jpg" alt="Mina the Hollower cover" loading="lazy" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.remove();}">
+        
       </a>
       <div class="card-body">
         <div class="title-row">
@@ -1552,16 +1500,18 @@
             <p>Mina the Hollower</p>
             <div class="title-meta"><span>上线 May 2026</span><span>Yacht Club Games</span></div>
           </div>
-          <div class="score level-low"><b>35</b><span>Low</span></div>
+          <div class="score level-medium"><b>49</b><span>Medium</span></div>
+        </div>
+        <div class="analysis-block">
+          <b>推荐理由</b>
+          <p>近新独立榜单项：复古动作冒险口碑传播强，热销排名靠前；不是 5/30 新品，但值得独立 Top 5 参考。</p>
         </div>
         <div class="chip-block chip-block-tags"><div class="tags"><span>动作冒险</span><span>像素</span><span>复古</span><span>独立</span></div></div>
-        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="1875580"><b>在线</b><em>5,214</em></span><span class=""><b>关注</b><em>18,073</em></span><span class="metric-rank"><b>热销榜 · Steam</b><em>8</em></span><span class=""><b>榜单/热度信号</b><em>近新独立热销项：SteamDB global top sellers #8，followers 18,073，online 5,214，首发周仍在热销前列。</em></span></div></div>
-        
+        <div class="chip-block chip-block-metrics"><div class="metrics"><span class="" data-current-players data-appid="1875580"><b>在线</b><em>刷新中</em></span><span class="" data-review-count data-appid="1875580"><b>评论</b><em>刷新中</em></span><span class=""><b>关注</b><em>18,073</em></span><span class="metric-rank"><b>热销榜 · SteamDB</b><em>8</em></span><span class=""><b>热度</b><em>近新独立热销项：SteamDB global top sellers #8，followers 18,073，online 5,214，首发周仍在热销前列。</em></span></div></div>
         
     <div class="chip-block chip-block-reasons">
-      <div class="reasons"><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span></div>
+      <div class="reasons"><span>Steam 热销榜排名靠前</span><span>多日连续进入监测池</span><span>生命周期阶段发生变化</span></div>
     </div>
-        <p class="summary">推荐理由：多日连续进入监测池；生命周期阶段发生变化。</p>
         <div class="actions">
           <a href="https://store.steampowered.com/app/1875580/" target="_blank" rel="noreferrer">Steam</a>
           <a href="https://steamcommunity.com/app/1875580" target="_blank" rel="noreferrer">联系</a>
@@ -1598,8 +1548,6 @@
     const liveAppids = [...new Set(livePlayerNodes.map((node) => node.dataset.appid).filter(Boolean))];
     const liveReviewNodes = [...document.querySelectorAll("[data-review-count][data-appid]")];
     const liveReviewAppids = [...new Set(liveReviewNodes.map((node) => node.dataset.appid).filter(Boolean))];
-    const livePriceNodes = [...document.querySelectorAll("[data-price-overview][data-appid]")];
-    const livePriceAppids = [...new Set(livePriceNodes.map((node) => node.dataset.appid).filter(Boolean))];
 
     function setLivePlayers(appid, playerCount) {
       for (const node of livePlayerNodes.filter((item) => item.dataset.appid === appid)) {
@@ -1614,55 +1562,6 @@
       for (const node of liveReviewNodes.filter((item) => item.dataset.appid === appid)) {
         const value = node.querySelector("em");
         if (value) value.textContent = formatLiveNumber(reviewCount);
-        node.title = "页面打开时实时刷新";
-        node.dataset.live = "true";
-      }
-    }
-
-    function formatSteamAmount(value, currency = "CNY") {
-      if (value === null || value === undefined || value === "") return "";
-
-      const number = Number(value);
-      if (!Number.isFinite(number)) return "";
-
-      try {
-        return new Intl.NumberFormat("zh-CN", {
-          style: "currency",
-          currency,
-          currencyDisplay: "narrowSymbol"
-        }).format(number / 100);
-      } catch {
-        return `${currency} ${(number / 100).toFixed(2)}`;
-      }
-    }
-
-    function appendPricePart(node, tagName, className, text) {
-      if (!text) return;
-      const element = document.createElement(tagName);
-      if (className) element.className = className;
-      element.textContent = text;
-      node.append(element);
-    }
-
-    function setLivePrices(appid, price) {
-      for (const node of livePriceNodes.filter((item) => item.dataset.appid === appid)) {
-        const discount = Number(price.discount_percent ?? 0);
-        const hasFinalPrice = price.final !== null && price.final !== undefined && Number.isFinite(Number(price.final));
-        const isFree = price.is_free || (hasFinalPrice && Number(price.final) === 0);
-        const finalText = isFree ? "免费开玩" : price.final_formatted || formatSteamAmount(price.final, price.currency || "CNY");
-        const initialText = discount > 0 ? price.initial_formatted || formatSteamAmount(price.initial, price.currency || "CNY") : "";
-
-        if (!finalText) continue;
-
-        node.replaceChildren();
-        node.classList.toggle("price-discounted", discount > 0);
-        node.classList.toggle("price-standard", !isFree && discount <= 0);
-        node.classList.toggle("price-free", isFree);
-        node.classList.remove("price-unavailable");
-        appendPricePart(node, "span", "price-label", discount > 0 ? "国区折扣" : "国区售价");
-        if (discount > 0) appendPricePart(node, "span", "price-discount", `-${discount}%`);
-        appendPricePart(node, "strong", "", finalText);
-        appendPricePart(node, "del", "", initialText);
         node.title = "页面打开时实时刷新";
         node.dataset.live = "true";
       }
@@ -1717,53 +1616,6 @@
       return null;
     }
 
-    function parseLivePrice(data, appid) {
-      const details = data?.[appid]?.data;
-      const price = details?.price_overview;
-
-      if (price) {
-        return {
-          currency: price.currency || "CNY",
-          initial: Number.isFinite(Number(price.initial)) ? Number(price.initial) : null,
-          final: Number.isFinite(Number(price.final)) ? Number(price.final) : null,
-          discount_percent: Number.isFinite(Number(price.discount_percent)) ? Number(price.discount_percent) : 0,
-          initial_formatted: price.initial_formatted || "",
-          final_formatted: price.final_formatted || "",
-          is_free: Number(price.final) === 0
-        };
-      }
-
-      if (details?.is_free) {
-        return {
-          currency: "CNY",
-          initial: 0,
-          final: 0,
-          discount_percent: 0,
-          initial_formatted: "",
-          final_formatted: "免费开玩",
-          is_free: true
-        };
-      }
-
-      return null;
-    }
-
-    async function fetchLivePrice(appid) {
-      const steamUrl = `https://store.steampowered.com/api/appdetails?appids=${encodeURIComponent(appid)}&filters=price_overview&cc=cn&l=schinese`;
-      const urls = [
-        steamUrl,
-        `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(steamUrl)}`
-      ];
-
-      for (const url of urls) {
-        const data = await fetchJsonWithTimeout(url);
-        const price = parseLivePrice(data, appid);
-        if (price) return price;
-      }
-
-      return null;
-    }
-
     async function refreshLiveValues(appids, fetcher, setter) {
       const concurrency = 4;
       for (let index = 0; index < appids.length; index += concurrency) {
@@ -1780,9 +1632,6 @@
     }
     if (liveReviewAppids.length > 0) {
       refreshLiveValues(liveReviewAppids, fetchLiveReviews, setLiveReviews);
-    }
-    if (livePriceAppids.length > 0) {
-      refreshLiveValues(livePriceAppids, fetchLivePrice, setLivePrices);
     }
   </script>
 </body>
