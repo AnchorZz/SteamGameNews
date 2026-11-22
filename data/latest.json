@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-21",
-  "title": "Steam 热门游戏推荐日报｜2026年11月21日",
+  "date": "2026-11-22",
+  "title": "Steam 热门游戏推荐日报｜2026年11月22日",
   "sections": [
     {
       "id": "new-store",
       "title": "新公布/重点商店页",
-      "description": "以 11/21 SteamDB Trending Followers 与 Upcoming 公开页复核；下列均为连续跟踪商店页，并非声称今天首次公布。",
+      "description": "以当日 SteamDB Trending Followers 与 Steam 待发售页复核；均为当前公开商店页热度候选，连续项目已明确标注。",
       "games": [
         {
           "appid": "4915700",
@@ -21,23 +21,23 @@
           "developer": "ProjectAlive",
           "publisher": "ProjectAlive",
           "release_date": "Coming soon",
-          "followers": "32,608",
+          "followers": "33,424",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：SteamDB Trending Followers 公开榜仍是本次核对的增速信号。",
+          "heat": "连续跟踪：SteamDB Trending Followers #11，7日 +4,379。",
           "current_players": "未公开",
-          "summary": "连续跟踪项，非 11/21 首次公布；以公开关注者增速作为后续发售前热度信号。",
+          "summary": "连续跟踪项，非今日首次公布；SteamDB 显示关注增长仍强，僵尸即时战术定位有明确传播钩子。",
           "steam_url": "https://store.steampowered.com/app/4915700/",
           "contact_url": "https://steamcommunity.com/app/4915700",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4915700/b2005f59eb292ca2909fb1bab06976ee1f89c47e/header.jpg?t=1792676931",
           "source_signals": [
-            "SteamDB Trending Followers：11/21 复核",
-            "11/20 快照 followers 32,608"
+            "SteamDB Trending Followers 11/22",
+            "33,424 followers / +4,379 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-21/4915700.jpg",
-          "potential_score": 40,
-          "watch_level": "Low",
+          "cover_local_path": "/assets/covers/2026-11-22/4915700.jpg",
+          "potential_score": 49,
+          "watch_level": "Medium",
           "score_reasons": [
             "关注基数高",
             "新商店页处于愿望单积累期",
@@ -46,6 +46,43 @@
             "曾位于分类头部"
           ],
           "daily_rank": 1
+        },
+        {
+          "appid": "5275590",
+          "name_zh": "Dirt Town",
+          "name_en": "Dirt Town",
+          "category": "New Store",
+          "tags": [
+            "模拟",
+            "物理",
+            "沙盒",
+            "驾驶"
+          ],
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "2026-12-04",
+          "followers": "6,063",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "连续跟踪：SteamDB Trending Followers #14，7日 +3,655。",
+          "current_players": "未公开",
+          "summary": "连续跟踪项；12 月发售前一周关注增速突出，题材兼具沙盒与驾驶传播面。",
+          "steam_url": "https://store.steampowered.com/app/5275590/",
+          "contact_url": "https://steamcommunity.com/app/5275590",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5275590/d94a07a1f6798bd0dfda188926617b9156889f25/header.jpg?t=1794878111",
+          "source_signals": [
+            "SteamDB Trending Followers 11/22",
+            "6,063 followers / +3,655 7d"
+          ],
+          "cover_local_path": "/assets/covers/2026-11-22/5275590.jpg",
+          "potential_score": 37,
+          "watch_level": "Low",
+          "score_reasons": [
+            "新商店页处于愿望单积累期",
+            "曾位于分类头部"
+          ],
+          "daily_rank": 2
         },
         {
           "appid": "4039200",
@@ -60,30 +97,30 @@
           "developer": "未公开",
           "publisher": "未公开",
           "release_date": "Coming soon",
-          "followers": "12,135",
+          "followers": "12,716",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：前一日 SteamDB 关注增速进入候选，今日未伪装成新公布。",
+          "heat": "连续跟踪：SteamDB Trending Followers #19，7日 +3,284。",
           "current_players": "未公开",
-          "summary": "连续跟踪项；关注增速的公开信号仍值得观察，但不是今日首次商店页。",
+          "summary": "连续跟踪项，未冒充今日新公布；合作动作候选的公开关注增速继续上行。",
           "steam_url": "https://store.steampowered.com/app/4039200/",
           "contact_url": "https://steamcommunity.com/app/4039200",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4039200/112c640d9fcfaa07f1c36a06bb98bd3af2e00b53/header_schinese.jpg?t=1795174051",
           "source_signals": [
-            "SteamDB Trending Followers：11/21 复核",
-            "11/20 快照 followers 12,135"
+            "SteamDB Trending Followers 11/22",
+            "12,716 followers / +3,284 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-21/4039200.jpg",
-          "potential_score": 40,
-          "watch_level": "Low",
+          "cover_local_path": "/assets/covers/2026-11-22/4039200.jpg",
+          "potential_score": 50,
+          "watch_level": "Medium",
           "score_reasons": [
             "多人/合作传播性好",
             "新商店页处于愿望单积累期",
             "多日连续进入监测池",
             "曾位于分类头部"
           ],
-          "daily_rank": 2
+          "daily_rank": 3
         },
         {
           "appid": "5072600",
@@ -91,109 +128,70 @@
           "name_en": "Family Time",
           "category": "New Store",
           "tags": [
-            "独立",
             "模拟",
-            "多人"
+            "多人",
+            "独立"
           ],
           "developer": "未公开",
           "publisher": "未公开",
           "release_date": "2027-Q1",
-          "followers": "55,989",
+          "followers": "56,857",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：待发售商店页的公开关注量较高。",
+          "heat": "连续跟踪：SteamDB Trending Followers #24，7日 +2,834。",
           "current_players": "未公开",
-          "summary": "连续跟踪项，非今日新公布；关注量信号可用于观察发售前势能。",
+          "summary": "连续跟踪项；待发售页的绝对关注量与周增速均可作为后续发售前势能信号。",
           "steam_url": "https://store.steampowered.com/app/5072600/",
           "contact_url": "https://steamcommunity.com/app/5072600",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5072600/4584069ef5af5221d75a0e82de25155ea32a61d7/header.jpg?t=1794874153",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5072600/4584069ef5af5221d75a0e82de25155ea32a61d7/header.jpg?t=1795316852",
           "source_signals": [
-            "SteamDB Trending Followers：11/21 复核",
-            "11/20 快照 followers 55,989"
+            "SteamDB Trending Followers 11/22",
+            "56,857 followers / +2,834 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-21/5072600.jpg",
-          "potential_score": 37,
-          "watch_level": "Low",
+          "cover_local_path": "/assets/covers/2026-11-22/5072600.jpg",
+          "potential_score": 48,
+          "watch_level": "Medium",
           "score_reasons": [
             "关注基数高",
             "多人/合作传播性好",
             "新商店页处于愿望单积累期",
             "多日连续进入监测池"
           ],
-          "daily_rank": 3
+          "daily_rank": 4
         },
         {
-          "appid": "5469000",
-          "name_zh": "Grażyna Returns on Sunday",
-          "name_en": "Grażyna Returns on Sunday",
+          "appid": "3780430",
+          "name_zh": "Mondrayn",
+          "name_en": "Mondrayn",
           "category": "New Store",
           "tags": [
             "独立",
             "冒险",
-            "喜剧"
+            "未公开"
           ],
           "developer": "未公开",
           "publisher": "未公开",
           "release_date": "Coming soon",
-          "followers": "未公开",
+          "followers": "3,442",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：此前已在关注者增速候选中出现。",
+          "heat": "连续跟踪：SteamDB Trending Followers #31，7日 +2,457。",
           "current_players": "未公开",
-          "summary": "连续跟踪项；今日仅作热度复核，不称为 11/21 新公布。",
-          "steam_url": "https://store.steampowered.com/app/5469000/",
-          "contact_url": "https://steamcommunity.com/app/5469000",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5469000/82ae2aec66fe84a11094b9cc337af257835699bc/header.jpg?t=1794294484",
+          "summary": "连续跟踪项；公开关注增速进入当日候选，仍需等待玩法与愿望单明细公开。",
+          "steam_url": "https://store.steampowered.com/app/3780430/",
+          "contact_url": "https://steamcommunity.com/app/3780430",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3780430/c3f420b7db9e97e6bb47ba1bc539ff9072886124/header.jpg?t=1794605839",
           "source_signals": [
-            "SteamDB Trending Followers：11/21 复核",
-            "公开 wishlist/followers 明细未检出"
+            "SteamDB Trending Followers 11/22",
+            "3,442 followers / +2,457 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-21/5469000.jpg",
-          "potential_score": 14,
+          "cover_local_path": "/assets/covers/2026-11-22/3780430.jpg",
+          "potential_score": 35,
           "watch_level": "Low",
           "score_reasons": [
-            "新商店页处于愿望单积累期",
-            "多日连续进入监测池",
-            "公开热度数据较少，需人工复核"
-          ],
-          "daily_rank": 4
-        },
-        {
-          "appid": "5534190",
-          "name_zh": "Aveltuner",
-          "name_en": "Aveltuner",
-          "category": "New Store",
-          "tags": [
-            "独立",
-            "音乐",
-            "节奏"
-          ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "Coming soon",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：此前 SteamDB 公开关注增速候选。",
-          "current_players": "未公开",
-          "summary": "连续跟踪项；保留在今日商店页观察池，未冒充当日新公布。",
-          "steam_url": "https://store.steampowered.com/app/5534190/",
-          "contact_url": "https://steamcommunity.com/app/5534190",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5534190/7c2392a633811b4aa8271029c9c5dbaaf13da7f3/header.jpg?t=1794329286",
-          "source_signals": [
-            "SteamDB Trending Followers：11/21 复核",
-            "公开 wishlist/followers 明细未检出"
-          ],
-          "cover_local_path": "/assets/covers/2026-11-21/5534190.jpg",
-          "potential_score": 14,
-          "watch_level": "Low",
-          "score_reasons": [
-            "新商店页处于愿望单积累期",
-            "多日连续进入监测池",
-            "公开热度数据较少，需人工复核"
+            "新商店页处于愿望单积累期"
           ],
           "daily_rank": 5
         }
@@ -202,8 +200,47 @@
     {
       "id": "demo",
       "title": "新上线 Demo / 试玩观察",
-      "description": "Steam 当前 Demo 公开检索未提供足够的 11/21 新试玩五项；保留五个仍可下载的连续观察 Demo，并完整记录公开指标缺口。",
+      "description": "当日 Steam Demo 检索仅出现 Sukfaristo Demo；其余是 11/20 上线后的连续观察项，均填写公开指标缺口。",
       "games": [
+        {
+          "appid": "2790820",
+          "name_zh": "Sukfaristo Demo",
+          "name_en": "Sukfaristo Demo",
+          "category": "Demo",
+          "tags": [
+            "休闲",
+            "街机",
+            "解谜",
+            "2D"
+          ],
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "2026-11-22",
+          "followers": "未公开",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "今日 Steam Demo 搜索新出现。",
+          "current_players": 0,
+          "summary": "当日新 Demo；SteamDB app、Trending Followers 与 wishlist 公开页暂未检出可归属数值。",
+          "steam_url": "https://store.steampowered.com/app/2790820/",
+          "contact_url": "https://steamcommunity.com/app/2790820",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2790820/53301835f8c73dc6683a18b8f9f49ba30954a93b/header.jpg?t=1795235428",
+          "source_signals": [
+            "Steam Demo Search 11/22",
+            "SteamDB / wishlist 公开指标未披露"
+          ],
+          "cover_local_path": "/assets/covers/2026-11-22/2790820.jpg",
+          "potential_score": 11,
+          "watch_level": "Low",
+          "score_reasons": [
+            "低门槛试玩或轻量入口",
+            "Demo 可验证试玩转化",
+            "曾位于分类头部",
+            "公开热度数据较少，需人工复核"
+          ],
+          "daily_rank": 1
+        },
         {
           "appid": "5436070",
           "name_zh": "CropCorp Demo",
@@ -221,18 +258,18 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续观察：11/20 Demo 上线窗口，11/21 仍可下载。",
+          "heat": "连续观察：11/20 Demo 上线窗口。",
           "current_players": 0,
-          "summary": "连续跟踪 Demo，非声称 11/21 首发；SteamDB app、Trending Followers、wishlist 公开页未给出可归属数值。",
+          "summary": "连续跟踪 Demo，非今日首发；SteamDB app、关注增速与愿望单榜无可归属公开数值。",
           "steam_url": "https://store.steampowered.com/app/5436070/",
           "contact_url": "https://steamcommunity.com/app/5436070",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5436070/79ea6df1120b6107b61cbf25a2d5a8df445d8e67/header.jpg?t=1795194057",
           "source_signals": [
-            "Steam Demo 搜索：11/21 复核",
-            "SteamDB app / Trending Followers / wishlist：无可归属公开数值"
+            "Steam Demo Search 11/22",
+            "公开 follower/wishlist 未披露"
           ],
-          "cover_local_path": "/assets/covers/2026-11-21/5436070.jpg",
-          "potential_score": 33,
+          "cover_local_path": "/assets/covers/2026-11-22/5436070.jpg",
+          "potential_score": 36,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -240,7 +277,7 @@
             "多日连续进入监测池",
             "曾位于分类头部"
           ],
-          "daily_rank": 1
+          "daily_rank": 2
         },
         {
           "appid": "5337870",
@@ -259,26 +296,27 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续观察；此前公开在线快照为 30，今日未获得可复核的新在线读数。",
-          "current_players": 1,
-          "summary": "连续跟踪 Demo；公开 SteamDB 榜单未提供该试玩独立的 follower/wishlist 数。",
+          "heat": "连续观察：仍可下载。",
+          "current_players": 0,
+          "summary": "连续跟踪 Demo；公开 SteamDB 与榜单没有可可靠归属的 follower/wishlist 数。",
           "steam_url": "https://store.steampowered.com/app/5337870/",
           "contact_url": "https://steamcommunity.com/app/5337870",
           "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5337870/header.jpg",
           "source_signals": [
-            "Steam Demo 搜索：11/21 复核",
-            "SteamDB app / Trending Followers / wishlist：未公开"
+            "Steam Demo Search 11/22",
+            "公开 follower/wishlist 未披露"
           ],
           "cover_local_path": "",
-          "potential_score": 35,
+          "potential_score": 20,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
             "Demo 可验证试玩转化",
             "多日连续进入监测池",
-            "曾位于分类头部"
+            "曾位于分类头部",
+            "公开热度数据较少，需人工复核"
           ],
-          "daily_rank": 2
+          "daily_rank": 3
         },
         {
           "appid": "5173630",
@@ -297,17 +335,17 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续观察；此前公开在线快照为 29。",
-          "current_players": 68,
-          "summary": "连续跟踪 Demo；公开榜单没有可可靠归属的关注或愿望单数值。",
+          "heat": "连续观察：11/20 Demo 窗口。",
+          "current_players": 53,
+          "summary": "连续跟踪 Demo；未将历史在线快照冒充今日热度，公开关注/愿望单指标未披露。",
           "steam_url": "https://store.steampowered.com/app/5173630/",
           "contact_url": "https://steamcommunity.com/app/5173630",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5173630/c2ea1e9713bb7c66291e594e20fc1e4e749e1e3b/header.jpg?t=1792767356",
           "source_signals": [
-            "Steam Demo 搜索：11/21 复核",
-            "SteamDB app / Trending Followers / wishlist：未公开"
+            "Steam Demo Search 11/22",
+            "SteamDB / wishlist 未公开"
           ],
-          "cover_local_path": "/assets/covers/2026-11-21/5173630.jpg",
+          "cover_local_path": "/assets/covers/2026-11-22/5173630.jpg",
           "potential_score": 39,
           "watch_level": "Low",
           "score_reasons": [
@@ -315,7 +353,7 @@
             "Demo 可验证试玩转化",
             "多日连续进入监测池"
           ],
-          "daily_rank": 3
+          "daily_rank": 4
         },
         {
           "appid": "5515830",
@@ -334,55 +372,18 @@
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续观察：11/20 Demo 窗口项目。",
+          "heat": "连续观察：11/20 Demo 窗口。",
           "current_players": 0,
-          "summary": "连续跟踪 Demo；SteamDB 与 Steam 公开面未显示可归属 follower/wishlist 数。",
+          "summary": "连续跟踪 Demo；SteamDB app、Trending Followers、wishlist 公开页未显示可归属数值。",
           "steam_url": "https://store.steampowered.com/app/5515830/",
           "contact_url": "https://steamcommunity.com/app/5515830",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5515830/61ab6bfdbd9665ebe6be13354b83178bd0b1e325/header.jpg?t=1795144158",
           "source_signals": [
-            "Steam Demo 搜索：11/21 复核",
-            "SteamDB app / Trending Followers / wishlist：未公开"
+            "Steam Demo Search 11/22",
+            "公开 follower/wishlist 未披露"
           ],
-          "cover_local_path": "/assets/covers/2026-11-21/5515830.jpg",
-          "potential_score": 30,
-          "watch_level": "Low",
-          "score_reasons": [
-            "低门槛试玩或轻量入口",
-            "Demo 可验证试玩转化",
-            "多日连续进入监测池"
-          ],
-          "daily_rank": 4
-        },
-        {
-          "appid": "5542850",
-          "name_zh": "Infinicity Demo",
-          "name_en": "Infinicity Demo",
-          "category": "Demo",
-          "tags": [
-            "城市建造",
-            "策略",
-            "独立"
-          ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-20",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "连续观察：11/20 Demo 窗口项目。",
-          "current_players": 0,
-          "summary": "连续跟踪 Demo；公开榜单无法确认该试玩的愿望单或关注者数。",
-          "steam_url": "https://store.steampowered.com/app/5542850/",
-          "contact_url": "https://steamcommunity.com/app/5542850",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5542850/bc64cafe7a3695ed0964bc76357bc0ea177768af/header.jpg?t=1794486828",
-          "source_signals": [
-            "Steam Demo 搜索：11/21 复核",
-            "SteamDB app / Trending Followers / wishlist：未公开"
-          ],
-          "cover_local_path": "/assets/covers/2026-11-21/5542850.jpg",
-          "potential_score": 30,
+          "cover_local_path": "/assets/covers/2026-11-22/5515830.jpg",
+          "potential_score": 33,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -396,77 +397,81 @@
     {
       "id": "released",
       "title": "新发布 / 发售窗口",
-      "description": "优先记录 11/21 日历已定档项；当日仅有少量可交叉核验条目，其余明确为前一日发售窗口连续观察。",
+      "description": "今天 Steam Upcoming 页面列出 11/22 解锁窗口；记录为当日发售计划，实际解锁时刻以商店页为准。",
       "games": [
         {
-          "appid": "4596440",
-          "name_zh": "【パパたび】パパさ、旅系インフルエンサーで食っていこうと思っているんだ。",
-          "name_en": "Dad’s Gonna Be a Travel Influencer.",
+          "appid": "5158540",
+          "name_zh": "Keep The Ammo Flowing",
+          "name_en": "Keep The Ammo Flowing",
           "category": "Released",
           "tags": [
-            "探索",
-            "时间管理",
-            "知识问答",
-            "独立"
+            "增量",
+            "塔防",
+            "自动化",
+            "建造"
           ],
-          "developer": "HataGames",
-          "publisher": "HataGames",
-          "release_date": "2026-11-21",
+          "developer": "YCF Productions",
+          "publisher": "YCF Productions",
+          "release_date": "2026-11-22",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/21 日历与 Steam 新发布页均列出。",
-          "current_players": 1,
-          "summary": "今日发售候选：SteamWatch 日历标为 11/21；首日公开玩家与愿望单信号尚未披露。",
-          "steam_url": "https://store.steampowered.com/app/4596440/",
-          "contact_url": "https://steamcommunity.com/app/4596440",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596440/61125575c87b65dd10e0e6c57f1e02d7d6ece8ac/header.jpg?t=1795223366",
+          "heat": "Steam 当日发售计划；自发行自动化塔防。",
+          "current_players": "未公开",
+          "summary": "11/22 解锁窗口候选：采矿、铁路与自动炮塔的复合循环有直播演示空间；等待实际解锁后的首日在线。",
+          "steam_url": "https://store.steampowered.com/app/5158540/",
+          "contact_url": "https://steamcommunity.com/app/5158540",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5158540/59eecf20079f65dce621eec2d75dd2de0f752ee8/header.jpg?t=1795017456",
           "source_signals": [
-            "SteamWatch 11/21：App 4596440",
-            "Steam New Releases：11/21 复核"
+            "Steam Upcoming 11/22",
+            "Steam 商店页复核"
           ],
           "price_currency": "CNY",
-          "price_initial": 4200,
-          "price_final": 3360,
-          "price_discount_percent": 20,
-          "price_initial_formatted": "¥ 42.00",
-          "price_final_formatted": "¥ 33.60",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-21 18:10 CST",
-          "cover_local_path": "/assets/covers/2026-11-21/4596440.jpg",
-          "potential_score": 27,
+          "price_updated_at": "2026-11-22 18:00 CST",
+          "cover_local_path": "/assets/covers/2026-11-22/5158540.jpg",
+          "potential_score": 9,
           "watch_level": "Low",
           "score_reasons": [
             "已发布，可观察真实在线",
-            "曾位于分类头部"
+            "曾位于分类头部",
+            "公开热度数据较少，需人工复核"
           ],
           "daily_rank": 1
         },
         {
-          "appid": "5392220",
-          "name_zh": "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～ Soundtrack",
-          "name_en": "Zombie Police Soundtrack",
+          "appid": "5492690",
+          "name_zh": "Night Wash: GE-418-NK",
+          "name_en": "Night Wash: GE-418-NK",
           "category": "Released",
           "tags": [
-            "原声带",
-            "视觉小说"
+            "恐怖",
+            "心理恐怖",
+            "工作模拟",
+            "第一人称"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-21",
+          "developer": "MTSU",
+          "publisher": "MTSU",
+          "release_date": "2026-11-22",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamWatch 11/21 日历的同日 Steam 产品。",
+          "heat": "Steam 当日发售计划；自发行恐怖题材。",
           "current_players": "未公开",
-          "summary": "今日日历条目；原声带产品不以玩家在线作为热度判断，保留为发售面完整性记录。",
-          "steam_url": "https://store.steampowered.com/app/5392220/",
-          "contact_url": "https://steamcommunity.com/app/5392220",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5392220/91682d0aaab765b3d66a29aa07e239cc677bf598/header.jpg?t=1793162548",
+          "summary": "11/22 解锁窗口候选：洗车夜班与心理恐怖的场景反差明确，适合观察首日内容创作扩散。",
+          "steam_url": "https://store.steampowered.com/app/5492690/",
+          "contact_url": "https://steamcommunity.com/app/5492690",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5492690/7ff5f225cc15d2738316baa1496d2d95ca78cc8c/header.jpg?t=1795283964",
           "source_signals": [
-            "SteamWatch 11/21：App 5392220"
+            "Steam Upcoming 11/22",
+            "Steam 商店页复核"
           ],
           "price_currency": "CNY",
           "price_initial": null,
@@ -475,132 +480,43 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-21 18:10 CST",
-          "cover_local_path": "/assets/covers/2026-11-21/5392220.jpg",
-          "potential_score": 22,
+          "price_updated_at": "2026-11-22 18:00 CST",
+          "cover_local_path": "/assets/covers/2026-11-22/5492690.jpg",
+          "potential_score": 9,
           "watch_level": "Low",
           "score_reasons": [
             "已发布，可观察真实在线",
-            "曾位于分类头部"
+            "曾位于分类头部",
+            "公开热度数据较少，需人工复核"
           ],
           "daily_rank": 2
         },
         {
-          "appid": "3681450",
-          "name_zh": "DUMMY HOUSE",
-          "name_en": "DUMMY HOUSE",
+          "appid": "5172070",
+          "name_zh": "Incraiders",
+          "name_en": "Incraiders",
           "category": "Released",
           "tags": [
-            "恐怖",
-            "生存恐怖",
-            "第一人称",
-            "独立"
+            "增量",
+            "像素风",
+            "动作",
+            "2D平台"
           ],
-          "developer": "The Crossover Studio",
-          "publisher": "The Crossover Studio",
-          "release_date": "2026-11-20",
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "2026-11-22",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：开发者公告确认 11/20 上线，今日仍在首发窗口。",
-          "current_players": 0,
-          "summary": "连续跟踪项：非 11/21 发售；两人独立团队的恐怖新作处于首发后观察期。",
-          "steam_url": "https://store.steampowered.com/app/3681450/",
-          "contact_url": "https://steamcommunity.com/app/3681450",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681450/1a980d0b1018643df0c45304d7ab7af7d6b8573a/header_schinese.jpg?t=1795237165",
+          "heat": "Steam 当日发售计划。",
+          "current_players": "未公开",
+          "summary": "11/22 解锁窗口候选；增量与横版动作结合，适合观察首日评价是否形成玩法差异化。",
+          "steam_url": "https://store.steampowered.com/app/5172070/",
+          "contact_url": "https://steamcommunity.com/app/5172070",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5172070/22f2e119e91dee8e9b8df4d424d9b9fc29323f6e/header.jpg?t=1795263822",
           "source_signals": [
-            "Steam 公告：DUMMY HOUSE - OUT NOW!（11/20）",
-            "Steam 商店页：The Crossover Studio"
-          ],
-          "price_currency": "CNY",
-          "price_initial": 4200,
-          "price_final": 4200,
-          "price_discount_percent": 0,
-          "price_initial_formatted": "¥42.00",
-          "price_final_formatted": "¥ 42.00",
-          "price_is_free": false,
-          "price_updated_at": "2026-11-21 18:10 CST",
-          "cover_local_path": "/assets/covers/2026-11-21/3681450.jpg",
-          "potential_score": 19,
-          "watch_level": "Low",
-          "score_reasons": [
-            "已发布，可观察真实在线"
-          ],
-          "daily_rank": 3
-        },
-        {
-          "appid": "4928450",
-          "name_zh": "时空悍匪",
-          "name_en": "Grand Theft Timeline",
-          "category": "Released",
-          "tags": [
-            "时间旅行",
-            "生物收集",
-            "地牢探索",
-            "在线合作"
-          ],
-          "developer": "REAL PLAYERS",
-          "publisher": "REAL PLAYERS",
-          "release_date": "2026-11-20",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：上海时区 11/20 发售后的首发窗口。",
-          "current_players": 50,
-          "summary": "连续跟踪项；高概念合作独立项目，继续观察首周评价与在线曲线。",
-          "steam_url": "https://store.steampowered.com/app/4928450/",
-          "contact_url": "https://steamcommunity.com/app/4928450",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4928450/9856eb60fb023ea4c10ed38270e8fbd0159522ed/header.jpg?t=1795111188",
-          "source_signals": [
-            "SteamPlayerBase：11/19 18:00 UTC，对应上海 11/20 02:00"
-          ],
-          "price_currency": "CNY",
-          "price_initial": 5800,
-          "price_final": 4930,
-          "price_discount_percent": 15,
-          "price_initial_formatted": "¥ 58.00",
-          "price_final_formatted": "¥ 49.30",
-          "price_is_free": false,
-          "price_updated_at": "2026-11-21 18:10 CST",
-          "cover_local_path": "/assets/covers/2026-11-21/4928450.jpg",
-          "potential_score": 41,
-          "watch_level": "Low",
-          "score_reasons": [
-            "多人/合作传播性好",
-            "已发布，可观察真实在线",
-            "多日连续进入监测池",
-            "曾位于分类头部"
-          ],
-          "daily_rank": 4
-        },
-        {
-          "appid": "4974650",
-          "name_zh": "站街人生！",
-          "name_en": "Streetwalker Life!",
-          "category": "Released",
-          "tags": [
-            "生活模拟",
-            "管理",
-            "角色扮演"
-          ],
-          "developer": "Hachimaru",
-          "publisher": "Saikey Studios",
-          "release_date": "2026-11-20",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：Steam 页面确认 11/20 发售。",
-          "current_players": 81,
-          "summary": "连续跟踪项；昨日发售，今日是首个完整观察日，不包装为 11/21 新发布。",
-          "steam_url": "https://store.steampowered.com/app/4974650/",
-          "contact_url": "https://steamcommunity.com/app/4974650",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4974650/7cd69f78e3b62ce255d9f297017939275485d751/header_schinese.jpg?t=1795224570",
-          "source_signals": [
-            "Steam 商店页：11/20 发售",
-            "Steam Community 上线公告"
+            "Steam Upcoming 11/22"
           ],
           "price_currency": "CNY",
           "price_initial": null,
@@ -609,12 +525,102 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-21 18:10 CST",
-          "cover_local_path": "/assets/covers/2026-11-21/4974650.jpg",
-          "potential_score": 30,
+          "price_updated_at": "2026-11-22 18:00 CST",
+          "cover_local_path": "/assets/covers/2026-11-22/5172070.jpg",
+          "potential_score": 6,
           "watch_level": "Low",
           "score_reasons": [
-            "已发布，可观察真实在线"
+            "已发布，可观察真实在线",
+            "公开热度数据较少，需人工复核"
+          ],
+          "daily_rank": 3
+        },
+        {
+          "appid": "4845070",
+          "name_zh": "Ravenhill: Initiation",
+          "name_en": "Ravenhill: Initiation",
+          "category": "Released",
+          "tags": [
+            "冒险",
+            "心理恐怖",
+            "恐怖",
+            "情感"
+          ],
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "2026-11-22",
+          "followers": "未公开",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "Steam 当日发售计划。",
+          "current_players": "未公开",
+          "summary": "11/22 解锁窗口候选；叙事恐怖的内容传播潜力取决于首批评价与实况反应。",
+          "steam_url": "https://store.steampowered.com/app/4845070/",
+          "contact_url": "https://steamcommunity.com/app/4845070",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4845070/ca59ba32aa1aa5a41247e7bf48cf3d259fd0220f/header.jpg?t=1793906427",
+          "source_signals": [
+            "Steam Upcoming 11/22"
+          ],
+          "price_currency": "CNY",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
+          "price_is_free": false,
+          "price_updated_at": "2026-11-22 18:00 CST",
+          "cover_local_path": "/assets/covers/2026-11-22/4845070.jpg",
+          "potential_score": 6,
+          "watch_level": "Low",
+          "score_reasons": [
+            "已发布，可观察真实在线",
+            "公开热度数据较少，需人工复核"
+          ],
+          "daily_rank": 4
+        },
+        {
+          "appid": "4538150",
+          "name_zh": "After Hue",
+          "name_en": "After Hue",
+          "category": "Released",
+          "tags": [
+            "平台解谜",
+            "2D平台",
+            "解谜",
+            "可爱"
+          ],
+          "developer": "Afterthought",
+          "publisher": "Afterthought",
+          "release_date": "2026-11-22",
+          "followers": "未公开",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "Steam 当日发售计划；独立自发行。",
+          "current_players": "未公开",
+          "summary": "11/22 解锁窗口候选；低门槛解谜与鲜明视觉适合短视频传播，需观察首日转化。",
+          "steam_url": "https://store.steampowered.com/app/4538150/",
+          "contact_url": "https://steamcommunity.com/app/4538150",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4538150/946f95890a67c99eef4de6b9e24324f02af832fa/header.jpg?t=1793539256",
+          "source_signals": [
+            "Steam Upcoming 11/22",
+            "Steam 商店页复核"
+          ],
+          "price_currency": "CNY",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
+          "price_is_free": false,
+          "price_updated_at": "2026-11-22 18:00 CST",
+          "cover_local_path": "/assets/covers/2026-11-22/4538150.jpg",
+          "potential_score": 6,
+          "watch_level": "Low",
+          "score_reasons": [
+            "已发布，可观察真实在线",
+            "公开热度数据较少，需人工复核"
           ],
           "daily_rank": 5
         }
@@ -623,46 +629,8 @@
     {
       "id": "heat",
       "title": "SteamDB / Steam 热度信号",
-      "description": "当前公开榜单的热度基准；全部是连续跟踪，不等同于 11/21 新上线。",
+      "description": "当日 SteamDB Trending Followers 的公开热度基准；均为连续跟踪，不等同于当天新上线。",
       "games": [
-        {
-          "appid": "4915700",
-          "name_zh": "Ebbtide",
-          "name_en": "Ebbtide",
-          "category": "Heat",
-          "tags": [
-            "僵尸",
-            "策略",
-            "独立"
-          ],
-          "developer": "ProjectAlive",
-          "publisher": "ProjectAlive",
-          "release_date": "Coming soon",
-          "followers": "32,608",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "SteamDB Trending Followers 连续信号；11/20 快照 7日 +4,658。",
-          "current_players": "未公开",
-          "summary": "连续热度基准，不作为今日新商店页；关注增长仍是待发售项目的重要公开指标。",
-          "steam_url": "https://store.steampowered.com/app/4915700/",
-          "contact_url": "https://steamcommunity.com/app/4915700",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4915700/header.jpg",
-          "source_signals": [
-            "SteamDB Trending Followers：11/21 复核",
-            "11/20：+4,658/7d"
-          ],
-          "cover_local_path": "/assets/covers/2026-11-21/4915700.jpg",
-          "potential_score": 37,
-          "watch_level": "Low",
-          "score_reasons": [
-            "关注基数高",
-            "多日连续进入监测池",
-            "生命周期阶段发生变化",
-            "曾位于分类头部"
-          ],
-          "daily_rank": 1
-        },
         {
           "appid": "4262460",
           "name_zh": "ROB RUN",
@@ -675,31 +643,32 @@
           ],
           "developer": "未公开",
           "publisher": "未公开",
-          "release_date": "未公开",
-          "followers": "未公开",
+          "release_date": "2026-11",
+          "followers": "37,109",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续热度候选：11/20 SteamDB Trending Followers #1、7日 +13,095。",
-          "current_players": 258236,
-          "summary": "连续跟踪项；今天保留为关注增长基准，未称其为 11/21 新公布。",
+          "heat": "SteamDB Trending Followers #1，7日 +13,354；连续热度基准。",
+          "current_players": 257881,
+          "summary": "连续跟踪项，不能视为今日新公布；本周关注增速为公开候选中最高。",
           "steam_url": "https://store.steampowered.com/app/4262460/",
           "contact_url": "https://steamcommunity.com/app/4262460",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262460/db8e0cf43c9475b96fb9446b4908de79fcb9f619/header.jpg?t=1793811654",
           "source_signals": [
-            "SteamDB Trending Followers：11/21 复核",
-            "11/20 快照 #1、+13,095/7d"
+            "SteamDB Trending Followers #1",
+            "37,109 followers / +13,354 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-21/4262460.jpg",
-          "potential_score": 45,
+          "cover_local_path": "/assets/covers/2026-11-22/4262460.jpg",
+          "potential_score": 53,
           "watch_level": "Medium",
           "score_reasons": [
+            "关注基数高",
             "当前在线人数高",
             "多日连续进入监测池",
             "生命周期阶段发生变化",
             "曾位于分类头部"
           ],
-          "daily_rank": 2
+          "daily_rank": 1
         },
         {
           "appid": "3984160",
@@ -713,29 +682,65 @@
           ],
           "developer": "未公开",
           "publisher": "未公开",
-          "release_date": "未公开",
-          "followers": "未公开",
+          "release_date": "2026-11",
+          "followers": "15,402",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续热度候选，作为当前公开热度对照。",
+          "heat": "SteamDB Trending Followers #2，7日 +8,833；连续热度基准。",
           "current_players": 0,
-          "summary": "连续跟踪项；没有将历史榜单位置写成今日新上线。",
+          "summary": "连续跟踪项；高关注增速可作为 11 月新作的热度对照，不包装为今日上新。",
           "steam_url": "https://store.steampowered.com/app/3984160/",
           "contact_url": "https://steamcommunity.com/app/3984160",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3984160/48bea719fdf51f6d74af9b92989892ddb4e376d3/header.jpg?t=1758732118",
           "source_signals": [
-            "SteamDB Trending Followers：11/21 复核",
-            "明细未公开"
+            "SteamDB Trending Followers #2",
+            "15,402 followers / +8,833 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-21/3984160.jpg",
-          "potential_score": 11,
+          "cover_local_path": "/assets/covers/2026-11-22/3984160.jpg",
+          "potential_score": 34,
           "watch_level": "Low",
           "score_reasons": [
             "多日连续进入监测池",
             "生命周期阶段发生变化",
-            "曾位于分类头部",
-            "公开热度数据较少，需人工复核"
+            "曾位于分类头部"
+          ],
+          "daily_rank": 2
+        },
+        {
+          "appid": "4915700",
+          "name_zh": "Ebbtide",
+          "name_en": "Ebbtide",
+          "category": "Heat",
+          "tags": [
+            "僵尸",
+            "策略",
+            "独立"
+          ],
+          "developer": "ProjectAlive",
+          "publisher": "ProjectAlive",
+          "release_date": "Coming soon",
+          "followers": "33,424",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "SteamDB Trending Followers #11，7日 +4,379；连续热度信号。",
+          "current_players": "未公开",
+          "summary": "连续热度基准，待发售项目的 follower 增速仍突出。",
+          "steam_url": "https://store.steampowered.com/app/4915700/",
+          "contact_url": "https://steamcommunity.com/app/4915700",
+          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4915700/header.jpg",
+          "source_signals": [
+            "SteamDB Trending Followers #11"
+          ],
+          "cover_local_path": "/assets/covers/2026-11-22/4915700.jpg",
+          "potential_score": 37,
+          "watch_level": "Low",
+          "score_reasons": [
+            "关注基数高",
+            "多日连续进入监测池",
+            "生命周期阶段发生变化",
+            "曾位于分类头部"
           ],
           "daily_rank": 3
         },
@@ -751,25 +756,26 @@
           ],
           "developer": "未公开",
           "publisher": "未公开",
-          "release_date": "未公开",
-          "followers": "未公开",
+          "release_date": "2026-11",
+          "followers": "49,844",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续热度候选，作为 SteamDB 公开信号对照。",
-          "current_players": 1226,
-          "summary": "连续跟踪项；今日仅复核热度池，不能解读为当天新公布。",
+          "heat": "SteamDB Trending Followers #16，7日 +3,369；连续热度信号。",
+          "current_players": 1229,
+          "summary": "连续跟踪项；首发期的关注增长可与在线及评价曲线结合继续观察。",
           "steam_url": "https://store.steampowered.com/app/3629430/",
           "contact_url": "https://steamcommunity.com/app/3629430",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1794233002",
           "source_signals": [
-            "SteamDB Trending Followers：11/21 复核",
-            "明细未公开"
+            "SteamDB Trending Followers #16",
+            "49,844 followers / +3,369 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-21/3629430.jpg",
-          "potential_score": 32,
-          "watch_level": "Low",
+          "cover_local_path": "/assets/covers/2026-11-22/3629430.jpg",
+          "potential_score": 50,
+          "watch_level": "Medium",
           "score_reasons": [
+            "关注基数高",
             "已有稳定在线",
             "多日连续进入监测池",
             "生命周期阶段发生变化",
@@ -789,24 +795,24 @@
           ],
           "developer": "未公开",
           "publisher": "未公开",
-          "release_date": "未公开",
-          "followers": "未公开",
+          "release_date": "2026-11",
+          "followers": "9,220",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续热度候选，作为 SteamDB 公开信号对照。",
-          "current_players": 73,
-          "summary": "连续跟踪项；不以当前榜单存在冒充今日首发。",
+          "heat": "SteamDB Trending Followers #78，7日 +1,360；连续热度信号。",
+          "current_players": 81,
+          "summary": "连续跟踪项；公开 follower 增速仍在榜内，非今日新公布。",
           "steam_url": "https://store.steampowered.com/app/3810510/",
           "contact_url": "https://steamcommunity.com/app/3810510",
           "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810510/45f23f4a1143f49de0962289003d6b269fa970bd/header.jpg?t=1794855109",
           "source_signals": [
-            "SteamDB Trending Followers：11/21 复核",
-            "明细未公开"
+            "SteamDB Trending Followers #78",
+            "9,220 followers / +1,360 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-21/3810510.jpg",
-          "potential_score": 26,
-          "watch_level": "Low",
+          "cover_local_path": "/assets/covers/2026-11-22/3810510.jpg",
+          "potential_score": 48,
+          "watch_level": "Medium",
           "score_reasons": [
             "多日连续进入监测池",
             "生命周期阶段发生变化"
@@ -818,173 +824,171 @@
   ],
   "indie_highlights": [
     {
-      "appid": "4596440",
-      "name_zh": "Dad’s Gonna Be a Travel Influencer.",
-      "name_en": "Dad’s Gonna Be a Travel Influencer.",
-      "category": "Released",
-      "tags": [
-        "探索",
-        "时间管理",
-        "独立"
-      ],
-      "developer": "HataGames",
-      "publisher": "HataGames",
-      "release_date": "2026-11-21",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "SteamWatch 11/21 定档。",
-      "current_players": "未公开",
-      "summary": "当日定档的独立探索/管理项目。",
-      "steam_url": "https://store.steampowered.com/app/4596440/",
-      "contact_url": "https://steamcommunity.com/app/4596440",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4596440/header.jpg",
-      "source_signals": [
-        "SteamWatch 11/21",
-        "Steam New Releases"
-      ],
-      "indie_score": 82,
-      "indie_reasons": [
-        "11/21 日历定档",
-        "开发商自发行",
-        "题材辨识度高"
-      ]
-    },
-    {
-      "appid": "3681450",
-      "name_zh": "DUMMY HOUSE",
-      "name_en": "DUMMY HOUSE",
-      "category": "Released",
-      "tags": [
-        "恐怖",
-        "生存恐怖",
-        "独立"
-      ],
-      "developer": "The Crossover Studio",
-      "publisher": "The Crossover Studio",
-      "release_date": "2026-11-20",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "首发后连续观察。",
-      "current_players": "未公开",
-      "summary": "小团队恐怖作品，处于发售次日观察期。",
-      "steam_url": "https://store.steampowered.com/app/3681450/",
-      "contact_url": "https://steamcommunity.com/app/3681450",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/3681450/header.jpg",
-      "source_signals": [
-        "Steam 11/20 上线公告"
-      ],
-      "indie_score": 78,
-      "indie_reasons": [
-        "两人独立团队",
-        "强类型标签",
-        "发售窗口"
-      ]
-    },
-    {
-      "appid": "4928450",
-      "name_zh": "Grand Theft Timeline",
-      "name_en": "Grand Theft Timeline",
-      "category": "Released",
-      "tags": [
-        "合作",
-        "时间旅行",
-        "独立"
-      ],
-      "developer": "REAL PLAYERS",
-      "publisher": "REAL PLAYERS",
-      "release_date": "2026-11-20",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "首发后连续观察。",
-      "current_players": "未公开",
-      "summary": "高概念合作独立项目。",
-      "steam_url": "https://store.steampowered.com/app/4928450/",
-      "contact_url": "https://steamcommunity.com/app/4928450",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4928450/header.jpg",
-      "source_signals": [
-        "SteamPlayerBase 发售时间"
-      ],
-      "indie_score": 76,
-      "indie_reasons": [
-        "合作差异化",
-        "新发售窗口",
-        "独立自发行"
-      ]
-    },
-    {
-      "appid": "5436070",
-      "name_zh": "CropCorp Demo",
-      "name_en": "CropCorp Demo",
-      "category": "Demo",
-      "tags": [
-        "农场",
-        "模拟",
-        "独立"
-      ],
-      "developer": "未公开",
-      "publisher": "未公开",
-      "release_date": "2026-11-20",
-      "followers": "未公开",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "Demo 连续观察。",
-      "current_players": "未公开",
-      "summary": "农场模拟试玩可用于观察转化和社区反馈。",
-      "steam_url": "https://store.steampowered.com/app/5436070/",
-      "contact_url": "https://steamcommunity.com/app/5436070",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5436070/header.jpg",
-      "source_signals": [
-        "Steam Demo 搜索",
-        "SteamDB 公开指标未披露"
-      ],
-      "indie_score": 72,
-      "indie_reasons": [
-        "试玩窗口",
-        "模拟受众明确",
-        "持续收集反馈"
-      ]
-    },
-    {
       "appid": "4915700",
       "name_zh": "Ebbtide",
       "name_en": "Ebbtide",
       "category": "New Store",
       "tags": [
         "僵尸",
+        "即时战术",
         "策略",
         "独立"
       ],
       "developer": "ProjectAlive",
       "publisher": "ProjectAlive",
       "release_date": "Coming soon",
-      "followers": "32,608",
+      "followers": "33,424",
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "未公开",
-      "heat": "SteamDB 关注增长连续信号。",
+      "heat": "SteamDB 7日 +4,379。",
       "current_players": "未公开",
-      "summary": "待发售独立策略项目的公开关注增长仍强。",
+      "summary": "待发售独立策略项目的公开关注增长持续强。",
       "steam_url": "https://store.steampowered.com/app/4915700/",
       "contact_url": "https://steamcommunity.com/app/4915700",
       "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4915700/header.jpg",
       "source_signals": [
-        "SteamDB Trending Followers",
-        "11/20 +4,658/7d 快照"
+        "SteamDB Trending Followers #11"
+      ],
+      "indie_score": 91,
+      "indie_reasons": [
+        "33,424 followers",
+        "7日 +4,379",
+        "自发行策略题材"
+      ]
+    },
+    {
+      "appid": "5158540",
+      "name_zh": "Keep The Ammo Flowing",
+      "name_en": "Keep The Ammo Flowing",
+      "category": "Released",
+      "tags": [
+        "自动化",
+        "塔防",
+        "建造"
+      ],
+      "developer": "YCF Productions",
+      "publisher": "YCF Productions",
+      "release_date": "2026-11-22",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "当日解锁窗口。",
+      "current_players": "未公开",
+      "summary": "自发行的自动化塔防新作。",
+      "steam_url": "https://store.steampowered.com/app/5158540/",
+      "contact_url": "https://steamcommunity.com/app/5158540",
+      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5158540/header.jpg",
+      "source_signals": [
+        "Steam Upcoming 11/22"
       ],
       "indie_score": 84,
       "indie_reasons": [
-        "32,608 followers 快照",
-        "SteamDB 增速信号",
-        "题材差异化"
+        "当日发售窗口",
+        "开发商自发行",
+        "复合玩法循环"
+      ]
+    },
+    {
+      "appid": "5492690",
+      "name_zh": "Night Wash: GE-418-NK",
+      "name_en": "Night Wash: GE-418-NK",
+      "category": "Released",
+      "tags": [
+        "恐怖",
+        "心理恐怖",
+        "独立"
+      ],
+      "developer": "MTSU",
+      "publisher": "MTSU",
+      "release_date": "2026-11-22",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "当日解锁窗口。",
+      "current_players": "未公开",
+      "summary": "自发行心理恐怖新作。",
+      "steam_url": "https://store.steampowered.com/app/5492690/",
+      "contact_url": "https://steamcommunity.com/app/5492690",
+      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5492690/header.jpg",
+      "source_signals": [
+        "Steam Upcoming 11/22"
+      ],
+      "indie_score": 82,
+      "indie_reasons": [
+        "当日发售窗口",
+        "自发行",
+        "强叙事恐怖标签"
+      ]
+    },
+    {
+      "appid": "5172070",
+      "name_zh": "Incraiders",
+      "name_en": "Incraiders",
+      "category": "Released",
+      "tags": [
+        "增量",
+        "像素风",
+        "动作"
+      ],
+      "developer": "未公开",
+      "publisher": "未公开",
+      "release_date": "2026-11-22",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "当日解锁窗口。",
+      "current_players": "未公开",
+      "summary": "当日发售的增量动作候选。",
+      "steam_url": "https://store.steampowered.com/app/5172070/",
+      "contact_url": "https://steamcommunity.com/app/5172070",
+      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5172070/header.jpg",
+      "source_signals": [
+        "Steam Upcoming 11/22"
+      ],
+      "indie_score": 78,
+      "indie_reasons": [
+        "当日发售窗口",
+        "像素动作题材",
+        "易做实机内容"
+      ]
+    },
+    {
+      "appid": "4538150",
+      "name_zh": "After Hue",
+      "name_en": "After Hue",
+      "category": "Released",
+      "tags": [
+        "平台解谜",
+        "2D平台",
+        "独立"
+      ],
+      "developer": "Afterthought",
+      "publisher": "Afterthought",
+      "release_date": "2026-11-22",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "当日解锁窗口。",
+      "current_players": "未公开",
+      "summary": "自发行平台解谜候选。",
+      "steam_url": "https://store.steampowered.com/app/4538150/",
+      "contact_url": "https://steamcommunity.com/app/4538150",
+      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4538150/header.jpg",
+      "source_signals": [
+        "Steam Upcoming 11/22"
+      ],
+      "indie_score": 76,
+      "indie_reasons": [
+        "当日发售窗口",
+        "开发商自发行",
+        "视觉解谜定位"
       ]
     }
   ],
-  "generated_at": "2026-11-21 18:10 CST"
+  "generated_at": "2026-11-22 18:01 CST"
 }
