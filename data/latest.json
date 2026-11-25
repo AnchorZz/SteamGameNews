@@ -1,6 +1,7 @@
 {
   "date": "2026-11-25",
   "title": "Steam 热门游戏推荐日报｜2026年11月25日",
+  "refreshed_at": "2026-11-25T18:04:55+08:00",
   "sections": [
     {
       "id": "new-store",
@@ -428,7 +429,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-25 18:04 CST",
+          "price_updated_at": "2026-11-25 18:06 CST",
           "cover_local_path": "/assets/covers/2026-11-25/4009490.jpg",
           "potential_score": 44,
           "watch_level": "Low",
@@ -474,7 +475,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-25 18:04 CST",
+          "price_updated_at": "2026-11-25 18:06 CST",
           "cover_local_path": "/assets/covers/2026-11-25/3109590.jpg",
           "potential_score": 32,
           "watch_level": "Low",
@@ -518,7 +519,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-25 18:04 CST",
+          "price_updated_at": "2026-11-25 18:06 CST",
           "cover_local_path": "/assets/covers/2026-11-25/4933500.jpg",
           "potential_score": 36,
           "watch_level": "Low",
@@ -563,7 +564,7 @@
           "price_initial_formatted": "¥ 6.00",
           "price_final_formatted": "¥ 4.20",
           "price_is_free": false,
-          "price_updated_at": "2026-11-25 18:04 CST",
+          "price_updated_at": "2026-11-25 18:06 CST",
           "cover_local_path": "/assets/covers/2026-11-25/4779290.jpg",
           "potential_score": 32,
           "watch_level": "Low",
@@ -607,7 +608,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-25 18:04 CST",
+          "price_updated_at": "2026-11-25 18:06 CST",
           "cover_local_path": "/assets/covers/2026-11-25/4941160.jpg",
           "potential_score": 40,
           "watch_level": "Low",
@@ -973,5 +974,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-25 18:04 CST"
+  "generated_at": "2026-11-25 18:06 CST"
 }
