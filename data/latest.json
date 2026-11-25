@@ -29,7 +29,7 @@
           "summary": "连续跟踪项，非今日首次公布；高关注基础和四人 PvP 构筑仍具内容传播性。",
           "steam_url": "https://store.steampowered.com/app/3333850/",
           "contact_url": "https://steamcommunity.com/app/3333850",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795569239",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795580929",
           "source_signals": [
             "SteamDB Upcoming 11/25",
             "23,021 followers / +695 7d"
@@ -106,7 +106,7 @@
           "summary": "连续跟踪项；潜行与卡通视觉的组合有短视频辨识度。",
           "steam_url": "https://store.steampowered.com/app/4954970/",
           "contact_url": "https://steamcommunity.com/app/4954970",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954970/008e2fc16680df11749aa1d9c0e58feb444a0882/header.jpg?t=1795266287",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954970/1c71fa2e435268dd98b2d62ac67b5d95bbaae39f/header_schinese.jpg?t=1795596883",
           "source_signals": [
             "SteamDB Upcoming 11/25",
             "4,613 followers / +859 7d"
@@ -220,7 +220,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "11/25 复核试玩页；父游戏当日发售，SteamDB Demo 页面无可归属 follower/wishlist。",
-          "current_players": 314,
+          "current_players": 562,
           "summary": "Demo 连续观察项，非今日新上线；以父游戏发售带动的试玩转化为重点。",
           "steam_url": "https://store.steampowered.com/app/4601500/",
           "contact_url": "https://steamcommunity.com/app/4601500",
@@ -230,7 +230,7 @@
             "公开 follower/wishlist 未披露"
           ],
           "cover_local_path": "/assets/covers/2026-11-25/4601500.jpg",
-          "potential_score": 37,
+          "potential_score": 38,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -257,7 +257,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "SteamDB 当前在线 35、24h 峰值 123；父游戏当日发售。",
-          "current_players": 47,
+          "current_players": 37,
           "summary": "Demo 连续观察项；规则改写式合作解谜已有可见试玩在线信号。",
           "steam_url": "https://store.steampowered.com/app/5150970/",
           "contact_url": "https://steamcommunity.com/app/5150970",
@@ -296,7 +296,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "SteamDB 当前在线 93、24h 峰值 129；父游戏当日发售。",
-          "current_players": 121,
+          "current_players": 193,
           "summary": "Demo 连续观察项；较稳定试玩在线可作为正式版首日转化的参考。",
           "steam_url": "https://store.steampowered.com/app/5408680/",
           "contact_url": "https://steamcommunity.com/app/5408680",
@@ -428,7 +428,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-25 10:06 CST",
+          "price_updated_at": "2026-11-25 18:04 CST",
           "cover_local_path": "/assets/covers/2026-11-25/4009490.jpg",
           "potential_score": 44,
           "watch_level": "Low",
@@ -474,7 +474,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-25 10:06 CST",
+          "price_updated_at": "2026-11-25 18:04 CST",
           "cover_local_path": "/assets/covers/2026-11-25/3109590.jpg",
           "potential_score": 32,
           "watch_level": "Low",
@@ -518,7 +518,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-25 10:06 CST",
+          "price_updated_at": "2026-11-25 18:04 CST",
           "cover_local_path": "/assets/covers/2026-11-25/4933500.jpg",
           "potential_score": 36,
           "watch_level": "Low",
@@ -547,23 +547,23 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "今日发售；SteamDB 7日 +68。",
-          "current_players": "未公开",
+          "current_players": 0,
           "summary": "今日发售的轻量创作工具型游戏，适合观察社交内容是否驱动首周扩散。",
           "steam_url": "https://store.steampowered.com/app/4779290/",
           "contact_url": "https://steamcommunity.com/app/4779290",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4779290/888719b6d70b24b5dff28dfc2779326a4103e403/header.jpg?t=1794474185",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4779290/888719b6d70b24b5dff28dfc2779326a4103e403/header.jpg?t=1795593616",
           "source_signals": [
             "SteamDB Upcoming 11/25",
             "3,450 followers / +68 7d"
           ],
           "price_currency": "CNY",
-          "price_initial": null,
-          "price_final": null,
-          "price_discount_percent": null,
-          "price_initial_formatted": "",
-          "price_final_formatted": "",
+          "price_initial": 600,
+          "price_final": 420,
+          "price_discount_percent": 30,
+          "price_initial_formatted": "¥ 6.00",
+          "price_final_formatted": "¥ 4.20",
           "price_is_free": false,
-          "price_updated_at": "2026-11-25 10:06 CST",
+          "price_updated_at": "2026-11-25 18:04 CST",
           "cover_local_path": "/assets/covers/2026-11-25/4779290.jpg",
           "potential_score": 32,
           "watch_level": "Low",
@@ -607,7 +607,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-25 10:06 CST",
+          "price_updated_at": "2026-11-25 18:04 CST",
           "cover_local_path": "/assets/covers/2026-11-25/4941160.jpg",
           "potential_score": 40,
           "watch_level": "Low",
@@ -973,5 +973,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-25 10:06 CST"
+  "generated_at": "2026-11-25 18:04 CST"
 }
