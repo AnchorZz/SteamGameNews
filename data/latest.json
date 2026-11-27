@@ -349,7 +349,7 @@
           "summary": "今日新 Demo，卡组构筑、合成塔防和实时战斗的融合值得测试上手反馈。",
           "steam_url": "https://store.steampowered.com/app/5588170/",
           "contact_url": "https://steamcommunity.com/app/5588170",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5588170/1aab9f92087e02e74fe64ab798602fb9439566e5/header.jpg?t=1795497966",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5588170/header.jpg",
           "source_signals": [
             "Steam 搜索 11/27",
             "SteamDB App 5588170",
@@ -387,7 +387,7 @@
           "summary": "今日新筛选 Demo，以第一人称清洁和放置循环切入，适合观察轻量内容传播。",
           "steam_url": "https://store.steampowered.com/app/5551490/",
           "contact_url": "https://steamcommunity.com/app/5551490",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5551490/881bdfec4e46d989e4f87b60b05abf9b4d720cd4/header.jpg?t=1795730149",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5551490/header.jpg",
           "source_signals": [
             "SteamDB 新 Demo 包 11/27",
             "SteamDB App 5551490",
@@ -615,7 +615,7 @@
           "summary": "今日发售，合作玩法适合通过主播/朋友局验证首周扩散。",
           "steam_url": "https://store.steampowered.com/app/4776500/",
           "contact_url": "https://steamcommunity.com/app/4776500",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4776500/f6047e861421d5d0da33a1eb2b8fe90bce9641a5/header_schinese.jpg?t=1795676306",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4776500/header.jpg",
           "source_signals": [
             "SteamDB 发售窗口 11/27",
             "2,221 followers / +135 7d"
@@ -669,7 +669,7 @@
           "summary": "连续跟踪项，近期发售后仍有强关注增量，继续观察在线与评价曲线。",
           "steam_url": "https://store.steampowered.com/app/4009490/",
           "contact_url": "https://steamcommunity.com/app/4009490",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009490/aed480407ed537b798a2dfa23ec840b4507a2b64/header.jpg?t=1795610102",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4009490/header.jpg",
           "source_signals": [
             "SteamDB Trending Followers 11/27",
             "8,189 followers / +1,892 7d"
@@ -706,7 +706,7 @@
           "summary": "连续跟踪项，发售后仍保持显著关注增长，是中腰部独立热度候选。",
           "steam_url": "https://store.steampowered.com/app/4941160/",
           "contact_url": "https://steamcommunity.com/app/4941160",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4941160/5385b154cd1bcd1e004aa2c5d30a1658a5efa496/header.jpg?t=1795622489",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4941160/header.jpg",
           "source_signals": [
             "SteamDB Trending Followers 11/27",
             "3,271 followers / +1,290 7d"
