@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-25",
-  "title": "Steam 热门游戏推荐日报｜2026年11月25日",
-  "refreshed_at": "2026-11-25T18:04:55+08:00",
+  "date": "2026-11-27",
+  "title": "Steam 热门游戏推荐日报｜2026年11月27日",
+  "refreshed_at": "2026-11-27T10:28:00+08:00",
   "sections": [
     {
       "id": "new-store",
       "title": "新公布 / 重点商店页",
-      "description": "按 11/25 SteamDB Upcoming 与 Wishlist Activity 当日复核；连续出现的项目均明确标注。",
+      "description": "按 11/27 SteamDB Upcoming、Trending Followers 与 Steam 商店页复核；本栏为今日发售/可玩窗口的重点商店页，非宣称今日首次建页。",
       "games": [
         {
           "appid": "3333850",
@@ -16,34 +16,35 @@
           "tags": [
             "动作",
             "PvP",
-            "团队"
+            "团队",
+            "MOBA"
           ],
           "developer": "Bonfire Studios",
           "publisher": "Bonfire Studios",
           "release_date": "2026-11-27",
-          "followers": "23,021",
+          "followers": "23,418",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：SteamDB Upcoming 11/25，23,021 followers，7日 +695。",
+          "heat": "今日开放 Early Access；SteamDB Upcoming 23,418 followers，7日 +982。",
           "current_players": "未公开",
-          "summary": "连续跟踪项，非今日首次公布；高关注基础和四人 PvP 构筑仍具内容传播性。",
+          "summary": "今日发售窗口项目；团队 PvP 与物品构筑组合有直播和社区讨论潜力。",
           "steam_url": "https://store.steampowered.com/app/3333850/",
           "contact_url": "https://steamcommunity.com/app/3333850",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795580929",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795629628",
           "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "23,021 followers / +695 7d"
+            "SteamDB Upcoming 11/27",
+            "23,418 followers / +982 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/3333850.jpg",
-          "potential_score": 49,
+          "cover_local_path": "/assets/covers/2026-11-27/3333850.jpg",
+          "potential_score": 60,
           "watch_level": "Medium",
           "score_reasons": [
+            "7日关注增长强",
             "关注基数高",
             "新商店页处于愿望单积累期",
             "多日连续进入监测池",
-            "生命周期阶段发生变化",
-            "曾位于分类头部"
+            "生命周期阶段发生变化"
           ],
           "daily_rank": 1
         },
@@ -54,30 +55,31 @@
           "category": "New Store",
           "tags": [
             "独立",
-            "手绘",
-            "叙事"
+            "叙事",
+            "手绘"
           ],
           "developer": "未公开",
           "publisher": "未公开",
           "release_date": "2026-11-27",
-          "followers": "11,052",
+          "followers": "11,643",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：SteamDB Upcoming 11/25，7日 +1,329。",
+          "heat": "今日发售窗口；SteamDB Upcoming 11,643 followers，7日 +1,650。",
           "current_players": "未公开",
-          "summary": "连续跟踪项，非今日首次公布；手绘叙事定位清晰且周增速强。",
+          "summary": "今日发售窗口的手绘叙事独立作，周关注增长强，适合观察首批口碑。",
           "steam_url": "https://store.steampowered.com/app/3224600/",
           "contact_url": "https://steamcommunity.com/app/3224600",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224600/ec4c212665296bd88ee2cb506455d6b1ceeb2c30/header.jpg?t=1795309203",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224600/ec4c212665296bd88ee2cb506455d6b1ceeb2c30/header.jpg?t=1795725483",
           "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "11,052 followers / +1,329 7d"
+            "SteamDB Upcoming 11/27",
+            "11,643 followers / +1,650 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/3224600.jpg",
-          "potential_score": 49,
+          "cover_local_path": "/assets/covers/2026-11-27/3224600.jpg",
+          "potential_score": 60,
           "watch_level": "Medium",
           "score_reasons": [
+            "7日关注增长强",
             "新商店页处于愿望单积累期",
             "多日连续进入监测池",
             "生命周期阶段发生变化",
@@ -86,36 +88,37 @@
           "daily_rank": 2
         },
         {
-          "appid": "4954970",
-          "name_zh": "没有尸体，就没有问题！",
-          "name_en": "No Body No Problem!",
+          "appid": "1622130",
+          "name_zh": "Our Life: Now & Forever",
+          "name_en": "Our Life: Now & Forever",
           "category": "New Store",
           "tags": [
-            "潜行",
-            "卡通",
-            "独立"
+            "独立",
+            "恋爱模拟",
+            "叙事"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-26",
-          "followers": "4,613",
+          "developer": "GB Patch Games",
+          "publisher": "GB Patch Games",
+          "release_date": "2026-11-27",
+          "followers": "18,807",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：临近发售，SteamDB 7日 +859。",
+          "heat": "今日发售窗口；SteamDB Upcoming 18,807 followers，7日 +579。",
           "current_players": "未公开",
-          "summary": "连续跟踪项；潜行与卡通视觉的组合有短视频辨识度。",
-          "steam_url": "https://store.steampowered.com/app/4954970/",
-          "contact_url": "https://steamcommunity.com/app/4954970",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954970/1c71fa2e435268dd98b2d62ac67b5d95bbaae39f/header_schinese.jpg?t=1795596883",
+          "summary": "今日发售窗口的叙事向独立作，已有较高关注基数，需观察首日评价转化。",
+          "steam_url": "https://store.steampowered.com/app/1622130/",
+          "contact_url": "https://steamcommunity.com/app/1622130",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1622130/e2a2321a5224638c1e385c04d37847054d432865/header.jpg?t=1795225846",
           "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "4,613 followers / +859 7d"
+            "SteamDB Upcoming 11/27",
+            "18,807 followers / +579 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/4954970.jpg",
-          "potential_score": 48,
+          "cover_local_path": "/assets/covers/2026-11-27/1622130.jpg",
+          "potential_score": 59,
           "watch_level": "Medium",
           "score_reasons": [
+            "7日关注增长强",
             "新商店页处于愿望单积累期",
             "多日连续进入监测池",
             "生命周期阶段发生变化"
@@ -123,72 +126,75 @@
           "daily_rank": 3
         },
         {
-          "appid": "4738100",
-          "name_zh": "1000万像素",
-          "name_en": "10 Million Pixels",
+          "appid": "5086460",
+          "name_zh": "PeeVPee",
+          "name_en": "PeeVPee",
           "category": "New Store",
           "tags": [
             "独立",
-            "解谜",
-            "探索"
+            "多人",
+            "动作"
           ],
           "developer": "未公开",
           "publisher": "未公开",
           "release_date": "2026-11-27",
-          "followers": "3,730",
+          "followers": "2,876",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续跟踪：SteamDB Upcoming 11/25，7日 +528。",
+          "heat": "今日发售窗口；SteamDB Upcoming 2,876 followers，7日 +108。",
           "current_players": "未公开",
-          "summary": "连续跟踪项；像素探索概念有辨识度，继续观察发售前转化。",
-          "steam_url": "https://store.steampowered.com/app/4738100/",
-          "contact_url": "https://steamcommunity.com/app/4738100",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738100/b3f45c611fc7e96e0714a0a39b83606082577a9c/header.jpg?t=1795480185",
+          "summary": "今日发售窗口的多人向项目，题材直观，适合以联机内容观察传播表现。",
+          "steam_url": "https://store.steampowered.com/app/5086460/",
+          "contact_url": "https://steamcommunity.com/app/5086460",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5086460/08514fa122f0b66d787cc7b011fb79f311cc1159/header.jpg?t=1795196534",
           "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "3,730 followers / +528 7d"
+            "SteamDB Upcoming 11/27",
+            "2,876 followers / +108 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/4738100.jpg",
-          "potential_score": 39,
-          "watch_level": "Low",
+          "cover_local_path": "/assets/covers/2026-11-27/5086460.jpg",
+          "potential_score": 57,
+          "watch_level": "Medium",
           "score_reasons": [
+            "多人/合作传播性好",
             "新商店页处于愿望单积累期",
-            "多日连续进入监测池"
+            "多日连续进入监测池",
+            "生命周期阶段发生变化"
           ],
           "daily_rank": 4
         },
         {
-          "appid": "5057800",
-          "name_zh": "宝箱雨落时",
-          "name_en": "When Chests Rain Tons of Loot",
+          "appid": "4776500",
+          "name_zh": "一起搬家吧！Carry On Together",
+          "name_en": "Carry On Together",
           "category": "New Store",
           "tags": [
             "独立",
-            "策略",
-            "放置"
+            "合作",
+            "休闲"
           ],
-          "developer": "LeenGameDev",
-          "publisher": "LeenGameDev",
-          "release_date": "2026-11-25",
-          "followers": "983",
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "2026-11-27",
+          "followers": "2,221",
           "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "#409",
+          "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB Wishlist Activity #409，7日 +274。",
+          "heat": "今日发售窗口；SteamDB Upcoming 2,221 followers，7日 +135。",
           "current_players": "未公开",
-          "summary": "当天发售窗口的新筛选项；增量放置与战利品循环适合观察愿望单转化。",
-          "steam_url": "https://store.steampowered.com/app/5057800/",
-          "contact_url": "https://steamcommunity.com/app/5057800",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5057800/b5d39447154225bb636567d630130f43ab161c7c/header.jpg?t=1795549848",
+          "summary": "今日发售窗口的合作向候选，适合以好友联机体验验证内容扩散。",
+          "steam_url": "https://store.steampowered.com/app/4776500/",
+          "contact_url": "https://steamcommunity.com/app/4776500",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4776500/f6047e861421d5d0da33a1eb2b8fe90bce9641a5/header_schinese.jpg?t=1795676306",
           "source_signals": [
-            "SteamDB Wishlist Activity #409",
-            "983 followers / +274 7d"
+            "SteamDB Upcoming 11/27",
+            "2,221 followers / +135 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/5057800.jpg",
-          "potential_score": 52,
+          "cover_local_path": "/assets/covers/2026-11-27/4776500.jpg",
+          "potential_score": 59,
           "watch_level": "Medium",
           "score_reasons": [
+            "多人/合作传播性好",
             "低门槛试玩或轻量入口",
             "新商店页处于愿望单积累期",
             "多日连续进入监测池",
@@ -201,186 +207,194 @@
     {
       "id": "demo",
       "title": "Demo 试玩观察",
-      "description": "当日从 SteamDB App、热门榜及公开试玩页复核；未能可靠映射到父游戏的 followers / wishlist 数据一律标为未公开。",
+      "description": "11/27 从 Steam 搜索与 SteamDB Demo/App 页面重新检索。SteamDB 未向这些 Demo 公开可可靠归属的 followers 或 wishlist 名次，均明确保留“未公开”。",
       "games": [
         {
-          "appid": "4601500",
-          "name_zh": "Arctic Drive Demo",
-          "name_en": "Arctic Drive Demo",
-          "category": "Demo",
-          "tags": [
-            "冒险",
-            "驾驶",
-            "生存"
-          ],
-          "developer": "Pebbles Games, PlayTogether Studio",
-          "publisher": "Bonus Stage Publishing",
-          "release_date": "2026-10-08",
-          "followers": "未公开",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "11/25 复核试玩页；父游戏当日发售，SteamDB Demo 页面无可归属 follower/wishlist。",
-          "current_players": 562,
-          "summary": "Demo 连续观察项，非今日新上线；以父游戏发售带动的试玩转化为重点。",
-          "steam_url": "https://store.steampowered.com/app/4601500/",
-          "contact_url": "https://steamcommunity.com/app/4601500",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4601500/c933f7621260bddd71a0bff475d00c1b22663cb0/header.jpg?t=1791791288",
-          "source_signals": [
-            "SteamDB App 4601500",
-            "公开 follower/wishlist 未披露"
-          ],
-          "cover_local_path": "/assets/covers/2026-11-25/4601500.jpg",
-          "potential_score": 38,
-          "watch_level": "Low",
-          "score_reasons": [
-            "低门槛试玩或轻量入口",
-            "Demo 可验证试玩转化",
-            "曾位于分类头部"
-          ],
-          "daily_rank": 1
-        },
-        {
-          "appid": "5150970",
-          "name_zh": "Me and You Demo",
-          "name_en": "Me and You Demo",
+          "appid": "5632240",
+          "name_zh": "Definitely Express Demo",
+          "name_en": "Definitely Express Demo",
           "category": "Demo",
           "tags": [
             "合作",
-            "解谜",
+            "动作",
             "独立"
           ],
-          "developer": "PMF Top Joy Games",
-          "publisher": "PMF Top Joy Games",
-          "release_date": "2026-09-12",
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "2026-11-27",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB 当前在线 35、24h 峰值 123；父游戏当日发售。",
-          "current_players": 37,
-          "summary": "Demo 连续观察项；规则改写式合作解谜已有可见试玩在线信号。",
-          "steam_url": "https://store.steampowered.com/app/5150970/",
-          "contact_url": "https://steamcommunity.com/app/5150970",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5150970/226886c5c280693f62cb123eb5b9211a643a4a32/header.jpg?t=1795280387",
+          "heat": "今日上线 Demo；SteamDB App 页面未公开可归属 followers/wishlist。",
+          "current_players": "未公开",
+          "summary": "今日新 Demo，优先观察合作玩法的首批玩家反馈。",
+          "steam_url": "https://store.steampowered.com/app/5632240/",
+          "contact_url": "https://steamcommunity.com/app/5632240",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5632240/17f78d4220e5e0354982fe29ce7879e2665741f5/header.jpg?t=1795456757",
           "source_signals": [
-            "SteamDB Charts 11/25",
-            "35 current / 123 24h peak",
+            "Steam 搜索 11/27",
+            "SteamDB App 5632240",
             "公开 follower/wishlist 未披露"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/5150970.jpg",
-          "potential_score": 38,
+          "cover_local_path": "/assets/covers/2026-11-27/5632240.jpg",
+          "potential_score": 14,
           "watch_level": "Low",
           "score_reasons": [
             "多人/合作传播性好",
             "低门槛试玩或轻量入口",
             "Demo 可验证试玩转化",
-            "曾位于分类头部"
+            "曾位于分类头部",
+            "公开热度数据较少，需人工复核"
+          ],
+          "daily_rank": 1
+        },
+        {
+          "appid": "5642070",
+          "name_zh": "挂机王座 试玩版",
+          "name_en": "AFK Throne Demo",
+          "category": "Demo",
+          "tags": [
+            "独立",
+            "RPG",
+            "放置"
+          ],
+          "developer": "Ascending Games",
+          "publisher": "Ascending Games",
+          "release_date": "2026-11-27",
+          "followers": "未公开",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "今日上线 Demo；SteamDB 标注桌面放置暗黑幻想小队玩法，未公开可归属 followers/wishlist。",
+          "current_players": "未公开",
+          "summary": "今日新 Demo，桌面放置与多人 Boss/PvP 的组合具差异化，需验证试玩留存。",
+          "steam_url": "https://store.steampowered.com/app/5642070/",
+          "contact_url": "https://steamcommunity.com/app/5642070",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5642070/395d57f670627aacffde9c8a14fdf17a7579a1f6/header_schinese.jpg?t=1795573055",
+          "source_signals": [
+            "Steam 搜索 11/27",
+            "SteamDB App 5642070",
+            "公开 follower/wishlist 未披露"
+          ],
+          "cover_local_path": "/assets/covers/2026-11-27/5642070.jpg",
+          "potential_score": 14,
+          "watch_level": "Low",
+          "score_reasons": [
+            "多人/合作传播性好",
+            "低门槛试玩或轻量入口",
+            "Demo 可验证试玩转化",
+            "曾位于分类头部",
+            "公开热度数据较少，需人工复核"
           ],
           "daily_rank": 2
         },
         {
-          "appid": "5408680",
-          "name_zh": "宝箱雨落时 Demo",
-          "name_en": "When Chests Rain Tons of Loot Demo",
+          "appid": "5239000",
+          "name_zh": "畸界 Demo",
+          "name_en": "Aberrant Domain Demo",
           "category": "Demo",
           "tags": [
-            "独立",
-            "策略",
-            "放置"
+            "恐怖",
+            "冒险",
+            "独立"
           ],
-          "developer": "LeenGameDev",
-          "publisher": "LeenGameDev",
-          "release_date": "2026-10-17",
+          "developer": "鹏砚",
+          "publisher": "鹏砚",
+          "release_date": "2026-11-27",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "SteamDB 当前在线 93、24h 峰值 129；父游戏当日发售。",
-          "current_players": 193,
-          "summary": "Demo 连续观察项；较稳定试玩在线可作为正式版首日转化的参考。",
-          "steam_url": "https://store.steampowered.com/app/5408680/",
-          "contact_url": "https://steamcommunity.com/app/5408680",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5408680/b5d39447154225bb636567d630130f43ab161c7c/header.jpg?t=1792444676",
+          "heat": "今日上线 Demo；SteamDB 未公开可归属 followers/wishlist。",
+          "current_players": "未公开",
+          "summary": "今日新 Demo，雾城生存恐怖题材有实况内容潜力。",
+          "steam_url": "https://store.steampowered.com/app/5239000/",
+          "contact_url": "https://steamcommunity.com/app/5239000",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5239000/f02ee25354bea8aff05481f959822af74421f614/header.jpg?t=1791261693",
           "source_signals": [
-            "SteamDB Charts 11/25",
-            "93 current / 129 24h peak",
+            "Steam 搜索 11/27",
+            "SteamDB App 5239000",
             "公开 follower/wishlist 未披露"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/5408680.jpg",
-          "potential_score": 36,
+          "cover_local_path": "/assets/covers/2026-11-27/5239000.jpg",
+          "potential_score": 8,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
-            "Demo 可验证试玩转化"
+            "Demo 可验证试玩转化",
+            "公开热度数据较少，需人工复核"
           ],
           "daily_rank": 3
         },
         {
-          "appid": "5195950",
-          "name_zh": "A Sector Darkly Demo",
-          "name_en": "A Sector Darkly Demo",
+          "appid": "5588170",
+          "name_zh": "KINGDOM ROAD Demo",
+          "name_en": "KINGDOM ROAD Demo",
           "category": "Demo",
           "tags": [
-            "RPG",
-            "太空",
-            "沙盒"
+            "卡牌",
+            "策略",
+            "独立"
           ],
-          "developer": "A Paradise Lost Studios",
-          "publisher": "A Paradise Lost Studios",
-          "release_date": "2026-10-08",
+          "developer": "D.ARA",
+          "publisher": "D.ARA",
+          "release_date": "2026-11-27",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "父游戏 11/25 发售窗口，SteamDB Demo 页未公开可归属 follower/wishlist。",
-          "current_players": 0,
-          "summary": "Demo 连续观察项；开放世界太空 RPG 的正式版首发反馈值得跟踪。",
-          "steam_url": "https://store.steampowered.com/app/5195950/",
-          "contact_url": "https://steamcommunity.com/app/5195950",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5195950/header.jpg",
+          "heat": "今日上线 Demo；SteamDB 未公开可归属 followers/wishlist。",
+          "current_players": "未公开",
+          "summary": "今日新 Demo，卡组构筑、合成塔防和实时战斗的融合值得测试上手反馈。",
+          "steam_url": "https://store.steampowered.com/app/5588170/",
+          "contact_url": "https://steamcommunity.com/app/5588170",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5588170/1aab9f92087e02e74fe64ab798602fb9439566e5/header.jpg?t=1795497966",
           "source_signals": [
-            "SteamDB App 5195950",
+            "Steam 搜索 11/27",
+            "SteamDB App 5588170",
             "公开 follower/wishlist 未披露"
           ],
-          "cover_local_path": "",
-          "potential_score": 24,
+          "cover_local_path": "/assets/covers/2026-11-27/5588170.jpg",
+          "potential_score": 8,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
-            "Demo 可验证试玩转化"
+            "Demo 可验证试玩转化",
+            "公开热度数据较少，需人工复核"
           ],
           "daily_rank": 4
         },
         {
-          "appid": "1695054",
-          "name_zh": "猫咪咖啡馆经理2 Demo",
-          "name_en": "Cat Cafe Manager 2: Big City Bliss Demo",
+          "appid": "5551490",
+          "name_zh": "Goblin Must Clean Demo",
+          "name_en": "Goblin Must Clean Demo",
           "category": "Demo",
           "tags": [
             "模拟",
-            "可爱",
-            "管理"
+            "第一人称",
+            "独立"
           ],
-          "developer": "Roost Games",
-          "publisher": "Roost Games",
-          "release_date": "2026-08-01",
+          "developer": "Editmode",
+          "publisher": "Editmode",
+          "release_date": "2026-11-27",
           "followers": "未公开",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "父游戏 11/25 发售；公开 Demo follower/wishlist 未披露。",
-          "current_players": "未公开",
-          "summary": "Demo 连续观察项；治愈经营题材适合以首日评价验证受众转化。",
-          "steam_url": "https://store.steampowered.com/app/1695054/",
-          "contact_url": "https://steamcommunity.com/app/1695054",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/1695054/header.jpg",
+          "heat": "今日进入 SteamDB 免费 Demo 包；未公开可归属 followers/wishlist。",
+          "current_players": 9,
+          "summary": "今日新筛选 Demo，以第一人称清洁和放置循环切入，适合观察轻量内容传播。",
+          "steam_url": "https://store.steampowered.com/app/5551490/",
+          "contact_url": "https://steamcommunity.com/app/5551490",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5551490/881bdfec4e46d989e4f87b60b05abf9b4d720cd4/header.jpg?t=1795730149",
           "source_signals": [
-            "SteamDB Franchise 11/25",
+            "SteamDB 新 Demo 包 11/27",
+            "SteamDB App 5551490",
             "公开 follower/wishlist 未披露"
           ],
-          "cover_local_path": "",
-          "potential_score": 24,
+          "cover_local_path": "/assets/covers/2026-11-27/5551490.jpg",
+          "potential_score": 20,
           "watch_level": "Low",
           "score_reasons": [
             "低门槛试玩或轻量入口",
@@ -393,34 +407,34 @@
     {
       "id": "released",
       "title": "新发布 / 当日发售",
-      "description": "以 SteamDB 11/25 发售窗口及公开 followers 筛选。",
+      "description": "以 SteamDB 11/27 发售窗口和 Steam 商店页筛选；同日项目在“重点商店页”栏目出现是为了分别服务发现与发售观察，并非历史候选复用。",
       "games": [
         {
-          "appid": "4009490",
-          "name_zh": "极地车旅",
-          "name_en": "Arctic Drive",
+          "appid": "3333850",
+          "name_zh": "Arkheron",
+          "name_en": "Arkheron",
           "category": "Released",
           "tags": [
-            "驾驶",
-            "生存",
-            "建造"
+            "动作",
+            "PvP",
+            "Early Access"
           ],
-          "developer": "Pebbles Games, PlayTogether Studio",
-          "publisher": "Bonus Stage Publishing",
-          "release_date": "2026-11-25",
-          "followers": "7,516",
+          "developer": "Bonfire Studios",
+          "publisher": "Bonfire Studios",
+          "release_date": "2026-11-27",
+          "followers": "23,418",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "今日发售；SteamDB 7日 +1,434。",
+          "heat": "今日发售；SteamDB Upcoming 23,418 followers，7日 +982。",
           "current_players": "未公开",
-          "summary": "今日发售的驾驶生存项目，周增速强，需跟踪首日口碑与在线。",
-          "steam_url": "https://store.steampowered.com/app/4009490/",
-          "contact_url": "https://steamcommunity.com/app/4009490",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009490/aed480407ed537b798a2dfa23ec840b4507a2b64/header.jpg?t=1795165088",
+          "summary": "今日 Early Access 发售；高关注基数使其成为当天最值得监测的 PvP 新作之一。",
+          "steam_url": "https://store.steampowered.com/app/3333850/",
+          "contact_url": "https://steamcommunity.com/app/3333850",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3333850/header.jpg",
           "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "7,516 followers / +1,434 7d"
+            "SteamDB 发售时间 11/27",
+            "23,418 followers / +982 7d"
           ],
           "price_currency": "CNY",
           "price_initial": null,
@@ -429,193 +443,200 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-25 18:06 CST",
-          "cover_local_path": "/assets/covers/2026-11-25/4009490.jpg",
-          "potential_score": 44,
-          "watch_level": "Low",
+          "price_updated_at": "2026-11-27 10:22 CST",
+          "cover_local_path": "/assets/covers/2026-11-27/3333850.jpg",
+          "potential_score": 57,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "7日关注增长强",
+            "关注基数高",
+            "已发布，可观察真实在线",
+            "多日连续进入监测池",
+            "生命周期阶段发生变化"
+          ],
+          "daily_rank": 1
+        },
+        {
+          "appid": "3224600",
+          "name_zh": "Am I Nima",
+          "name_en": "Am I Nima",
+          "category": "Released",
+          "tags": [
+            "独立",
+            "叙事",
+            "手绘"
+          ],
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "2026-11-27",
+          "followers": "11,643",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "今日发售；SteamDB 7日 +1,650。",
+          "current_players": "未公开",
+          "summary": "今日发售，关注增长在当天独立候选中靠前，适合持续看评价和内容创作带动。",
+          "steam_url": "https://store.steampowered.com/app/3224600/",
+          "contact_url": "https://steamcommunity.com/app/3224600",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3224600/header.jpg",
+          "source_signals": [
+            "SteamDB 发售窗口 11/27",
+            "11,643 followers / +1,650 7d"
+          ],
+          "price_currency": "CNY",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
+          "price_is_free": false,
+          "price_updated_at": "2026-11-27 10:22 CST",
+          "cover_local_path": "/assets/covers/2026-11-27/3224600.jpg",
+          "potential_score": 45,
+          "watch_level": "Medium",
           "score_reasons": [
             "已发布，可观察真实在线",
             "多日连续进入监测池",
             "生命周期阶段发生变化",
             "曾位于分类头部"
           ],
-          "daily_rank": 1
-        },
-        {
-          "appid": "3109590",
-          "name_zh": "猫咪咖啡馆经理2：大都会幸福",
-          "name_en": "Cat Cafe Manager 2: Big City Bliss",
-          "category": "Released",
-          "tags": [
-            "模拟",
-            "可爱",
-            "管理"
-          ],
-          "developer": "Roost Games",
-          "publisher": "Roost Games",
-          "release_date": "2026-11-25",
-          "followers": "2,563",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "今日发售；SteamDB 7日 +180。",
-          "current_players": "未公开",
-          "summary": "今日发售的治愈经营续作，适合关注系列用户转化与评价。",
-          "steam_url": "https://store.steampowered.com/app/3109590/",
-          "contact_url": "https://steamcommunity.com/app/3109590",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3109590/fded4ee9da2e45a5779415bc7ed79003d4980396/header.jpg?t=1795096831",
-          "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "2,563 followers / +180 7d"
-          ],
-          "price_currency": "CNY",
-          "price_initial": null,
-          "price_final": null,
-          "price_discount_percent": null,
-          "price_initial_formatted": "",
-          "price_final_formatted": "",
-          "price_is_free": false,
-          "price_updated_at": "2026-11-25 18:06 CST",
-          "cover_local_path": "/assets/covers/2026-11-25/3109590.jpg",
-          "potential_score": 32,
-          "watch_level": "Low",
-          "score_reasons": [
-            "已发布，可观察真实在线",
-            "曾位于分类头部"
-          ],
           "daily_rank": 2
         },
         {
-          "appid": "4933500",
-          "name_zh": "Me and You",
-          "name_en": "Me and You",
+          "appid": "1622130",
+          "name_zh": "Our Life: Now & Forever",
+          "name_en": "Our Life: Now & Forever",
           "category": "Released",
           "tags": [
-            "合作",
-            "解谜",
-            "独立"
+            "独立",
+            "恋爱模拟",
+            "叙事"
           ],
-          "developer": "PMF Top Joy Games",
-          "publisher": "PMF Top Joy Games",
-          "release_date": "2026-11-25",
-          "followers": "4,668",
+          "developer": "GB Patch Games",
+          "publisher": "GB Patch Games",
+          "release_date": "2026-11-27",
+          "followers": "18,807",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "今日发售；SteamDB 7日 +330。",
+          "heat": "今日发售；SteamDB 7日 +579。",
           "current_players": "未公开",
-          "summary": "今日发售的合作规则解谜项目，Demo 在线为正式版提供初始验证。",
-          "steam_url": "https://store.steampowered.com/app/4933500/",
-          "contact_url": "https://steamcommunity.com/app/4933500",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4933500/31fbf2a60a4bacd4061e64c06ff3cd6b108a4ba8/header.jpg?t=1795280346",
+          "summary": "今日发售，成熟受众与高关注基数为首周口碑传播提供基础。",
+          "steam_url": "https://store.steampowered.com/app/1622130/",
+          "contact_url": "https://steamcommunity.com/app/1622130",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1622130/header.jpg",
           "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "4,668 followers / +330 7d"
+            "SteamDB 发售窗口 11/27",
+            "18,807 followers / +579 7d"
           ],
           "price_currency": "CNY",
-          "price_initial": null,
-          "price_final": null,
-          "price_discount_percent": null,
+          "price_initial": 0,
+          "price_final": 0,
+          "price_discount_percent": 0,
           "price_initial_formatted": "",
-          "price_final_formatted": "",
-          "price_is_free": false,
-          "price_updated_at": "2026-11-25 18:06 CST",
-          "cover_local_path": "/assets/covers/2026-11-25/4933500.jpg",
-          "potential_score": 36,
-          "watch_level": "Low",
-          "score_reasons": [
-            "多人/合作传播性好",
-            "低门槛试玩或轻量入口",
-            "已发布，可观察真实在线"
-          ],
-          "daily_rank": 3
-        },
-        {
-          "appid": "4779290",
-          "name_zh": "Meme Paint",
-          "name_en": "Meme Paint",
-          "category": "Released",
-          "tags": [
-            "休闲",
-            "创作",
-            "独立"
-          ],
-          "developer": "Piece Of Voxel, Gamesforfarm",
-          "publisher": "Gamesforfarm",
-          "release_date": "2026-11-25",
-          "followers": "3,450",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "今日发售；SteamDB 7日 +68。",
-          "current_players": 0,
-          "summary": "今日发售的轻量创作工具型游戏，适合观察社交内容是否驱动首周扩散。",
-          "steam_url": "https://store.steampowered.com/app/4779290/",
-          "contact_url": "https://steamcommunity.com/app/4779290",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4779290/888719b6d70b24b5dff28dfc2779326a4103e403/header.jpg?t=1795593616",
-          "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "3,450 followers / +68 7d"
-          ],
-          "price_currency": "CNY",
-          "price_initial": 600,
-          "price_final": 420,
-          "price_discount_percent": 30,
-          "price_initial_formatted": "¥ 6.00",
-          "price_final_formatted": "¥ 4.20",
-          "price_is_free": false,
-          "price_updated_at": "2026-11-25 18:06 CST",
-          "cover_local_path": "/assets/covers/2026-11-25/4779290.jpg",
-          "potential_score": 32,
-          "watch_level": "Low",
-          "score_reasons": [
-            "低门槛试玩或轻量入口",
-            "已发布，可观察真实在线"
-          ],
-          "daily_rank": 4
-        },
-        {
-          "appid": "4941160",
-          "name_zh": "A Sector Darkly",
-          "name_en": "A Sector Darkly",
-          "category": "Released",
-          "tags": [
-            "RPG",
-            "太空",
-            "沙盒"
-          ],
-          "developer": "A Paradise Lost Studios",
-          "publisher": "A Paradise Lost Studios",
-          "release_date": "2026-11-25",
-          "followers": "2,823",
-          "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "未公开",
-          "top_sellers_rank": "未公开",
-          "heat": "今日发售窗口；SteamDB 7日 +984。",
-          "current_players": "未公开",
-          "summary": "开放世界太空 RPG 在发售日仍有显著关注增量，需验证首日表现。",
-          "steam_url": "https://store.steampowered.com/app/4941160/",
-          "contact_url": "https://steamcommunity.com/app/4941160",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4941160/5385b154cd1bcd1e004aa2c5d30a1658a5efa496/header.jpg?t=1794431633",
-          "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "2,823 followers / +984 7d"
-          ],
-          "price_currency": "CNY",
-          "price_initial": null,
-          "price_final": null,
-          "price_discount_percent": null,
-          "price_initial_formatted": "",
-          "price_final_formatted": "",
-          "price_is_free": false,
-          "price_updated_at": "2026-11-25 18:06 CST",
-          "cover_local_path": "/assets/covers/2026-11-25/4941160.jpg",
-          "potential_score": 40,
+          "price_final_formatted": "免费开玩",
+          "price_is_free": true,
+          "price_updated_at": "2026-11-27 10:22 CST",
+          "cover_local_path": "/assets/covers/2026-11-27/1622130.jpg",
+          "potential_score": 44,
           "watch_level": "Low",
           "score_reasons": [
             "已发布，可观察真实在线",
             "多日连续进入监测池",
             "生命周期阶段发生变化"
+          ],
+          "daily_rank": 3
+        },
+        {
+          "appid": "5086460",
+          "name_zh": "PeeVPee",
+          "name_en": "PeeVPee",
+          "category": "Released",
+          "tags": [
+            "独立",
+            "多人",
+            "动作"
+          ],
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "2026-11-27",
+          "followers": "2,876",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "今日发售；SteamDB 7日 +108。",
+          "current_players": "未公开",
+          "summary": "今日发售，多人属性有望带来短期社交传播，需看在线与评价。",
+          "steam_url": "https://store.steampowered.com/app/5086460/",
+          "contact_url": "https://steamcommunity.com/app/5086460",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5086460/header.jpg",
+          "source_signals": [
+            "SteamDB 发售窗口 11/27",
+            "2,876 followers / +108 7d"
+          ],
+          "price_currency": "CNY",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
+          "price_is_free": false,
+          "price_updated_at": "2026-11-27 10:22 CST",
+          "cover_local_path": "/assets/covers/2026-11-27/5086460.jpg",
+          "potential_score": 43,
+          "watch_level": "Low",
+          "score_reasons": [
+            "多人/合作传播性好",
+            "已发布，可观察真实在线",
+            "多日连续进入监测池",
+            "生命周期阶段发生变化"
+          ],
+          "daily_rank": 4
+        },
+        {
+          "appid": "4776500",
+          "name_zh": "一起搬家吧！Carry On Together",
+          "name_en": "Carry On Together",
+          "category": "Released",
+          "tags": [
+            "独立",
+            "合作",
+            "休闲"
+          ],
+          "developer": "未公开",
+          "publisher": "未公开",
+          "release_date": "2026-11-27",
+          "followers": "2,221",
+          "wishlist_rank": "未公开",
+          "wishlist_activity_rank": "未公开",
+          "top_sellers_rank": "未公开",
+          "heat": "今日发售；SteamDB 7日 +135。",
+          "current_players": "未公开",
+          "summary": "今日发售，合作玩法适合通过主播/朋友局验证首周扩散。",
+          "steam_url": "https://store.steampowered.com/app/4776500/",
+          "contact_url": "https://steamcommunity.com/app/4776500",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4776500/header.jpg",
+          "source_signals": [
+            "SteamDB 发售窗口 11/27",
+            "2,221 followers / +135 7d"
+          ],
+          "price_currency": "CNY",
+          "price_initial": null,
+          "price_final": null,
+          "price_discount_percent": null,
+          "price_initial_formatted": "",
+          "price_final_formatted": "",
+          "price_is_free": false,
+          "price_updated_at": "2026-11-27 10:22 CST",
+          "cover_local_path": "/assets/covers/2026-11-27/4776500.jpg",
+          "potential_score": 50,
+          "watch_level": "Medium",
+          "score_reasons": [
+            "多人/合作传播性好",
+            "低门槛试玩或轻量入口",
+            "题材有内容传播点",
+            "已发布，可观察真实在线",
+            "多日连续进入监测池"
           ],
           "daily_rank": 5
         }
@@ -624,7 +645,7 @@
     {
       "id": "heat",
       "title": "SteamDB 热度信号",
-      "description": "当日公开 followers / 周增量与 Wishlist Activity 信号；不作为当天新公布依据。",
+      "description": "以 11/27 SteamDB Trending Followers 和 Upcoming 的公开 followers / 7 日增量复核；不将榜单热度误称为当天首次公布。",
       "games": [
         {
           "appid": "4009490",
@@ -633,28 +654,29 @@
           "category": "Heat",
           "tags": [
             "驾驶",
-            "生存"
+            "生存",
+            "建造"
           ],
-          "developer": "Pebbles Games",
+          "developer": "Pebbles Games, PlayTogether Studio",
           "publisher": "Bonus Stage Publishing",
           "release_date": "2026-11-25",
-          "followers": "7,516",
+          "followers": "8,189",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "今日发售热度：7日 +1,434。",
-          "current_players": "未公开",
-          "summary": "今日发售热度项，关注量与增量均居当天候选前列。",
+          "heat": "连续跟踪项，非今日新公布；SteamDB Trending Followers 7日 +1,892。",
+          "current_players": 322,
+          "summary": "连续跟踪项，近期发售后仍有强关注增量，继续观察在线与评价曲线。",
           "steam_url": "https://store.steampowered.com/app/4009490/",
           "contact_url": "https://steamcommunity.com/app/4009490",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4009490/header.jpg",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009490/aed480407ed537b798a2dfa23ec840b4507a2b64/header.jpg?t=1795610102",
           "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "7,516 followers / +1,434 7d"
+            "SteamDB Trending Followers 11/27",
+            "8,189 followers / +1,892 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/4009490.jpg",
-          "potential_score": 35,
-          "watch_level": "Low",
+          "cover_local_path": "/assets/covers/2026-11-27/4009490.jpg",
+          "potential_score": 46,
+          "watch_level": "Medium",
           "score_reasons": [
             "多日连续进入监测池",
             "生命周期阶段发生变化",
@@ -663,33 +685,34 @@
           "daily_rank": 1
         },
         {
-          "appid": "3224600",
-          "name_zh": "Am I Nima",
-          "name_en": "Am I Nima",
+          "appid": "4941160",
+          "name_zh": "A Sector Darkly",
+          "name_en": "A Sector Darkly",
           "category": "Heat",
           "tags": [
-            "独立",
-            "手绘"
+            "RPG",
+            "太空",
+            "沙盒"
           ],
-          "developer": "未公开",
-          "publisher": "未公开",
-          "release_date": "2026-11-27",
-          "followers": "11,052",
+          "developer": "A Paradise Lost Studios",
+          "publisher": "A Paradise Lost Studios",
+          "release_date": "2026-11-25",
+          "followers": "3,271",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续热度参考：7日 +1,329。",
-          "current_players": "未公开",
-          "summary": "连续跟踪项，非当天新公布；独立项目中高关注与高增速并存。",
-          "steam_url": "https://store.steampowered.com/app/3224600/",
-          "contact_url": "https://steamcommunity.com/app/3224600",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/3224600/header.jpg",
+          "heat": "连续跟踪项，非今日新公布；SteamDB Trending Followers 7日 +1,290。",
+          "current_players": 50,
+          "summary": "连续跟踪项，发售后仍保持显著关注增长，是中腰部独立热度候选。",
+          "steam_url": "https://store.steampowered.com/app/4941160/",
+          "contact_url": "https://steamcommunity.com/app/4941160",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4941160/5385b154cd1bcd1e004aa2c5d30a1658a5efa496/header.jpg?t=1795622489",
           "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "11,052 followers / +1,329 7d"
+            "SteamDB Trending Followers 11/27",
+            "3,271 followers / +1,290 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/3224600.jpg",
-          "potential_score": 36,
+          "cover_local_path": "/assets/covers/2026-11-27/4941160.jpg",
+          "potential_score": 42,
           "watch_level": "Low",
           "score_reasons": [
             "多日连续进入监测池",
@@ -699,106 +722,111 @@
           "daily_rank": 2
         },
         {
-          "appid": "4941160",
-          "name_zh": "A Sector Darkly",
-          "name_en": "A Sector Darkly",
+          "appid": "3333850",
+          "name_zh": "Arkheron",
+          "name_en": "Arkheron",
           "category": "Heat",
           "tags": [
-            "RPG",
-            "太空"
+            "动作",
+            "PvP",
+            "团队"
           ],
-          "developer": "A Paradise Lost Studios",
-          "publisher": "A Paradise Lost Studios",
-          "release_date": "2026-11-25",
-          "followers": "2,823",
+          "developer": "Bonfire Studios",
+          "publisher": "Bonfire Studios",
+          "release_date": "2026-11-27",
+          "followers": "23,418",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "今日发售热度：7日 +984。",
+          "heat": "今日发售热度；SteamDB Upcoming 7日 +982。",
           "current_players": "未公开",
-          "summary": "发售窗口叠加高周增量，是当天值得验证的中腰部候选。",
-          "steam_url": "https://store.steampowered.com/app/4941160/",
-          "contact_url": "https://steamcommunity.com/app/4941160",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4941160/header.jpg",
+          "summary": "今日发售项目，高关注基数和持续增量使其适合实时追踪。",
+          "steam_url": "https://store.steampowered.com/app/3333850/",
+          "contact_url": "https://steamcommunity.com/app/3333850",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3333850/header.jpg",
           "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "2,823 followers / +984 7d"
+            "SteamDB Upcoming 11/27",
+            "23,418 followers / +982 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/4941160.jpg",
-          "potential_score": 31,
+          "cover_local_path": "/assets/covers/2026-11-27/3333850.jpg",
+          "potential_score": 36,
           "watch_level": "Low",
           "score_reasons": [
+            "关注基数高",
             "多日连续进入监测池",
-            "生命周期阶段发生变化"
+            "生命周期阶段发生变化",
+            "曾位于分类头部"
           ],
           "daily_rank": 3
         },
         {
-          "appid": "4954970",
-          "name_zh": "没有尸体，就没有问题！",
-          "name_en": "No Body No Problem!",
+          "appid": "3224600",
+          "name_zh": "Am I Nima",
+          "name_en": "Am I Nima",
           "category": "Heat",
           "tags": [
-            "潜行",
-            "独立"
+            "独立",
+            "叙事",
+            "手绘"
           ],
           "developer": "未公开",
           "publisher": "未公开",
-          "release_date": "2026-11-26",
-          "followers": "4,613",
+          "release_date": "2026-11-27",
+          "followers": "11,643",
           "wishlist_rank": "未公开",
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "连续热度参考：7日 +859。",
+          "heat": "今日发售热度；SteamDB Trending Followers 7日 +1,650。",
           "current_players": "未公开",
-          "summary": "连续跟踪项，临近发售的关注增长仍值得继续盯盘。",
-          "steam_url": "https://store.steampowered.com/app/4954970/",
-          "contact_url": "https://steamcommunity.com/app/4954970",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4954970/header.jpg",
+          "summary": "今日发售项目，在独立项目中同时具备关注量和增速。",
+          "steam_url": "https://store.steampowered.com/app/3224600/",
+          "contact_url": "https://steamcommunity.com/app/3224600",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3224600/header.jpg",
           "source_signals": [
-            "SteamDB Upcoming 11/25",
-            "4,613 followers / +859 7d"
+            "SteamDB Trending Followers 11/27",
+            "11,643 followers / +1,650 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/4954970.jpg",
+          "cover_local_path": "/assets/covers/2026-11-27/3224600.jpg",
           "potential_score": 36,
           "watch_level": "Low",
           "score_reasons": [
             "多日连续进入监测池",
-            "生命周期阶段发生变化"
+            "生命周期阶段发生变化",
+            "曾位于分类头部"
           ],
           "daily_rank": 4
         },
         {
-          "appid": "5057800",
-          "name_zh": "宝箱雨落时",
-          "name_en": "When Chests Rain Tons of Loot",
+          "appid": "1622130",
+          "name_zh": "Our Life: Now & Forever",
+          "name_en": "Our Life: Now & Forever",
           "category": "Heat",
           "tags": [
             "独立",
-            "放置"
+            "恋爱模拟",
+            "叙事"
           ],
-          "developer": "LeenGameDev",
-          "publisher": "LeenGameDev",
-          "release_date": "2026-11-25",
-          "followers": "983",
+          "developer": "GB Patch Games",
+          "publisher": "GB Patch Games",
+          "release_date": "2026-11-27",
+          "followers": "18,807",
           "wishlist_rank": "未公开",
-          "wishlist_activity_rank": "#409",
+          "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
-          "heat": "Wishlist Activity #409，7日 +274。",
+          "heat": "今日发售热度；SteamDB Upcoming 7日 +579。",
           "current_players": "未公开",
-          "summary": "当天发售的独立放置候选，Wishlist Activity 提供明确可追踪信号。",
-          "steam_url": "https://store.steampowered.com/app/5057800/",
-          "contact_url": "https://steamcommunity.com/app/5057800",
-          "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5057800/header.jpg",
+          "summary": "今日发售项目，较高存量关注为首日转化提供基础。",
+          "steam_url": "https://store.steampowered.com/app/1622130/",
+          "contact_url": "https://steamcommunity.com/app/1622130",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1622130/e2a2321a5224638c1e385c04d37847054d432865/header.jpg?t=1795225846",
           "source_signals": [
-            "SteamDB Wishlist Activity #409",
-            "983 followers / +274 7d"
+            "SteamDB Upcoming 11/27",
+            "18,807 followers / +579 7d"
           ],
-          "cover_local_path": "/assets/covers/2026-11-25/5057800.jpg",
-          "potential_score": 40,
+          "cover_local_path": "/assets/covers/2026-11-27/1622130.jpg",
+          "potential_score": 35,
           "watch_level": "Low",
           "score_reasons": [
-            "低门槛试玩或轻量入口",
             "多日连续进入监测池",
             "生命周期阶段发生变化"
           ],
@@ -809,170 +837,171 @@
   ],
   "indie_highlights": [
     {
-      "appid": "4009490",
-      "name_zh": "Arctic Drive",
-      "name_en": "Arctic Drive",
-      "category": "Released",
-      "tags": [
-        "驾驶",
-        "生存",
-        "独立"
-      ],
-      "developer": "Pebbles Games",
-      "publisher": "Bonus Stage Publishing",
-      "release_date": "2026-11-25",
-      "followers": "7,516",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "今日发售，7日 +1,434。",
-      "current_players": "未公开",
-      "summary": "今日发售且关注增速最强的独立候选。",
-      "steam_url": "https://store.steampowered.com/app/4009490/",
-      "contact_url": "https://steamcommunity.com/app/4009490",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4009490/header.jpg",
-      "indie_score": 94,
-      "indie_reasons": [
-        "今日发售",
-        "7日 +1,434",
-        "驾驶生存题材"
-      ],
-      "source_signals": [
-        "SteamDB Upcoming 11/25"
-      ]
-    },
-    {
       "appid": "3224600",
       "name_zh": "Am I Nima",
       "name_en": "Am I Nima",
-      "category": "New Store",
+      "category": "Released",
       "tags": [
         "独立",
-        "手绘",
-        "叙事"
+        "叙事",
+        "手绘"
       ],
       "developer": "未公开",
       "publisher": "未公开",
       "release_date": "2026-11-27",
-      "followers": "11,052",
+      "followers": "11,643",
       "wishlist_rank": "未公开",
       "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "未公开",
-      "heat": "7日 +1,329。",
+      "heat": "今日发售，7日 +1,650。",
       "current_players": "未公开",
-      "summary": "高关注基础的独立手绘叙事候选。",
+      "summary": "今日独立发售中增速突出的手绘叙事候选。",
       "steam_url": "https://store.steampowered.com/app/3224600/",
       "contact_url": "https://steamcommunity.com/app/3224600",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/3224600/header.jpg",
-      "indie_score": 92,
-      "indie_reasons": [
-        "11,052 followers",
-        "7日 +1,329",
-        "手绘叙事辨识度"
-      ],
-      "source_signals": [
-        "SteamDB Upcoming 11/25"
-      ]
-    },
-    {
-      "appid": "4954970",
-      "name_zh": "No Body No Problem!",
-      "name_en": "No Body No Problem!",
-      "category": "New Store",
-      "tags": [
-        "潜行",
-        "卡通",
-        "独立"
-      ],
-      "developer": "未公开",
-      "publisher": "未公开",
-      "release_date": "2026-11-26",
-      "followers": "4,613",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "7日 +859。",
-      "current_players": "未公开",
-      "summary": "临近发售仍在加速的独立潜行候选。",
-      "steam_url": "https://store.steampowered.com/app/4954970/",
-      "contact_url": "https://steamcommunity.com/app/4954970",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/4954970/header.jpg",
-      "indie_score": 89,
-      "indie_reasons": [
-        "7日 +859",
-        "临近发售",
-        "潜行卡通定位"
-      ],
-      "source_signals": [
-        "SteamDB Upcoming 11/25"
-      ]
-    },
-    {
-      "appid": "3109590",
-      "name_zh": "猫咪咖啡馆经理2：大都会幸福",
-      "name_en": "Cat Cafe Manager 2: Big City Bliss",
-      "category": "Released",
-      "tags": [
-        "模拟",
-        "可爱",
-        "独立"
-      ],
-      "developer": "Roost Games",
-      "publisher": "Roost Games",
-      "release_date": "2026-11-25",
-      "followers": "2,563",
-      "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "未公开",
-      "top_sellers_rank": "未公开",
-      "heat": "今日发售，7日 +180。",
-      "current_players": "未公开",
-      "summary": "治愈经营续作的首日转化值得观察。",
-      "steam_url": "https://store.steampowered.com/app/3109590/",
-      "contact_url": "https://steamcommunity.com/app/3109590",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/3109590/header.jpg",
-      "indie_score": 84,
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3224600/header.jpg",
+      "indie_score": 94,
       "indie_reasons": [
         "今日发售",
-        "系列认知",
-        "经营受众"
+        "11,643 followers",
+        "7日 +1,650"
       ],
       "source_signals": [
-        "SteamDB Upcoming 11/25"
+        "SteamDB Trending Followers 11/27"
       ]
     },
     {
-      "appid": "5057800",
-      "name_zh": "宝箱雨落时",
-      "name_en": "When Chests Rain Tons of Loot",
+      "appid": "4009490",
+      "name_zh": "Arctic Drive",
+      "name_en": "Arctic Drive",
+      "category": "Heat",
+      "tags": [
+        "驾驶",
+        "生存",
+        "建造"
+      ],
+      "developer": "Pebbles Games, PlayTogether Studio",
+      "publisher": "Bonus Stage Publishing",
+      "release_date": "2026-11-25",
+      "followers": "8,189",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "连续跟踪，7日 +1,892。",
+      "current_players": "未公开",
+      "summary": "近期发售后仍具强增量的独立驾驶生存项目。",
+      "steam_url": "https://store.steampowered.com/app/4009490/",
+      "contact_url": "https://steamcommunity.com/app/4009490",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4009490/header.jpg",
+      "indie_score": 92,
+      "indie_reasons": [
+        "7日 +1,892",
+        "8,189 followers",
+        "近期发售"
+      ],
+      "source_signals": [
+        "SteamDB Trending Followers 11/27"
+      ]
+    },
+    {
+      "appid": "1622130",
+      "name_zh": "Our Life: Now & Forever",
+      "name_en": "Our Life: Now & Forever",
       "category": "Released",
       "tags": [
         "独立",
-        "策略",
-        "放置"
+        "恋爱模拟",
+        "叙事"
       ],
-      "developer": "LeenGameDev",
-      "publisher": "LeenGameDev",
-      "release_date": "2026-11-25",
-      "followers": "983",
+      "developer": "GB Patch Games",
+      "publisher": "GB Patch Games",
+      "release_date": "2026-11-27",
+      "followers": "18,807",
       "wishlist_rank": "未公开",
-      "wishlist_activity_rank": "#409",
+      "wishlist_activity_rank": "未公开",
       "top_sellers_rank": "未公开",
-      "heat": "Wishlist Activity #409，7日 +274。",
+      "heat": "今日发售，7日 +579。",
       "current_players": "未公开",
-      "summary": "有可验证愿望单活跃信号的独立放置新作。",
-      "steam_url": "https://store.steampowered.com/app/5057800/",
-      "contact_url": "https://steamcommunity.com/app/5057800",
-      "cover_source_url": "https://cdn.akamai.steamstatic.com/steam/apps/5057800/header.jpg",
-      "indie_score": 82,
+      "summary": "高关注基础的独立叙事向首发项目。",
+      "steam_url": "https://store.steampowered.com/app/1622130/",
+      "contact_url": "https://steamcommunity.com/app/1622130",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1622130/header.jpg",
+      "indie_score": 90,
       "indie_reasons": [
         "今日发售",
-        "Wishlist Activity #409",
-        "试玩在线可见"
+        "18,807 followers",
+        "叙事受众清晰"
       ],
       "source_signals": [
-        "SteamDB Wishlist Activity 11/25"
+        "SteamDB Upcoming 11/27"
+      ]
+    },
+    {
+      "appid": "4941160",
+      "name_zh": "A Sector Darkly",
+      "name_en": "A Sector Darkly",
+      "category": "Heat",
+      "tags": [
+        "RPG",
+        "太空",
+        "沙盒"
+      ],
+      "developer": "A Paradise Lost Studios",
+      "publisher": "A Paradise Lost Studios",
+      "release_date": "2026-11-25",
+      "followers": "3,271",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "连续跟踪，7日 +1,290。",
+      "current_players": "未公开",
+      "summary": "发售后关注增量仍强的太空 RPG 独立作。",
+      "steam_url": "https://store.steampowered.com/app/4941160/",
+      "contact_url": "https://steamcommunity.com/app/4941160",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4941160/header.jpg",
+      "indie_score": 87,
+      "indie_reasons": [
+        "7日 +1,290",
+        "太空沙盒定位",
+        "小团队自发行"
+      ],
+      "source_signals": [
+        "SteamDB Trending Followers 11/27"
+      ]
+    },
+    {
+      "appid": "5588170",
+      "name_zh": "KINGDOM ROAD Demo",
+      "name_en": "KINGDOM ROAD Demo",
+      "category": "Demo",
+      "tags": [
+        "卡牌",
+        "策略",
+        "独立"
+      ],
+      "developer": "D.ARA",
+      "publisher": "D.ARA",
+      "release_date": "2026-11-27",
+      "followers": "未公开",
+      "wishlist_rank": "未公开",
+      "wishlist_activity_rank": "未公开",
+      "top_sellers_rank": "未公开",
+      "heat": "今日上线 Demo，公开关注/愿望单未披露。",
+      "current_players": "未公开",
+      "summary": "卡牌构筑与塔防融合的新 Demo，作为高潜玩法项进入观察。",
+      "steam_url": "https://store.steampowered.com/app/5588170/",
+      "contact_url": "https://steamcommunity.com/app/5588170",
+      "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5588170/header.jpg",
+      "indie_score": 75,
+      "indie_reasons": [
+        "今日 Demo",
+        "卡牌+塔防融合",
+        "开发者自发行"
+      ],
+      "source_signals": [
+        "Steam 搜索 11/27",
+        "SteamDB App 5588170"
       ]
     }
   ],
-  "generated_at": "2026-11-25 18:06 CST"
+  "generated_at": "2026-11-27 10:22 CST"
 }
