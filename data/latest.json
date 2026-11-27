@@ -383,7 +383,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "今日进入 SteamDB 免费 Demo 包；未公开可归属 followers/wishlist。",
-          "current_players": 9,
+          "current_players": 7,
           "summary": "今日新筛选 Demo，以第一人称清洁和放置循环切入，适合观察轻量内容传播。",
           "steam_url": "https://store.steampowered.com/app/5551490/",
           "contact_url": "https://steamcommunity.com/app/5551490",
@@ -443,7 +443,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-27 10:22 CST",
+          "price_updated_at": "2026-11-27 10:23 CST",
           "cover_local_path": "/assets/covers/2026-11-27/3333850.jpg",
           "potential_score": 57,
           "watch_level": "Medium",
@@ -490,7 +490,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-27 10:22 CST",
+          "price_updated_at": "2026-11-27 10:23 CST",
           "cover_local_path": "/assets/covers/2026-11-27/3224600.jpg",
           "potential_score": 45,
           "watch_level": "Medium",
@@ -536,7 +536,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "免费开玩",
           "price_is_free": true,
-          "price_updated_at": "2026-11-27 10:22 CST",
+          "price_updated_at": "2026-11-27 10:23 CST",
           "cover_local_path": "/assets/covers/2026-11-27/1622130.jpg",
           "potential_score": 44,
           "watch_level": "Low",
@@ -581,7 +581,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-27 10:22 CST",
+          "price_updated_at": "2026-11-27 10:23 CST",
           "cover_local_path": "/assets/covers/2026-11-27/5086460.jpg",
           "potential_score": 43,
           "watch_level": "Low",
@@ -615,7 +615,7 @@
           "summary": "今日发售，合作玩法适合通过主播/朋友局验证首周扩散。",
           "steam_url": "https://store.steampowered.com/app/4776500/",
           "contact_url": "https://steamcommunity.com/app/4776500",
-          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4776500/header.jpg",
+          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4776500/f6047e861421d5d0da33a1eb2b8fe90bce9641a5/header_schinese.jpg?t=1795676306",
           "source_signals": [
             "SteamDB 发售窗口 11/27",
             "2,221 followers / +135 7d"
@@ -627,7 +627,7 @@
           "price_initial_formatted": "",
           "price_final_formatted": "",
           "price_is_free": false,
-          "price_updated_at": "2026-11-27 10:22 CST",
+          "price_updated_at": "2026-11-27 10:23 CST",
           "cover_local_path": "/assets/covers/2026-11-27/4776500.jpg",
           "potential_score": 50,
           "watch_level": "Medium",
@@ -665,7 +665,7 @@
           "wishlist_activity_rank": "未公开",
           "top_sellers_rank": "未公开",
           "heat": "连续跟踪项，非今日新公布；SteamDB Trending Followers 7日 +1,892。",
-          "current_players": 322,
+          "current_players": 334,
           "summary": "连续跟踪项，近期发售后仍有强关注增量，继续观察在线与评价曲线。",
           "steam_url": "https://store.steampowered.com/app/4009490/",
           "contact_url": "https://steamcommunity.com/app/4009490",
@@ -818,7 +818,7 @@
           "summary": "今日发售项目，较高存量关注为首日转化提供基础。",
           "steam_url": "https://store.steampowered.com/app/1622130/",
           "contact_url": "https://steamcommunity.com/app/1622130",
-          "cover_source_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1622130/e2a2321a5224638c1e385c04d37847054d432865/header.jpg?t=1795225846",
+          "cover_source_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1622130/header.jpg",
           "source_signals": [
             "SteamDB Upcoming 11/27",
             "18,807 followers / +579 7d"
@@ -1003,5 +1003,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-27 10:22 CST"
+  "generated_at": "2026-11-27 10:23 CST"
 }
